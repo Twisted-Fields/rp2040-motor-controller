@@ -7,7 +7,7 @@ Our dream is that you will fab your own boards, make changes, and share your wor
 
 Designed by Taylor Alexander for Twisted Fields, for the Acorn Precision Farming Rover.
 
-Many thanks to Daniel Theobald. Without your financial support and encouragement this project would not have been possible.
+Many thanks to [Daniel Theobald](https://www.twistedfields.com/blog). Without your financial support and encouragement this project would not have been possible.
 
 Thanks to all of our supporters on Open Collective. Your contributions are helping grow this project in to a sustainable open source organization.
 
