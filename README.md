@@ -3,6 +3,8 @@ A dual channel brushless motor controller based on the RP2040 microcontroller
 
 The entire board is the size of a credit card, and is designed to be fabbed using the JLCPCB assembly service.
 
+Estimated price is $23 per assembled board when ordering 20 boards. BE ADVISED: the design is not final and you should not yet order boards from these files. They will be ready in a few weeks.
+
 Our dream is that you will fab your own boards, make changes, and share your work - giving this design life beyond our efforts.
 
 Designed by Taylor Alexander for Twisted Fields, for the Acorn Precision Farming Rover.

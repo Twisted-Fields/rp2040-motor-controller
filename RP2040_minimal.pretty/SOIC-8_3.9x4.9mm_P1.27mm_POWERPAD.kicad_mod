@@ -3,7 +3,7 @@
   (tedit 62912708)
   (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
   (tags "SOIC SO")
-  (property "JLCPCB" "C126474")
+  (property "LCSC" "C126474")
   (property "Sheetfile" "RP2040_motor.kicad_sch")
   (property "Sheetname" "")
   (attr smd)
