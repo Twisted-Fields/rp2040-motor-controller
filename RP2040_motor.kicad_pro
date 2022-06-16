@@ -388,10 +388,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB_DIFF_90",
-        "nets": [
-          "/USB_D+",
-          "/USB_D-"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
@@ -448,7 +445,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "doc/schematic.pdf",
+    "plot_directory": "docs/",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
@@ -458,6 +455,14 @@
     [
       "10ff4ace-8dac-45ce-94a5-ae8ae7d42914",
       ""
+    ],
+    [
+      "a091b038-73b8-4e3d-85bf-957d7c13689e",
+      "gate_drive"
+    ],
+    [
+      "11bddbd5-e14e-4409-876e-6e46bce03704",
+      "power_and_cpu"
     ]
   ],
   "text_variables": {}
