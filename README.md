@@ -3,7 +3,14 @@ A dual channel brushless motor controller based on the RP2040 microcontroller
 
 The entire board is the size of a credit card, and is designed to be fabbed using the JLCPCB assembly service.
 
-Estimated price is $25 per assembled board when ordering 20 boards. BE ADVISED: the design is not final and you should not yet order boards from these files. They will be ready in a few weeks.
+Estimated price fully assembled from JLCPCB with 2 oz copper on all 4 layers:
+5 pcs - $276 - $55 each
+10 pcs - $342 - $34 each
+15 pcs - $438 - $29 each
+20 pcs - $502 - $25 each
+50 pcs - $866 - $17 each
+100 pcs - $1428 - $14 each
+250 pcs - $3147 - $12 each
 
 Our dream is that you will fab your own boards, make changes, and share your work - giving this design life beyond our efforts.
 
