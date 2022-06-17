@@ -48,6 +48,12 @@
   )
 
   (symbol_instances
+    (path "/11bddbd5-e14e-4409-876e-6e46bce03704/f5a1e328-9639-412a-b9b6-c7257836b5c6"
+      (reference "#PWR01") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/11bddbd5-e14e-4409-876e-6e46bce03704/6e84e845-1fa6-45c7-9ffe-9c568abe3070"
+      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
+    )
     (path "/a091b038-73b8-4e3d-85bf-957d7c13689e/34fe206c-efd2-4600-a4cd-f67a509f1e40"
       (reference "#PWR03") (unit 1) (value "GND") (footprint "")
     )
@@ -317,6 +323,18 @@
     )
     (path "/a091b038-73b8-4e3d-85bf-957d7c13689e/f33270db-8b89-4a77-b341-f8a59e52c2c7"
       (reference "#PWR092") (unit 1) (value "VMOT") (footprint "")
+    )
+    (path "/11bddbd5-e14e-4409-876e-6e46bce03704/4fbe4619-15dd-42d4-837c-62cfa6ad0f27"
+      (reference "#PWR093") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/11bddbd5-e14e-4409-876e-6e46bce03704/f9dc7d6b-1f42-4966-9ba5-27f1e84423f0"
+      (reference "#PWR094") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/11bddbd5-e14e-4409-876e-6e46bce03704/b066499b-60b6-4a77-ad8f-6752bb5a80e8"
+      (reference "#PWR095") (unit 1) (value "+3V3") (footprint "")
+    )
+    (path "/11bddbd5-e14e-4409-876e-6e46bce03704/d6c74f76-6a57-4e64-a0e5-3c725b9fa874"
+      (reference "#PWR096") (unit 1) (value "GND") (footprint "")
     )
     (path "/a091b038-73b8-4e3d-85bf-957d7c13689e/981797bc-62b4-4445-873a-0465fde89a4f"
       (reference "A1") (unit 1) (value "HIGHCURRENTPAD2") (footprint "RP2040_minimal:PAD_12GA_WIRE")
@@ -591,6 +609,15 @@
     (path "/11bddbd5-e14e-4409-876e-6e46bce03704/af93f3b9-3c78-4c94-8790-22ca6343e851"
       (reference "D33") (unit 1) (value "DNS") (footprint "Diode_SMD:D_SOD-523")
     )
+    (path "/11bddbd5-e14e-4409-876e-6e46bce03704/7abdf93f-be09-4a49-ae8a-7eb818be8117"
+      (reference "D34") (unit 1) (value "WS2812B") (footprint "RP2040_minimal:LED_WS2812_3528_3.5x2.8mm_P1.5mm")
+    )
+    (path "/11bddbd5-e14e-4409-876e-6e46bce03704/85d20062-e0a6-42d0-8014-302ba7451a02"
+      (reference "D35") (unit 1) (value "WS2812B") (footprint "RP2040_minimal:LED_WS2812_3528_3.5x2.8mm_P1.5mm")
+    )
+    (path "/11bddbd5-e14e-4409-876e-6e46bce03704/e5cbef47-9caa-470d-aa69-0be6f782ecdb"
+      (reference "D36") (unit 1) (value "WS2812B") (footprint "RP2040_minimal:LED_WS2812_3528_3.5x2.8mm_P1.5mm")
+    )
     (path "/11bddbd5-e14e-4409-876e-6e46bce03704/80f5a594-bedf-4f1a-bdb9-92fcf2ba50fc"
       (reference "J1") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11")
     )
@@ -608,6 +635,9 @@
     )
     (path "/11bddbd5-e14e-4409-876e-6e46bce03704/14498730-077d-4167-a2d9-cbbcacdafa83"
       (reference "J6") (unit 1) (value "Conn_01x03") (footprint "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical")
+    )
+    (path "/11bddbd5-e14e-4409-876e-6e46bce03704/168a3660-0b39-47b0-a92d-71c28f6c5bbc"
+      (reference "JP1") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/11bddbd5-e14e-4409-876e-6e46bce03704/97a0476a-f9aa-4790-b3c8-a69b805a7042"
       (reference "L1") (unit 1) (value "100uH 0.5A") (footprint "RP2040_minimal:SM5845")
