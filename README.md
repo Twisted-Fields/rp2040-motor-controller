@@ -3,7 +3,7 @@ A dual channel brushless motor controller based on the RP2040 microcontroller
 
 The entire board is the size of a credit card, and is designed to be fabbed using the JLCPCB assembly service.
 
-Estimated price is $23 per assembled board when ordering 20 boards. BE ADVISED: the design is not final and you should not yet order boards from these files. They will be ready in a few weeks.
+Estimated price is $25 per assembled board when ordering 20 boards. BE ADVISED: the design is not final and you should not yet order boards from these files. They will be ready in a few weeks.
 
 Our dream is that you will fab your own boards, make changes, and share your work - giving this design life beyond our efforts.
 
@@ -19,4 +19,5 @@ To learn more about Acorn, please see our [announcement blog post](https://commu
 Or see a more recent [technical update here](https://community.twistedfields.com/t/march-2022-update-simulation-brakes-funding-and-navigation-improvements/202).
 
 ![A render of the PCB](docs/render.jpg)
+![A render of the rear of the PCB](docs/render_rear.jpg)
 ![A screenshot of the PCB Layout](docs/pcb.png)
