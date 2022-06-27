@@ -1,7 +1,7 @@
 # rp2040-motor-controller
 A dual channel brushless motor controller based on the RP2040 microcontroller
 
-The entire board is 10mm longer than a credit card, and is designed to be fabbed using the JLCPCB assembly service.
+The entire board is about the size of a credit card (same width, 10mm longer), and is designed to be fabbed using the JLCPCB assembly service.
 
 Estimated price fully assembled from JLCPCB with 2 oz copper on all 4 layers:  
   5 pcs -  $ 276 - $55 each  
