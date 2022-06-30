@@ -25,6 +25,6 @@ You can support this project yourself at our [Open Collective Page](https://open
 To learn more about Acorn, please see our [announcement blog post](https://community.twistedfields.com/t/introducing-acorn-a-precision-farming-rover-from-twisted-fields/).
 Or see a more recent [technical update here](https://community.twistedfields.com/t/march-2022-update-simulation-brakes-funding-and-navigation-improvements/202).
 
-![A render of the PCB](docs/render.jpg)
-![A render of the rear of the PCB](docs/render_rear.jpg)
+![A render of the PCB](docs/render.png)
+![A render of the rear of the PCB](docs/render_rear.png)
 ![A screenshot of the PCB Layout](docs/pcb.png)
