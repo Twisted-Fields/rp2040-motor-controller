@@ -1,0 +1,10 @@
+*.xsl linguist-detectable=false
+*.xml linguist-detectable=false
+*.mod linguist-detectable=false
+*.pro linguist-detectable=false
+LICENSE linguist-detectable=false
+*.md linguist-detectable=false
+
+
+
+
