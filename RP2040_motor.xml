@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/taylor/pcb/rp2040-motor-controller/RP2040_motor.kicad_sch</source>
-    <date>Thu 30 Jun 2022 01:51:25 PM PDT</date>
+    <date>Sun 03 Jul 2022 09:31:28 AM PDT</date>
     <tool>Eeschema 6.0.0-rc2</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
