@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/taylor/pcb/rp2040_encoder/rp2040_encoder.kicad_sch</source>
+    <date>Fri 08 Jul 2022 10:41:12 AM PDT</date>
+    <tool>Eeschema 6.0.0-rc2</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>rp2040_encoder.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C15849</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C15849"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rp2040_encoder.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d4beee8a-fda6-4644-a94b-f51a39e75e2f</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="MotorController" part="SPARKFUN-CAPACITORS_CAP" description=""/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rp2040_encoder.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ffcdfa39-bc4e-49d0-acb0-8b5d14b3a0df</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>6v</value>
+      <footprint>Diode_SMD:D_SOD-123F</footprint>
+      <fields>
+        <field name="LCSC">C2922753</field>
+      </fields>
+      <libsource lib="Diode" part="1.5KExxA" description="1500W unidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"/>
+      <property name="LCSC" value="C2922753"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rp2040_encoder.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b0d9db5-2928-4e70-808f-ecdffa65d500</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x05</value>
+      <footprint>parts:Molex_KK-254_1x05_P2.54mm_Horizontal</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810221710_BOOMELE-Boom-Precision-Elec-C45012_C45012.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C61410</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C61410"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rp2040_encoder.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4dd70f95-498a-417d-b014-1312e4b640ff</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>MT6701</value>
+      <footprint>Package_SO:SO-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="LCSC">C2856764</field>
+      </fields>
+      <libsource lib="encoder_parts" part="MT6701" description=""/>
+      <property name="LCSC" value="C2856764"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rp2040_encoder.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>555c8940-ebb2-464f-8b26-adbbd6ba117c</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>love</value>
+      <footprint>parts:love_small</footprint>
+      <libsource lib="encoder_parts" part="love" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rp2040_encoder.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9eb980b3-c649-4821-a952-cded05e270e0</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1.5KExxA">
+      <description>1500W unidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE</description>
+      <docs>https://www.vishay.com/docs/88301/15ke.pdf</docs>
+      <footprints>
+        <fp>D?DO?201AE*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1.5KExxA</field>
+        <field name="Footprint">Diode_THT:D_DO-201AE_P15.24mm_Horizontal</field>
+        <field name="Datasheet">https://www.vishay.com/docs/88301/15ke.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_3_Open">
+      <description>Solder Jumper, 3-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_3_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="input"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="MotorController" part="SPARKFUN-CAPACITORS_CAP">
+      <footprints>
+        <fp>*SPARKFUN-CAPACITORS_0402-CAP*</fp>
+        <fp>*SPARKFUN-CAPACITORS_0603-CAP*</fp>
+        <fp>*SPARKFUN-CAPACITORS_0805*</fp>
+        <fp>*SPARKFUN-CAPACITORS_1206*</fp>
+        <fp>*SPARKFUN-CAPACITORS_1210*</fp>
+        <fp>*SPARKFUN-CAPACITORS_CAP-PTH-SMALLEZ*</fp>
+        <fp>*SPARKFUN-CAPACITORS_CAP-PTH-SMALL-KIT*</fp>
+        <fp>*SPARKFUN-CAPACITORS_CAP-PTH-SMALL*</fp>
+        <fp>*SPARKFUN-CAPACITORS_CAP-PTH-5MM*</fp>
+        <fp>*SPARKFUN-CAPACITORS_CAP-PTH-SMALL2*</fp>
+        <fp>*SPARKFUN-CAPACITORS_CAP-PTH-LARGE*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">SPARKFUN-CAPACITORS_CAP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="encoder_parts" part="MT6701">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MT6701</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="MODE" type="input"/>
+        <pin num="3" name="OUT" type="output"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="PUSH" type="output"/>
+        <pin num="6" name="A/DO/SDA" type="output"/>
+        <pin num="7" name="B/CLK/SCL" type="output"/>
+        <pin num="8" name="Z/CSN" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="encoder_parts" part="love">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">love</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/app/extensions/Library/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/app/extensions/Library/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/app/extensions/Library/symbols//Diode.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/app/extensions/Library/symbols//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/app/extensions/Library/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="encoder_parts">
+      <uri>/home/taylor/pcb/rp2040_encoder/encoder_parts.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="3" name="Net-(JP1-Pad2)">
+      <node ref="U1" pin="2" pinfunction="MODE" pintype="input"/>
+    </net>
+    <net code="4" name="Net-(JP3-Pad1)">
+      <node ref="U1" pin="5" pinfunction="PUSH" pintype="output"/>
+    </net>
+    <net code="6" name="Net-(JP3-Pad3)">
+      <node ref="U1" pin="3" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="7" name="Net-(JP4-Pad2)">
+      <node ref="U1" pin="8" pinfunction="Z/CSN" pintype="output"/>
+    </net>
+    <net code="8" name="SPI0CS{slash}B">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="B/CLK/SCL" pintype="output"/>
+    </net>
+    <net code="9" name="SPI0RX{slash}A">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="A/DO/SDA" pintype="output"/>
+    </net>
+    <net code="10" name="SPI0SCK{slash}C">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+  </nets>
+</export>

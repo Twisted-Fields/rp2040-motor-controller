@@ -1,0 +1,7 @@
+Comment,Designator,Footprint,LCSC
+"1u","C1","Capacitor_SMD:C_0603_1608Metric","C15849"
+"0.1uF","C2","Capacitor_SMD:C_0603_1608Metric","C14663"
+"6v","D1","Diode_SMD:D_SOD-123F","C2922753"
+"Conn_01x05","J1","parts:Molex_KK-254_1x05_P2.54mm_Horizontal","C61410"
+"MT6701","U1","Package_SO:SO-8_3.9x4.9mm_P1.27mm","C2856764"
+"love","U2","parts:love_small",""
