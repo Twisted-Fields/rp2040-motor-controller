@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.3,
-          "height": 4.0,
-          "width": 4.0
+          "drill": 3.5,
+          "height": 5.3,
+          "width": 5.3
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.3
+          "min_clearance": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -55,19 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "courtyards_overlap|71660001|89000001|6889cce7-7b17-470f-b76d-986ce6db4658|8cc9dd75-7ea1-4d1c-9d11-0c8547331d8f",
-        "courtyards_overlap|71660001|89000001|8cc9dd75-7ea1-4d1c-9d11-0c8547331d8f|6889cce7-7b17-470f-b76d-986ce6db4658",
-        "silk_over_copper|71655000|69065456|3f39750c-d425-4d28-89d8-54454da7c832|d5f32201-82e2-4db2-842a-9eecaeb907e8",
-        "silk_over_copper|71823802|68960000|3f39750c-d425-4d28-89d8-54454da7c832|37a84bd1-602f-419a-a055-96991a308f4f",
-        "silk_over_copper|86810000|121400000|2e121718-44ac-42af-b5df-47a13f1a5b19|19e8565e-156d-426b-8872-885c00f5b612",
-        "silk_over_copper|86820000|122000000|2e121718-44ac-42af-b5df-47a13f1a5b19|19e8565e-156d-426b-8872-885c00f5b612",
-        "silk_over_copper|95970000|121400000|2e121718-44ac-42af-b5df-47a13f1a5b19|d3d1a386-772b-4630-aabd-690d3755c005",
-        "silk_over_copper|95980000|122000000|2e121718-44ac-42af-b5df-47a13f1a5b19|d3d1a386-772b-4630-aabd-690d3755c005",
-        "silk_overlap|73176998|91750040|f0d42d05-ab3b-415d-b204-0ddeacfbe5bc|dbe0a77c-d5eb-4d50-8489-026985dadbb2",
-        "silk_overlap|76250000|75785714|0bb6fe43-8fe0-4263-bb04-711f8bc3fdc0|7f245329-92ad-424a-8732-7f666a030c5d",
-        "silk_overlap|76250000|75860000|7f245329-92ad-424a-8732-7f666a030c5d|0bb6fe43-8fe0-4263-bb04-711f8bc3fdc0"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2

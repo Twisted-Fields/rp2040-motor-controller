@@ -3,4 +3,6 @@
   (lib (name "MotorBuck")(type "KiCad")(uri "${KIPRJMOD}/MotorBuck.kicad_sym")(options "")(descr ""))
   (lib (name "2022-06-15_22-47-39")(type "Legacy")(uri "${KIPRJMOD}/parts/KiCAD/2022-06-15_22-47-39/2022-06-15_22-47-39.lib")(options "")(descr ""))
   (lib (name "2022-06-16_01-48-54")(type "KiCad")(uri "${KIPRJMOD}/parts/KiCAD/2022-06-16_01-48-54/2022-06-16_01-48-54.kicad_sym")(options "")(descr ""))
+  (lib (name "2022-10-21_22-39-46")(type "KiCad")(uri "${KIPRJMOD}/parts/KiCAD/2022-10-21_22-42-38/2022-10-21_22-42-38.kicad_sym")(options "")(descr ""))
+  (lib (name "motor_parts")(type "KiCad")(uri "${KIPRJMOD}/motor_parts.kicad_sym")(options "")(descr ""))
 )
