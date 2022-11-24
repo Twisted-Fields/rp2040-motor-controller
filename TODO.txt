@@ -1,0 +1,6 @@
+spi part number - capacity/price?
+gate capacitance
+mounting holes
+mark ground on connectors
+
+TODO: maybe reduce gate resistors to 10 ohm?
