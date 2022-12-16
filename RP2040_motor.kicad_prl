@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 37,
+    "active_layer": 41,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [],
@@ -36,7 +36,6 @@
       8,
       9,
       10,
-      11,
       12,
       13,
       14,
@@ -62,8 +61,8 @@
       35,
       36
     ],
-    "visible_layers": "0009020_80000003",
-    "zone_display_mode": 0
+    "visible_layers": "ffd1203_7ffffff9",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "RP2040_motor.kicad_prl",
