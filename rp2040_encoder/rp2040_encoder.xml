@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/taylor/pcb/rp2040_encoder/rp2040_encoder.kicad_sch</source>
-    <date>Fri 08 Jul 2022 10:41:12 AM PDT</date>
-    <tool>Eeschema 6.0.0-rc2</tool>
+    <source>/home/taylor/pcb/rp2040-motor-controller/rp2040_encoder/rp2040_encoder.kicad_sch</source>
+    <date>Sat 17 Dec 2022 12:46:17 PM PST</date>
+    <tool>Eeschema 6.0.2+dfsg-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -25,6 +25,58 @@
   </design>
   <components>
     <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="MotorController" part="SPARKFUN-CAPACITORS_CAP" description=""/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rp2040_encoder.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb8d2365-964c-4b36-a74e-504290a98abf</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="MotorController" part="SPARKFUN-CAPACITORS_CAP" description=""/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rp2040_encoder.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01172b30-4940-4805-b545-a15bc4c1c378</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="MotorController" part="SPARKFUN-CAPACITORS_CAP" description=""/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rp2040_encoder.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff9ee193-04ae-4384-8dd7-646c1cb54169</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="MotorController" part="SPARKFUN-CAPACITORS_CAP" description=""/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rp2040_encoder.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4038167-36d6-4d90-bac9-f0cab6c50295</tstamps>
+    </comp>
+    <comp ref="C5">
       <value>1u</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
@@ -37,7 +89,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>d4beee8a-fda6-4644-a94b-f51a39e75e2f</tstamps>
     </comp>
-    <comp ref="C2">
+    <comp ref="C6">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
@@ -63,6 +115,62 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4b0d9db5-2928-4e70-808f-ecdffa65d500</tstamps>
     </comp>
+    <comp ref="D2">
+      <value>SK6805</value>
+      <footprint>LED_SMD:LED_SK6812_EC15_1.5x1.5mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2890035</field>
+      </fields>
+      <libsource lib="LED" part="SK6805" description="RGB LED with integrated controller"/>
+      <property name="LCSC" value="C2890035"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rp2040_encoder.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1bbc644e-1d0f-4a2b-bdae-77129676dcaf</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>SK6805</value>
+      <footprint>LED_SMD:LED_SK6812_EC15_1.5x1.5mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2890035</field>
+      </fields>
+      <libsource lib="LED" part="SK6805" description="RGB LED with integrated controller"/>
+      <property name="LCSC" value="C2890035"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rp2040_encoder.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2cc9db0-faf1-4f0b-b8df-e1b9ccb54f72</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>SK6805</value>
+      <footprint>LED_SMD:LED_SK6812_EC15_1.5x1.5mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2890035</field>
+      </fields>
+      <libsource lib="LED" part="SK6805" description="RGB LED with integrated controller"/>
+      <property name="LCSC" value="C2890035"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rp2040_encoder.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>966ccfad-6492-46e3-ad96-0fd54fa0fe57</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>SK6805</value>
+      <footprint>LED_SMD:LED_SK6812_EC15_1.5x1.5mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2890035</field>
+      </fields>
+      <libsource lib="LED" part="SK6805" description="RGB LED with integrated controller"/>
+      <property name="LCSC" value="C2890035"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rp2040_encoder.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7caf00fa-33f1-413a-90f7-5396c9e1d0b4</tstamps>
+    </comp>
     <comp ref="J1">
       <value>Conn_01x05</value>
       <footprint>parts:Molex_KK-254_1x05_P2.54mm_Horizontal</footprint>
@@ -77,7 +185,110 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>4dd70f95-498a-417d-b014-1312e4b640ff</tstamps>
     </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="MotorController" part="TAYLOR_RESISTOR" description=""/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rp2040_encoder.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f97c30b7-53bf-46d4-9d29-e16fc500c559</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="MotorController" part="TAYLOR_RESISTOR" description=""/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rp2040_encoder.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5164a0bb-8b28-49d0-8c83-6f086185ebed</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="MotorController" part="TAYLOR_RESISTOR" description=""/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rp2040_encoder.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>94d26386-7283-42a7-ac53-86753c84b580</tstamps>
+    </comp>
     <comp ref="U1">
+      <value>SN74LVC1G07QDCKTQ1</value>
+      <footprint>Package_TO_SOT_SMD:SOT-353_SC-70-5</footprint>
+      <fields>
+        <field name="Digikey">TC7SH34FULJ(CTCT-ND</field>
+        <field name="LCSC">C171458</field>
+        <field name="MPN">TC7SH34FU,LJ(CT</field>
+      </fields>
+      <libsource lib="acorn-motherboard" part="SN74LVC1G07QDCKTQ1" description=""/>
+      <property name="Digikey" value="TC7SH34FULJ(CTCT-ND"/>
+      <property name="MPN" value="TC7SH34FU,LJ(CT"/>
+      <property name="LCSC" value="C171458"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rp2040_encoder.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c2fff1e-d2d2-4dd9-b9da-dbf030608ebc</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>SN74LVC1G07QDCKTQ1</value>
+      <footprint>Package_TO_SOT_SMD:SOT-353_SC-70-5</footprint>
+      <fields>
+        <field name="Digikey">TC7SH34FULJ(CTCT-ND</field>
+        <field name="LCSC">C171458</field>
+        <field name="MPN">TC7SH34FU,LJ(CT</field>
+      </fields>
+      <libsource lib="acorn-motherboard" part="SN74LVC1G07QDCKTQ1" description=""/>
+      <property name="Digikey" value="TC7SH34FULJ(CTCT-ND"/>
+      <property name="MPN" value="TC7SH34FU,LJ(CT"/>
+      <property name="LCSC" value="C171458"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rp2040_encoder.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e04409c2-b3ba-460e-bddc-62e0044901c2</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>SN74LVC1G79DBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-353_SC-70-5</footprint>
+      <fields>
+        <field name="LCSC">C42878</field>
+      </fields>
+      <libsource lib="encoder_parts" part="SN74LVC1G80DCKR" description=""/>
+      <property name="LCSC" value="C42878"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rp2040_encoder.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6708e19a-340d-420a-9470-ca564a58e8c0</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>SN74LVC1G07QDCKTQ1</value>
+      <footprint>Package_TO_SOT_SMD:SOT-353_SC-70-5</footprint>
+      <fields>
+        <field name="Digikey">TC7SH34FULJ(CTCT-ND</field>
+        <field name="LCSC">C171458</field>
+        <field name="MPN">TC7SH34FU,LJ(CT</field>
+      </fields>
+      <libsource lib="acorn-motherboard" part="SN74LVC1G07QDCKTQ1" description=""/>
+      <property name="Digikey" value="TC7SH34FULJ(CTCT-ND"/>
+      <property name="MPN" value="TC7SH34FU,LJ(CT"/>
+      <property name="LCSC" value="C171458"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rp2040_encoder.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14aba89c-bf7f-4355-9188-0196c88023a4</tstamps>
+    </comp>
+    <comp ref="U5">
       <value>MT6701</value>
       <footprint>Package_SO:SO-8_3.9x4.9mm_P1.27mm</footprint>
       <fields>
@@ -89,15 +300,6 @@
       <property name="Sheetfile" value="rp2040_encoder.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>555c8940-ebb2-464f-8b26-adbbd6ba117c</tstamps>
-    </comp>
-    <comp ref="U2">
-      <value>love</value>
-      <footprint>parts:love_small</footprint>
-      <libsource lib="encoder_parts" part="love" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="rp2040_encoder.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>9eb980b3-c649-4821-a952-cded05e270e0</tstamps>
     </comp>
   </components>
   <libparts>
@@ -153,37 +355,23 @@
         <pin num="2" name="A2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Jumper" part="SolderJumper_2_Open">
-      <description>Solder Jumper, 2-pole, open</description>
-      <docs>~</docs>
+    <libpart lib="LED" part="SK6805">
+      <description>RGB LED with integrated controller</description>
+      <docs>https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf</docs>
       <footprints>
-        <fp>SolderJumper*Open*</fp>
+        <fp>LED*SK6805*PLCC*2.4x2.7mm*P1.3mm*</fp>
       </footprints>
       <fields>
-        <field name="Reference">JP</field>
-        <field name="Value">SolderJumper_2_Open</field>
-        <field name="Datasheet">~</field>
+        <field name="Reference">D</field>
+        <field name="Value">SK6805</field>
+        <field name="Footprint">LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm</field>
+        <field name="Datasheet">https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf</field>
       </fields>
       <pins>
-        <pin num="1" name="A" type="passive"/>
-        <pin num="2" name="B" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Jumper" part="SolderJumper_3_Open">
-      <description>Solder Jumper, 3-pole, open</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>SolderJumper*Open*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">JP</field>
-        <field name="Value">SolderJumper_3_Open</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A" type="passive"/>
-        <pin num="2" name="C" type="input"/>
-        <pin num="3" name="B" type="passive"/>
+        <pin num="1" name="DOUT" type="output"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="DIN" type="input"/>
+        <pin num="4" name="VDD" type="power_in"/>
       </pins>
     </libpart>
     <libpart lib="Mechanical" part="MountingHole">
@@ -221,6 +409,42 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="MotorController" part="TAYLOR_RESISTOR">
+      <footprints>
+        <fp>*TAYLOR_0402-RES*</fp>
+        <fp>*TAYLOR_0603-RES*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">TAYLOR_RESISTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="acorn-motherboard" part="SN74LVC1G07QDCKTQ1">
+      <footprints>
+        <fp>DBV5_TEX</fp>
+        <fp>DBV5_TEX-M</fp>
+        <fp>DBV5_TEX-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">SN74LVC1G07QDCKTQ1</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-353_SC-70-5</field>
+        <field name="Digikey">TC7SH34FULJ(CTCT-ND</field>
+        <field name="MPN">TC7SH34FU,LJ(CT</field>
+        <field name="LCSC">C171458</field>
+      </fields>
+      <pins>
+        <pin num="1" name="/OE" type="input"/>
+        <pin num="2" name="A" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="Y" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
     <libpart lib="encoder_parts" part="MT6701">
       <fields>
         <field name="Reference">U</field>
@@ -237,6 +461,21 @@
         <pin num="8" name="Z/CSN" type="output"/>
       </pins>
     </libpart>
+    <libpart lib="encoder_parts" part="SN74LVC1G80DCKR">
+      <fields>
+        <field name="Reference">U3</field>
+        <field name="Value">SN74LVC1G80DCKR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-353_SC-70-5</field>
+        <field name="LCSC">C473331</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="input"/>
+        <pin num="2" name="CLK" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="Q" type="output"/>
+        <pin num="5" name="VCC" type="output"/>
+      </pins>
+    </libpart>
     <libpart lib="encoder_parts" part="love">
       <fields>
         <field name="Reference">U</field>
@@ -246,61 +485,123 @@
   </libparts>
   <libraries>
     <library logical="Connector_Generic">
-      <uri>/app/extensions/Library/symbols//Connector_Generic.kicad_sym</uri>
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
     </library>
     <library logical="Device">
-      <uri>/app/extensions/Library/symbols//Device.kicad_sym</uri>
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
     </library>
     <library logical="Diode">
-      <uri>/app/extensions/Library/symbols//Diode.kicad_sym</uri>
+      <uri>/usr/share/kicad/symbols//Diode.kicad_sym</uri>
     </library>
-    <library logical="Jumper">
-      <uri>/app/extensions/Library/symbols//Jumper.kicad_sym</uri>
+    <library logical="LED">
+      <uri>/usr/share/kicad/symbols//LED.kicad_sym</uri>
     </library>
     <library logical="Mechanical">
-      <uri>/app/extensions/Library/symbols//Mechanical.kicad_sym</uri>
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
     </library>
     <library logical="encoder_parts">
-      <uri>/home/taylor/pcb/rp2040_encoder/encoder_parts.kicad_sym</uri>
+      <uri>/encoder_parts.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
     <net code="1" name="+3V3">
-      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D2" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D3" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D4" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="D5" pin="4" pinfunction="VDD" pintype="power_in"/>
       <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="U1" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="R2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="VCC" pintype="output"/>
+      <node ref="U4" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U5" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="MODE" pintype="input"/>
     </net>
-    <net code="2" name="GND">
-      <node ref="C1" pin="1" pintype="passive"/>
+    <net code="2" name="DO">
+      <node ref="R2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="A" pintype="input"/>
+      <node ref="U5" pin="6" pinfunction="A/DO/SDA" pintype="output"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="C1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="C2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="D1" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D3" pin="2" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D4" pin="2" pinfunction="VSS" pintype="power_in"/>
+      <node ref="D5" pin="2" pinfunction="VSS" pintype="power_in"/>
       <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
-      <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="R1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="GND" pintype="input"/>
+      <node ref="U4" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="4" pinfunction="GND" pintype="power_in"/>
     </net>
-    <net code="3" name="Net-(JP1-Pad2)">
-      <node ref="U1" pin="2" pinfunction="MODE" pintype="input"/>
+    <net code="4" name="LED">
+      <node ref="D2" pin="3" pinfunction="DIN" pintype="input"/>
+      <node ref="R1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="Y" pintype="output"/>
     </net>
-    <net code="4" name="Net-(JP3-Pad1)">
-      <node ref="U1" pin="5" pinfunction="PUSH" pintype="output"/>
+    <net code="5" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="DOUT" pintype="output"/>
+      <node ref="D3" pin="3" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="6" name="Net-(JP3-Pad3)">
-      <node ref="U1" pin="3" pinfunction="OUT" pintype="output"/>
+    <net code="6" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1" pinfunction="DOUT" pintype="output"/>
+      <node ref="D4" pin="3" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="7" name="Net-(JP4-Pad2)">
-      <node ref="U1" pin="8" pinfunction="Z/CSN" pintype="output"/>
+    <net code="7" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1" pinfunction="DOUT" pintype="output"/>
+      <node ref="D5" pin="3" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="8" name="SPI0CS{slash}B">
+    <net code="8" name="Net-(U3-Pad4)">
+      <node ref="U3" pin="4" pinfunction="Q" pintype="output"/>
+      <node ref="U4" pin="1" pinfunction="/OE" pintype="input"/>
+    </net>
+    <net code="9" name="SCK">
+      <node ref="R3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="Y" pintype="output"/>
+      <node ref="U5" pin="7" pinfunction="B/CLK/SCL" pintype="output"/>
+    </net>
+    <net code="10" name="SPI0CS{slash}B">
       <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="U1" pin="7" pinfunction="B/CLK/SCL" pintype="output"/>
+      <node ref="U1" pin="1" pinfunction="/OE" pintype="input"/>
+      <node ref="U2" pin="1" pinfunction="/OE" pintype="input"/>
+      <node ref="U3" pin="2" pinfunction="CLK" pintype="input"/>
+      <node ref="U5" pin="8" pinfunction="Z/CSN" pintype="output"/>
     </net>
-    <net code="9" name="SPI0RX{slash}A">
+    <net code="11" name="SPI0RX{slash}A">
       <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="U1" pin="6" pinfunction="A/DO/SDA" pintype="output"/>
+      <node ref="U1" pin="4" pinfunction="Y" pintype="output"/>
+      <node ref="U4" pin="2" pinfunction="A" pintype="input"/>
     </net>
-    <net code="10" name="SPI0SCK{slash}C">
+    <net code="12" name="SPI0SCK{slash}C">
       <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="A" pintype="input"/>
+      <node ref="U3" pin="1" pinfunction="D" pintype="input"/>
+    </net>
+    <net code="13" name="unconnected-(D5-Pad1)">
+      <node ref="D5" pin="1" pinfunction="DOUT" pintype="output"/>
+    </net>
+    <net code="14" name="unconnected-(U5-Pad3)">
+      <node ref="U5" pin="3" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="15" name="unconnected-(U5-Pad5)">
+      <node ref="U5" pin="5" pinfunction="PUSH" pintype="output"/>
     </net>
   </nets>
 </export>

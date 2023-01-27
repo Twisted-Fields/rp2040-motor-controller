@@ -36,6 +36,7 @@
       8,
       9,
       10,
+      11,
       12,
       13,
       14,
@@ -61,8 +62,8 @@
       35,
       36
     ],
-    "visible_layers": "ffd1203_7ffffff9",
-    "zone_display_mode": 1
+    "visible_layers": "ffd1223_ffffffff",
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "RP2040_motor.kicad_prl",
