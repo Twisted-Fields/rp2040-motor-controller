@@ -14,6 +14,13 @@ look similar to our first prototype version shown in the top of the photo at the
 bottom of this document. To view the files for that board see this commit:
 https://github.com/Twisted-Fields/rp2040-motor-controller/commit/ceeeb0ee0d24856a9ad8b6b036be5baf15e3ead6
 ```
+
+> **Warning**
+> These files are still under development and undergoing testing. While we do
+> aspire to produce a design that others can easily fabricate, we do not yet
+> recommend making them for yourself! Please post questions on board status
+> to our community forum at [community.twistedfields.com](https://community.twistedfields.com).
+
 Our dream is that you will fab your own boards, make changes, and share your work - giving this design life beyond our efforts.
 
 Designed by Taylor Alexander for Twisted Fields, for the Acorn Precision Farming Rover.

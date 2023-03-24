@@ -1,6 +1,74 @@
-spi part number - capacity/price?
-gate capacitance
-mounting holes
-mark ground on connectors
 
-TODO: maybe reduce gate resistors to 10 ohm?
+2023 AFTER PRODUCTION NOTES
+
+rearrange debug connector to match default rp2040 debug pinout?
+
+- add additional filter capacitor pads, maybe 0806 for easy soldering
+
+- fix connector orientation - see if possible to fix output orientation in file
+- NOTE: connector silk rectangle is not appropriately centered, and this might explain
+- why they were stuffed backwards. outline only lines up when stuffed backwards. this also risks clearance issues
+
+- invert LED buffers - C2652101 - actually just reversed LEDs
+
+make GND test point farther from nearby capacitor so shorting of probe is less likely
+
+- maybe make GND test point bigger
+
+- consider dimmer LEDs at least for always on power LED, or a system to switch LED voltage
+
+- when I run a motor hard and then stop it, I hear an electronic pop on the board (once). is this a diode blowing out? what do I need for braking?
+
+- motor capacitors - some ceramic caps are only 50V!
+
+- motor flyback diodes - I popped a diode! need higher power capability. Also on layout, should lay out diodes for low inductance - short traces.
+
+- DIP switch for CAN address! - will use smt jumpers to save space
+
+- DIP https://www.lcsc.com/product-detail/DIP-Switches_DongGuan-KINGTEK-Industrial-Co-LTD-DSHP04TSGET_C40736.html
+- last one can be for LED brightness
+- switch LEDs to 2.5v
+- https://www.lcsc.com/product-detail/Linear-Voltage-Regulators-span-style-background-color-ff0-LDO-span_Advanced-Monolithic-Systems-AMS1117-2-5_C12087.html
+
+- add direct connection between CPUs for E-stop
+
+- any way to flash both processors at once? - looks like a custom bootloader could be possible.
+
+add test points on the bottom of the board sufficient for functional test
+
+- add more protection for CAN bus lines - TVS diodes or something.
+
+- during layout, make sure to use low inductance traces to TVS diodes
+
+- consider what happens if a sensor shorts out due to corrosion. 3.3v should have some short protection, either with a thermal fuse or
+- the switching power supply with short detection could be used
+
+- can bus termination on a DIP switch instead of solder jumper? field changes to the system not possible with solder only jumper
+
+- DIP switches for more things. imagine you are walking out to repair a broken robot in the field. you want to be able to configure it for any corner without solder.
+
+six pin connectors for encoders to include thermistor!
+
+high voltage version notes:
+Buck:
+https://www.lcsc.com/product-detail/DC-DC-Converters_HTCSEMI-HT1015AREZ_C5274694.html
+https://datasheet.lcsc.com/lcsc/2211221800_HTCSEMI-HT1015AREZ_C5274694.pdf
+
+Consider dual FETS of these for super high current:
+https://datasheet.lcsc.com/lcsc/2204021730_CRMICRO-CRSM038N10N4_C2988619.pdf
+https://www.lcsc.com/product-detail/MOSFETs_CRMICRO-CRSM038N10N4_C2988619.html
+
+use a voltage divider shunt to allow for smaller inline current sense. - 10% of current goes through shunt. precision not required, can be calibrated.
+
+Alternate:
+https://www.lcsc.com/product-detail/MOSFETs_CRMICRO-CRSS035N10N_C841371.html
+https://datasheet.lcsc.com/lcsc/2201131130_CRMICRO-CRSS035N10N_C841371.pdf
+
+Add a fan controller FET, including holes for a 24v converter add on
+
+tips on dealing with overvoltage in email thread:
+[HBRobotics] More progress on BLDC Motor Controller
+https://groups.google.com/g/hbrobotics/c/J9R83nf33Vg
+
+
+
