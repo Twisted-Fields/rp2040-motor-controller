@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 4.5,
-          "height": 4.8,
-          "width": 4.8
+          "drill": 0.0,
+          "height": 3.81,
+          "width": 2.4
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -56,7 +56,18 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|134896658|108450001|59959d26-39e5-4b89-96ae-0be1efbd1145|8b5cc467-ccb5-4fab-b8f5-ab8953213033",
+        "courtyards_overlap|154379882|108350001|54906630-411e-4d08-aa9a-e6c4f724c202|8ed11a38-28eb-4472-85d4-df8efcc38206",
+        "hole_clearance|72250000|108805000|d3ab2bdc-a1d8-4d8d-82b4-bda60407f69e|4ddecd9f-12d5-4afd-a527-5ed31dbdbb99",
+        "hole_clearance|72450000|108805000|d3ab2bdc-a1d8-4d8d-82b4-bda60407f69e|ca6e6b7c-c12e-4843-9619-45f702e143c9",
+        "hole_clearance|77850000|108805000|4e1d1b71-25a6-4ebc-b2c2-c8255ce29aa2|6dbbda2d-7fa4-4338-8273-853d22892776",
+        "hole_clearance|78050000|108805000|4e1d1b71-25a6-4ebc-b2c2-c8255ce29aa2|ac35aa72-9a5b-4635-a158-14e487145268",
+        "hole_clearance|84750000|108805000|44c313ee-186a-49e9-be2c-334824e9e35d|332195eb-1965-46cf-be50-0a5b3195190d",
+        "hole_clearance|84950000|108805000|44c313ee-186a-49e9-be2c-334824e9e35d|cd5f2145-63ff-4424-8cbf-d1894a311594",
+        "hole_clearance|90350000|108805000|2a76b045-cc30-429a-95bf-92d11ed82e44|a5b1874e-dc09-4186-8793-a74cdaca538e",
+        "hole_clearance|90550000|108805000|2a76b045-cc30-429a-95bf-92d11ed82e44|136faea6-a67f-449d-a362-cf36177f0ba8"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -181,7 +192,8 @@
         0.4,
         0.6,
         0.8,
-        1.0
+        1.0,
+        2.0
       ],
       "via_dimensions": [
         {
@@ -408,7 +420,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "error",
@@ -461,6 +473,23 @@
         "via_diameter": 0.6,
         "via_drill": 0.2,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.3,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "VMOT",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 2.0,
+        "via_diameter": 0.8,
+        "via_drill": 0.2,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -468,7 +497,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "VMOT",
+        "pattern": "VMOT"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
