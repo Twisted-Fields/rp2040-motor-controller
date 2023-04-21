@@ -1,0 +1,130 @@
+/*
+When customizing this theme, it is recommended to use existing theme configuration or add override CSS/LESS 
+files instead of editing platform-defined CSS/LESS. This will make future upgrades simpler.
+
+Direct edits to platform-defined CSS/LESS is not prevented, but will require manual diff/merging when upgrading
+to new versions of this theme.
+*/
+
+.layout, .page-editing, .page-tabs, .admin-bar .navigation-list, .admin-bar fieldset.field-list, .fiji-header-fragment-inner, .poweredby-wrapper, .footer-fragments, .footer-fragments-header, .footer-fragments-footer
+{
+	width: auto !important;
+	max-width: 100% !important;
+	min-width: 0 !important;
+}
+
+/* $Layout
+/******************************/
+
+.layout-content.content .layout-region.content { width: 100%; float: left;}
+
+.layout-content.content-left-sidebar-right .layout-region.content { width: 100%; }
+.layout-content.content-left-sidebar-right .layout-region.right-sidebar { display: none; }
+
+.layout-content.sidebar-left-content-right .layout-region.left-sidebar { display: none; }
+.layout-content.sidebar-left-content-right .layout-region.content { width: 100%; }
+
+.layout-content.sidebar-left-content-center-sidebar-right .layout-region.left-sidebar { display: none; }
+.layout-content.sidebar-left-content-center-sidebar-right .layout-region.content { width: 100%; }
+.layout-content.sidebar-left-content-center-sidebar-right .layout-region.right-sidebar { display: none; }
+
+.layout-content.content-left-split-sidebar-right-top-single-sidebar-right-bottom .layout-region.content { width: 100%; }
+.layout-content.content-left-split-sidebar-right-top-single-sidebar-right-bottom .layout-region.split-sidebar-left { display: none; }
+.layout-content.content-left-split-sidebar-right-top-single-sidebar-right-bottom .layout-region.split-sidebar-right { display: none; }
+.layout-content.content-left-split-sidebar-right-top-single-sidebar-right-bottom .layout-region.right-sidebar { display: none; }
+
+.layout-content.header-top-content-left-sidebar-right .layout-region.header { width: 100%; }
+.layout-content.header-top-content-left-sidebar-right .layout-region.content { width: 100%; }
+.layout-content.header-top-content-left-sidebar-right .layout-region.right-sidebar { display: none; }
+
+.layout-content.header-top-sidebar-left-content-right .layout-region.header { width: 100%; }
+.layout-content.header-top-sidebar-left-content-right .layout-region.left-sidebar { display: none; }
+.layout-content.header-top-sidebar-left-content-right .layout-region.content { width: 100%; }
+
+.layout-content.header-top-sidebar-left-content-center-sidebar-right .layout-region.header { width: 100%; }
+.layout-content.header-top-sidebar-left-content-center-sidebar-right .layout-region.left-sidebar { display: none; }
+.layout-content.header-top-sidebar-left-content-center-sidebar-right .layout-region.content { width: 100%; }
+.layout-content.header-top-sidebar-left-content-center-sidebar-right .layout-region.right-sidebar { display: none; }
+
+.layout-content.header-top-content-left-split-sidebar-right-top-single-sidebar-right-bottom .layout-region.header { width: 100%; }
+.layout-content.header-top-content-left-split-sidebar-right-top-single-sidebar-right-bottom .layout-region.content { width: 100%; }
+.layout-content.header-top-content-left-split-sidebar-right-top-single-sidebar-right-bottom .layout-region.split-sidebar-left { display: none; }
+.layout-content.header-top-content-left-split-sidebar-right-top-single-sidebar-right-bottom .layout-region.split-sidebar-right { display: none; }
+.layout-content.header-top-content-left-split-sidebar-right-top-single-sidebar-right-bottom .layout-region.right-sidebar { display: none; }
+
+.layout-content.split-content .layout-region.content { width: 100%; }
+.layout-content.split-content .layout-region.right-sidebar { display: none; }
+
+.layout-content.header-top-split-content .layout-region.header { width: 100%; }
+.layout-content.header-top-split-content .layout-region.content { width: 100%; }
+.layout-content.header-top-split-content .layout-region.right-sidebar { display: none; }
+
+.content-fragment { margin: 0 !important; }
+.fiji-content-fragment-top, .fiji-content-fragment-bottom { display: none; }
+.content-fragment, .content-fragment-content, .content-fragment-header { border-width: 0 !important; }
+
+.content-fragment.group-banner, .content-fragment.group-banner .content-fragment-content { padding-left: 0 !important; }
+.content-fragment.group-banner .group-avatar { left: 0 !important; }
+
+/* $Hidden Content
+/******************************/
+
+.admin-bar-header,
+.admin-bar,
+.admin-bar-footer,
+.header-fragments-header,
+.header-fragments,
+.header-fragments-footer,
+.footer-fragments-header,
+.footer-fragments,
+.footer-fragments-footer,
+.page-editing,
+.navigation-list-header,
+.navigation-list,
+.navigation-list-footer,
+.breadcrumb-list-header,
+.breadcrumb-list,
+.breadcrumb-list-footer,
+.field-list-header,
+.field-list,
+.field-list-footer,
+.post-actions,
+.post-tags,
+.post-rating,
+.filter,
+.internal-link.add-post,
+.internal-link.rss,
+.content-fragment.comment-list,
+.content-fragment.blog-feedback-list,
+.content-fragment.media-gallery-post-comment-list,
+.content-fragment.blog-banner,
+.content-fragment.media-gallery-banner,
+.content-fragment.wiki-banner,
+.content-fragment.forum-banner,
+.post-details-container
+	{ display: none !important; }
+
+/* $Color adjustments
+/******************************/
+html, body { color: @color-foreground !important; font-size: 10pt; }
+a { color: @color-foreground !important; text-decoration: underline !important; }
+
+html,
+.content-fragment-page,
+.layout,
+.group-banner,
+.user-banner
+	{ background-color: @color-background !important; background-image: none !important; }
+
+/* $Formatting adjustments
+/******************************/
+.group-banner .group-description { font-family: Arial, Helvetica; font-style: normal; }
+
+/* $Firefox Adjustments
+/******************************/
+.full-post .post-content { line-height: normal !important;}
+.user-defined-markup, .content-fragment.thread .full-post { overflow: visible !important; font-size: 10pt; }
+
+/* $Generic Style
+/******************************/
+.do-not-print { display: none; }

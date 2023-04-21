@@ -1,0 +1,47 @@
+M12 8 Pole Male A Coding to RJ45 Ethernet Cat5e Cable
+https://www.amazon.com/DRRI-CKR-202-001-CCB-84901-VPRO-Base-U-CFB-CBL-15/dp/B07NZZY2NY
+
+
+https://www.amazon.com/keisnoaja-Double-Female-Receptacle-Unshielded/dp/B0BW5N8RZ3/
+
+https://www.digikey.com/en/products/detail/amphenol-ltw/M12A-08PFFR-EE0001/16690751
+https://www.digikey.com/en/products/detail/phoenix-contact/1437038/2510285
+
+https://electronics.stackexchange.com/questions/304869/standard-ethernet-pinout-for-m12-a-coded
+
+Connector
+https://www.mouser.com/ProductDetail/Amphenol-LTW/M12A-08PFFR-SF7003?qs=pfd5qewlna7u68f3ScK81g%3D%3D
+https://www.mouser.com/datasheet/2/18/1/M12A_XXPFFR_SF7003-1365886.pdf
+
+short cable
+https://www.amphenolltw.com/product-info/M-Series/M-Series.M12(A)/MSAP08ML-SAPML-SDA05?#check-stock-btn
+https://www.digikey.com/en/products/detail/amphenol-ltw/MSAP08ML-SAPML-SDA05/9932392?s=N4IgTCBcDaIAQFkDKBBACgBgBwIDIFpU09CAREAXQF8g
+MSAP08ML-SAPML-SDA05
+
+1 meter
+https://www.amphenolltw.com/product-info/M-Series/M-Series.M12%28A%29/MSAP08ML-SAPML-SD001.html
+
+2 meter
+https://www.amphenolltw.com/product-info/M-Series/M-Series.M12%28A%29/MSAP08ML-SAPML-SD002.html
+
+
+https://www.amphenolltw.com/product-info/M-Series/M-Series.M12%28A%29/M12A-08BMMM-SL8A02.html
+https://www.amphenolltw.com/product-info/M-Series/M-Series.M12%28A%29/M12A-08BMMM-SL8B02.html
+https://www.amphenolltw.com/product-info/M-Series/M-Series.M12%28A%29/M12A08ML-12AML-SD002.html
+
+
+adapter cable
+https://www.amazon.com/HangTon-Ethernet-Industrial-Machinery-Waterproof/dp/B07HN28HJD
+https://www.amazon.com/HangTon-Industrial-Ethernet-M12-ism1400/dp/B08NSK8HK3
+
+another adapter (confirm pinout)
+https://www.lcsc.com/product-detail/Power-Cables_Amphenol-ICC-NUF-MSAP-08BMMM-RJ_C5157786.html
+
+receptacle, shielded
+https://www.digikey.com/en/products/detail/amphenol-ltw/MSAS-08PFFR-SH7003/16690765
+
+2 meter
+https://www.digikey.com/en/products/detail/amphenol-ltw/M12A08ML-12AML-SD002/9932220
+
+1 meter
+https://www.digikey.com/en/products/detail/amphenol-ltw/M12A08ML-12AML-SD001/9932219

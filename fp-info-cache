@@ -1,4 +1,4 @@
-21433070686557279
+21436433398151501
 ADC081S021
 ADC081S021CISD&slash_NOPB
 
@@ -89348,6 +89348,13 @@ connector Molex KK-254 vertical
 6
 6
 parts
+M12A-08PFFR
+
+
+0
+8
+8
+parts
 MT60-F.G.Y
 
 
@@ -89368,6 +89375,13 @@ RJ45 8p8c ethernet cat5
 0
 10
 9
+parts
+SSOP-8_3.91x5.84x3.18mm_P1.27mm
+SSOP-8 3.95x5.21x3.27mm Pitch 1.27mm
+SSOP-8 3.95x5.21x3.27mm 1.27mm
+0
+8
+8
 parts
 SW_TS_1101_C_W
 https://www.mouser.com/ds/2/60/RS-282G05A-SM_RT-1159762.pdf

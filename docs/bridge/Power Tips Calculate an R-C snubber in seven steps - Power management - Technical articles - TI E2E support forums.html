@@ -1,0 +1,1789 @@
+<!DOCTYPE html>
+<html class="direction-ltr" style="direction:ltr;" prefix="og: https://ogp.me/ns# article: https://ogp.me/ns/article#" data-di-loaded="1" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><link rel="stylesheet" href="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/platform.css" type="text/css" media="screen"><script type="text/javascript" async="" charset="utf-8" id="utag_272" src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/elqCfg.min.js"></script><script type="text/javascript" async="" charset="utf-8" id="utag_266" src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/elqCfg.min.js"></script><script type="text/javascript" async="" charset="utf-8" src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/di.js" id="utag_221"></script><script type="text/javascript" async="" src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/linkid.js"></script><script type="text/javascript" async="" src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/ec.js"></script><script type="text/javascript" async="" charset="utf-8" id="utag_292" src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/init.js"></script><script type="text/javascript" async="" charset="utf-8" src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/19c369a85be168c883cbae6664876759.js" id="utag_246"></script><script type="text/javascript" async="" charset="utf-8" src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/analytics.js" id="tealium-tag-7110"></script><script src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/utag.js" type="text/javascript" async=""></script><script type="text/javascript" async="" src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/metrics-min.js"></script><script type="text/javascript" src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/jquery.min.js"></script><script type="text/javascript" src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/telligent.glow.min.js"></script><script type="text/javascript" src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/jquery.validate.min.js"></script><script type="text/javascript">
+// <![CDATA[
+try { jQuery.extend(jQuery.validator.messages,{required:'This field is required.',remote:'Please fix this field.',date:'Please enter a valid date.',dateISO:'Please enter a valid date (ISO).',number:'Please enter a valid number.',digits:'Please enter only digits.',creditcard:'Please enter a valid credit card number.',equalTo:'Please enter the same value again.',accept:'Please enter a value with a valid extension.',maxlength:jQuery.validator.format('Please enter no more than {0} characters.'),minlength:jQuery.validator.format('Please enter at least {0} characters.'),rangelength:jQuery.validator.format('Please enter a value between {0} and {1} characters long.'),range:jQuery.validator.format('Please enter a value between {0} and {1}.'),max:jQuery.validator.format('Please enter a value less than or equal to {0}.'),min:jQuery.validator.format('Please enter a value greater than or equal to {0}.')}); } catch(e) { };
+// ]]>
+</script><script type="text/javascript" src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/telligent.evolution.min.js"></script><script type="text/javascript">
+// <![CDATA[
+try { jQuery.telligent.evolution.site.configure({baseUrl:'/',isRemote:false,cookieSameSiteSetting:'Lax',enableGlobalForm:false,scheduledFileStatusUrl:'https://e2e.ti.com/callback.ashx?__type=Telligent.Evolution.ScriptedContentFragments.Implementations.ScheduledFileSupportPlugin%2C%20Telligent.Evolution.Platform',remoteUrlEncodePattern:'',contextQueryString:'_pcurl=~%2Fblogs_%2Fb%2Fpowerhouse%2Fposts%2Fcalculate-an-r-c-snubber-in-seven-steps',editorConfigVersionKey:'AAAAAryIznw%3D-AAAAAncp760%3D-AAAAAr%2BQE3w%3D',maxMediaWidth:0,mediaMaxHeight:0,defaultMediaWidth:320,defaultMediaHeight:240,directUploadContext:'063ff139-61a2-48e7-9877-39d29f9d3f4d',directUploadUrl:'https://e2e.ti.com:443/multipleupload?UploadContext=063ff139-61a2-48e7-9877-39d29f9d3f4d',datePattern:{
+	pattern: '<Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec> <1-31>, <0001-9999>',
+    yearIndex: 2,
+    monthIndex: 0,
+    dayIndex: 1,
+    hourIndex: -1,
+    minuteIndex: -1,
+    amPmIndex: -1,
+    parseDateOnLoad: true
+},timePattern:{
+	pattern: '<1-12>:<00-59> <AM,PM>',
+    yearIndex: -1,
+    monthIndex: -1,
+    dayIndex: -1,
+    hourIndex: 0,
+    minuteIndex: 1,
+    amPmIndex: 2,
+    parseDateOnLoad: true
+},dateTimePattern:{
+	pattern: '<Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec> <1-31>, <0001-9999> <1-12>:<00-59> <AM,PM>',
+    yearIndex: 2,
+    monthIndex: 0,
+    dayIndex: 1,
+    hourIndex: 3,
+    minuteIndex: 4,
+    amPmIndex: 5,
+    parseDateOnLoad: true
+},monthNames:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],dayNames:['Sun','Mon','Tue','Wed','Thu','Fri','Sat'],authorizationCookieName:'AuthorizationCookie',silverlightFileUploadEnabled:true,accessingUserId:2101,accessingUserIsSystemAccount:true,accessingUserTemporary:false,versionKey:'637528196160000000',directionality:'ltr',editorLanguage:'en-US',autoLinkPattern:/((?:http|ftp|https):\/\/)([\w\-]{1,63}(?:\.[\w\-]{1,63}){0,127}(?:\([\w\-\.,@?!^=%&:/~\+#]{0,2046}\)|[\w\-\.,@?!^=%&:/~\+#]{0,2047}[\w\-@?^=%&:/~\+#]){0,2048})/i,defaultErrorMessage:'An error occurred.  Please try again or contact your administrator.',quoteText:'Quote',dateMinuteInFutureFormat:'in a few seconds',dateMinutesInFutureFormat:'in {0} minutes',dateHourInFutureFormat:'in over an hour',dateHoursInFutureFormat:'in {0} hours',dateDayInFutureFormat:'in {0} day',dateDaysInFutureFormat:'in {0} days',dateMonthInFutureFormat:'in {0} month',dateMonthsInFutureFormat:'in {0} months',dateYearInFutureFormat:'in over {0} year',dateYearsInFutureFormat:'in over {0} years',dateNowAgoFormat:'now',dateMinuteAgoFormat:'a few seconds ago',dateMinutesAgoFormat:'{0} minutes ago',dateHourAgoFormat:'{0} hour ago',dateHoursAgoFormat:'{0} hours ago',dateDayAgoFormat:'{0} day ago',dateDaysAgoFormat:'{0} days ago',dateMonthAgoFormat:'{0} month ago',dateMonthsAgoFormat:'{0} months ago',dateYearAgoFormat:'over {0} year ago',dateYearsAgoFormat:'over {0} years ago',previewZoomIn:'Zoom in',previewZoomOut:'Zoom out',previewClose:'Close',beforeUnloadMessageTip:'Progress will cancel if you leave.',pendingTip:'Progress will begin soon…',beforeUnloadMessageLabel:'Please wait…'});
+jQuery.extend($.fn.evolutionUserFileTextBox.defaults,{removeText:'Remove',selectText:'Select/Upload...',noFileText:'No File Selected'});
+jQuery.telligent.evolution.navigationConfirmation.configure({message:'Unless you save before leaving this page, you will lose any changes you have made.'});
+jQuery.telligent.evolution.validation.registerExtensions({passwordInvalidMessage:'Password contains invalid chars ...',passwordRegex:'^.*$',emailInvalidMessage:'Your email address is invalid.',emailRegex:'^\\w+([-+.]+\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*$',usernameInvalidMessage:'Your sign in name does not meet the requirements for this site.',usernameRegex:'^[a-zA-Z0-9_\\- @\\.]+$',emailsInvalidMessage:'One or more emails is invalid',urlInvalidMessage:'URL not in correct format',urlRegex:'^(?:(?:http|https|mailto|ftp|mms):|/|#|~/|data:image/(?:png|gif|jpe?g);base64,)'});
+jQuery.extend(jQuery.fn.evolutionLike.defaults,{likeText:'Like',unlikeText:'Unlike',modalTitleText:'People who like this',modalShowMoreText:'Show More',whoLikesOtherText:'\u003ca href=\"{user_profile_url}\" class=\"internal-link view-user-profile\"\u003e{user_display_name}\u003c/a\u003e likes this',whoLikesOtherTwoText:'\u003ca href=\"{user_profile_url}\" class=\"internal-link view-user-profile\"\u003e{user_display_name}\u003c/a\u003e and \u003cspan class=\"who-likes\"\u003e1 other\u003c/span\u003e like this',whoLikesOtherMultipleText:'\u003ca href=\"{user_profile_url}\" class=\"internal-link view-user-profile\"\u003e{user_display_name}\u003c/a\u003e and \u003cspan class=\"who-likes\"\u003e{count} others\u003c/span\u003e like this',whoLikesAccessingText:'You like this',whoLikesAccessingTwoText:'You and \u003cspan class=\"who-likes\"\u003e1 other\u003c/span\u003e like this',whoLikesAccessingMultipleText:'You and \u003cspan class=\"who-likes\"\u003e{count} others\u003c/span\u003e like this'});
+jQuery.extend(jQuery.fn.evolutionInlineTagEditor.defaults,{editButtonText:'Edit tags',selectTagsText:'Select tags',saveTagsText:'Save',cancelText:'Cancel'});
+jQuery.extend(jQuery.fn.evolutionStarRating.defaults,{titles:['Terrible','Poor','Fair','Average','Good','Excellent'],ratingMessageFormat:'Average rating: {rating} out of {max_rating} with {count} ratings.'});
+jQuery.extend(jQuery.fn.evolutionModerate.defaults,{moderateLinkText:'moderate',reportLinkText:'Report as abusive',reportedLinkText:'Reported as abusive',reportedNotificationMessageText:'{NAME}\u0027s post has been reported. \u003cstrong\u003eThank you for your feedback.\u003c/strong\u003e'});
+jQuery.extend(jQuery.fn.evolutionBookmark.defaults,{deleteBookmarkText:'Unbookmark {content_type_name}',addBookmarkText:'Bookmark this {content_type_name}',processingText:'...'});
+jQuery.extend($.fn.evolutionCodeEditor.defaults,{editorUrl:'/cfs-file/__key/system/ace/ace.js'});
+jQuery.extend(jQuery.telligent.evolution.ui.components.forumvotes.defaults,{modalTitleTextThread:'People who had this question',modalTitleTextReply:'People helped by this answer',noVotesText:'No Votes',modalShowMoreText:'More'});
+jQuery.extend(jQuery.telligent.evolution.ui.components.forumqualityvotes.defaults,{modalTitleText:'People who voted on this thread',tipTextThread:'View Voters',noVotesText:'No Votes',upVoteText:'Vote Up',downVoteText:'Vote Down',logintext:'Login to vote on this thread',modalShowMoreText:'More'});
+jQuery.extend(jQuery.fn.evolutionFeature.defaults,{editFeatureText:'Edit Feature',addFeatureText:'Feature ',processingText:'...'});
+jQuery.telligent.evolution.systemNotifications.configure({explicitPanelUrl:'#_cptype=panel\u0026_cpcontexttype=Explicit\u0026_cppanelid=994a7020-02f3-4fc2-ba7d-be3f0febf9f9\u0026viewnotification=1',notificationText:'System Notification',reviewText:'Click to review and resolve.',andMoreText:' (plus {0} more)'});
+} catch(e) { };
+// ]]>
+</script><script type="text/javascript">jQuery(function($) {
+	$.telligent.evolution.messaging.subscribe('userActionFriendshipToggle', function(data) {
+		var e = $(data.target);
+		var userId = e.data('userid'), accessingUserId = e.data('accessinguserid'), v = parseInt(e.data('friendship'));
+		var t = e.html();
+		e.html('...');
+		if (v == 0) {
+				e.html(t);
+				$.glowModal('/user/requestfriend?UserId=' + userId + '', {width:670,height:390});
+		} else if (v == 3) {
+				$.telligent.evolution.post({
+					url: $.telligent.evolution.site.getBaseUrl() + 'api.ashx/v2/users/{RequestorId}/friends.json',
+					data: { RequestorId: accessingUserId, RequesteeId: userId, RequestMessage: '<p style=\"font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px;\"><strong>Hi,<\/strong><\/p>\n<p style=\"font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px;\"><strong>I would like to be friends with you on the <a title=\"TI E2E Community\" style=\"color: #ff0000;\">TI E2E Support forums<\/a>.&nbsp;&nbsp;&nbsp; Thank you!<\/strong><\/p> '},
+					dataType: 'json',
+					success: function(response) { window.location = window.location; },
+					error: function(response) {  e.html(t); }
+				});
+		} else if (v == 1 || v == 2 || v == 4) {
+			if (v == 4 || (v == 1 && window.confirm('Are you sure you want to cancel this friendship request?')) || (v == 2 && window.confirm('Are you sure you want to unfriend this person?'))) {
+				$.telligent.evolution.del({
+					url: $.telligent.evolution.site.getBaseUrl() + 'api.ashx/v2/users/{RequestorId}/friends/{RequesteeId}.json',
+					data: { RequestorId: accessingUserId, RequesteeId: userId },
+					dataType: 'json',
+					success: function(response) { window.location = window.location; },
+					error: function(response) {  e.html(t); }
+				});
+			} else { e.html(t); }
+		}
+	});
+});</script><script type="text/javascript">
+(function($){
+$.extend($.fn.evolutionUpDownVoting.defaults,{voteDownMessage:'Vote against this idea',voteUpMessage:'Vote for this idea',loginMessage:'Sign in to vote on ideas',noPermissionMessage:'You do not have permission to vote for this idea',notGroupMemberMessage:'Join this group to vote on this idea',deleteMessage:'Remove your vote for this idea',readOnlyMessage: 'Voting on this idea has been disabled',switchToDownVoteMessage: 'Vote against this idea instead of for it',switchToUpVoteMessage: 'Vote for this idea instead of against it',voteDownAgainMessage:'Vote against this idea again',voteUpAgainMessage:'Vote for this idea again',removeDownVoteMesage:'Remove a vote against this idea',removeUpVoteMessage:'Remove a vote for this idea' });}(jQuery));
+</script>
+<script type="text/javascript">(function($){ $.telligent.evolution.media.defaults.endpoint = 'https://e2e.ti.com/callback.ashx?__type=Telligent.Evolution.Api.Plugins.Endpoints.FileViewerEndpoint%2C%20Telligent.Evolution.Platform'; }(jQuery));</script><script type="text/javascript">(function($){ $.telligent.evolution.preview.defaults.endpoint = 'https://e2e.ti.com/callback.ashx?__type=Telligent.Evolution.Api.Plugins.Endpoints.WebPreviewEndpoint%2C%20Telligent.Evolution.Platform'; }(jQuery));</script><script type="text/javascript">(function($){ $.fn.evolutionComposer.plugins.mentions.defaults.mentionablesEndpoint = 'https://e2e.ti.com/callback.ashx?__type=Telligent.Evolution.Api.Plugins.Endpoints.MentionablesEndpoint%2C%20Telligent.Evolution.Platform'; }(jQuery));</script><script type="text/javascript">(function($){ $.telligent.evolution.language.defaults.dateEndpoint = 'https://e2e.ti.com/callback.ashx?__type=Telligent.Evolution.Api.Plugins.Endpoints.DateFormattingEndpoint%2C%20Telligent.Evolution.Platform'; }(jQuery));</script><script type="text/javascript">(function($){ $.fn.evolutionUserFileTextBox.defaults.endpoint = 'https://e2e.ti.com/callback.ashx?__type=Telligent.Evolution.Api.Plugins.Endpoints.UserFileTextBoxEndpoint%2C%20Telligent.Evolution.Platform'; }(jQuery));</script><style data-di-track="1">
+.contextual-administration-handle::after {
+	width: 80%;
+	height: 80%;
+	top: 10%;
+	left: 10%;
+	background-image: url('https://e2e.ti.com:443/cfs-filesystemfile/__key/defaultwidgets/fd266454714b4b3c9b7194d8b1bf9741-63df45f4dd4647c7821531bc63994672/edit.svg?_=637506093311931648');
+}
+#_tc_ap.contextual-administration-panel-container .contextual-administration-panel-wrapper .contextual-panel .contextual-panel-heading .navigation-list .search a {
+	background-image: url('https://e2e.ti.com:443/cfs-filesystemfile/__key/defaultwidgets/fd266454714b4b3c9b7194d8b1bf9741-63df45f4dd4647c7821531bc63994672/glass.svg?_=637506093312048844');
+	background-repeat: no-repeat;
+}
+#_tc_ap.contextual-administration-panel-container .contextual-administration-panel-wrapper .contextual-panel .contextual-panel-heading .navigation-list .close a {
+	background-image: url('https://e2e.ti.com:443/cfs-filesystemfile/__key/defaultwidgets/fd266454714b4b3c9b7194d8b1bf9741-63df45f4dd4647c7821531bc63994672/cross.svg?_=637506093311843782');
+	background-repeat: no-repeat;
+}
+}
+#_tc_ap.contextual-administration-panel-container .contextual-administration-panel-wrapper .contextual-panel .contextual-panel-heading-search a.exit-search {
+	background-image: url('https://e2e.ti.com:443/cfs-filesystemfile/__key/defaultwidgets/fd266454714b4b3c9b7194d8b1bf9741-63df45f4dd4647c7821531bc63994672/cross.svg?_=637506093311843782');
+	background-repeat: no-repeat;
+}
+#_tc_ap.contextual-administration-panel-container .contextual-administration-panel-wrapper .contextual-panel .contextual-panel-heading .navigation-list .back a .icon {
+	background-image: url('https://e2e.ti.com:443/cfs-filesystemfile/__key/defaultwidgets/fd266454714b4b3c9b7194d8b1bf9741-63df45f4dd4647c7821531bc63994672/back.svg?_=637506093311384800');
+	background-repeat: no-repeat;
+}
+</style>
+
+
+
+<script type="text/html" id="fragment-63df45f4dd4647c7821531bc639946722031215509_categoriesTemplate">
+			</script>
+
+<script type="text/html" id="fragment-63df45f4dd4647c7821531bc639946722031215509_panelContainerTemplate">
+	<div id="_tc_ap" class="contextual-administration-panel-container">
+	</div>
+</script>
+
+<script type="text/html" id="fragment-63df45f4dd4647c7821531bc639946722031215509_panelLoadingIndicatorTemplate">
+	<div class="contextual-administration-panel-loading">
+		<div class="spinner">
+			<div class="bounce1"></div>
+			<div class="bounce2"></div>
+			<div class="bounce3"></div>
+		</div>
+	</div>
+</script>
+
+<script type="text/html" id="fragment-63df45f4dd4647c7821531bc639946722031215509_panelTemplate">
+	<div class="contextual-administration-panel-wrapper" data-panelid="<%= panelId %>" data-namespace="<%: namespace %>">
+		<div class="contextual-panel <%= type %> <%= cssClass %>">
+			<div class="contextual-panel-heading">
+				<ul class="navigation-list">
+					<% if(backUrl && backLabel) { %>
+						<li class="navigation-list-item <%= (backUrl == '#_cptype=root' ? type : type) %> back">
+							<a href="<%: backUrl %>" class="ui-tip" data-tip="Back">
+								<span class="icon">&lt;</span> <span class="label ui-squeezetext" data-minsize="11"><%= backLabel %></span>
+							</a>
+						</li>
+					<% } else if (backLabel) { %>
+						<li class="navigation-list-item <%= (backUrl == '#_cptype=root' ? type : type) %> back">
+							<a href="#" class="ui-tip" data-tip="Back" onclick="window.history.back(); return false;">
+								<span class="icon">&lt;</span> <span class="label ui-squeezetext" data-minsize="11"><%= backLabel %></span>
+							</a>
+						</li>
+					<% } %>
+					<li class="navigation-list-item search"><a href="#" class="ui-tip" data-tip="Search">Search</a></li>
+					<li class="navigation-list-item close"><a href="#" data-messagename="contextual.shell.close" class="ui-tip" data-tip="Close">&times;</a></li>
+				</ul>
+				<h3 class="name ui-squeezetext ui-tip" data-minsize="11"><%= (name || '') %></h3>
+				<div class="custom-panel-heading-content"></div>
+				<div class="contextual-panel-heading-search">
+					<form>
+					<input type="text" placeholder="Search" />
+					<a href="#" class="exit-search ui-tip" data-tip="Close Search">&times;</a>
+					</form>
+				</div>
+			</div>
+			<div class="contextual-panel-content glow-scrollable <%= contentClass %>">
+				<%= (typeof content === "string" ? content : "") %>
+			</div>
+			<div class="contextual-panel-content-search-results glow-scrollable">
+			</div>
+		</div>
+	</div>
+</script>
+
+<script type="text/html" id="fragment-63df45f4dd4647c7821531bc639946722031215509_customPanelTemplate">
+	<div class="contextual-administration-panel-wrapper" data-panelid="<%= panelId %>" data-namespace="<%: namespace %>" data-rootpanelid="<%= (rootPanelId || '') %>">
+		<div class="contextual-panel <%= cssClass %>">
+			<div class="contextual-panel-heading">
+				<ul class="navigation-list">
+					<% if(backUrl && backLabel) { %>
+						<li class="navigation-list-item back">
+							<a href="<%: backUrl %>" class="ui-tip" data-tip="Back">
+								<span class="icon">&lt;</span> <span class="label ui-squeezetext" data-minsize="11"><%= backLabel %></span>
+							</a>
+						</li>
+					<% } %>
+					<li class="navigation-list-item close"><a href="#" data-messagename="contextual.shell.close" class="ui-tip" data-tip="Close">&times;</a></li>
+				</ul>
+				<h3 class="name ui-squeezetext ui-tip" data-minsize="11"><%= (name || '') %></h3>
+				<div class="custom-panel-heading-content"></div>
+			</div>
+			<div class="contextual-panel-content <%= contentClass %>">
+				<%= (typeof content === "string" ? content : "") %>
+			</div>
+		</div>
+	</div>
+</script>
+
+<script type="text/html" id="fragment-63df45f4dd4647c7821531bc639946722031215509_loadingIndicatorTemplate">
+	<div class="scrollable-loading-indicator"><span class="ui-loading"></span></div>
+</script>
+
+
+
+<script type="text/javascript" src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/ui.js"></script>
+<script type="text/javascript">
+// only show contextual shell in top-most window
+if (window === window.top) {
+	jQuery(function(j){
+		jQuery.telligent.evolution.widgets.contextualPanelShell.register({
+			rootCategoriesTemplateId: 'fragment-63df45f4dd4647c7821531bc639946722031215509_categoriesTemplate',
+			panelContainerTemplateId: 'fragment-63df45f4dd4647c7821531bc639946722031215509_panelContainerTemplate',
+			panelTemplateId: 'fragment-63df45f4dd4647c7821531bc639946722031215509_panelTemplate',
+			loadingIndicatorTemplateId: 'fragment-63df45f4dd4647c7821531bc639946722031215509_loadingIndicatorTemplate',
+			panelLoadingIndicatorTemplateId: 'fragment-63df45f4dd4647c7821531bc639946722031215509_panelLoadingIndicatorTemplate',
+			loadUrl: 'https://e2e.ti.com:443/utility/scripted-file.ashx?_cf=load.vm\u0026_fid=63df45f4dd4647c7821531bc63994672\u0026_wid=fragment-63df45f4dd4647c7821531bc639946722031215509\u0026_ct=plugin\u0026_cp=\u0026_ctt=a3b17ab0af5f11dda3501fcf55d89593\u0026_ctc=723c949e09854804a492ad89ae8a9998\u0026_ctn=3fc3f82483d14ec485ef92e206116d49\u0026_cc=0\u0026_ipd=0\u0026_pt=Telligent.Evolution.CoreServices.Administration.Plugins.ContextualPanelServicePlugin%2C%20Telligent.Evolution.Platform\u0026_pcurl=~%2Fblogs_%2Fb%2Fpowerhouse%2Fposts%2Fcalculate-an-r-c-snubber-in-seven-steps',
+			searchUrl: 'https://e2e.ti.com:443/utility/scripted-file.ashx?_cf=search.vm\u0026_fid=63df45f4dd4647c7821531bc63994672\u0026_wid=fragment-63df45f4dd4647c7821531bc639946722031215509\u0026_ct=plugin\u0026_cp=\u0026_ctt=a3b17ab0af5f11dda3501fcf55d89593\u0026_ctc=723c949e09854804a492ad89ae8a9998\u0026_ctn=3fc3f82483d14ec485ef92e206116d49\u0026_cc=0\u0026_ipd=0\u0026_pt=Telligent.Evolution.CoreServices.Administration.Plugins.ContextualPanelServicePlugin%2C%20Telligent.Evolution.Platform\u0026_pcurl=~%2Fblogs_%2Fb%2Fpowerhouse%2Fposts%2Fcalculate-an-r-c-snubber-in-seven-steps',
+			rootPanelUrl: '#_cptype=root',
+			previewPanelUrl: '#_cptype=panel\u0026_cpcontexttype=Theme\u0026_cppanelid=a81369a5-aa60-4034-8a25-07df22cd9c42',
+			customPanelTemplateId: 'fragment-63df45f4dd4647c7821531bc639946722031215509_customPanelTemplate',
+			hasCategories:  false ,
+			supportsExplicitOnly:  false ,
+			manageCommunityText: '\tManage TI E2E support forums'
+		});
+	});
+}
+</script>
+	<script type="text/javascript">jQuery(function($) {
+	$.telligent.evolution.messaging.subscribe('userActionSubscibeToggle', function(data) {
+		var e = $(data.target);
+		var userId = e.data('userid'), accessingUserId = e.data('accessinguserid'), v = e.data('subscribe');
+		e.html('...');
+		if (v) {
+			$.telligent.evolution.post({
+				url: $.telligent.evolution.site.getBaseUrl() + 'api.ashx/v2/usersubscriptions/{FollowerId}/following.json',
+				data: {  FollowerId: accessingUserId, FollowingId: userId },
+				dataType: 'json',
+				success: function(response) { e.html('Email unsubscribe to user').data('subscribe', false); },
+				error: function(response) {  e.html('Email subscribe to user').data('subscribe', true); }
+			});
+		} else {
+			$.telligent.evolution.del({
+				url: $.telligent.evolution.site.getBaseUrl() + 'api.ashx/v2/usersubscriptions/{FollowerId}/following/{FollowingId}.json',
+				data: {  FollowerId: accessingUserId, FollowingId: userId },
+				dataType: 'json',
+				success: function(response) { e.html('Email subscribe to user').data('subscribe', true); },
+				error: function(response) {  e.html('Email subscribe to user').data('subscribe', false); }
+			});
+		}
+	});
+});</script><title>Power Tips: Calculate an R-C snubber in seven steps - Power management - Technical articles - TI E2E support forums</title>
+<link rel="canonical" href="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/calculate-an-r-c-snubber-in-seven-steps_002.html"><meta key="og:site_name" content="TI E2E support forums">
+<meta name="GENERATOR" content="Telligent Community 11">
+<meta name="keywords" content="UC1847-SP, power tips, UC1844A-SP, UC1843A-SP, UC1824A-SP, PMP6963, UC1825, UC1842A-SP, UC1846-SP, UC1834-SP, UC1845A-SP, UC1843-SP">
+<meta name="description" content="Ringing in switching power supplies can generate radiated and conducted noise, create circuit jitter and excessive dissipation, and easily overstress components. Ringing is a major concern in applications such as audio, processor power and any design...">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://e2e.ti.com/blogs_/b/powerhouse/posts/calculate-an-r-c-snubber-in-seven-steps">
+<meta property="og:description" content="Ringing in switching power supplies can generate radiated and conducted noise, create circuit jitter and excessive dissipation, and easily overstress components. Ringing is a major concern in applications such as audio, processor power and any design...">
+<meta property="og:title" content="Power Tips: Calculate an R-C snubber in seven steps">
+<meta name="e2e_group" content="Blogs">
+<meta name="e2e_group_family" content="Power management">
+<meta name="e2e_type" content="Blog"><link type="text/css" rel="stylesheet" href="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/screen.css"><link type="text/css" rel="stylesheet" href="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/print.css" media="print"><link type="text/css" rel="stylesheet" href="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/handheld.css" media="only screen and (max-width: 670px)"><link type="text/css" rel="stylesheet" href="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/tablet.css" media="only screen and (min-device-width: 671px) and (max-device-width: 1024px) and (orientation: landscape), only screen and (min-device-width: 671px) and (max-device-width: 1024px) and (orientation: portrait)"><meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+
+	
+	<link rel="apple-touch-icon" href="https://e2e.ti.com/cfs-file/__key/themefiles/tc-s-3fc3f82483d14ec485ef92e206116d49-00000000000000000000000000000000-favicon/tiicon.gif">
+<link type="text/css" rel="stylesheet" href="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/ti_style.css">
+<script type="text/javascript" src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/theme.js"></script>
+<script type="text/javascript">
+jQuery(function(j){
+	j.telligent.evolution.theme.social.register({
+		dockedSidebars:  true ,
+		adaptiveHeaders:  true ,
+		adaptiveHeadersMinWidth: 670
+	})
+});
+</script><script type="text/javascript" src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/e2e.js"></script>
+<link rel="stylesheet" href="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/style_003.css">
+<link rel="stylesheet" href="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/style_006.css">
+<link rel="stylesheet" href="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/scripted-file.css">
+<link rel="stylesheet" href="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/style_007.css">
+<link rel="stylesheet" href="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/style_004.css">
+<link rel="stylesheet" href="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/style_005.css">
+<link rel="stylesheet" href="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/style_002.css">
+<link rel="stylesheet" href="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/style_008.css">
+<link rel="stylesheet" href="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/style.css"><link rel="pingback" href="https://e2e.ti.com/blogs_/b/powerhouse/pingback"><link rel="alternate" type="application/rss+xml" title="Power management (RSS 2.0)" href="https://e2e.ti.com/blogs_/b/powerhouse/rss"><link rel="alternate" type="application/atom+xml" title="Power management  (Atom 1.0)" href="https://e2e.ti.com/blogs_/b/powerhouse/atom"><link rel="alternate" type="application/rss+xml" title="Power management - All Comments (RSS 2.0)" href="https://e2e.ti.com/blogs_/b/powerhouse/rsscomments"><link rel="alternate" type="application/rss+xml" title="Power management - Comments for this post (RSS 2.0)" href="https://e2e.ti.com/blogs_/b/powerhouse/rsscomments?WeblogPostID=668643"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://e2e.ti.com/blogs_/b/powerhouse/rsd"><link rel="wlwmanifest" type="application/wlwmanifest+xml" title="WLWManifest" href="https://e2e.ti.com/blogs_/b/powerhouse/wlwmanifest"><script>bazadebezolkohpepadr="1320689982"</script><script type="text/javascript" src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/4eb821e5" defer="defer"></script><script type="text/javascript" async="" charset="utf-8" src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/utag.87.js" id="utag_ti.main_87"></script><script type="text/javascript" async="" charset="utf-8" src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/utag.221.js" id="utag_ti.main_221"></script><script type="text/javascript" async="" charset="utf-8" src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/utag.246.js" id="utag_ti.main_246"></script><script type="text/javascript" async="" charset="utf-8" src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/utag.266.js" id="utag_ti.main_266"></script><script type="text/javascript" async="" charset="utf-8" src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/utag.272.js" id="utag_ti.main_272"></script><script type="text/javascript" async="" charset="utf-8" src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/utag.273.js" id="utag_ti.main_273"></script><script type="text/javascript" async="" charset="utf-8" src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/utag.274.js" id="utag_ti.main_274"></script><script type="text/javascript" async="" charset="utf-8" src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/utag.292.js" id="utag_ti.main_292"></script><link charset="utf-8" rel="preload" as="script" href="https://try.abtasty.com/shared/analytics.83df7232ecc10b085c04.js"><link type="image/png" rel="icon" href="https://e2e.ti.com/cfs-file/__key/themefiles/tc-s-3fc3f82483d14ec485ef92e206116d49-00000000000000000000000000000000-favicon/tiicon.gif"><link rel="stylesheet" type="text/css" id="u0" href="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/skin.min.css"><link rel="stylesheet" type="text/css" href="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/telligent.tinymce.ui.css"></head><body spellcheck="true" style="padding-top: 89px;" class="keyboard-active">
+
+
+<div class="single-column header-fragments evolution-reflow-container" data-related="_h_page" id="_h_singlecolumn" style="display:none"></div><div class="header-fragments evolution-reflow-container" data-related="_h_singlecolumn" id="_h_page" data-reflow-width="670"><div class="layout">
+<div class="layout-header"></div>
+<div class="layout-content header-top-content scrolled" id="_h_layout" style="visibility: visible; position: fixed; top: 0px; z-index: 10;"><div class="layout-region header" id="_h_header" style="position: static; top: 0px; z-index: 10;">
+<div class="layout-region-inner header"><div class="content-fragment site-banner no-wrapper responsive-1 	all
+" id="header-3332" data-reflow="_h_header,_h_singlecolumn,1,0,0">
+<div class="content-fragment-content">
+
+
+
+
+
+
+
+								
+
+
+	
+<style data-di-track="1">
+.header-fragments .layout .header-top-content .layout-region.header {
+	background-color: #FAFAFA;
+}
+
+.banner.site fieldset ul.field-list li.field-item .field-item-input input {
+	background-color: #FFFFFF;
+}
+
+
+.header-fragments .header-top-content .layout-region.header .banner.site .navigation-list ul a,
+.header-fragments .header-top-content .layout-region.header .banner.site .navigation-list ul a.active,
+.header-fragments .header-top-content .layout-region.header .banner.site fieldset ul li .field-item-input input,
+.header-fragments .header-top-content .layout-region.header .banner.site fieldset ul li .field-item-input input.active,
+.header-fragments .header-top-content .layout-region.header .banner.site fieldset ul.field-list li.field-item .field-item-input:after,
+.header-fragments .header-top-content .layout-region.header .banner.site fieldset ul.field-list li.field-item .field-item-input input.active,
+.header-fragments .header-top-content .layout-region.header .content-fragment.navigation-custom .navigation-list[data-direction='horizontal'] a {
+	color: #263238;
+}
+.header-fragments .header-top-content .layout-region.header .banner.site fieldset ul.field-list li.field-item .field-item-input input::placeholder {
+	color: #263238;
+}
+.header-fragments .header-top-content .layout-region.header .banner.site fieldset ul.field-list li.field-item .field-item-input input:-ms-input-placeholder {
+	color: #263238;
+}
+.header-fragments .header-top-content .layout-region.header .banner.site fieldset ul.field-list li.field-item .field-item-input input::-ms-input-placeholder {
+	color: #263238;
+}
+
+.header-fragments:hover .header-top-content .layout-region.header .banner.site .navigation-list ul a,
+.header-fragments:hover .header-top-content .layout-region.header .banner.site .navigation-list ul a.active,
+.header-fragments .header-top-content .layout-region.header .banner.site .navigation-list ul a.active,
+.header-fragments:hover .header-top-content .layout-region.header .banner.site fieldset ul li .field-item-input input,
+.header-fragments:hover .header-top-content .layout-region.header .banner.site fieldset ul li .field-item-input input.active,
+.header-fragments:hover .header-top-content .layout-region.header .banner.site fieldset ul.field-list li.field-item .field-item-input:after,
+.header-fragments:hover .header-top-content .layout-region.header .banner.site fieldset ul.field-list li.field-item .field-item-input input.active,
+.header-fragments .header-top-content .layout-region.header .content-fragment.navigation-custom .navigation-list[data-direction='horizontal'] a.subnav-open,
+.header-fragments .header-top-content .layout-region.header .content-fragment.navigation-custom .navigation-list[data-direction='horizontal'] a.links-expanded,
+.header-fragments:hover .header-top-content .layout-region.header .content-fragment.navigation-custom .navigation-list[data-direction='horizontal'] a {
+	color: #263238;
+}
+.header-fragments:hover .header-top-content .layout-region.header .banner.site fieldset ul.field-list li.field-item .field-item-input input::placeholder {
+	color: #263238;
+}
+.header-fragments:hover .header-top-content .layout-region.header .banner.site fieldset ul.field-list li.field-item .field-item-input input:-ms-input-placeholder {
+	color: #263238;
+}
+.header-fragments:hover .header-top-content .layout-region.header .banner.site fieldset ul.field-list li.field-item .field-item-input input::-ms-input-placeholder {
+	color: #263238;
+}
+.header-fragments .header-top-content .layout-region.header .content-fragment.navigation-custom .navigation-list[data-direction='horizontal'] a.selected:after {
+	background-color: #263238;
+}
+
+
+
+	.banner.site.with-site-navigation fieldset.search {
+		border-left: 1px solid #CFD8DC;
+		border-right: 1px solid #CFD8DC;
+	}
+	.header-fragments .layout .header-top-content .layout-region.header {
+		border-bottom: 1px solid #CFD8DC;
+	}
+
+.single-column .banner.site {
+	background-color: #FAFAFA;
+}
+.single-column .banner.site > .navigation-list.handheld ul a,
+.single-column .banner.site .container.handheld .user-links ul a {
+	color: #263238;
+}
+.single-column .banner.site > .navigation-list.handheld ul a.active,
+.single-column .banner.site .container.handheld .user-links ul a.active {
+	color: #263238;
+}
+	.single-column .content-fragment.site-banner  {
+		border-bottom: 1px solid #CFD8DC;
+	}
+.site-navigation {
+    display: none !important;
+}
+</style>
+
+<div class="banner site  all  " id="header-3332_banner">
+			<div class="avatar">
+																		<a href="https://www.ti.com/" title="Home" class="ui-tip">
+					<img src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/ic-logo.png-250x88.png-250x88.png" alt="TI E2E support forums" style="max-width:125px;max-height:44px;" border="0px">
+				</a>
+					</div>
+
+					<div class="name hidden">TI E2E support forums</div>
+		
+						<form><fieldset class="search" id="header-3332_searchFields">
+			<ul class="field-list">
+				<li class="field-item">
+					<span class="field-item-description hidden">
+						<label>Search</label>
+					</span>
+					<span class="field-item-input">
+						<input autocomplete="off" type="search" placeholder="Search" aria-label="Search" id="header-3332_Search">
+					</span>
+				</li>
+			</ul>
+		</fieldset></form>
+								<div class="navigation-list user-links" id="header-3332_bannerLinks">
+					<ul>
+																																																																				<li class="navigation-list-item">
+								<a href="https://e2e.ti.com/login?ReturnUrl=%2Fblogs_%2Fb%2Fpowerhouse%2Fposts%2Fcalculate-an-r-c-snubber-in-seven-steps" class="internal-link user with-icon ui-tip" title="Join or sign in">User</a>
+							</li>
+																																																												</ul>
+				</div>
+						<div class="navigation-list handheld">
+			<ul>
+				<li class="navigation-list-item">
+					<a href="#" class="site" id="header-3332_handheldSiteLinksLink" style="visibility: hidden;">Site</a>
+				</li>
+				<li class="navigation-list-item">
+					<a href="#" class="search" id="header-3332_handheldSearchFieldsLink">Search</a>
+				</li>
+				<li class="navigation-list-item">
+																		<a href="https://e2e.ti.com/login?ReturnUrl=%2Fblogs_%2Fb%2Fpowerhouse%2Fposts%2Fcalculate-an-r-c-snubber-in-seven-steps" class="user">User</a>
+															</li>
+			</ul>
+		</div>
+		<div class="container handheld">
+			<fieldset class="search" style="display:none" id="header-3332_handheldSearchFields"></fieldset>
+			<div class="user-links" style="display:none" id="header-3332_handheldBannerLinks"></div>
+		</div>
+	</div>
+
+</div>
+<div class="content-fragment-footer"></div>
+</div>
+</div>
+</div>
+<div class="layout-region content" id="_h_content">
+<div class="layout-region-inner content"><div class="content-fragment navigation-custom no-wrapper responsive-1 " id="header-3333" data-reflow="_h_content,_h_singlecolumn,1,1,1">
+<div class="content-fragment-content">
+
+
+
+
+	
+
+
+			<div class="navigation-list links" id="header-3333_container" data-minlinks="0" data-direction="horizontal" data-maxlinks="6" style="display: block; overflow: hidden; height: 44px;" data-reflow-wait-check-count="0" data-reflow-wait-timeout="null" data-finalized="true"><div style="overflow: auto hidden; height: 64px; visibility: visible;" class="container"><ul style="list-style: none; padding: 0px; margin: 0px; overflow: hidden; display: flex; width: 1220px;"><li class="navigation-list-item"><a href="https://e2e.ti.com/" style="">E2E™ design support &gt;</a></li><li class="navigation-list-item"><a href="https://e2e.ti.com/support/" style="">Forums</a><ul class="children" style="display: none;">
+																			<li>
+								<a href="https://e2e.ti.com/support/amplifiers-group/">Amplifiers</a>
+							</li>
+																			<li>
+								<a href="https://e2e.ti.com/support/audio-group/">Audio</a>
+							</li>
+																			<li>
+								<a href="https://e2e.ti.com/support/clock-timing-group/">Clock &amp; timing</a>
+							</li>
+																			<li>
+								<a href="https://e2e.ti.com/support/data-converters-group/">Data converters</a>
+							</li>
+																			<li>
+								<a href="https://e2e.ti.com/support/dlp-products-group/">DLP® products</a>
+							</li>
+																			<li>
+								<a href="https://e2e.ti.com/support/enterprise-automation-integration-group/"> Enterprise Automation Integration</a>
+							</li>
+																			<li>
+								<a href="https://e2e.ti.com/support/interface-group/">Interface</a>
+							</li>
+																			<li>
+								<a href="https://e2e.ti.com/support/isolation-group/">Isolation</a>
+							</li>
+																			<li>
+								<a href="https://e2e.ti.com/support/logic-group/">Logic</a>
+							</li>
+																			<li>
+								<a href="https://e2e.ti.com/support/microcontrollers/">Microcontrollers</a>
+							</li>
+																			<li>
+								<a href="https://e2e.ti.com/support/motor-drivers-group/">Motor drivers</a>
+							</li>
+																			<li>
+								<a href="https://e2e.ti.com/support/power-management-group/">Power management</a>
+							</li>
+																			<li>
+								<a href="https://e2e.ti.com/support/processors-group/">Processors</a>
+							</li>
+																			<li>
+								<a href="https://e2e.ti.com/support/rf-microwave-group/">RF &amp; microwave</a>
+							</li>
+																			<li>
+								<a href="https://e2e.ti.com/support/sensors-group/">Sensors</a>
+							</li>
+																			<li>
+								<a href="https://e2e.ti.com/support/site-support-group/">Site support</a>
+							</li>
+																			<li>
+								<a href="https://e2e.ti.com/support/switches-multiplexers-group/">Switches &amp; multiplexers</a>
+							</li>
+																			<li>
+								<a href="https://e2e.ti.com/support/tools/">Tools</a>
+							</li>
+																			<li>
+								<a href="https://e2e.ti.com/support/wireless-connectivity/">Wireless connectivity</a>
+							</li>
+																			<li>
+								<a href="https://e2e.ti.com/support/legacy_forums/subgrouplist">Archived forums</a>
+							</li>
+																			<li>
+								<a href="https://e2e.ti.com/support/archive/">Archived groups</a>
+							</li>
+													</ul></li><li class="navigation-list-item"><a href="https://e2e.ti.com/blogs_/" class="selected" style="">Technical articles</a><ul class="children" style="display: none;">
+																			<li>
+								<a href="https://e2e.ti.com/blogs_/b/analogwire">Analog</a>
+							</li>
+																			<li>
+								<a href="https://e2e.ti.com/blogs_/b/behind_the_wheel">Automotive</a>
+							</li>
+																			<li>
+								<a href="https://e2e.ti.com/blogs_/b/enlightened">DLP® technology</a>
+							</li>
+																			<li>
+								<a href="https://e2e.ti.com/blogs_/b/process">Embedded processing</a>
+							</li>
+																			<li>
+								<a href="https://e2e.ti.com/blogs_/b/industrial_strength">Industrial</a>
+							</li>
+																			<li>
+								<a href="https://e2e.ti.com/blogs_/b/powerhouse" class="selected">Power management</a>
+							</li>
+													</ul></li><li class="navigation-list-item"><a href="https://training.ti.com/" style="">TI training</a><ul class="children" style="display: none;">
+																			<li>
+								<a href="https://www.ti.com/ww/en/techdays/index.html">Tech days</a>
+							</li>
+																			<li>
+								<a href="https://training.ti.com/">Online training</a>
+							</li>
+																			<li>
+								<a href="https://training.ti.com/search-catalog/type/classroom/type/webcast">Live events</a>
+							</li>
+																			<li>
+								<a href="https://www.ti.com/ww/en/power_supply_design_seminars/index.html">Power Supply Design Seminar</a>
+							</li>
+													</ul></li><li class="navigation-list-item"><a href="https://e2e.ti.com/support/site-support/f/site-support-forum/761620/faq-getting-started-in-e2e" style="">Getting started</a></li><li class="navigation-list-item"><a href="https://e2echina.ti.com/" style="">简体中文</a></li><li style="display: none;"></li></ul></div></div>
+		</div>
+<div class="content-fragment-footer"></div>
+</div>
+<div class="content-fragment header-fragment t-i-header no-wrapper responsive-1 " id="header-3334" data-reflow="_h_content,_h_singlecolumn,1,1,2">
+<div class="content-fragment-content">
+
+
+<script src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/personalization.js"></script>
+<script language="javascript" type="text/javascript" src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/includes_pg.js"></script>
+<script type="text/javascript" src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/lib.js"></script>
+</div>
+<div class="content-fragment-footer"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="layout-footer"></div>
+</div><input type="hidden" name="_h_state" id="_h_state" value=""></div>
+<div class="single-column content-fragment-page post evolution-reflow-container" data-related="_p_page" id="_p_singlecolumn" style="display:none"></div><div class="content-fragment-page post evolution-reflow-container" data-related="_p_singlecolumn" id="_p_page" data-reflow-width="670"><div class="layout">
+<div class="layout-header"></div>
+<div class="layout-content content-left-sidebar-right" id="_p_layout"><div class="layout-region right-sidebar" id="_p_right-sidebar" style="position: relative;">
+<div class="layout-region-inner right-sidebar" style="position: fixed; top: 0px; width: 230px;"><div class="content-fragment blog-details no-wrapper responsive-2 " id="fragment-322565" data-reflow="_p_right-sidebar,_p_singlecolumn,2,5,0">
+<div class="content-fragment-content">
+
+
+
+
+<div class="content-details">
+
+						<div class="content-tags">
+				<ul class="tag-list">
+											<li class="tag-item">
+					<a href="https://e2e.ti.com/tags/UC1847_2D00_SP" rel="tag">UC1847-SP</a>
+				</li>
+														<li class="tag-item">
+					<a href="https://e2e.ti.com/tags/power%2btips" rel="tag">power tips</a>
+				</li>
+														<li class="tag-item">
+					<a href="https://e2e.ti.com/tags/UC1844A_2D00_SP" rel="tag">UC1844A-SP</a>
+				</li>
+														<li class="tag-item">
+					<a href="https://e2e.ti.com/tags/UC1843A_2D00_SP" rel="tag">UC1843A-SP</a>
+				</li>
+														<li class="tag-item">
+					<a href="https://e2e.ti.com/tags/UC1824A_2D00_SP" rel="tag">UC1824A-SP</a>
+				</li>
+														<li class="tag-item">
+					<a href="https://e2e.ti.com/tags/PMP6963" rel="tag">PMP6963</a>
+				</li>
+														<li class="tag-item">
+					<a href="https://e2e.ti.com/tags/UC1825" rel="tag">UC1825</a>
+				</li>
+														<li class="tag-item">
+					<a href="https://e2e.ti.com/tags/UC1842A_2D00_SP" rel="tag">UC1842A-SP</a>
+				</li>
+														<li class="tag-item">
+					<a href="https://e2e.ti.com/tags/UC1846_2D00_SP" rel="tag">UC1846-SP</a>
+				</li>
+														<li class="tag-item">
+					<a href="https://e2e.ti.com/tags/UC1834_2D00_SP" rel="tag">UC1834-SP</a>
+				</li>
+														<li class="tag-item">
+					<a href="https://e2e.ti.com/tags/UC1845A_2D00_SP" rel="tag">UC1845A-SP</a>
+				</li>
+														<li class="tag-item">
+					<a href="https://e2e.ti.com/tags/UC1843_2D00_SP" rel="tag">UC1843-SP</a>
+				</li>
+									</ul>
+			</div>
+			
+	<ul class="attribute-list">
+
+				
+		
+					<li class="attribute-item like ">
+				<span class="attribute-name"></span>
+				<span class="attribute-value">
+															<span class="ui-presentcontent ui-like ui-tip" data-presentcontents="198a11e588144fac90dd978af40b2d08|f7d226abd59f475c9d224a79e3f0ec07|" data-tipcontent="initialmessage" data-contentid="198a11e5-8814-4fac-90dd-978af40b2d08" data-contenttypeid="f7d226ab-d59f-475c-9d22-4a79e3f0ec07" data-initialcount="6" data-initialstate="false" data-readonly="true" data-initialmessage="&lt;a href=&quot;/members/4117291&quot; class=&quot;internal-link view-user-profile&quot;&gt;Hubert Aigner&lt;/a&gt; and &lt;span class=&quot;who-likes&quot;&gt;5 others&lt;/span&gt; like this" data-format="{count}" data-configuration="Format=%7Bcount%7D&amp;IncludeLike=true&amp;IncludeTip=true"><span class="like-count who-likes" data-count="6">6</span></span>
+				</span>
+			</li>
+		
+			</ul>
+</div>
+
+	</div>
+<div class="content-fragment-footer"></div>
+</div>
+<div id="fragment-322566"></div>
+<div class="content-fragment blog-links no-wrapper responsive-2 " id="fragment-322567" data-reflow="_p_right-sidebar,_p_singlecolumn,2,5,2">
+<div class="content-fragment-content">
+
+
+
+	<div class="navigation-list links" data-minlinks="2" data-direction="vertical" data-maxlinks="0" style="display: block;" data-reflow-wait-check-count="0" data-reflow-wait-timeout="null" data-finalized="true"><div class="container"><ul style="list-style: none; padding: 0px; margin: 0px; overflow: hidden; visibility: visible;"><li style="display: none;"><a href="mailto:?subject=Power Tips: Calculate an R-C snubber in seven steps&amp;body=https://e2e.ti.com/blogs_/b/powerhouse/posts/calculate-an-r-c-snubber-in-seven-steps" class="internal-link email-post"><span></span>Share</a></li><li style="display: none;"><a href="https://e2e.ti.com/blogs_/b/powerhouse/contact" class="internal-link view-contact"><span></span>Contact author</a></li><li style="display: none;"><a href="#" onclick="jQuery.glowModal('https://e2e.ti.com:443/utility/scripted-file.ashx?_cf=subscribebyemail.vm\u0026_fid=322567\u0026_wid=fragment-322567\u0026_ct=page\u0026_cp=post\u0026_ctt=a3b17ab0af5f11dda3501fcf55d89593\u0026_ctc=723c949e09854804a492ad89ae8a9998\u0026_ctn=3fc3f82483d14ec485ef92e206116d49\u0026_cc=0\u0026_ipd=0\u0026_pcurl=~%2Fblogs_%2Fb%2Fpowerhouse%2Fposts%2Fcalculate-an-r-c-snubber-in-seven-steps\u0026BlogId=359', { width: 400, height: 200 }); return false;">Subscribe by email</a></li><li><a href="#" data-more="">More</a></li></ul></div></div>
+
+</div>
+<div class="content-fragment-footer"></div>
+</div>
+<div class="content-fragment more-content no-wrapper with-header with-spacing responsive-2 
+			as-slider
+		" id="fragment-322568" data-reflow="_p_right-sidebar,_p_singlecolumn,2,5,3" style="display: none;">
+<div class="content-fragment-header">
+Similar topics
+			</div>
+<div class="content-fragment-content">
+
+<div id="fragment-322568_delayedPagedContentWrapper"></div>
+			</div>
+<div class="content-fragment-footer"></div>
+</div>
+<div class="content-fragment more-content no-wrapper with-header with-spacing responsive-2 
+			as-slider
+		" id="fragment-322569" data-reflow="_p_right-sidebar,_p_singlecolumn,2,5,4" style="display: none;">
+<div class="content-fragment-header">
+Recommended
+			</div>
+<div class="content-fragment-content">
+
+<div id="fragment-322569_delayedPagedContentWrapper"></div>
+			</div>
+<div class="content-fragment-footer"></div>
+</div>
+</div>
+<div class="layout-region-inner right-sidebar" visibility="hidden" style="height: 465.2px;"></div></div>
+<div class="layout-region content" id="_p_content">
+<div class="layout-region-inner content"><div class="content-fragment blog-title no-wrapper responsive-1 " id="fragment-322570" data-reflow="_p_content,_p_singlecolumn,1,1,5">
+<div class="content-fragment-content">
+        	
+			<h1 class="title">Power Tips: Calculate an R-C snubber in seven steps</h1>
+			</div>
+<div class="content-fragment-footer"></div>
+</div>
+<div id="fragment-322571"></div>
+<div class="content-fragment blog-post-byline no-wrapper with-spacing responsive-1 " id="fragment-322572" data-reflow="_p_content,_p_singlecolumn,1,1,7">
+<div class="content-fragment-content">
+
+
+
+
+<div class="content-details">
+	<div class="content-author">
+		<div class="avatar">
+							<a href="https://e2e.ti.com/members/8549">
+					<img src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/4TUN121I82PL.jpg-80x80x2.jpg" alt="John Betten" border="0px">
+				</a>
+					</div>
+		<span class="user-name">
+							<a href="https://e2e.ti.com/members/8549" class="internal-link view-user-profile">
+					John Betten
+				</a>
+					</span>
+	</div>
+	<div class="content-date">
+		<time datetime="2016-05-05T19:50:00.000Z">May 5, 2016</time>
+	</div>
+</div>
+
+		</div>
+<div class="content-fragment-footer"></div>
+</div>
+<div id="fragment-322573"></div>
+<div class="content-fragment blog-post no-wrapper with-spacing responsive-1 " id="fragment-322574" data-reflow="_p_content,_p_singlecolumn,1,1,9">
+<div class="content-fragment-content">
+
+
+
+
+
+<div class="content full text">
+			<div class="content"><p>Ringing in switching power supplies can 
+generate radiated and conducted noise, create circuit jitter and 
+excessive dissipation, and easily overstress components. Ringing is a 
+major concern in applications such as audio, processor power and any 
+design that requires electromagnetic interference (EMI) qualification.</p>
+<p>Often, you can tame the circuit by adding a simple resistor-capacitor
+ (R-C) snubber to “damp out the ringing.” In this post, I’ll outline a 
+seven-step procedure that can help take the guesswork out of selecting 
+your snubber values.</p>
+<p>Ringing can occur in any switching converter where an inductance and a
+ capacitance form an inductor-capacitor (L-C) tank. The inductance may 
+be from component leads, printed circuit board traces and transformer 
+leakage, while the capacitance may be due to nonlinear components such 
+as rectifiers and interwinding transformer capacitance. The ring 
+frequency and amplitude are generally unknown since most circuit 
+parasitics are typically unknown. Two common locations where excessive 
+ringing occurs (at least in converters such as a flyback) are across the
+ rectifier diode and the switching FET. One simple solution to reduce 
+this ringing is by damping or “snubbing” it with a series R-C circuit, 
+typically placed directly across the rectifier or FET.</p>
+<p>The seven-step procedure shown in Table 1 uses a common methodology 
+that shifts the resonant frequency of the ringing to calculate the 
+circuit’s parasitic capacitance (C<sub>o</sub>) and inductance (L). Once you know those, you can calculate the snubber capacitor (<em>C<sub>snub</sub></em>)&nbsp;and resistor (<em>R<sub>snu</sub><sub>b</sub></em>). I took the example waveforms in Figures 1 and 2 with an R-C snubber placed in parallel with the rectifier in the <a href="http://www.ti.com/tool/PMP6963?keyMatch=pmp6963&amp;tisearch=Search-EN-Everything" target="_blank">9Vdc-57Vdc Input, 56V/20W Isolated Flyback Reference Design</a>, but the procedure is the same if used across the FET.&nbsp;</p>
+<p><a href="https://e2e.ti.com/cfs-file/__key/communityserver-blogs-components-weblogfiles/00-00-00-03-59/tables.jpg"><img src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/tables.jpg-400x0.jpg" style="display: block; margin-left: auto; margin-right: auto; cursor: zoom-in;" alt=" "></a></p>
+<p style="text-align:center;"><b>Figure 1: Unsnubbed rectifier ringing (top) and frequency-shifted ringing (bottom)</b><b></b></p>
+<p style="text-align:center;"><b><img src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/step.PNG-550x0.png" alt=" " style="cursor: zoom-in;"><br></b></p>
+<p>Figure 2 shows the spike reduction and damping effect of the 
+calculated values. You can adjust the ringing higher or lower by varying
+ the <em>C<sub>snub</sub></em>&nbsp;value. Larger values for <em>C<sub>snub</sub></em>&nbsp;reduce the voltage-spike amplitude further, but increase power loss in <em>R<sub>snub</sub></em>.</p>
+<p>Alternatively, you can decrease the power dissipation in <em>R<sub>snub</sub></em>&nbsp;by lowering <em>C<sub>snub</sub></em>, but ringing will increase. You must weigh the trade-off between acceptable voltage-ring amplitude and&nbsp;<em>R<sub>snub</sub></em>&nbsp;losses.</p>
+<p style="text-align:center;"><b><img src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/graph2a.jpg-500x0.jpg" alt=" " style="cursor: zoom-in;"><br></b></p>
+<p>Undamped ringing in switching converters can create excessive EMI and
+ overstress components. A properly calculated R-C snubber can be 
+instrumental in taming these issues. I hope you’ll find my seven-step 
+procedure simple to follow and a good starting point to help you damp 
+out the ringing. For more about the topic covered here, see my EETimes 
+Power Tips post “<a href="http://www.eetimes.com/author.asp?section_id=36&amp;doc_id=1329490" target="_blank">Calculating an R-C snubber</a>.”&nbsp;<b style="text-align:center;">&nbsp;</b></p><div style="clear:both;"></div></div>
+				</div>
+		</div>
+<div class="content-fragment-footer"></div>
+</div>
+<div class="content-fragment threaded-comments no-wrapper with-spacing responsive-1 " id="fragment-322575" data-reflow="_p_content,_p_singlecolumn,1,1,10">
+<div class="content-fragment-content">
+
+
+
+
+
+
+
+	
+	<div class="comment-form">
+	    
+
+
+
+
+
+
+
+<div id="fragment-322575_statisticsWrapper" class="comment-statistics">	<ul class="attribute-list">
+
+	<li class="attribute-item count">
+		<span class="value prepend-icon comment">
+			
+				12 comments
+			
+		</span>
+	</li>
+
+
+	<li class="attribute-item users">
+		<span class="value prepend-icon user">
+			
+				1 member is here
+			
+		</span>
+	</li>
+
+</ul>
+</div>
+
+		<div class="author" data-authorprofileurl="">
+			<div class="avatar">
+									<img src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/default.png-44x44x2.png" alt="Anonymous" border="0px">
+							</div>
+					</div>
+		<fieldset>
+			<ul class="field-list">
+				<li class="field-item post-body">
+					<span class="field-item-input">
+												
+						
+						
+						
+						
+													
+							
+												<div id="mceu_7" class="mce-tinymce mce-container mce-panel mce-editor-submittable mce-editor-desktop mce-editor-blur" hidefocus="1" tabindex="-1" role="application" style="visibility: hidden; border-width: 1px; height: auto; overflow: visible;"><div id="mceu_7-body" class="mce-container-body mce-stack-layout"><div id="mceu_8" class="mce-container mce-menubar mce-toolbar mce-stack-layout-item mce-first" role="menubar" style="border-width: 0px 0px 1px; display: none;"><div id="mceu_8-body" class="mce-container-body mce-flow-layout"><div id="mceu_9" class="mce-widget mce-btn mce-menubtn mce-flow-layout-item mce-first mce-btn-has-text" tabindex="-1" aria-labelledby="mceu_9" role="menuitem" aria-haspopup="true"><button id="mceu_9-open" role="presentation" type="button" tabindex="-1"><span class="mce-txt">Edit</span> <i class="mce-caret"></i></button></div><div id="mceu_10" class="mce-widget mce-btn mce-menubtn mce-flow-layout-item mce-btn-has-text" tabindex="-1" aria-labelledby="mceu_10" role="menuitem" aria-haspopup="true"><button id="mceu_10-open" role="presentation" type="button" tabindex="-1"><span class="mce-txt">Insert</span> <i class="mce-caret"></i></button></div><div id="mceu_11" class="mce-widget mce-btn mce-menubtn mce-flow-layout-item mce-btn-has-text" tabindex="-1" aria-labelledby="mceu_11" role="menuitem" aria-haspopup="true"><button id="mceu_11-open" role="presentation" type="button" tabindex="-1"><span class="mce-txt">Format</span> <i class="mce-caret"></i></button></div><div id="mceu_12" class="mce-widget mce-btn mce-menubtn mce-flow-layout-item mce-last mce-btn-has-text" tabindex="-1" aria-labelledby="mceu_12" role="menuitem" aria-haspopup="true"><button id="mceu_12-open" role="presentation" type="button" tabindex="-1"><span class="mce-txt">Tools</span> <i class="mce-caret"></i></button></div></div></div><div id="mceu_16" class="mce-edit-area mce-container mce-panel mce-stack-layout-item mce-last" hidefocus="1" tabindex="-1" role="group" style="border-width: 0px 0px 1px; position: relative;"><iframe id="fragment-322575_fragment-322575_createEditor_ifr" allowtransparency="true" title="Rich Text Area. Press ALT-F9 for menu. Press ALT-F10 for toolbar. Press ALT-0 for help" style="width: 100%; height: 60px; display: block;" src='javascript:""' frameborder="0"></iframe><div class="mce-placeholder">Leave a comment...</div><div style="position: absolute; top: 0px; left: 0px;"><div class="mceDragDropShade" style="position: absolute; display: none; left: 0px; top: 0px;"></div><div class="mceDragDropMessage" style="position: absolute; display: none; left: 0px; top: 0px;"></div></div></div><div id="mceu_13" class="mce-toolbar-grp mce-container mce-panel mce-stack-layout-item" hidefocus="1" tabindex="-1" role="group"><div id="mceu_13-body" class="mce-container-body mce-stack-layout"><div id="mceu_14" class="mce-container mce-toolbar mce-stack-layout-item mce-first mce-last" role="toolbar"><div id="mceu_14-body" class="mce-container-body mce-flow-layout"><div id="mceu_15" class="mce-container mce-flow-layout-item mce-first mce-last mce-btn-group" style="width: 100%;" role="group"><div id="mceu_15-body" style="white-space: normal;"><div id="mceu_0" class="mce-widget mce-btn mce-menubtn mce-first mce-btn-has-text" tabindex="-1" aria-labelledby="mceu_0" role="button" aria-haspopup="true"><button id="mceu_0-open" role="presentation" type="button" tabindex="-1"><span class="mce-txt">Edit</span> <i class="mce-caret"></i></button></div><div id="mceu_1" class="mce-widget mce-btn mce-menubtn mce-btn-has-text" tabindex="-1" aria-labelledby="mceu_1" role="button" aria-haspopup="true"><button id="mceu_1-open" role="presentation" type="button" tabindex="-1"><span class="mce-txt">Insert</span> <i class="mce-caret"></i></button></div><div id="mceu_2" class="mce-widget mce-btn mce-menubtn mce-btn-has-text" tabindex="-1" aria-labelledby="mceu_2" role="button" aria-haspopup="true"><button id="mceu_2-open" role="presentation" type="button" tabindex="-1"><span class="mce-txt">Format</span> <i class="mce-caret"></i></button></div><div id="mceu_3" class="mce-widget mce-btn mce-menubtn mce-btn-has-text" tabindex="-1" aria-labelledby="mceu_3" role="button" aria-haspopup="true"><button id="mceu_3-open" role="presentation" type="button" tabindex="-1"><span class="mce-txt">Tools</span> <i class="mce-caret"></i></button></div><div id="mceu_4" class="mce-widget mce-btn" tabindex="-1" aria-labelledby="mceu_4" role="button" aria-label="Bullet list"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-bullist"></i></button></div><div id="mceu_5" class="mce-widget mce-btn" tabindex="-1" aria-labelledby="mceu_5" role="button" aria-label="Numbered list"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-numlist"></i></button></div><div id="mceu_6" class="mce-widget mce-submitpanel mce-last" role="presentation" aria-haspopup="false"><div class="mce-widget mce-btn mce-primary mce-btn-has-text mce-submitpanel-button" id="mceu_6_send" tabindex="0" role="button"><button style="width:100%; height:100%;" tabindex="-1" type="button"><span class="mce-txt">Login and Comment</span></button></div></div></div></div></div></div></div></div></div></div><textarea id="fragment-322575_fragment-322575_createEditor" style="display: none;" aria-hidden="true"></textarea>
+<script type="text/javascript">
+jQuery(function() { jQuery('#fragment-322575_fragment-322575_createEditor').evolutionHtmlEditor({ width: '100%', height: '60px', submittable: true,contentTypeId:'9262536b-49a3-4494-802f-04dff10424ed',enterToSubmitPrompt:'Enter to Login and Comment',submitLabel:'Login and Comment',beforeSubmitHtml:'',afterSubmitHtml:'',placeholder:'Leave a comment...',autoResize:true,enableEnterToSubmitToggle:true}).on('evolutionHtmlEditorSubmit', function(e) { (function() { jQuery.telligent.evolution.messaging.publish('widgets.comments.submit', { from: 'fragment-322575',  login: true  }); })(e.html); }); });</script>
+					</span>
+					<span class="field-item-validation" style="display: none;"></span>
+					<span class="processing"><span class="ui-loading" data-width="45" data-height="15" style="display: block; width: 45px; height: 15px; margin: 0px auto; padding: 0px; text-align: center; box-sizing: border-box;"><div class="spinner"><div class="bounce1" style="width:15px;height:15px;background-color:rgb(51, 51, 51);"></div><div class="bounce2" style="width:15px;height:15px;background-color:rgb(51, 51, 51);"></div><div class="bounce3" style="width:15px;height:15px;background-color:rgb(51, 51, 51);"></div></div></span></span>
+				</li>
+			</ul>
+		</fieldset>
+	</div>
+
+	
+
+	<div class="best-replies-wrapper" id="fragment-322575_bestRepliesWrapper">
+		
+
+
+
+
+
+
+
+
+				
+			<div class="threaded-summary">
+			<h2>Top Comments</h2>
+			<ul class="content-list">
+							<li class="content-item">
+				<div class="author" data-authorprofileurl="/members/6762986">
+					<div class="avatar">
+													<a href="https://e2e.ti.com/members/6762986" class="internal-link view-user-profile">
+								<img src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/default.png-44x44x2.png" alt="Jackson James" border="0px">
+							</a>
+											</div>
+					<div class="meta">
+						<span class="user-name">
+							<span class="ui-userpresence ui-tip " style="display: none;" data-userid="496293" data-contentid="5ecad040-429b-4ec6-a8dc-b89f8b9f8bd9" data-contenttypeid="e9ed4118-60ed-4f2b-a026-5705b8793d05" data-present="" data-presentlabel="Online" data-notpresentlabel="Offline" data-tip=""></span>
+															<a href="https://e2e.ti.com/members/6762986" class="internal-link view-user-profile">
+									Jackson James
+								</a>
+													</span>
+						<a href="https://e2e.ti.com/blogs_/b/powerhouse/posts/calculate-an-r-c-snubber-in-seven-steps?CommentId=a4077a5e-4066-4019-91d4-dce1b7990d58" class="internal-link view-post navigable">
+							<span class="ui-agodate ui-tip " data-tip="Aug 21, 2021 10:52 AM" data-dateutc="2021-08-21T10:52:29.537Z"><time datetime="2021-08-21T10:52:29.537Z">over 2 years ago</time></span>
+						</a>
+												<span class="votes">+1</span>
+					</div>
+				</div>
+				<a href="https://e2e.ti.com/blogs_/b/powerhouse/posts/calculate-an-r-c-snubber-in-seven-steps?CommentId=a4077a5e-4066-4019-91d4-dce1b7990d58" class="internal-link view-full-post navigable ui-tip" data-tip="View Comments">
+					</a><div class="content user-defined-markup"><a href="https://e2e.ti.com/blogs_/b/powerhouse/posts/calculate-an-r-c-snubber-in-seven-steps?CommentId=a4077a5e-4066-4019-91d4-dce1b7990d58" class="internal-link view-full-post navigable ui-tip" data-tip="View Comments"></a><p><a href="https://e2e.ti.com/blogs_/b/powerhouse/posts/calculate-an-r-c-snubber-in-seven-steps?CommentId=a4077a5e-4066-4019-91d4-dce1b7990d58" class="internal-link view-full-post navigable ui-tip" data-tip="View Comments"><span>I would agree that the inductance may be from component leads, printed circuit board traces and transformer leakage, while </span></a><a href="https://costamesatreecare.com/">stump removal</a> the capacitance may be due to nonlinear components such as rectifiers…</p></div>
+				
+			</li>
+														</ul>
+		</div>
+	
+	</div>
+
+
+
+<div class="threaded-wrapper-outer">
+	<div class="typing-status-wrapper root"></div>
+	<div class="threaded-wrapper" id="fragment-322575_preRenderedWrapperId" style="display: block;"><div class="reply-header">	<div class="threaded-filter" id="fragment-322575_filter">
+	<ul class="filter order margin-bottom margin-top">
+		<li class="filter-option" data-sortby="CreatedDate" data-sortorder="Ascending">
+			<a class="navigable" href="https://e2e.ti.com/blogs_/b/powerhouse/posts/calculate-an-r-c-snubber-in-seven-steps?CommentSortBy=CreatedDate&amp;CommentSortOrder=Ascending">Oldest</a>
+		</li>
+					<li class="filter-option selected" data-sortby="Votes" data-sortorder="Descending">
+				<a class="navigable" href="https://e2e.ti.com/blogs_/b/powerhouse/posts/calculate-an-r-c-snubber-in-seven-steps?CommentSortBy=Votes&amp;CommentSortOrder=Descending">Best</a>
+			</li>
+				<li class="filter-option" data-sortby="CreatedDate" data-sortorder="Descending">
+			<a class="navigable" href="https://e2e.ti.com/blogs_/b/powerhouse/posts/calculate-an-r-c-snubber-in-seven-steps?CommentSortBy=CreatedDate&amp;CommentSortOrder=Descending">Newest</a>
+		</li>
+	</ul>
+</div>
+
+</div><ul class="content-list threaded" data-sortby="Votes" data-sortorder="Descending"><li class="threaded content-item " data-id="a4077a5e-4066-4019-91d4-dce1b7990d58" data-parentid="null" data-createddate="2021-08-21T10:52:29.5370000Z" data-yesvotes="1" data-novotes="0">
+
+	<div class="rendered-content">
+		
+
+<div class="author" data-authorprofileurl="/members/6762986">
+	<div class="avatar">
+					<a href="https://e2e.ti.com/members/6762986" class="internal-link view-user-profile">
+				<img src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/default.png-44x44x2.png" alt="Jackson James" border="0px">
+			</a>
+			</div>
+	<div class="meta">
+		<span class="user-name">
+			<span class="ui-userpresence ui-tip " style="display: none;" data-userid="496293" data-contentid="5ecad040-429b-4ec6-a8dc-b89f8b9f8bd9" data-contenttypeid="e9ed4118-60ed-4f2b-a026-5705b8793d05" data-present="" data-presentlabel="Online" data-notpresentlabel="Offline" data-tip=""></span>
+											<a href="https://e2e.ti.com/members/6762986" class="internal-link view-user-profile">
+					Jackson James
+				</a>
+					</span>
+		<a href="https://e2e.ti.com/blogs_/b/powerhouse/posts/calculate-an-r-c-snubber-in-seven-steps?CommentId=a4077a5e-4066-4019-91d4-dce1b7990d58" class="internal-link view-post navigable reply-permalink">
+			<span class="ui-agodate ui-tip " data-tip="Aug 21, 2021 10:52 AM" data-dateutc="2021-08-21T10:52:29.537Z"><time datetime="2021-08-21T10:52:29.537Z">over 2 years ago</time></span>
+		</a>
+			</div>
+</div>
+<div class="content full threaded-reply-content user-defined-markup">
+			<div class="content"><p><span>I would agree that the inductance may be from component leads, printed circuit board traces and transformer leakage, while <a href="https://costamesatreecare.com/">stump removal</a> the capacitance may be due to nonlinear components such as rectifiers and interwinding transformer capacitance.&nbsp;</span></p><div style="clear:both;"></div></div>
+	</div>
+<div class="edit-form"></div>
+<div class="actions meta edit">
+	<div class="navigation-list" data-maxlinks="1" data-direction="horizontal" data-reflow-wait-check-count="0" data-reflow-wait-timeout="null"></div>
+</div>
+<div class="actions meta default">
+		 		 		<div class="navigation-list" data-maxlinks="3" data-direction="horizontal" data-reflow-wait-check-count="0" data-reflow-wait-timeout="null"></div>
+</div>
+		<div class="typing-status-wrapper"></div>
+		<div class="new-replies-wrapper"></div>
+	</div>
+
+	<div class="newreply"></div>
+
+	<ul class="content-list threaded" data-sortby="Votes" data-sortorder="Descending"></ul>
+
+</li><li class="threaded content-item " data-id="a5c5a8f9-ee0c-4bbb-8654-4ea3a9deea19" data-parentid="null" data-createddate="2016-05-19T13:13:33.8630000Z" data-yesvotes="0" data-novotes="0">
+
+	<div class="rendered-content">
+		
+
+<div class="author" data-authorprofileurl="/members/1496018">
+	<div class="avatar">
+					<a href="https://e2e.ti.com/members/1496018" class="internal-link view-user-profile">
+				<img src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/default.png-44x44x2.png" alt="mechaniK" border="0px">
+			</a>
+			</div>
+	<div class="meta">
+		<span class="user-name">
+			<span class="ui-userpresence ui-tip " style="display: none;" data-userid="47424" data-contentid="8a393269-74bd-4dcd-8c56-38c539e4b204" data-contenttypeid="e9ed4118-60ed-4f2b-a026-5705b8793d05" data-present="" data-presentlabel="Online" data-notpresentlabel="Offline" data-tip=""></span>
+											<a href="https://e2e.ti.com/members/1496018" class="internal-link view-user-profile">
+					mechaniK
+				</a>
+					</span>
+		<a href="https://e2e.ti.com/blogs_/b/powerhouse/posts/calculate-an-r-c-snubber-in-seven-steps?CommentId=a5c5a8f9-ee0c-4bbb-8654-4ea3a9deea19" class="internal-link view-post navigable reply-permalink">
+			<span class="ui-agodate ui-tip " data-tip="May 19, 2016 1:13 PM" data-dateutc="2016-05-19T13:13:33.863Z"><time datetime="2016-05-19T13:13:33.863Z">over 7 years ago</time></span>
+		</a>
+			</div>
+</div>
+<div class="content full threaded-reply-content user-defined-markup">
+			<div class="content"><p>Very educative and just awesome way to learn and practice.</p>
+<div style="clear:both;"></div></div>
+	</div>
+<div class="edit-form"></div>
+<div class="actions meta edit">
+	<div class="navigation-list" data-maxlinks="1" data-direction="horizontal" data-reflow-wait-check-count="0" data-reflow-wait-timeout="null"></div>
+</div>
+<div class="actions meta default">
+		 		 		<div class="navigation-list" data-maxlinks="3" data-direction="horizontal" data-reflow-wait-check-count="0" data-reflow-wait-timeout="null"></div>
+</div>
+		<div class="typing-status-wrapper"></div>
+		<div class="new-replies-wrapper"></div>
+	</div>
+
+	<div class="newreply"></div>
+
+	<ul class="content-list threaded" data-sortby="Votes" data-sortorder="Descending"></ul>
+
+</li><li class="threaded content-item " data-id="605cf7a2-d67a-4eb9-a1aa-0d913e4d7f1d" data-parentid="null" data-createddate="2017-11-07T09:50:27.0570000Z" data-yesvotes="0" data-novotes="0">
+
+	<div class="rendered-content">
+		
+
+<div class="author" data-authorprofileurl="/members/4811595">
+	<div class="avatar">
+					<a href="https://e2e.ti.com/members/4811595" class="internal-link view-user-profile">
+				<img src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/default.png-44x44x2.png" alt="DEEPAK V14" border="0px">
+			</a>
+			</div>
+	<div class="meta">
+		<span class="user-name">
+			<span class="ui-userpresence ui-tip " style="display: none;" data-userid="304363" data-contentid="08864f7a-ced5-4ca1-9cf7-a9c879a0886d" data-contenttypeid="e9ed4118-60ed-4f2b-a026-5705b8793d05" data-present="" data-presentlabel="Online" data-notpresentlabel="Offline" data-tip=""></span>
+											<a href="https://e2e.ti.com/members/4811595" class="internal-link view-user-profile">
+					DEEPAK V14
+				</a>
+					</span>
+		<a href="https://e2e.ti.com/blogs_/b/powerhouse/posts/calculate-an-r-c-snubber-in-seven-steps?CommentId=605cf7a2-d67a-4eb9-a1aa-0d913e4d7f1d" class="internal-link view-post navigable reply-permalink">
+			<span class="ui-agodate ui-tip " data-tip="Nov 7, 2017 9:50 AM" data-dateutc="2017-11-07T09:50:27.057Z"><time datetime="2017-11-07T09:50:27.570Z">over 5 years ago</time></span>
+		</a>
+			</div>
+</div>
+<div class="content full threaded-reply-content user-defined-markup">
+			<div class="content"><p>Thanks John</p>
+<div style="clear:both;"></div></div>
+	</div>
+<div class="edit-form"></div>
+<div class="actions meta edit">
+	<div class="navigation-list" data-maxlinks="1" data-direction="horizontal" data-reflow-wait-check-count="0" data-reflow-wait-timeout="null"></div>
+</div>
+<div class="actions meta default">
+		 		 		<div class="navigation-list" data-maxlinks="3" data-direction="horizontal" data-reflow-wait-check-count="0" data-reflow-wait-timeout="null"></div>
+</div>
+		<div class="typing-status-wrapper"></div>
+		<div class="new-replies-wrapper"></div>
+	</div>
+
+	<div class="newreply"></div>
+
+	<ul class="content-list threaded" data-sortby="Votes" data-sortorder="Descending"></ul>
+
+</li><li class="threaded content-item " data-id="6437ef8c-122b-4528-a67f-0c14cdee9fb7" data-parentid="null" data-createddate="2019-08-21T07:16:08.0430000Z" data-yesvotes="0" data-novotes="0">
+
+	<div class="rendered-content">
+		
+
+<div class="author" data-authorprofileurl="/members/3937729">
+	<div class="avatar">
+					<a href="https://e2e.ti.com/members/3937729" class="internal-link view-user-profile">
+				<img src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/default.png-44x44x2.png" alt="Rajasekaran" border="0px">
+			</a>
+			</div>
+	<div class="meta">
+		<span class="user-name">
+			<span class="ui-userpresence ui-tip " style="display: none;" data-userid="396409" data-contentid="d3dfd8f3-08e3-416b-b501-a3c4631891a2" data-contenttypeid="e9ed4118-60ed-4f2b-a026-5705b8793d05" data-present="" data-presentlabel="Online" data-notpresentlabel="Offline" data-tip=""></span>
+											<a href="https://e2e.ti.com/members/3937729" class="internal-link view-user-profile">
+					Rajasekaran
+				</a>
+					</span>
+		<a href="https://e2e.ti.com/blogs_/b/powerhouse/posts/calculate-an-r-c-snubber-in-seven-steps?CommentId=6437ef8c-122b-4528-a67f-0c14cdee9fb7" class="internal-link view-post navigable reply-permalink">
+			<span class="ui-agodate ui-tip " data-tip="Aug 21, 2019 7:16 AM" data-dateutc="2019-08-21T07:16:08.043Z"><time datetime="2019-08-21T07:16:08.430Z">over 4 years ago</time></span>
+		</a>
+			</div>
+</div>
+<div class="content full threaded-reply-content user-defined-markup">
+			<div class="content"><p>Sir,</p>
+<p>This article is very informative. We can able to select the resistor 
+value based on the equation no 7. Could you please help us to select the
+ power rating the resistor?</p>
+<div style="clear:both;"></div></div>
+	</div>
+<div class="edit-form"></div>
+<div class="actions meta edit">
+	<div class="navigation-list" data-maxlinks="1" data-direction="horizontal" data-reflow-wait-check-count="0" data-reflow-wait-timeout="null"></div>
+</div>
+<div class="actions meta default">
+		 		 		<div class="navigation-list" data-maxlinks="3" data-direction="horizontal" data-reflow-wait-check-count="0" data-reflow-wait-timeout="null"></div>
+</div>
+		<div class="typing-status-wrapper"></div>
+		<div class="new-replies-wrapper"></div>
+	</div>
+
+	<div class="newreply"></div>
+
+	<ul class="content-list threaded" data-sortby="Votes" data-sortorder="Descending"><li class="threaded content-item " data-id="0d6a5e3a-1b6e-4b43-942b-9b9c842e16ea" data-parentid="6437ef8c-122b-4528-a67f-0c14cdee9fb7" data-createddate="2022-02-11T22:43:59.4370000Z" data-yesvotes="0" data-novotes="0">
+
+	<div class="rendered-content">
+		
+
+<div class="author" data-authorprofileurl="/members/3587648">
+	<div class="avatar">
+					<a href="https://e2e.ti.com/members/3587648" class="internal-link view-user-profile">
+				<img src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/default.png-44x44x2.png" alt="Chenming Wu" border="0px">
+			</a>
+			</div>
+	<div class="meta">
+		<span class="user-name">
+			<span class="ui-userpresence ui-tip " style="display: none;" data-userid="318340" data-contentid="4445cae6-eae3-47a2-9df2-40ad8e45717e" data-contenttypeid="e9ed4118-60ed-4f2b-a026-5705b8793d05" data-present="" data-presentlabel="Online" data-notpresentlabel="Offline" data-tip=""></span>
+											<a href="https://e2e.ti.com/members/3587648" class="internal-link view-user-profile">
+					Chenming Wu
+				</a>
+					</span>
+		<a href="https://e2e.ti.com/blogs_/b/powerhouse/posts/calculate-an-r-c-snubber-in-seven-steps?CommentId=0d6a5e3a-1b6e-4b43-942b-9b9c842e16ea" class="internal-link view-post navigable reply-permalink">
+			<span class="ui-agodate ui-tip " data-tip="Feb 11, 2022 10:43 PM" data-dateutc="2022-02-11T22:43:59.437Z"><time datetime="2022-02-11T22:43:59.437Z">over 1 year ago</time></span>
+		</a>
+									<span class="parent">
+					in reply to <a class="internal-link view-post navigable ui-tip" data-tip="View Parent Reply" href="https://e2e.ti.com/blogs_/b/powerhouse/posts/calculate-an-r-c-snubber-in-seven-steps?CommentId=6437ef8c-122b-4528-a67f-0c14cdee9fb7">Rajasekaran</a>
+				</span>
+						</div>
+</div>
+<div class="content full threaded-reply-content user-defined-markup">
+			<div class="content"><p>I think P=1/2*c*vpk^2xFsw</p><div style="clear:both;"></div></div>
+	</div>
+<div class="edit-form"></div>
+<div class="actions meta edit">
+	<div class="navigation-list" data-maxlinks="1" data-direction="horizontal" data-reflow-wait-check-count="0" data-reflow-wait-timeout="null"></div>
+</div>
+<div class="actions meta default">
+		 		 		<div class="navigation-list" data-maxlinks="3" data-direction="horizontal" data-reflow-wait-check-count="0" data-reflow-wait-timeout="null"></div>
+</div>
+		<div class="typing-status-wrapper"></div>
+		<div class="new-replies-wrapper"></div>
+	</div>
+
+	<div class="newreply"></div>
+
+	<ul class="content-list threaded" data-sortby="Votes" data-sortorder="Descending"></ul>
+
+</li></ul>
+
+</li><li class="threaded content-item " data-id="f97518f6-ea52-4d8a-88ad-debc410b48bc" data-parentid="null" data-createddate="2021-08-20T08:14:46.1530000Z" data-yesvotes="0" data-novotes="0">
+
+	<div class="rendered-content">
+		
+
+<div class="author" data-authorprofileurl="/members/4756739">
+	<div class="avatar">
+					<a href="https://e2e.ti.com/members/4756739" class="internal-link view-user-profile">
+				<img src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/default.png-44x44x2.png" alt="Hao Ye Soon" border="0px">
+			</a>
+			</div>
+	<div class="meta">
+		<span class="user-name">
+			<span class="ui-userpresence ui-tip " style="display: none;" data-userid="464603" data-contentid="0cc9cfec-ce0e-436a-becf-62bf81d3ebc4" data-contenttypeid="e9ed4118-60ed-4f2b-a026-5705b8793d05" data-present="" data-presentlabel="Online" data-notpresentlabel="Offline" data-tip=""></span>
+											<a href="https://e2e.ti.com/members/4756739" class="internal-link view-user-profile">
+					Hao Ye Soon
+				</a>
+					</span>
+		<a href="https://e2e.ti.com/blogs_/b/powerhouse/posts/calculate-an-r-c-snubber-in-seven-steps?CommentId=f97518f6-ea52-4d8a-88ad-debc410b48bc" class="internal-link view-post navigable reply-permalink">
+			<span class="ui-agodate ui-tip " data-tip="Aug 20, 2021 8:14 AM" data-dateutc="2021-08-20T08:14:46.153Z"><time datetime="2021-08-20T08:14:46.153Z">over 2 years ago</time></span>
+		</a>
+			</div>
+</div>
+<div class="content full threaded-reply-content user-defined-markup">
+			<div class="content"><p>what should the snubber capacitor's voltage rating be?</p><div style="clear:both;"></div></div>
+	</div>
+<div class="edit-form"></div>
+<div class="actions meta edit">
+	<div class="navigation-list" data-maxlinks="1" data-direction="horizontal" data-reflow-wait-check-count="0" data-reflow-wait-timeout="null"></div>
+</div>
+<div class="actions meta default">
+		 		 		<div class="navigation-list" data-maxlinks="3" data-direction="horizontal" data-reflow-wait-check-count="0" data-reflow-wait-timeout="null"></div>
+</div>
+		<div class="typing-status-wrapper"></div>
+		<div class="new-replies-wrapper"></div>
+	</div>
+
+	<div class="newreply"></div>
+
+	<ul class="content-list threaded" data-sortby="Votes" data-sortorder="Descending"><li class="threaded content-item " data-id="f496eda8-eb50-42f4-987a-a3163fd7d70d" data-parentid="f97518f6-ea52-4d8a-88ad-debc410b48bc" data-createddate="2022-06-02T13:38:57.8000000Z" data-yesvotes="0" data-novotes="0">
+
+	<div class="rendered-content">
+		
+
+<div class="author" data-authorprofileurl="/members/8518">
+	<div class="avatar">
+					<a href="https://e2e.ti.com/members/8518" class="internal-link view-user-profile">
+				<img src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/4TFIPT5NIDN7.jpg-44x44x2.jpg" alt="Peter James Miller" border="0px">
+			</a>
+			</div>
+	<div class="meta">
+		<span class="user-name">
+			<span class="ui-userpresence ui-tip " style="display: none;" data-userid="13277" data-contentid="cee04d3d-c7ec-45fa-b5fe-2000f30606bf" data-contenttypeid="e9ed4118-60ed-4f2b-a026-5705b8793d05" data-present="" data-presentlabel="Online" data-notpresentlabel="Offline" data-tip=""></span>
+											<a href="https://e2e.ti.com/members/8518" class="internal-link view-user-profile">
+					Peter James Miller
+				</a>
+					</span>
+		<a href="https://e2e.ti.com/blogs_/b/powerhouse/posts/calculate-an-r-c-snubber-in-seven-steps?CommentId=f496eda8-eb50-42f4-987a-a3163fd7d70d" class="internal-link view-post navigable reply-permalink">
+			<span class="ui-agodate ui-tip " data-tip="Jun 2, 2022 1:38 PM" data-dateutc="2022-06-02T13:38:57.800Z"><time datetime="2022-06-02T13:38:57.800Z">11 months ago</time></span>
+		</a>
+									<span class="parent">
+					in reply to <a class="internal-link view-post navigable ui-tip" data-tip="View Parent Reply" href="https://e2e.ti.com/blogs_/b/powerhouse/posts/calculate-an-r-c-snubber-in-seven-steps?CommentId=f97518f6-ea52-4d8a-88ad-debc410b48bc">Hao Ye Soon</a>
+				</span>
+						</div>
+</div>
+<div class="content full threaded-reply-content user-defined-markup">
+			<div class="content"><p>To be effective, the snubber capacitor needs 
+to have sufficient capacitance at the full switching node voltage level 
+to effectively absorb the energy stored in the parasitic inductance 
+while charging the switching node.&nbsp; In order to minimize 
+capacitance loss due to DC bias derating, it is generally advisable to 
+have a snubber rated for at least 2x the expected switch-node voltage 
+level.</p>
+<p>For a BUCK converter, that is the input voltage</p>
+<p>For a BOOST converter, that is the output voltage</p>
+<p>For other converter topologies, you'll want to refer to the switch node voltage of that topology.</p>
+<p>Using a lower voltage rated capacitor will result in the capacitor 
+absorbing less energy and thus being less effective at reducing ringing.</p><div style="clear:both;"></div></div>
+	</div>
+<div class="edit-form"></div>
+<div class="actions meta edit">
+	<div class="navigation-list" data-maxlinks="1" data-direction="horizontal" data-reflow-wait-check-count="0" data-reflow-wait-timeout="null"></div>
+</div>
+<div class="actions meta default">
+		 		 		<div class="navigation-list" data-maxlinks="3" data-direction="horizontal" data-reflow-wait-check-count="0" data-reflow-wait-timeout="null"></div>
+</div>
+		<div class="typing-status-wrapper"></div>
+		<div class="new-replies-wrapper"></div>
+	</div>
+
+	<div class="newreply"></div>
+
+	<ul class="content-list threaded" data-sortby="Votes" data-sortorder="Descending"></ul>
+
+</li></ul>
+
+</li><li class="load-more next">
+	
+		<a class="next" href="https://e2e.ti.com/blogs_/b/powerhouse/posts/calculate-an-r-c-snubber-in-seven-steps?ReplyOffsetId=f97518f6-ea52-4d8a-88ad-debc410b48bc&amp;ReplyOffsetDirection=Next&amp;ReplySortBy=Votes&amp;ReplySortOrder=Descending">View More </a>
+	
+	<span class="ui-loading" data-width="24" data-height="24" style="display: block; width: 24px; height: 24px; margin: 0px auto; padding: 8px 0px; text-align: center; box-sizing: border-box;"><div class="spinner"><div class="bounce1" style="width:8px;height:8px;background-color:rgb(51, 51, 51);"></div><div class="bounce2" style="width:8px;height:8px;background-color:rgb(51, 51, 51);"></div><div class="bounce3" style="width:8px;height:8px;background-color:rgb(51, 51, 51);"></div></div></span>
+</li></ul></div>
+</div>
+
+<div id="fragment-322575_editorWrapperWrapper" style="display:none">
+		
+	
+	
+	
+	
+	
+	<div id="mceu_24" class="mce-tinymce mce-container mce-panel mce-editor-submittable mce-editor-desktop mce-editor-blur mce-submitpanel-narrow" hidefocus="1" tabindex="-1" role="application" style="visibility: hidden; border-width: 1px; height: auto; overflow: visible;"><div id="mceu_24-body" class="mce-container-body mce-stack-layout"><div id="mceu_25" class="mce-container mce-menubar mce-toolbar mce-stack-layout-item mce-first" role="menubar" style="border-width: 0px 0px 1px; display: none;"><div id="mceu_25-body" class="mce-container-body mce-flow-layout"><div id="mceu_26" class="mce-widget mce-btn mce-menubtn mce-flow-layout-item mce-first mce-btn-has-text" tabindex="-1" aria-labelledby="mceu_26" role="menuitem" aria-haspopup="true"><button id="mceu_26-open" role="presentation" type="button" tabindex="-1"><span class="mce-txt">Edit</span> <i class="mce-caret"></i></button></div><div id="mceu_27" class="mce-widget mce-btn mce-menubtn mce-flow-layout-item mce-btn-has-text" tabindex="-1" aria-labelledby="mceu_27" role="menuitem" aria-haspopup="true"><button id="mceu_27-open" role="presentation" type="button" tabindex="-1"><span class="mce-txt">Insert</span> <i class="mce-caret"></i></button></div><div id="mceu_28" class="mce-widget mce-btn mce-menubtn mce-flow-layout-item mce-btn-has-text" tabindex="-1" aria-labelledby="mceu_28" role="menuitem" aria-haspopup="true"><button id="mceu_28-open" role="presentation" type="button" tabindex="-1"><span class="mce-txt">Format</span> <i class="mce-caret"></i></button></div><div id="mceu_29" class="mce-widget mce-btn mce-menubtn mce-flow-layout-item mce-last mce-btn-has-text" tabindex="-1" aria-labelledby="mceu_29" role="menuitem" aria-haspopup="true"><button id="mceu_29-open" role="presentation" type="button" tabindex="-1"><span class="mce-txt">Tools</span> <i class="mce-caret"></i></button></div></div></div><div id="mceu_33" class="mce-edit-area mce-container mce-panel mce-stack-layout-item mce-last" hidefocus="1" tabindex="-1" role="group" style="border-width: 0px 0px 1px; position: relative;"><iframe id="fragment-322575_fragment-322575_replyEditor_ifr" allowtransparency="true" title="Rich Text Area. Press ALT-F9 for menu. Press ALT-F10 for toolbar. Press ALT-0 for help" style="width: 100%; height: 60px; display: block;" src='javascript:""' frameborder="0"></iframe><div style="position: absolute; top: 0px; left: 0px;"><div class="mceDragDropShade" style="position: absolute; display: none; left: 0px; top: 0px;"></div><div class="mceDragDropMessage" style="position: absolute; display: none; left: 0px; top: 0px;"></div></div></div><div id="mceu_30" class="mce-toolbar-grp mce-container mce-panel mce-stack-layout-item" hidefocus="1" tabindex="-1" role="group"><div id="mceu_30-body" class="mce-container-body mce-stack-layout"><div id="mceu_31" class="mce-container mce-toolbar mce-stack-layout-item mce-first mce-last" role="toolbar"><div id="mceu_31-body" class="mce-container-body mce-flow-layout"><div id="mceu_32" class="mce-container mce-flow-layout-item mce-first mce-last mce-btn-group" style="width: 100%;" role="group"><div id="mceu_32-body" style="white-space: normal;"><div id="mceu_17" class="mce-widget mce-btn mce-menubtn mce-first mce-btn-has-text" tabindex="-1" aria-labelledby="mceu_17" role="button" aria-haspopup="true"><button id="mceu_17-open" role="presentation" type="button" tabindex="-1"><span class="mce-txt">Edit</span> <i class="mce-caret"></i></button></div><div id="mceu_18" class="mce-widget mce-btn mce-menubtn mce-btn-has-text" tabindex="-1" aria-labelledby="mceu_18" role="button" aria-haspopup="true"><button id="mceu_18-open" role="presentation" type="button" tabindex="-1"><span class="mce-txt">Insert</span> <i class="mce-caret"></i></button></div><div id="mceu_19" class="mce-widget mce-btn mce-menubtn mce-btn-has-text" tabindex="-1" aria-labelledby="mceu_19" role="button" aria-haspopup="true"><button id="mceu_19-open" role="presentation" type="button" tabindex="-1"><span class="mce-txt">Format</span> <i class="mce-caret"></i></button></div><div id="mceu_20" class="mce-widget mce-btn mce-menubtn mce-btn-has-text" tabindex="-1" aria-labelledby="mceu_20" role="button" aria-haspopup="true"><button id="mceu_20-open" role="presentation" type="button" tabindex="-1"><span class="mce-txt">Tools</span> <i class="mce-caret"></i></button></div><div id="mceu_21" class="mce-widget mce-btn" tabindex="-1" aria-labelledby="mceu_21" role="button" aria-label="Bullet list"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-bullist"></i></button></div><div id="mceu_22" class="mce-widget mce-btn" tabindex="-1" aria-labelledby="mceu_22" role="button" aria-label="Numbered list"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-numlist"></i></button></div><div id="mceu_23" class="mce-widget mce-submitpanel mce-last" role="presentation" aria-haspopup="false"><div class="mce-widget mce-btn mce-primary mce-btn-has-text mce-submitpanel-button" id="mceu_23_send" tabindex="0" role="button"><button style="width:100%; height:100%;" tabindex="-1" type="button"><span class="mce-txt">Reply</span></button></div></div></div></div></div></div></div></div></div></div><textarea id="fragment-322575_fragment-322575_replyEditor" style="display: none;" aria-hidden="true"></textarea>
+<script type="text/javascript">
+jQuery(function() { jQuery('#fragment-322575_fragment-322575_replyEditor').evolutionHtmlEditor({ width: '100%', height: '60px', submittable: true,contentTypeId:'9262536b-49a3-4494-802f-04dff10424ed',enterToSubmitPrompt:'Enter to Reply',submitLabel:'Reply',beforeSubmitHtml:'',afterSubmitHtml:'',placeholder:'',autoResize:true,enableEnterToSubmitToggle:true}).on('evolutionHtmlEditorSubmit', function(e) { (function() { jQuery.telligent.evolution.messaging.publish('widgets.threadedComments.submit') })(e.html); }); });</script>
+</div>
+
+
+
+</div>
+<div class="content-fragment-footer"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="layout-footer"></div>
+</div><input type="hidden" name="_p_state" id="_p_state" value=""></div>
+<div class="single-column footer-fragments evolution-reflow-container" data-related="_f_page" id="_f_singlecolumn" style="display:none"></div><div class="footer-fragments evolution-reflow-container" data-related="_f_singlecolumn" id="_f_page" data-reflow-width="670"><div class="layout">
+<div class="layout-header"></div>
+<div class="layout-content content" id="_f_layout"><div class="layout-region content" id="_f_content">
+<div class="layout-region-inner content"><div id="footer-3341"></div>
+<div class="content-fragment t-i-footer no-wrapper with-spacing " id="footer-3342" data-reflow="_f_content,_f_singlecolumn,10000,1,1">
+<div class="content-fragment-content">
+
+
+        
+  
+<!-- TI Footer - Start -->
+  <script language="javascript" src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/analytics-secure.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/ticom.global.footer.css">
+<style data-di-track="1">
+    .footer-fragments { 
+        background-color: #333;
+        background-image: linear-gradient(35deg, black 0%, #333333 100%);
+    }
+    .ti_p-responsiveFooter { background: none; margin-top: 0; }
+    
+    .ti_p-responsiveFooter {  font-family: "Custom","Roboto","Franklin Gothic Medium",Tahoma,sans-serif !important; }
+    .t-i-footer {  padding-top: 0 !important; }
+    .t-i-footer .ti_p-responsiveFooter { margin-top: 0 !important; }
+    .t-i-footer > .content-fragment-content { margin-top: 0 !important; }
+    
+</style>
+<footer id="tiResponsiveFooter" class="ti_p-responsiveFooter"> <div class="ti_p-responsiveFooter-content"> <div class="ti_p-responsiveFooter-row"> <svg class="ti_p-responsiveFooter-collapse-icon-svg" xmlns="http://www.w3.org/2000/svg" role="img" style="position: absolute; width: 0; height: 0; overflow: hidden;"> <defs> <symbol id="ti_p-responsiveFooter-icon-chevron-down" viewBox="0 0 192 192"> <path d="M152.049 75.093l-55.956 55.956-.093-.093-.093.093-55.956-55.956 14.142-14.142L96 102.858l41.907-41.907 14.142 14.142z"></path> </symbol> </defs> </svg> <div class="ti_p-responsiveFooter-col mod-quarter"> <div class="ti_p-responsiveFooter-links-title mod-collapsible js-footer-collapsible"> About TI <svg class="ti_p-responsiveFooter-collapse-icon" viewBox="0 0 192 192" role="img" title="Texas Instruments"> <use xlink:href="#ti_p-responsiveFooter-icon-chevron-down"></use> </svg> </div> <div class="ti_p-responsiveFooter-links-list mod-collapsible"> <a class="ti_p-responsiveFooter-link" data-navtitle="footer_company" href="https://www.ti.com/about-ti/company/overview.html">Company</a> <a class="ti_p-responsiveFooter-link" data-navtitle="footer_news" href="https://news.ti.com/">News &amp; events</a> <a class="ti_p-responsiveFooter-link" data-navtitle="footer_investor" href="https://investor.ti.com/">Investor relations</a> <a class="ti_p-responsiveFooter-link" data-navtitle="footer_citizenship" href="https://www.ti.com/about-ti/citizenship-community/overview.html">Corporate citizenship</a> <a class="ti_p-responsiveFooter-link" data-navtitle="footer_careers" href="https://careers.ti.com/">Careers</a> <a class="ti_p-responsiveFooter-link" data-navtitle="footer_contact" href="https://www.ti.com/info/contact-us.html">Contact us</a> </div> </div> <div class="ti_p-responsiveFooter-col mod-quarter"> <div class="ti_p-responsiveFooter-links-title mod-collapsible js-footer-collapsible"> Quick links <svg class="ti_p-responsiveFooter-collapse-icon" viewBox="0 0 192 192" role="img" title="Texas Instruments"> <use xlink:href="#ti_p-responsiveFooter-icon-chevron-down"></use> </svg> </div> <div class="ti_p-responsiveFooter-links-list mod-collapsible"> <a class="ti_p-responsiveFooter-link" data-navtitle="footer_e2e_forums" href="https://e2e.ti.com/">TI E2E™ design support forums</a> <a class="ti_p-responsiveFooter-link" data-navtitle="footer_csc" href="https://ticsc.service-now.com/csm">Customer support center</a> <a class="ti_p-responsiveFooter-link" data-navtitle="footer_packaging" href="https://www.ti.com/support-packaging/packaging.html">Packaging</a> <a class="ti_p-responsiveFooter-link" data-navtitle="footer_quality" href="https://www.ti.com/support-quality/quality-reliability.html">Quality &amp; reliability</a> <a class="ti_p-responsiveFooter-link" data-navtitle="footer_university" href="https://university.ti.com/en">TI university program</a> <a class="ti_p-responsiveFooter-link" data-navtitle="footer_faq" href="https://www.ti.com/info/myti-faq.html">myTI FAQ</a> </div> </div> <div class="ti_p-responsiveFooter-col mod-quarter"> <div class="ti_p-responsiveFooter-links-title mod-collapsible js-footer-collapsible"> Buying <svg class="ti_p-responsiveFooter-collapse-icon" viewBox="0 0 192 192" role="img" title="Texas Instruments"> <use xlink:href="#ti_p-responsiveFooter-icon-chevron-down"></use> </svg> </div> <div class="ti_p-responsiveFooter-links-list mod-collapsible"> <a class="ti_p-responsiveFooter-link" data-navtitle="footer_ordering_resources" href="https://www.ti.com/ordering-resources/buy.html">Ordering resources</a> <a class="ti_p-responsiveFooter-link" data-navtitle="footer_help" href="https://www.ti.com/ordering-resources/help.html">Ordering help &amp; FAQs</a> <a class="ti_p-responsiveFooter-link" data-navtitle="footer_bom_tool" href="https://bomcross.ti.com/en/">BOM &amp; cross reference tool</a> <a class="ti_p-responsiveFooter-link" data-navtitle="footer_add" href="https://www.ti.com/ordering-resources/buying-tools/quick-add-to-cart.html">Quick add to cart</a> <a class="ti_p-responsiveFooter-link" data-navtitle="footer_distributors" href="https://www.ti.com/ordering-resources/distributors.html">Authorized distributors</a> </div> </div> <div class="ti_p-responsiveFooter-col mod-quarter"> <div class="ti_p-responsiveFooter-links-title">Connect with us</div> <div class="ti_p-responsiveFooter-links-list mod-inline mod-socialIcons"> <a class="ti_p-responsiveFooter-social-icon mod-instagram" data-navtitle="footer_instagram" href="https://www.instagram.com/txinstruments/"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" title="instagram"><path d="M59.04 8h73.92A51.077 51.077 0 01184 59.04v73.92A51.04 51.04 0 01132.96 184H59.04A51.077 51.077 0 018 132.96V59.04A51.04 51.04 0 0159.04 8m-1.76 17.6A31.68 31.68 0 0025.6 57.28v77.44a31.66 31.66 0 0031.68 31.68h77.44a31.68 31.68 0 0031.68-31.68V57.28a31.66 31.66 0 00-31.68-31.68H57.28m84.92 13.2a11 11 0 11-11 11 11 11 0 0111-11M96 52a44 44 0 11-44 44 44 44 0 0144-44m0 17.6A26.4 26.4 0 10122.4 96 26.4 26.4 0 0096 69.6z"></path></svg> </a> <a class="ti_p-responsiveFooter-social-icon mod-facebook" data-navtitle="footer_facebook" href="https://www.facebook.com/texasinstruments"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" title="facebook"><path d="M184 96a88 88 0 10-101.75 86.93v-61.493H59.906V96H82.25V76.612c0-22.054 13.138-34.237 33.239-34.237a135.321 135.321 0 0119.698 1.719V65.75h-11.096c-10.932 0-14.341 6.783-14.341 13.743V96h24.406l-3.901 25.438H109.75v61.493A88.021 88.021 0 00184 96z"></path><path d="M130.255 121.438L134.156 96H109.75V79.493c0-6.96 3.41-13.743 14.34-13.743h11.097V44.094a135.321 135.321 0 00-19.698-1.719c-20.101 0-33.239 12.182-33.239 34.237V96H59.906v25.438H82.25v61.493a88.931 88.931 0 0027.5 0v-61.494z" fill="currentColor"></path></svg> </a> <a class="ti_p-responsiveFooter-social-icon mod-twitter" data-navtitle="footer_twitter" href="https://twitter.com/txinstruments"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" title="twitter"><path d="M63.349 167.505c66.415 0 102.741-55.025 102.741-102.742 0-1.563 0-3.119-.105-4.668A73.468 73.468 0 00184 41.405a72.075 72.075 0 01-20.74 5.68 36.236 36.236 0 0015.875-19.972 72.363 72.363 0 01-22.93 8.765A36.143 36.143 0 0094.67 68.81 102.516 102.516 0 0120.25 31.083a36.136 36.136 0 0011.18 48.203 35.842 35.842 0 01-16.39-4.52v.458a36.122 36.122 0 0028.97 35.397 36.051 36.051 0 01-16.305.62 36.15 36.15 0 0033.736 25.077 72.456 72.456 0 01-44.845 15.488A73.499 73.499 0 018 151.284a102.227 102.227 0 0055.349 16.192"></path></svg> </a> <a class="ti_p-responsiveFooter-social-icon mod-linkedin" data-navtitle="footer_linkedin" href="https://www.linkedin.com/company/texas-instruments"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" title="linkedin"><path d="M164.444 8A19.555 19.555 0 01184 27.556v136.888A19.555 19.555 0 01164.444 184H27.556A19.555 19.555 0 018 164.444V27.556A19.555 19.555 0 0127.556 8h136.888m-4.888 151.556v-51.823a31.875 31.875 0 00-31.876-31.875c-8.311 0-17.991 5.084-22.684 12.71V77.717h-27.28v81.84h27.28V111.35a13.64 13.64 0 1127.28 0v48.205h27.28M45.938 62.364a16.427 16.427 0 0016.426-16.426 16.476 16.476 0 10-32.95 0 16.483 16.483 0 0016.524 16.426m13.59 97.192v-81.84H32.445v81.84z"></path></svg> </a> <a class="ti_p-responsiveFooter-social-icon mod-e2e" data-navtitle="footer_e2e" href="https://e2e.ti.com/"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" title="e2e"><path d="M170.818 12.627H21.182A13.197 13.197 0 008 25.81v105.349a13.197 13.197 0 0013.182 13.182h97.007l34.622 34.62a1.407 1.407 0 002.403-.995V144.34h15.604A13.197 13.197 0 00184 131.158V25.808a13.197 13.197 0 00-13.182-13.18zM95.361 32.274A20.435 20.435 0 1174.925 52.71a20.458 20.458 0 0120.436-20.436zm36.505 91.66a1.408 1.408 0 01-1.408 1.407H116.5v-22.18a2.111 2.111 0 10-4.223 0v22.18H78.444v-22.18a2.111 2.111 0 10-4.222 0v22.18h-13.96a1.408 1.408 0 01-1.407-1.408V97.786A16.824 16.824 0 0175.66 80.98h39.401a16.824 16.824 0 0116.805 16.805z"></path></svg> </a> <a class="ti_p-responsiveFooter-social-icon mod-youtube" data-navtitle="footer_youtube" href="https://www.youtube.com/texasinstruments"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" title="youtube"><path d="M180.322 53.363a22.115 22.115 0 00-15.56-15.662C151.037 34 96 34 96 34s-55.037 0-68.762 3.701a22.115 22.115 0 00-15.56 15.662C8 67.177 8 96 8 96s0 28.823 3.678 42.637a22.114 22.114 0 0015.56 15.661C40.963 158 96 158 96 158s55.037 0 68.762-3.702a22.114 22.114 0 0015.56-15.66C184 124.822 184 96 184 96s0-28.823-3.678-42.637zM78 122.169V69.83l46 26.17z"></path></svg> </a> </div> </div> </div> <hr class="ti_p-responsiveFooter-hr"> <div class="ti_p-responsiveFooter-row"> <div class="ti_p-responsiveFooter-col mod-third"> <a href="https://www.ti.com/" class="ti_p-responsiveFooter-logo" data-navtitle="footer_logo_link"> <div class="ti_p-responsiveFooter-logo-container"> <svg class="ti_p-responsiveFooter-logo-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4600 600" role="img" title="Texas Instruments"> <path d="M2061.95 123v8.25c14.66 4.58 25.65 8.24 25.65 31.14V396c0 23.8-11.9 27.48-25.65 31.14v8.25h107.18v-8.3c-14.65-3.7-25.65-7.3-25.65-31.2V162.4c0-22.9 11.9-26.57 25.65-31.15V123zM806 123l-19.23 56.8 6.42 3.66c21-26.56 36.6-27.48 89.7-27.48 17.4 0 22 3.67 22 16.5h-.9v222.6c0 23.82-11.9 27.48-23.8 31.14v8.25h102.6v-8.25c-11.9-3.66-23.8-7.32-23.8-31.14v-222.6c0-13.75 4.5-16.5 21.9-16.5 48.5 0 71.4.92 88.8 27.48l6.4-3.66L1057 123zm1003.12 68.74c-48.56 0-86.1 24.74-86.1 70.54 0 34.8 21.06 56.8 65.94 66.87l41.23 9.16c27.4 6.5 36.6 15.6 36.6 33 0 23.8-19.3 35.8-50.4 35.8-44 0-71.5-22.9-94.4-49.4l-6.4 4.6 19.2 70.6h11.9v1.8c0-3.7 3.7-11.9 8.2-11.9 11 5.5 28.4 15.6 62.3 15.6 55.8 0 95.2-27.4 95.2-75.1 0-44.9-24.8-62.3-71.5-73.3l-43-10c-24.8-5.5-32.1-12.8-32.1-27.5 0-17.4 13.7-29.3 44.9-29.3 33.9 0 61.3 16.5 80.6 38.5l6.4-4.5-17.4-61.4h-11c0 5.5-2.8 11-7.3 11-10.1-5.5-25.7-14.6-53.2-14.6zm2674.03.86c-48.56 0-86.1 24.73-86.1 70.53 0 34.8 21.06 56.8 65.94 66.87l41.2 9.16c27.5 6.4 36.6 15.57 36.6 32.98 0 23.82-19.3 35.73-50.4 35.73-44 0-71.5-22.9-94.4-49.47l-6.4 4.58 19.2 70.54h11.9c0-3.66 3.6-11.9 8.2-11.9 11 5.5 28.4 15.56 62.3 15.56 55.8 0 95.2-27.5 95.2-75.12 0-44.9-24.8-60.6-71.5-71.6-13.9-2.87-28.9-6.57-43.1-9.9-24.8-5.5-32.1-12.82-32.1-27.48 0-17.4 13.7-29.32 44.8-29.32 33.9 0 61.4 16.5 80.6 38.47l6.44-4.58-17.4-61.38h-11c0 5.5-2.77 11-7.35 11-10.06-5.5-25.63-14.67-53.1-14.67zm-1951.25 0c-48.55 0-86.1 24.74-86.1 70.54 0 34.8 21.06 56.8 65.94 66.87l41.22 9.2c27.48 6.4 36.64 15.6 36.64 33 0 23.8-19.24 35.7-50.4 35.7-43.97 0-71.45-22.9-94.35-49.4l-6.42 4.6 19.24 70.6h11.9c0-3.6 3.67-11.9 8.25-11.9 11 5.5 28.4 15.6 62.3 15.6 55.87 0 95.26-27.5 95.26-75.1 0-44.9-24.54-60.6-71.26-71.5-14.24-2.9-28.88-6.5-43.2-9.9-24.75-5.5-32.07-12.8-32.07-27.4 0-17.4 13.73-29.3 44.88-29.3 33.9 0 61.38 16.5 80.62 38.48l6.4-4.6-17.4-61.35h-11c0 5.5-2.74 11-7.32 11-10.07-5.5-25.65-14.66-53.13-14.66zm-344.44 3.7v8.23c13.74 6.4 22.9 11 22.9 31.14V396c0 22-8.25 27.48-22.9 31.15v8.24h79.7v-8.3c-12.83-3.7-24.74-9.2-24.74-31.2V257.6h1.83l157.57 180.47h8.24V235.7c0-22.9 11.9-26.56 21.07-31.14v-8.25h-74.2v8.2c13.74 4.6 22 8.3 22 31.2v97.1h-1.85l-120-136.5zm-1166.16 0v8.24c15.56 4.58 22.9 8.25 22.9 31.15V396c0 23.82-8.25 27.48-22.9 31.14v8.25h194.2l22-55.9-6.42-4.6c-19.23 25.6-39.4 31.1-66.87 31.1h-50.3c-15.5 0-19.2-.9-19.2-15.6v-66.8h60.5c23.8 0 27.5 5.5 31.2 19.2h9.2V276h-9.1c-3.6 13.74-7.3 20.15-31.1 20.15H1095v-55.88c0-11.9 3.63-15.57 19.2-15.57h43c27.45 0 42.1 7.33 62.26 29.3l6.43-4.57-19.3-53.13zm372.83.03v8.25c17.4 1.83 22.9 11 12.83 26.57l-36.65 54.05-32.9-49.47c-13.7-20.15-3.6-28.4 11.9-31.15v-8.25h-112.7v8.24c15.6 4.58 23.8 9.16 36.7 27.5l-1.8-.05 59.5 84.28-55.9 79.7c-17.4 23.82-27.5 27.5-43 31.15v8.25h89.8v-8.24c-17.4-3.66-24.7-10.07-12.8-27.48l39.4-61.38 41.2 59.55c15.6 22-.9 27.48-14.6 29.3v8.26h163v-8.2c-16.5-2.7-23.8-8.2-15.6-30.2l11-27.5h97.1l10.1 27.5c6.4 18.3 4.6 27.5-14.6 30.3v8.3h99.9v-8.2c-11.9-3.6-22-13.7-27.5-26.5l-76.9-203.4h-53.1L1494 386c-8.24 19.25-14.65 29.3-22.9 33.9-6.4-3.67-11.9-10.1-19.23-20.16l-65.05-92.5 53.13-74.2c13.74-20.12 25.65-23.8 39.4-28.4v-8.22zm1467.56.87v8.24c15.5 4.58 22.9 8.25 22.9 31.15v160.3c0 23.8-8.3 27.5-22.9 31.1v8.2h99.8V428c-14.7-3.65-23.8-7.32-23.8-31.13v-59.54h24.7c28.4 0 33 11.9 51.3 50.38 15.6 32.1 35.7 52.2 74.2 52.2 19.2 0 27.5-3.6 34.8-8.2v-6.4c-31.2-4.6-41.3-30.2-59.6-60.4-14.7-22.9-29.3-32.9-46.7-37.5v-1.8c41.2-6.4 64.1-27.5 64.1-62.3 0-46.7-36.7-65.9-97.1-65.9zm1314.5 0l-19.2 61.38 6.4 4.58c25.6-33.9 32-36.64 65.9-36.64 11.9 0 15.5.92 15.5 15.57v154.8c0 23.8-7.4 27.5-25.7 31.1v8.2H4321V428c-18.32-3.66-25.65-7.32-25.65-31.14V242.1c0-14.66 3.66-15.57 15.57-15.57 33.9 0 43.06 3.66 67.8 36.64l6.4-4.58-19.23-61.4h-188.8zm-97.2 0v8.25h.9c13.7 4.58 22 8.25 22 31.15v97.1h-1.9l-120-136.5h-69.6v8.26c13.7 6.4 22.9 11 22.9 31.14v160.3c0 22-8.3 27.5-22.9 31.16v8.24h78.7v-8.24c-12.9-3.66-24.8-9.16-24.8-31.15V258.6h1.8L4124 439.05h8.25V236.6c0-22.9 11.9-26.57 21.07-31.15v-8.24zm-1429.1 0l-19.3 61.4 6.4 4.57c25.6-33.9 32-36.65 65.9-36.65 11.9 0 15.5.92 15.5 15.58v154.8c0 23.83-7.3 27.5-25.7 31.16v8.25h101.7v-8.2c-18.35-3.6-25.68-7.3-25.68-31.1V242.1c0-14.66 3.64-15.57 15.55-15.57 33.9 0 43.1 3.66 67.8 36.64l6.4-4.58-19.2-61.4H2651zm624.7 0v8.26h-.9c11.9 2.74 23.8 8.24 23.8 31.14v117.26c0 38.48-14.7 55.88-58.6 55.88-46.7 0-63.2-17.4-63.2-55.88V236.6c0-22.9 9.1-28.4 22.9-31.14v-8.24h-97.1v8.24c14.6 2.75 23.8 8.25 23.8 31.15v121c0 63.2 54.9 82.5 107.2 82.5 57.7 0 98.9-19.2 98.9-86.1V236.6c0-22.9 7.3-27.48 21-31.15v-8.24zm414.9.03v8.25c15.5 4.58 22.9 8.25 22.9 31.15v160.3c0 23.83-8.3 27.5-22.9 31.16v8.2H3884l22-55.9-6.4-4.6c-19.25 25.6-40.32 31.1-66.9 31.1-16.44 1.6-33.7.2-50.35-.1-15.57-.3-19.24-.9-19.24-15.6v-66.9h60.5c23.8 0 27.5 5.5 31.2 19.2h9.2v-66.8h-9.1c-3.6 13.7-7.3 20.1-31.1 20.1h-60.5V241c0-11.92 3.7-15.6 19.3-15.6h43.1c27.5 0 41.2 7.35 62.3 29.34l6.4-4.6-19.2-53.1zm-104.5.9l-65.5 152.8-68.2-152.8h-85.2v8.25c15.6 4.58 22.9 8.25 22.9 31.15v160.3c0 21.08-9.2 26.58-22.9 31.16v8.2h75.1V429c-15.6-4.58-22.9-10.08-22.9-31.15V248.5l86.1 191.47h6.4l83.3-191.46v149.4c0 23.9-10.1 27.5-22 31.2v8.3h97.1V429c-15.6-3.67-22.9-7.34-22.9-31.16v-160.3c0-22.9 8.2-26.57 22.9-31.15v-8.3zm-633 28.4h26.6c28.4 0 45.8 11 45.8 38.47 0 29.32-19.3 43.97-46.7 43.97h-41.3v-63.2c0-15.58 3.7-19.25 15.6-19.25zm-1370.5 11.9l38.46 103.5h-77.85z"></path> <path d="M437.65 46.6h-54.97l-11 53.14h54.97l11-53.13zm-62.3 316.97L423 122.64h-54.97L320.4 363.57zm185.97-170.4v-70.53h-113.6l-14.65 71.46h41.22l-12.9 65.94h-41.2l-13.7 71.5c-.9 4.6-1.9 8.27-2.8 11.9-3.7 22 6.4 21.1 36.6 21.1l-13.8 70.54h-53.1c-50.4 0-91.6-.9-81.6-52.2 1.8-8.26 3.6-15.6 5.5-23.83l19.2-98h-39.4l12.8-65.9h39.4l14.7-71.5h-36.6V15.55H171v219.8H8c3.67 56.8 54.05 65.02 72.38 105.33 12.82 27.48 23.82 76.96 60.47 76.96 28.4 0 28.4-36.65 65.04-36.65 36.6 0 52.2 68.7 85.2 126.4 23.8 44.9 64.1 74.2 100.7 76.9 30.2 1.8 44.9-8.3 44.9-8.3-8.3-16.5-11.9-32.1-11.9-56.8 0-36.7 28.4-73.3 60.4-97.1 44.9-33 92.5-44.9 109-48.6V260s-32.9-19.2-32.9-66.83z"></path> </svg> </div> </a> </div> <div class="ti_p-responsiveFooter-col mod-twothirds"> <p class="ti_p-responsiveFooter-copy">Texas
+ Instruments has been making progress possible for decades. We are a 
+global semiconductor company that designs, manufactures, tests and sells
+ analog and embedded processing chips. Our products help our customers 
+efficiently manage power, accurately sense and transmit data and provide
+ the core control or processing in their designs.</p> </div> </div> <div class="ti_p-responsiveFooter-row"> <div class="ti_p-responsiveFooter-col mod-full"> <div class="ti_p-responsiveFooter-inlineLinks"> <div class="ti_p-responsiveFooter-links-overflow"> <div class="ti_p-responsiveFooter-links-list mod-inline"> <a class="ti_p-responsiveFooter-link mod-bordered" data-navtitle="footer_cookie" href="https://www.ti.com/legal/terms-conditions/cookie-policy.html">Cookie policy</a> <a class="ti_p-responsiveFooter-link mod-bordered" data-navtitle="footer_privacy" href="https://www.ti.com/legal/terms-conditions/privacy-policy.html">Privacy policy</a> <a class="ti_p-responsiveFooter-link mod-bordered" data-navtitle="footer_termSale" href="https://www.ti.com/legal/terms-conditions/terms-of-sale.html">Terms of sale</a> <a class="ti_p-responsiveFooter-link mod-bordered" data-navtitle="footer_termUse" href="https://www.ti.com/legal/terms-conditions/terms-of-use.html">Terms of use</a> <a class="ti_p-responsiveFooter-link mod-bordered" data-navtitle="footer_trademarks" href="https://www.ti.com/legal/terms-conditions/trademarks.html">Trademarks</a> <a class="ti_p-responsiveFooter-link mod-bordered" data-navtitle="footer_websiteFeedback" href="https://www.ti.com/guidedsupport/docs/webform/tiwebsitefeedback.tsp">Website feedback</a> </div> </div> <p class="ti_p-responsiveFooter-copyright"><a data-navtitle="footer_copyright" href="https://www.ti.com/legal/terms-conditions/copyright.html">© Copyright 1995-<span id="copyrightYear">2023</span></a> Texas Instruments Incorporated. All rights reserved.</p> </div> </div> </div> </div></footer></div>
+<div class="content-fragment-footer"></div>
+</div>
+<div id="footer-3343"></div>
+<div id="footer-3344"></div>
+<div id="footer-3345"></div>
+<div id="footer-3346"></div>
+</div>
+</div>
+</div>
+<div class="layout-footer"></div>
+</div><input type="hidden" name="_f_state" id="_f_state" value=""></div>
+			<script type="text/javascript" src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/ui_005.js"></script>
+
+	<script type="text/html" id="header-3332_site-banner-list-template">
+		<div>
+			<div class="multiple-column-list columns-1">
+				<div class="multiple-column-item column-1">
+					<ul class="content-list content">
+					</ul>
+					<div class="loading"><span class="ui-loading"></span></div>
+					<% if(footerContent) { %>
+						<div class="content-list-footer">
+							<%= footerContent %>
+						</div>
+					<% } %>
+				</div>
+			</div>
+		</div>
+	</script>
+
+			<script type="text/html" id="header-3332_site-banner-notification-preferences-template">
+			<div class="notification-preference">
+				<span class="description">Do not notify me when someone <strong><%: notificationTypeName %></strong>?</span>
+				<a href="#" class="confirm internal-link button submit-button" data-notificationtypeid="<%: notificationTypeId %>">Confirm</a>
+				<a href="#" class="cancel internal-link button submit-button">Cancel</a>
+			</div>
+		</script>
+
+		<script type="text/html" id="header-3332_site-banner-bookmark-filter-template">
+
+			<ul class="navigation-list filter">
+				<% if(contentTypeIds && contentTypeIds.length > 0) { %>
+					<li class="navigation-item conversations">
+						<a class="internal-link" href="#" data-contenttypeids="<%: contentTypeIds %>">Content</a>
+					</li>
+				<% } %>
+				<% if(applicationContentTypeIds && applicationContentTypeIds.length > 0) { %>
+					<li class="navigation-item conversations">
+						<a class="internal-link" href="#" data-contenttypeids="<%: applicationContentTypeIds %>">Application</a>
+					</li>
+				<% } %>
+				<% if(containerTypes && containerTypes.length > 0) { %>
+					<% foreach(containerTypes, function(containerType) {  %>
+						<li class="navigation-item conversations">
+							<a class="internal-link" href="#" data-contenttypeids="<%: containerType.id %>"><%: containerType.name %></a>
+						</li>
+					<% }); %>
+				<% } %>
+			</ul>
+		</script>
+
+		<script type="text/html" id="header-3332_site-banner-user-template">
+									<div class="user "
+								<div>
+					<div class="avatar">
+													<img src="https://e2e.ti.com:443/cfs-filesystemfile/__key/communityserver-components-imagefileviewer/communityserver-components-avatars_2E00_/default.png_2D00_40x40x2.png?_=636969875648372103" alt="Anonymous" />
+											</div>
+					<span class="user-name">
+													Anonymous
+											</span>
+
+														</div>
+			</div>
+
+										<ul class="navigation-list user">
+																																																																																																																											</ul>
+					</script>
+				<script type="text/html" id="header-3332_site-banner-search-filter-template">
+			<% if(places && places.length > 0) { %>
+				<ul class="navigation-list filter">
+					<% foreach(places, function(place) { %>
+						<li class="navigation-item">
+							<a class="place internal-link" href="#" data-key="<%: place.key %>" data-value="<%: place.value %>" data-searchparam="<%: place.searchParameter %>" data-searchvalue="<%: place.searchValue %>"><%= place.name %></a>
+					<% }); %>
+				</ul>
+			<% } %>
+			<% if(filters && filters.length > 1) { %>
+				<ul class="navigation-list filter">
+				<% foreach(filters, function(filter) {  %>
+					<li class="navigation-item">
+						<a class="type internal-link" href="#" data-key="<%: filter.key %>"><%= filter.name %></a>
+					</li>
+				<% }); %>
+				</ul>
+			<% } %>
+		</script>
+	    
+	<script type="text/javascript">
+	    
+		
+		
+
+			
+															
+		jQuery(function(){
+			jQuery.telligent.evolution.widgets.siteBanner.register({
+				wrapper: '#header-3332',
+				messagePrefix: 'widget.header-3332.',
+				userPopupTemplate: 'header-3332_site-banner-list-template',
+				banner: jQuery('#header-3332_banner'),
+									handheldSearchFieldsLink: jQuery('#header-3332_handheldSearchFieldsLink'),
+					handheldSearchFields: jQuery('#header-3332_handheldSearchFields'),
+					handheldBannerLinksLink: jQuery('#header-3332_handheldBannerLinksLink'),
+					handheldBannerLinks: jQuery('#header-3332_handheldBannerLinks'),
+					handheldBannerLinksCount: jQuery('#header-3332_handheldBannerLinksCount'),
+					bannerSiteLinks: jQuery('#header-3332_bannerSiteLinks'),
+					handheldSiteLinksLink: jQuery('#header-3332_handheldSiteLinksLink'),
+					handheldSiteLinks: jQuery('#header-3332_handheldSiteLinks'),
+
+																		searchFields: jQuery('#header-3332_searchFields'),
+					searchTemplate: 'header-3332_site-banner-list-template',
+					searchUrl: 'https://e2e.ti.com:443/utility/scripted-file.ashx?_cf=searchquery.jsm\u0026_fid=3332\u0026_wid=header-3332\u0026_ct=header\u0026_cp=\u0026_ctt=a3b17ab0af5f11dda3501fcf55d89593\u0026_ctc=723c949e09854804a492ad89ae8a9998\u0026_ctn=3fc3f82483d14ec485ef92e206116d49\u0026_cc=0\u0026_ipd=10\u0026_pcurl=~%2Fblogs_%2Fb%2Fpowerhouse%2Fposts%2Fcalculate-an-r-c-snubber-in-seven-steps',
+					searchInput: jQuery('#header-3332_Search'),
+					searchFooterContent: '\u003ca data-messagename=\"widget.header-3332.advancedsearch\" class=\"right\" id=\"header-3332_advancedsearch\" href=\"#\"\u003eAdvanced search\u003c/a\u003e',
+					searchFilterTemplate: 'header-3332_site-banner-search-filter-template',
+					searchAdvancedUrl: '/search?{0}',
+					searchAdvancedUserUrl: '/members?{0}',
+					searchText: 'Search',
+					searchFilterContentName: 'TI E2E support forums',
+					searchFilterGroupsName: 'Groups',
+					searchFilterPeopleName: 'People',
+					searchPlaceApplicationId:  '723c949e-0985-4804-a492-ad89ae8a9998' ,
+					searchPlaceApplicationName:  'In Power management' ,
+					searchPlaceGroupId:  '3265e6a5-857c-4c39-b7a1-149af7a2e30d' ,
+					searchPlaceGroupLocalId:  '145' ,
+					searchPlaceGroupName:  'In Technical articles' ,
+					searchPlaceAnywhereName: 'Anywhere',
+					advancedSearchId: 'header-3332_advancedsearch',
+					searchShowPeople:  false,
+													bannerLinks: jQuery('#header-3332_bannerLinks'),
+
+					notificationsTemplate: 'header-3332_site-banner-list-template',
+					notificationsUrl: 'https://e2e.ti.com:443/utility/scripted-file.ashx?_cf=notifications.vm\u0026_fid=3332\u0026_wid=header-3332\u0026_ct=header\u0026_cp=\u0026_ctt=a3b17ab0af5f11dda3501fcf55d89593\u0026_ctc=723c949e09854804a492ad89ae8a9998\u0026_ctn=3fc3f82483d14ec485ef92e206116d49\u0026_cc=0\u0026_ipd=10\u0026_pcurl=~%2Fblogs_%2Fb%2Fpowerhouse%2Fposts%2Fcalculate-an-r-c-snubber-in-seven-steps',
+					notificationsLink: jQuery('#header-3332_notifications'),
+					notificationsUnread: 0,
+					notificationListFooterContent: '\u003ca href=\"$core_v2_urls.Notifications()\" class=\"view-all left\"\u003eView all\u003c/a\u003e\u003ca class=\"right\" href=\"${notificationSettingsUrl}\"\u003eSettings\u003c/a\u003e',
+					notificationPreferenceTemplate: 'header-3332_site-banner-notification-preferences-template',
+					notificationssUnreadCountMessageSingular: 'You have {0} unread notification',
+					notificationssUnreadCountMessagePlural: 'You have {0} unread notifications',
+
+					conversationsTemplate: 'header-3332_site-banner-list-template',
+					conversationsUrl: 'https://e2e.ti.com:443/utility/scripted-file.ashx?_cf=conversations.vm\u0026_fid=3332\u0026_wid=header-3332\u0026_ct=header\u0026_cp=\u0026_ctt=a3b17ab0af5f11dda3501fcf55d89593\u0026_ctc=723c949e09854804a492ad89ae8a9998\u0026_ctn=3fc3f82483d14ec485ef92e206116d49\u0026_cc=0\u0026_ipd=10\u0026_pcurl=~%2Fblogs_%2Fb%2Fpowerhouse%2Fposts%2Fcalculate-an-r-c-snubber-in-seven-steps',
+					conversationsLink: jQuery('#header-3332_conversations'),
+					conversationsUnread: 0,
+					conversationNotificationTypeId: '84e4c0a7-3a17-4dfe-b8a0-d7038aa04a84',
+					conversationListFooterContent: '\u003ca href=\"${core_v2_urls.Conversations()}\" class=\"left\"\u003eView all\u003c/a\u003e\u003ca href=\"#\" data-messagename=\"widget.header-3332.startconversation\" class=\"right\"\u003eNew message\u003c/a\u003e',
+					conversationsUnreadCountMessageSingular: 'You have {0} unread message',
+					conversationsUnreadCountMessagePlural: 'You have {0} unread messages',
+					conversationNewConversationUrl:'/user/conversations?New=True',
+
+					bookmarksTemplate: 'header-3332_site-banner-list-template',
+					bookmarksUrl: 'https://e2e.ti.com:443/utility/scripted-file.ashx?_cf=bookmarks.vm\u0026_fid=3332\u0026_wid=header-3332\u0026_ct=header\u0026_cp=\u0026_ctt=a3b17ab0af5f11dda3501fcf55d89593\u0026_ctc=723c949e09854804a492ad89ae8a9998\u0026_ctn=3fc3f82483d14ec485ef92e206116d49\u0026_cc=0\u0026_ipd=10\u0026_pcurl=~%2Fblogs_%2Fb%2Fpowerhouse%2Fposts%2Fcalculate-an-r-c-snubber-in-seven-steps',
+					bookmarksLink: jQuery('#header-3332_bookmarks'),
+					bookmarksListFooterContent: '\u003ca class=\"left\" href=\"${bookmarksUrl}\"\u003eView all\u003c/a\u003e',
+					bookmarksContentTypes: '$core_v2_encoding.JavascriptEncode($contentTypes)',
+					bookmarksApplicationContentTypes: '$core_v2_encoding.JavascriptEncode($applicationContentTypes)',
+					bookmarksContainerContentTypes: '$core_v2_encoding.JavascriptEncode($containerContentTypes)',
+					bookmarksFilterTemplate: 'header-3332_site-banner-bookmark-filter-template',
+					bookmarksIsBookmarked:  false ,
+					bookmarksCurrentContentId: '',
+					bookmarksBookmarks: 'Bookmarks',
+					bookmarkAdded: 'Bookmark added',
+					bookmarkRemoved: 'Bookmark removed',
+
+					userContentTemplate: 'header-3332_site-banner-user-template',
+					userLink: jQuery('#header-3332_user'),
+				
+				viewType: 'all'
+			});
+		});
+	</script>
+
+		<script>
+		jQuery(function(j){
+			// no sub-nav on touch
+			if(j('body').hasClass('touch'))
+				return;
+
+			var container = j('#header-3333_container');
+			var popup;
+			var currentParent;
+			var hideTimeoutHandle;
+
+			function hideLinksPopup() {
+				if(popup) {
+					popup.glowPopUpPanel('hide', true);
+					$(currentParent).removeClass('subnav-open');
+					currentParent = null;
+				}
+			}
+
+			function mouseOut() {
+				window.clearTimeout(hideTimeoutHandle);
+				hideTimeoutHandle = window.setTimeout(function() {
+					hideLinksPopup();
+				}, 300);
+			}
+
+			function mouseOver() {
+				window.clearTimeout(hideTimeoutHandle);
+			}
+
+			function showLinksPopUp(parent, children) {
+				parent.addClass('subnav-open');
+				if(currentParent == parent.get(0)) {
+					return;
+				}
+
+				var links = j('<ul></ul>').append(children);
+
+				if(popup) {
+					hideLinksPopup();
+					popup.glowPopUpPanel('empty', '')
+						.glowPopUpPanel('append', links)
+						.glowPopUpPanel('show', parent);
+				} else {
+					popup = j('<div></div>')
+						.glowPopUpPanel({
+							cssClass: 'links-popup-panel',
+							zIndex: 1500,
+							hideOnDocumentClick: true
+						})
+						.on('glowPopUpPanelMouseOut', function() {
+							mouseOut();
+						})
+						.on('glowPopUpPanelMouseOver', function() {
+							mouseOver();
+						})
+						.glowPopUpPanel('append', links)
+						.glowPopUpPanel('show', parent)
+				}
+				currentParent = parent.get(0);
+			}
+
+			container.on('mouseenter', '.navigation-list-item a', function(e){
+				var elm = j(e.target);
+				var children = elm.data('_link_children');
+				if(!children) {
+					children = elm.closest('li').find('ul.children > li');
+					elm.data('_link_children', children);
+				}
+				if(children && children.length > 0) {
+					mouseOver();
+					showLinksPopUp(elm, children);
+				}
+			});
+
+			container.on('mouseleave', '.navigation-list-item a', function(e){
+				mouseOut();
+			});
+		});
+		</script>
+	
+	<script type="text/javascript">
+		jQuery(function(j){
+			j.telligent.evolution.widgets.scglobal.register();
+		});
+	</script>
+
+	<script type="text/javascript" src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/ui_002.js"></script>
+			<script type="text/html" id="telligent.evolution.widgets.moreContent.sliderTemplate">
+			<div class="recommended-content-slider-content">
+				<a href="#" data-messagename="telligent.evolution.widgets.more.slider.close" class="close replace-with-icon cancel-circled">Close</a>
+				<% foreach(contents, function(content) { %>
+					<h2><%= content.title %></h2>
+					<%= content.content %>
+				<% }); %>
+			</div>
+		</script>
+	
+	<script type="text/javascript">
+	jQuery(function() {
+		jQuery.telligent.evolution.widgets.moreContent.register({
+			wrapper: '#fragment-322568',
+			useSlider:  true ,
+			title: 'Similar topics',
+			content: '#pifragment-322568-paged-content',
+			sliderTemplate: 'telligent.evolution.widgets.moreContent.sliderTemplate',
+			slideAt: 0.8,
+			delayedPagedContentWrapper: 'fragment-322568_delayedPagedContentWrapper',
+			delayedPagedContentUrl: "https://e2e.ti.com:443/utility/scripted-file.ashx?_cf=content.vm\u0026_fid=322568\u0026_wid=fragment-322568\u0026_ct=page\u0026_cp=post\u0026_ctt=a3b17ab0af5f11dda3501fcf55d89593\u0026_ctc=723c949e09854804a492ad89ae8a9998\u0026_ctn=3fc3f82483d14ec485ef92e206116d49\u0026_cc=0\u0026_ipd=0\u0026_pcurl=~%2Fblogs_%2Fb%2Fpowerhouse%2Fposts%2Fcalculate-an-r-c-snubber-in-seven-steps",
+			isPreview:  false		});
+	});
+	</script>
+
+	<script type="text/javascript">
+	jQuery(function() {
+		jQuery.telligent.evolution.widgets.moreContent.register({
+			wrapper: '#fragment-322569',
+			useSlider:  true ,
+			title: 'Recommended',
+			content: '#pifragment-322569-paged-content',
+			sliderTemplate: 'telligent.evolution.widgets.moreContent.sliderTemplate',
+			slideAt: 0.8,
+			delayedPagedContentWrapper: 'fragment-322569_delayedPagedContentWrapper',
+			delayedPagedContentUrl: "https://e2e.ti.com:443/utility/scripted-file.ashx?_cf=content.vm\u0026_fid=322569\u0026_wid=fragment-322569\u0026_ct=page\u0026_cp=post\u0026_ctt=a3b17ab0af5f11dda3501fcf55d89593\u0026_ctc=723c949e09854804a492ad89ae8a9998\u0026_ctn=3fc3f82483d14ec485ef92e206116d49\u0026_cc=0\u0026_ipd=0\u0026_pcurl=~%2Fblogs_%2Fb%2Fpowerhouse%2Fposts%2Fcalculate-an-r-c-snubber-in-seven-steps",
+			isPreview:  false		});
+	});
+	</script>
+
+<script>jQuery.telligent.evolution.template.register('fragment-322575_loadMoreTemplate',function(h,d){var s=[];with(d){with(h){s.push('	<li class=\"load-more '); if(previous) { s.push(' previous '); } else { s.push(' next '); } s.push('\" '); if (loadInline) { s.push(' data-inline=\"inline\" '); } s.push('>\r\n	'); if(previous) { s.push('\r\n		<a class=\"previous\" href=\"#\" '); if (loadInline) { s.push(' data-inline=\"inline\" '); } s.push('>View More <\/a>\r\n	'); } else { s.push('\r\n		<a class=\"next\" href=\"#\" '); if (loadInline) { s.push(' data-inline=\"inline\" '); } s.push('>View More <\/a>\r\n	'); } s.push('\r\n	<span class=\"ui-loading\" data-width=\"24\" data-height=\"24\"><\/span>\r\n<\/li>\r\n\r\n');}}return s.join('');});</script>
+<script>jQuery.telligent.evolution.template.register('fragment-322575_newRepliesTemplate',function(h,d){var s=[];with(d){with(h){s.push('	<div class=\"threaded new-replies '); if(offscreen) { s.push(' offscreen '); } s.push('\" '); if(offscreen) { s.push(' style=\"width: ');s.push(String( width ));s.push('px\" '); } s.push('>\r\n	<a href=\"#\" data-messagename=\"ui.replies.new\" data-replyid=\"');s.push(String( replyId ));s.push('\">\r\n		'); if(newReplies == 1) { s.push('\r\n			');s.push(String( newReplies ));s.push(' new reply\r\n		'); } else { s.push('\r\n			');s.push(String( newReplies ));s.push(' new replies\r\n		'); } s.push('\r\n	<\/a>\r\n<\/div>\r\n\r\n');}}return s.join('');});</script>
+<script>jQuery.telligent.evolution.template.register('fragment-322575_replyTemplate',function(h,d){var s=[];with(d){with(h){s.push('	<li class=\"threaded content-item '); if(isDeleted) { s.push(' deleted '); } s.push('\"\r\n	data-id=\"');s.push(escape(String( id )));s.push('\"\r\n	data-parentid=\"');s.push(escape(String( parentId )));s.push('\"\r\n	data-createddate=\"');s.push(escape(String( createdDate )));s.push('\"\r\n	data-yesvotes=\"');s.push(escape(String( yesVotes )));s.push('\"\r\n	data-novotes=\"');s.push(escape(String( noVotes )));s.push('\">\r\n\r\n	<div class=\"rendered-content\">\r\n		');s.push(String( body ));s.push('\r\n		<div class=\"typing-status-wrapper\"><\/div>\r\n		<div class=\"new-replies-wrapper\"><\/div>\r\n	<\/div>\r\n\r\n	<div class=\"newreply\"><\/div>\r\n\r\n	<ul class=\"content-list threaded\"\r\n	data-sortby=\"');s.push(escape(String( sortBy )));s.push('\"\r\n	data-sortorder=\"');s.push(escape(String( sortOrder )));s.push('\"><\/ul>\r\n\r\n<\/li>\r\n\r\n');}}return s.join('');});</script>
+<script>jQuery.telligent.evolution.template.register('fragment-322575_replyFormTemplate',function(h,d){var s=[];with(d){with(h){s.push('	<div class=\"reply-form '); if (editingReplyId) { s.push(' edit '); } else { s.push(' create '); } s.push('\" '); if (editingReplyId) { s.push(' data-editing=\"');s.push(String( editingReplyId ));s.push('\" '); } s.push('>\r\n	'); if(!editingReplyId) { s.push('\r\n		\r\n		<div class=\"author\"  data-authorprofileurl=\"\" >\r\n			<div class=\"avatar\">\r\n									<img src=\"https:\/\/e2e.ti.com:443\/cfs-filesystemfile\/__key\/communityserver-components-imagefileviewer\/communityserver-components-avatars_2E00_\/default.png_2D00_44x44x2.png?_=636969875742449240\" border=\"0px\" alt=\"Anonymous\" \/>\r\n							<\/div>\r\n			<div class=\"meta\">\r\n				<span class=\"user-name\">\r\n					<span class=\"ui-userpresence ui-tip \" style=\"display: none;\"\r\ndata-userid=\"2101\" \r\ndata-contentid=\"84975333-53b6-4533-9e38-3068de9de131\" \r\ndata-contenttypeid=\"e9ed4118-60ed-4f2b-a026-5705b8793d05\" \r\ndata-present=\"\" \r\ndata-presentlabel=\"Online\" \r\ndata-notpresentlabel=\"Offline\" \r\ndata-tip=\"\"><\/span>\r\n											Anonymous\r\n									<\/span>\r\n			<\/div>\r\n		<\/div>\r\n	'); } s.push('\r\n\r\n	<div class=\"editor\"><\/div>\r\n\r\n<\/div>\r\n\r\n');}}return s.join('');});</script>
+<script>jQuery.telligent.evolution.template.register('fragment-322575_typingIndicatorTemplate',function(h,d){var s=[];with(d){with(h){s.push('	<div class=\"threaded typing-status\">');s.push(String( displayName ));s.push(' is typing a reply...<\/div>\r\n\r\n');}}return s.join('');});</script>
+<script>jQuery.telligent.evolution.template.register('fragment-322575_replyListTemplate',function(h,d){var s=[];with(d){with(h){s.push('	<ul class=\"content-list threaded\"\r\n	data-sortby=\"');s.push(escape(String( sortBy )));s.push('\"\r\n	data-sortorder=\"');s.push(escape(String( sortOrder )));s.push('\"><\/ul>\r\n\r\n');}}return s.join('');});</script>
+<script>jQuery.telligent.evolution.template.register('fragment-322575_headerTemplate',function(h,d){var s=[];with(d){with(h){s.push('	<div class=\"threaded-filter\" id=\"fragment-322575_filter\">\r\n	<ul class=\"filter order margin-bottom margin-top\">\r\n		<li class=\"filter-option\" data-sortby=\"CreatedDate\" data-sortorder=\"Ascending\">\r\n			<a class=\"navigable\" href=\"?CommentSortBy=CreatedDate&amp;CommentSortOrder=Ascending\">Oldest<\/a>\r\n		<\/li>\r\n					<li class=\"filter-option\" data-sortby=\"Votes\" data-sortorder=\"Descending\">\r\n				<a class=\"navigable\" href=\"?CommentSortBy=Votes&amp;CommentSortOrder=Descending\">Best<\/a>\r\n			<\/li>\r\n				<li class=\"filter-option\" data-sortby=\"CreatedDate\" data-sortorder=\"Descending\">\r\n			<a class=\"navigable\" href=\"?CommentSortBy=CreatedDate&amp;CommentSortOrder=Descending\">Newest<\/a>\r\n		<\/li>\r\n	<\/ul>\r\n<\/div>\r\n\r\n');}}return s.join('');});</script>
+<script>jQuery.telligent.evolution.template.register('fragment-322575_statisticsTemplate',function(h,d){var s=[];with(d){with(h){s.push('	<ul class=\"attribute-list\">\r\n'); if (typeof commentCount !== 'undefined')	{ s.push('\r\n	<li class=\"attribute-item count\">\r\n		<span class=\"value prepend-icon comment\">\r\n			'); if(commentCount == 1) { s.push('\r\n				');s.push(String( commentCount ));s.push(' comment\r\n			'); } else { s.push('\r\n				');s.push(String( commentCount ));s.push(' comments\r\n			'); } s.push('\r\n		<\/span>\r\n	<\/li>\r\n'); } s.push('\r\n'); if (typeof userCount !== 'undefined') { s.push('\r\n	<li class=\"attribute-item users\">\r\n		<span class=\"value prepend-icon user\">\r\n			'); if(userCount == 1) { s.push('\r\n				');s.push(String( userCount ));s.push(' member is here\r\n			'); } else { s.push('\r\n				');s.push(String( userCount ));s.push(' members are here\r\n			'); } s.push('\r\n		<\/span>\r\n	<\/li>\r\n'); } s.push('\r\n<\/ul>\r\n');}}return s.join('');});</script>
+	<script type="text/javascript" src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/ui_003.js"></script>
+
+	<script type="text/javascript">
+	jQuery(function() {
+		jQuery.telligent.evolution.widgets.comments.register({
+			commentId:  null ,
+			preFocus:  false ,
+			wrapperId: 'fragment-322575',
+			wrapper: '#fragment-322575',
+			container: '#fragment-322575_preRenderedWrapperId',
+			bestRepliesWrapperId: 'fragment-322575_bestRepliesWrapper',
+			contentId: '198a11e5-8814-4fac-90dd-978af40b2d08',
+			contentTypeId: 'f7d226ab-d59f-475c-9d22-4a79e3f0ec07',
+			commentTypeId:  '' ,
+			sortOrder: 'Descending',
+			sortBy: 'Votes',
+			flattenedSortBy: 'CreatedDate',
+			flattenedSortOrder: 'Ascending',
+			flattenedDepth: 2,
+			pageSize: 5,
+			contentUrl: 'https://e2e.ti.com/blogs_/b/powerhouse/posts/calculate-an-r-c-snubber-in-seven-steps',
+									highlightNewSeconds: 4,
+			endlessScroll:  true ,
+			listRepliesUrl: 'https://e2e.ti.com:443/utility/scripted-file.ashx?_cf=callback-model-list-replies.vm\u0026_fid=322575\u0026_wid=fragment-322575\u0026_ct=page\u0026_cp=post\u0026_ctt=a3b17ab0af5f11dda3501fcf55d89593\u0026_ctc=723c949e09854804a492ad89ae8a9998\u0026_ctn=3fc3f82483d14ec485ef92e206116d49\u0026_cc=0\u0026_ipd=0\u0026_pcurl=~%2Fblogs_%2Fb%2Fpowerhouse%2Fposts%2Fcalculate-an-r-c-snubber-in-seven-steps',
+			addReplyUrl: 'https://e2e.ti.com:443/utility/scripted-file.ashx?_cf=callback-model-add-reply.vm\u0026_fid=322575\u0026_wid=fragment-322575\u0026_ct=page\u0026_cp=post\u0026_ctt=a3b17ab0af5f11dda3501fcf55d89593\u0026_ctc=723c949e09854804a492ad89ae8a9998\u0026_ctn=3fc3f82483d14ec485ef92e206116d49\u0026_cc=0\u0026_ipd=0\u0026_pcurl=~%2Fblogs_%2Fb%2Fpowerhouse%2Fposts%2Fcalculate-an-r-c-snubber-in-seven-steps',
+			editReplyUrl: 'https://e2e.ti.com:443/utility/scripted-file.ashx?_cf=callback-model-edit-reply.vm\u0026_fid=322575\u0026_wid=fragment-322575\u0026_ct=page\u0026_cp=post\u0026_ctt=a3b17ab0af5f11dda3501fcf55d89593\u0026_ctc=723c949e09854804a492ad89ae8a9998\u0026_ctn=3fc3f82483d14ec485ef92e206116d49\u0026_cc=0\u0026_ipd=0\u0026_pcurl=~%2Fblogs_%2Fb%2Fpowerhouse%2Fposts%2Fcalculate-an-r-c-snubber-in-seven-steps',
+			getReplyUrl: 'https://e2e.ti.com:443/utility/scripted-file.ashx?_cf=callback-model-get-reply.vm\u0026_fid=322575\u0026_wid=fragment-322575\u0026_ct=page\u0026_cp=post\u0026_ctt=a3b17ab0af5f11dda3501fcf55d89593\u0026_ctc=723c949e09854804a492ad89ae8a9998\u0026_ctn=3fc3f82483d14ec485ef92e206116d49\u0026_cc=0\u0026_ipd=0\u0026_pcurl=~%2Fblogs_%2Fb%2Fpowerhouse%2Fposts%2Fcalculate-an-r-c-snubber-in-seven-steps',
+			listBestUrl: 'https://e2e.ti.com:443/utility/scripted-file.ashx?_cf=callback-model-list-best.vm\u0026_fid=322575\u0026_wid=fragment-322575\u0026_ct=page\u0026_cp=post\u0026_ctt=a3b17ab0af5f11dda3501fcf55d89593\u0026_ctc=723c949e09854804a492ad89ae8a9998\u0026_ctn=3fc3f82483d14ec485ef92e206116d49\u0026_cc=0\u0026_ipd=0\u0026_pcurl=~%2Fblogs_%2Fb%2Fpowerhouse%2Fposts%2Fcalculate-an-r-c-snubber-in-seven-steps',
+			loadMoreTemplate: 'fragment-322575_loadMoreTemplate',
+			newRepliesTemplate: 'fragment-322575_newRepliesTemplate',
+			replyTemplate: 'fragment-322575_replyTemplate',
+			typingIndicatorTemplate: 'fragment-322575_typingIndicatorTemplate',
+			replyListTemplate: 'fragment-322575_replyListTemplate',
+			replyFormTemplate: 'fragment-322575_replyFormTemplate',
+			emptyGuid: '00000000-0000-0000-0000-000000000000',
+			deleteCommentPanelUrl: '#_cptype=panel\u0026_cpcontexttype=Explicit\u0026_cppanelid=5aabcf9a-e27b-49e7-93cf-060498d68763\u0026commentid=00000000-0000-0000-0000-000000000000',
+			loginUrl: '/login?ReturnUrl=%2Fblogs_%2Fb%2Fpowerhouse%2Fposts%2Fcalculate-an-r-c-snubber-in-seven-steps',
+			headerTemplate: 'fragment-322575_headerTemplate',
+			filterWrapper: '#fragment-322575_filter',
+			noRepliesMessage: 'There are no remaining comments.',
+			replyEditor: {
+				appendTo: function(container) {
+					jQuery('#fragment-322575_fragment-322575_replyEditor').evolutionHtmlEditor('moveTo',container);;
+					var contextId = 'comment-' + (container.closest('.content-item').data('id') || '');
+                    jQuery('#fragment-322575_fragment-322575_replyEditor').evolutionHtmlEditor('context',contextId);;
+					jQuery('#fragment-322575_fragment-322575_replyEditor').on('keydown', function(e) { jQuery.telligent.evolution.messaging.publish('widgets.threadedComments.typing', { container: container }) });;
+				},
+				remove: function() {
+					// removing the editor technically just moves it back to a hidden location
+					var wrapper = '#fragment-322575_editorWrapperWrapper';
+					jQuery('#fragment-322575_fragment-322575_replyEditor').evolutionHtmlEditor('moveTo',wrapper);;
+				},
+				val: function(val) {
+					if (typeof(val) !== 'undefined') {
+						jQuery('#fragment-322575_fragment-322575_replyEditor').evolutionHtmlEditor('val', val);
+						return val;
+					}
+					return jQuery('#fragment-322575_fragment-322575_replyEditor').evolutionHtmlEditor('val');
+				},
+				focus: function() {
+					jQuery('#fragment-322575_fragment-322575_replyEditor').evolutionHtmlEditor('focus');
+				}
+			},
+			text: {
+				more: 'More',
+				peopleWhoVoted: 'People who voted on this reply',
+				noVotes: 'No Votes',
+				successMessage: 'Your comment has been posted.',
+				moderateMessage: 'Thank you, your comment requires moderation so it may take a while to appear.'
+			},
+			statisticsWrapper: '#fragment-322575_statisticsWrapper',
+			statisticsTemplate: 'fragment-322575_statisticsTemplate',
+			totalComments: 12,
+			presentUsers: 0,
+			storeTempDataCallbackUrl: 'https://e2e.ti.com:443/utility/scripted-file.ashx?_cf=callback-model-store-temp.vm\u0026_fid=322575\u0026_wid=fragment-322575\u0026_ct=page\u0026_cp=post\u0026_ctt=a3b17ab0af5f11dda3501fcf55d89593\u0026_ctc=723c949e09854804a492ad89ae8a9998\u0026_ctn=3fc3f82483d14ec485ef92e206116d49\u0026_cc=0\u0026_ipd=0\u0026_pcurl=~%2Fblogs_%2Fb%2Fpowerhouse%2Fposts%2Fcalculate-an-r-c-snubber-in-seven-steps',
+			loginUrl: '/login?ReturnUrl=%2Fblogs_%2Fb%2Fpowerhouse%2Fposts%2Fcalculate-an-r-c-snubber-in-seven-steps',
+			tempBody: '',
+			createEditor: {
+				attachOnChange: function() {
+					jQuery('#fragment-322575_fragment-322575_createEditor').on('keydown', function(e) { jQuery.telligent.evolution.messaging.publish('widgets.comments.typing', { from: 'fragment-322575' }) });;
+				},
+				val: function(val) {
+					if (typeof(val) !== 'undefined') {
+						jQuery('#fragment-322575_fragment-322575_createEditor').evolutionHtmlEditor('val', val);
+					}
+					return jQuery('#fragment-322575_fragment-322575_createEditor').evolutionHtmlEditor('val');
+				},
+				focus: function() {
+					jQuery('#fragment-322575_fragment-322575_createEditor').evolutionHtmlEditor('focus');
+				}
+			}
+		});
+	});
+	</script>
+
+        <script type="text/javascript">
+    // var pageUrl = "/blogs_/b/powerhouse/posts/calculate-an-r-c-snubber-in-seven-steps";
+    // 	// jQuery.telligent.evolution.messaging.subscribe('user.logout', function() {
+    //     if(pageUrl.indexOf("logout") == -1)
+    //     {
+    //       window.location.href = "/logout?ReturnUrl=" + pageUrl;
+    //     }
+	// });
+	</script>
+
+<script defer="defer" type="text/javascript" src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/footer.js"></script>
+<script defer="defer" type="text/javascript">
+    jQuery('.ti_p-responsiveFooter-col.mod-quarter').on('click', function(e) {
+        jQuery(this).find('.mod-collapsible').toggleClass("is-open");
+    });
+</script>
+
+	<script type="text/javascript" src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/ui_004.js"></script>
+
+	<script type="text/javascript">
+		jQuery(function(){
+			jQuery.telligent.evolution.widgets.userHover.register({
+				getUserInformationUrl: 'https://e2e.ti.com:443/utility/scripted-file.ashx?_cf=get-user-information.vm\u0026_fid=3343\u0026_wid=footer-3343\u0026_ct=footer\u0026_cp=\u0026_ctt=a3b17ab0af5f11dda3501fcf55d89593\u0026_ctc=723c949e09854804a492ad89ae8a9998\u0026_ctn=3fc3f82483d14ec485ef92e206116d49\u0026_cc=0\u0026_ipd=10\u0026_pcurl=~%2Fblogs_%2Fb%2Fpowerhouse%2Fposts%2Fcalculate-an-r-c-snubber-in-seven-steps',
+				getRecentActivityUrl: 'https://e2e.ti.com:443/utility/scripted-file.ashx?_cf=get-recent-activity.vm\u0026_fid=3343\u0026_wid=footer-3343\u0026_ct=footer\u0026_cp=\u0026_ctt=a3b17ab0af5f11dda3501fcf55d89593\u0026_ctc=723c949e09854804a492ad89ae8a9998\u0026_ctn=3fc3f82483d14ec485ef92e206116d49\u0026_cc=0\u0026_ipd=10\u0026_pcurl=~%2Fblogs_%2Fb%2Fpowerhouse%2Fposts%2Fcalculate-an-r-c-snubber-in-seven-steps'
+			});
+		});
+	</script>
+
+	<script type="text/javascript">
+	//<![CDATA[
+
+        jQuery.telligent.evolution.ui.components.moderate.defaults = {
+    		reportedText: 'Thank you for your report',
+    		flagText: 'Report as abusive',
+    		flaggedText: 'Reported as abusive'
+    	};
+	//]]>
+	</script>
+
+<script>jQuery.telligent.evolution.template.register('footer-3346_glossaryTemplate',function(h,d){var s=[];with(d){with(h){s.push('	<div class=\"keyboard-shortcuts\">\n		<table>\n		'); foreach(shortcuts, function(shortcut){ s.push('\n			<tr>\n				<td class=\"combination\">\n					'); foreach(shortcut.routes, function(route , i){ s.push('\n\n						'); if(i > 0) { s.push('\n							<span class=\"divider\">or<\/span>\n						'); } s.push('\n\n						'); if(route.ctrlKey) { s.push('\n							<span class=\"modifier\">Control<\/span>\n						'); } s.push('\n\n						'); if(route.altKey) { s.push('\n							'); if(os.ios || os.mac) { s.push('\n								<span class=\"modifier\">Option<\/span>\n							'); } else { s.push('\n								<span class=\"modifier\">Alt<\/span>\n							'); } s.push('\n						'); } s.push('\n\n						'); if(route.shiftKey) { s.push('\n							<span class=\"modifier\">Shift<\/span>\n						'); } s.push('\n\n						'); if(route.metaKey) { s.push('\n							'); if(os.ios || os.mac) { s.push('\n								<span class=\"modifier\">Command<\/span>\n							'); } else if(os.windows) { s.push('\n								<span class=\"modifier\">Windows<\/span>\n							'); } else { s.push('\n								<span class=\"modifier\">Meta<\/span>\n							'); } s.push('\n						'); } s.push('\n\n						<span class=\"key\">\n							'); if(route.keyCharacter == 'LEFT') { s.push('\n								Left\n							'); } else if(route.keyCharacter == 'UP') { s.push('\n								Up\n							'); } else if(route.keyCharacter == 'RIGHT') { s.push('\n								Right\n							'); } else if(route.keyCharacter == 'DOWN') { s.push('\n								Down\n							'); } else if(route.keyCharacter == 'TAB') { s.push('\n								Tab\n							'); } else if(route.keyCharacter == 'COMMA') { s.push('\n								,\n							'); } else if(route.keyCharacter == 'SLASH') { s.push('\n								\/\n							'); } else if(route.keyCharacter == 'PERIOD') { s.push('\n								.\n							'); } else { s.push('\n								');s.push(String( route.keyCharacter ));s.push('\n							'); } s.push('\n						<\/span>\n\n					'); }); s.push('\n				<\/td>\n\n				<td class=\"description\">\n					');s.push(String( (shortcut.description || '') ));s.push('\n				<\/td>\n			<\/tr>\n		'); }); s.push('\n		<\/table>\n	<\/div>\n');}}return s.join('');});</script>
+<script>
+(function(j, global, undef){
+	var userAgent = global.navigator.userAgent;
+	var env = null;
+	var listTemplate;
+	var isActive = false;
+
+	function render(e) {
+		if (e.isInput && e.combination !== 'alt + k')
+			return;
+
+		if (isActive)
+			return;
+		isActive = true;
+
+		var visibleShortcuts = (j.telligent.evolution.shortcuts.list({ scoped: true }) || []).filter(function(s) {
+			return s.description && s.description.length > 0
+		});
+
+		if (!visibleShortcuts || visibleShortcuts.length <= 1)
+			return;
+
+		listTemplate = listTemplate || j.telligent.evolution.template('footer-3346_glossaryTemplate');
+
+		env = env || {
+			os: {
+				ios: /(iphone|ipad|ipod)/i.test(userAgent),
+				android: /android/i.test(userAgent),
+				mac: /macintosh/i.test(userAgent),
+				windows: /windows/i.test(userAgent),
+				linux: /linux/i.test(userAgent)
+			},
+			browser: {
+				firefox: /firefox/i.test(userAgent),
+				safari: /safari/i.test(userAgent) && !(/chrome/i.test(userAgent)),
+				chrome: /chrome/i.test(userAgent) && !(/edge/i.test(userAgent)),
+				ie: /msie|trident/i.test(userAgent),
+				edge: /edge/i.test(userAgent)
+			}
+		};
+
+		var templateData = j.extend({}, env, {
+			shortcuts: visibleShortcuts
+		});
+
+		j.glowModal({
+			title: "Keyboard Shortcuts",
+			html: listTemplate(templateData),
+			width: 550,
+			height: '100%',
+			onClose: function() {
+				isActive = false;
+			}
+		});
+
+		return false;
+	}
+
+	j(function(j){
+		j.telligent.evolution.shortcuts.register(['alt + k', 'meta + k'], render, {
+			description: "List available shortcuts"
+		});
+		j.telligent.evolution.messaging.subscribe('shortcuts.list', render);
+	});
+})(jQuery, window);
+</script>
+
+<!--
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+<rdf:Description
+rdf:about="https://e2e.ti.com:443//blogs_/b/powerhouse/posts/calculate-an-r-c-snubber-in-seven-steps"
+dc:identifier="https://e2e.ti.com:443//blogs_/b/powerhouse/posts/calculate-an-r-c-snubber-in-seven-steps"
+dc:title="Power Tips: Calculate an R-C snubber in seven steps"
+trackback:ping="https://e2e.ti.com:443//blogs_/b/powerhouse/trackback?WeblogPostId=668643" />
+</rdf:RDF>
+-->
+<noscript><img src="https://e2e.ti.com/akam/13/pixel_4eb821e5?a=dD1kZGZkZTg3MTc4NGE2MTI1M2VlZWFkMzQyNmNlNmNhYzVhYWM0MGM1JmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript>
+<div style="display: none;"></div><div style="position: fixed; top: 0px; left: 0px;"><img src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/pxPixel.gif"></div><div style="display: none; width: 250px; min-height: 75px; max-height: 696.5px; position: fixed; bottom: 25px; right: 0px;" class="recommended-content-slider"></div><iframe name="syncIframe" id="cn" style="display:none" src="Power%20Tips%20Calculate%20an%20R-C%20snubber%20in%20seven%20steps%20-%20Power%20management%20-%20Technical%20articles%20-%20TI%20E2E%20support%20forums_files/xdomain-sync.html" width="1" height="1"></iframe></body></html>

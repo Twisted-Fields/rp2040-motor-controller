@@ -245,7 +245,7 @@
     (effects (font (size 3 3)) (justify left bottom))
     (uuid 9ebb3af3-914b-45c6-b700-e0972106343b)
   )
-  (text "60 Volt input maximum\n100 Amp peak current draw\n50 Amp peak per motor absolute maximum"
+  (text "53V input maximum run voltage\n20 Amp peak current draw\n50 Amp peak per motor absolute maximum"
     (at 224.155 87.63 0)
     (effects (font (size 3 3)) (justify left bottom))
     (uuid a70fdada-2b67-4cb0-bc3c-ae142f93cd7b)

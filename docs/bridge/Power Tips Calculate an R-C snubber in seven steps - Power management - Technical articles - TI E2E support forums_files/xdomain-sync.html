@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>X-Domain Sync Page</title>
+  <script src="xdomain-sync_data/utag.js" type="text/javascript" async=""></script><script>bazadebezolkohpepadr="1492994168"</script><script type="text/javascript" src="xdomain-sync_data/58fd49be" defer="defer"></script></head>
+
+  <body>
+    <script type="text/javascript">
+      var utag_data = {};
+    </script>
+    <script type="text/javascript">
+    var gd = function (str){
+      a = "" + str;
+      b = a.split(".");
+      c = (/\.co\.|\.com\.|\.org\.|\.edu\.|\.net\.|\.asn\./.test(a)) ? 3 : 2;
+      return b.splice(b.length - c, c).join(".");
+    }
+	  var gc = function(t) {
+      return document.cookie.length > 0 && (cs = document.cookie.indexOf(t + "="),
+      cs != -1) ? (cs = cs + t.length + 1,
+      ce = document.cookie.indexOf(";", cs),
+      ce == -1 && (ce = document.cookie.length),
+      unescape(document.cookie.substring(cs, ce))) : "";
+		};
+		
+      (function(a, b, c, d, e) {
+        var mapper = {
+			'consentmgr_qp': {
+				'cookieName': 'CONSENTMGR',
+				'expiration': 60
+			},
+			'explicit_consent': {
+				'cookieName': 'explicit_consent',
+				'expiration': 60
+			},
+			'iframeSync': {
+				'cookieName': 'iframe_sync',
+				'expiration': 365
+			},
+			'tiSessionID': {
+				'cookieName': 'tiSessionID',
+				'expiration': 365 * 2
+			},
+			'chipset': {
+				'cookieName': 'chipset',
+				'expiration': 365
+			},
+			'_ga': {
+				'cookieName': '_ga',
+				'expiration': 365 * 2
+			},
+			'role': {
+				'cookieName': 'ti_p_api',
+				'expiration': 365 * 2
+			},
+			'akId': {
+				'cookieName': 'ti_ak_id',
+				'expiration': 365
+            }
+        }
+        var ld = gd(location.hostname);
+        if( location.search.indexOf('sync') > -1) {
+          // rewrite cookies
+                  var syncList = Object.keys(mapper);
+          for (var j = 0; j < syncList.length; j++) {
+            if ( gc(mapper[syncList[j]].cookieName) && (gc(mapper[syncList[j]].cookieName) != "")) {    
+              var a = new Date();
+              a.setTime(a.getTime() + (mapper[syncList[j]].expiration * 60000 * 1440));           
+              document.cookie = mapper[syncList[j]].cookieName  + '=' + encodeURIComponent(gc(mapper[syncList[j]].cookieName)) + ';expires=' + a.toGMTString() + ';path=/;domain=' + ld;
+            }
+          }
+        } else {
+          a = RegExp("[?&]env=([^&]+)").exec(decodeURIComponent(window.location.search));
+          a = a ? a[1] : "prod";
+          b = "//www.ti.com/utag/ti/xdomain-sync/" + a + "/utag.js";
+          c = document;
+          d = "script";
+          e = c.createElement(d);
+          e.src = b;
+          e.type = "text/java" + d;
+          e.async = true;
+          b = c.getElementsByTagName(d)[0];
+          b.parentNode.insertBefore(e, b);
+        }        
+      })();
+    </script>
+  <noscript><img src="https://www.ti.com.cn/akam/13/pixel_58fd49be?a=dD0zNzRkZDA5ODA4NzAxNjlkYTMxNjA1MTljMzIyNTBmN2U2OGI3MWMwJmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript>
+
+</body></html>
