@@ -46,13 +46,13 @@
     )
     (symbol "+5V_ISO_1_1"
       (pin power_in line (at 0 0 90) (length 0) hide
-        (name "+5VP" (effects (font (size 1.27 1.27))))
+        (name "+5V_ISO" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
     )
   )
   (symbol "+5V_ISO_FILT" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-    (property "Reference" "#PWR" (at 0 -3.81 0)
+    (property "Reference" "#PWR" (at 3.81 -2.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V_ISO_FILT" (at 0 3.556 0)
@@ -98,7 +98,7 @@
     )
     (symbol "+5V_ISO_FILT_1_1"
       (pin power_in line (at 0 0 90) (length 0) hide
-        (name "+5VP" (effects (font (size 1.27 1.27))))
+        (name "+5V_ISO_FILT" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
     )

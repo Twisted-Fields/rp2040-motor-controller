@@ -458,9 +458,26 @@
       {
         "bus_width": 12,
         "clearance": 0.2,
-        "diff_pair_gap": 0.15,
+        "diff_pair_gap": 0.5,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.8,
+        "diff_pair_width": 0.15,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "CAN",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -499,6 +516,54 @@
       {
         "netclass": "VMOT",
         "pattern": "VMOT"
+      },
+      {
+        "netclass": "USB_DIFF_90",
+        "pattern": "/power_and_cpu/USB_D+"
+      },
+      {
+        "netclass": "USB_DIFF_90",
+        "pattern": "/power_and_cpu/USB_D-"
+      },
+      {
+        "netclass": "USB_DIFF_90",
+        "pattern": "/power_and_cpu/USB_DP"
+      },
+      {
+        "netclass": "USB_DIFF_90",
+        "pattern": "/power_and_cpu/USB_DN"
+      },
+      {
+        "netclass": "USB_DIFF_90",
+        "pattern": "/power_and_cpu/USB_D_2+"
+      },
+      {
+        "netclass": "USB_DIFF_90",
+        "pattern": "/power_and_cpu/USB_D_2-"
+      },
+      {
+        "netclass": "USB_DIFF_90",
+        "pattern": "/power_and_cpu/USB_DP_2"
+      },
+      {
+        "netclass": "USB_DIFF_90",
+        "pattern": "/power_and_cpu/USB_DN_2"
+      },
+      {
+        "netclass": "CAN",
+        "pattern": "/power_and_cpu/CANH1_P"
+      },
+      {
+        "netclass": "CAN",
+        "pattern": "/power_and_cpu/CANL1_N"
+      },
+      {
+        "netclass": "CAN",
+        "pattern": "/power_and_cpu/CANH0_P"
+      },
+      {
+        "netclass": "CAN",
+        "pattern": "/power_and_cpu/CANL0_N"
       }
     ]
   },
