@@ -504,7 +504,24 @@
         "track_width": 2.0,
         "via_diameter": 0.8,
         "via_drill": 0.2,
-        "wire_width": 6
+        "wire_width": 12
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "low_power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.6,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 8
       }
     ],
     "meta": {
@@ -564,6 +581,18 @@
       {
         "netclass": "CAN",
         "pattern": "/power_and_cpu/CANL0_N"
+      },
+      {
+        "netclass": "low_power",
+        "pattern": "+3.3VA"
+      },
+      {
+        "netclass": "low_power",
+        "pattern": "+5V_ISO"
+      },
+      {
+        "netclass": "low_power",
+        "pattern": "+3V3"
       }
     ]
   },
