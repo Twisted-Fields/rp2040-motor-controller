@@ -17348,35 +17348,6 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 274.955 396.875 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 822014e4-4cbb-4179-927f-8a6c1cd07a76)
-    (property "Reference" "H9" (at 278.13 395.6049 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 278.13 398.1449 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "RP2040_minimal:MountingHole_3.9mm_Plastite_#6" (at 274.955 396.875 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 274.955 396.875 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "RP2040_motor"
-        (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
-          (reference "H9") (unit 1)
-        )
-      )
-      (project "power_and_cpu"
-        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
-          (reference "H2") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C") (at 117.475 233.045 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 82f5eccd-674d-4b26-9afb-b0a4da2c7eb3)
@@ -23457,35 +23428,6 @@
       (project "cm4-robot"
         (path "/afa18c7a-a315-47d4-9664-2bb0bfd0422f"
           (reference "C11") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole") (at 274.955 375.92 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid f0213a28-8cdd-494e-a37d-c1a42eab89ac)
-    (property "Reference" "H5" (at 278.13 374.6499 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 278.13 377.1899 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "RP2040_minimal:MountingHole_3.9mm_Plastite_#6" (at 274.955 375.92 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 274.955 375.92 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "RP2040_motor"
-        (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
-          (reference "H5") (unit 1)
-        )
-      )
-      (project "power_and_cpu"
-        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
-          (reference "H2") (unit 1)
         )
       )
     )
