@@ -6,16 +6,16 @@
     GPL v2.
 
 	Functionality:
-		Generation of LCSC PCBA compatible BOM
+		Generation of JLCPCB PCBA compatible BOM
 
     How to use this is explained in eeschema.pdf chapter 14.  You enter a command line into the
     netlist exporter using a new (custom) tab in the netlist export dialog.
     The command line is
-        xsltproc -o "%O.csv" "FullPathToFile/bom2grouped_csv_LCSC.xsl" "%I"
+        xsltproc -o "%O.csv" "FullPathToFile/bom2grouped_csv_jlcpcb.xsl" "%I"
 -->
 <!--
     @package
-    Generates a LCSC PCBA service compatible BOM
+    Generates a JLCPCB PCBA service compatible BOM
 
 	Functionality:
     * Generate a comma separated value BOM list (csv file type).
@@ -25,7 +25,7 @@
     Comment,Designator,Footprint,LCSC
 
     The command line is
-        xsltproc -o "%O.csv" "full_path/bom2grouped_csv_LCSC.xsl" "%I"
+        xsltproc -o "%O.csv" "full_path/bom2grouped_csv_jlcpcb.xsl" "%I"
 -->
 
 
