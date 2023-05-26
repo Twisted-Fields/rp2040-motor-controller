@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/taylor/pcb/rp2040-motor-controller/RP2040_motor.kicad_sch</source>
-    <date>Tue 09 May 2023 05:29:48 PM PDT</date>
+    <date>Thu 25 May 2023 11:42:05 PM PDT</date>
     <tool>Eeschema 7.0.2-6a45011f42~172~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -181,7 +181,7 @@
       <tstamps>314f6bcf-e969-42a6-b37a-7f206384ca76</tstamps>
     </comp>
     <comp ref="C2">
-      <value>4.7uF 35v</value>
+      <value>4.7uF 35V</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C162274</field>
@@ -271,7 +271,7 @@
       <tstamps>257236a3-da3d-4c82-a876-ff58dc9cda86</tstamps>
     </comp>
     <comp ref="C10">
-      <value>4.7uF 35v</value>
+      <value>4.7uF 35V</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C162274</field>
@@ -286,7 +286,7 @@
       <tstamps>86f9eb9c-caf1-45a0-a13d-fd4889fd4ba5</tstamps>
     </comp>
     <comp ref="C11">
-      <value>4.7uF 35v</value>
+      <value>4.7uF 35V</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C162274</field>
@@ -316,7 +316,7 @@
       <tstamps>85ae81f6-4b36-4a67-ad94-8521e1cbc8e0</tstamps>
     </comp>
     <comp ref="C14">
-      <value>4.7uF 35v</value>
+      <value>4.7uF 35V</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C162274</field>
@@ -331,7 +331,7 @@
       <tstamps>3f8aeda5-8a93-4b56-99c7-9f76caf7327a</tstamps>
     </comp>
     <comp ref="C15">
-      <value>4.7uF 35v</value>
+      <value>4.7uF 35V</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C162274</field>
@@ -373,7 +373,7 @@
       <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>14a499b1-caf1-474f-8ef5-6dc2eab0329d</tstamps>
+      <tstamps>8724fa99-38cf-4b96-a11c-de376b68de83</tstamps>
     </comp>
     <comp ref="C65">
       <value>10uF 35v</value>
@@ -403,22 +403,7 @@
       <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>9d5489e6-0307-417c-8f21-2b311860054f</tstamps>
-    </comp>
-    <comp ref="C67">
-      <value>100n</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C14663</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="LCSC" value="C14663"/>
-      <property name="Sheetname" value="gate_drive"/>
-      <property name="Sheetfile" value="gate_drive.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>1e5dc664-db2b-4b6a-80fa-6e938e7b79c4</tstamps>
+      <tstamps>ee9fb55a-2683-4570-a8a3-4912fd291bd2</tstamps>
     </comp>
     <comp ref="C68">
       <value>2.2uF 100V</value>
@@ -434,21 +419,6 @@
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
       <tstamps>7621fbc4-a05d-4707-a339-5b351b884974</tstamps>
-    </comp>
-    <comp ref="C69">
-      <value>100n</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C14663</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="LCSC" value="C14663"/>
-      <property name="Sheetname" value="gate_drive"/>
-      <property name="Sheetfile" value="gate_drive.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>897bea33-08a3-4a54-947a-fb6cc8398530</tstamps>
     </comp>
     <comp ref="C70">
       <value>10uF 35v</value>
@@ -493,22 +463,7 @@
       <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>ff9241f3-e4d2-4b5c-a790-f59d48206212</tstamps>
-    </comp>
-    <comp ref="C73">
-      <value>100n</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C14663</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="LCSC" value="C14663"/>
-      <property name="Sheetname" value="gate_drive"/>
-      <property name="Sheetfile" value="gate_drive.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>84ba9a74-62b6-47d0-bf0e-5a99e69839e2</tstamps>
+      <tstamps>d0e82e3c-9d99-4958-aecc-34b187a17f39</tstamps>
     </comp>
     <comp ref="C74">
       <value>100n</value>
@@ -524,21 +479,6 @@
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
       <tstamps>6aac6a8e-9284-4626-8a3e-cba294623e91</tstamps>
-    </comp>
-    <comp ref="C75">
-      <value>100n</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C14663</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="LCSC" value="C14663"/>
-      <property name="Sheetname" value="gate_drive"/>
-      <property name="Sheetfile" value="gate_drive.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>6b751afc-bd50-4492-a6e8-ca297cd86e03</tstamps>
     </comp>
     <comp ref="C76">
       <value>2.2uF 100V</value>
@@ -616,7 +556,7 @@
       <tstamps>5396a30a-57c8-4ae7-a74a-551900383a98</tstamps>
     </comp>
     <comp ref="C81">
-      <value>4.7uF 35v</value>
+      <value>4.7uF 35V</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="LCSC">C162274</field>
@@ -629,21 +569,6 @@
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
       <tstamps>60cb540d-fb01-42ae-9f87-8c18dbcd74f3</tstamps>
-    </comp>
-    <comp ref="C83">
-      <value>100n</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C14663</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="LCSC" value="C14663"/>
-      <property name="Sheetname" value="gate_drive"/>
-      <property name="Sheetfile" value="gate_drive.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>d21dbe9c-f6eb-4f3c-91a2-3fe23e7316bc</tstamps>
     </comp>
     <comp ref="C84">
       <value>10uF 35v</value>
@@ -674,51 +599,6 @@
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
       <tstamps>cf369475-ec22-4b38-879a-fdca0422f6e2</tstamps>
-    </comp>
-    <comp ref="C116">
-      <value>100n</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C14663</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="LCSC" value="C14663"/>
-      <property name="Sheetname" value="gate_drive"/>
-      <property name="Sheetfile" value="gate_drive.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>4c2a92dc-ea53-41e5-8730-1c31cefd29b1</tstamps>
-    </comp>
-    <comp ref="C117">
-      <value>100n</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C14663</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="LCSC" value="C14663"/>
-      <property name="Sheetname" value="gate_drive"/>
-      <property name="Sheetfile" value="gate_drive.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>81eac70c-a6bb-4788-891f-a555b007ba4b</tstamps>
-    </comp>
-    <comp ref="C118">
-      <value>100n</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C14663</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="LCSC" value="C14663"/>
-      <property name="Sheetname" value="gate_drive"/>
-      <property name="Sheetfile" value="gate_drive.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>31ad7c32-5ce7-49cf-9508-88b2bc098829</tstamps>
     </comp>
     <comp ref="CH1">
       <value>MOSFETSO-8</value>
@@ -1255,19 +1135,6 @@
       <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
       <tstamps>c0eac906-e35e-480b-8c24-19ee16d25297</tstamps>
     </comp>
-    <comp ref="R2">
-      <value>10k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C25804</field>
-      </fields>
-      <libsource lib="MotorController" part="TAYLOR_RESISTOR" description=""/>
-      <property name="LCSC" value="C25804"/>
-      <property name="Sheetname" value="gate_drive"/>
-      <property name="Sheetfile" value="gate_drive.kicad_sch"/>
-      <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>3cbc9157-52ce-4904-9f5a-a051f602f685</tstamps>
-    </comp>
     <comp ref="R3">
       <value>0R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
@@ -1594,13 +1461,13 @@
       <tstamps>8f797529-14d0-43ec-89e2-72237f6f46eb</tstamps>
     </comp>
     <comp ref="R50">
-      <value>2mΩ</value>
+      <value>3mΩ</value>
       <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
       <fields>
-        <field name="LCSC">C695813</field>
+        <field name="LCSC">C2688862</field>
       </fields>
       <libsource lib="MotorController" part="TAYLOR_RESISTOR" description=""/>
-      <property name="LCSC" value="C695813"/>
+      <property name="LCSC" value="C2688862"/>
       <property name="Sheetname" value="gate_drive"/>
       <property name="Sheetfile" value="gate_drive.kicad_sch"/>
       <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
@@ -1736,307 +1603,96 @@
       <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
       <tstamps>a180ebf2-9f5f-48ff-80cf-584faff8f3e4</tstamps>
     </comp>
-    <comp ref="R99">
-      <value>75k 0.5%</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C2902644</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C2902644"/>
-      <property name="Sheetname" value="gate_drive"/>
-      <property name="Sheetfile" value="gate_drive.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>0cf78590-3251-4589-bedf-edd5e551d2ee</tstamps>
-    </comp>
-    <comp ref="R100">
-      <value>10k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C25804</field>
-      </fields>
-      <libsource lib="MotorController" part="TAYLOR_RESISTOR" description=""/>
-      <property name="LCSC" value="C25804"/>
-      <property name="Sheetname" value="gate_drive"/>
-      <property name="Sheetfile" value="gate_drive.kicad_sch"/>
-      <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>0c2b278b-50e8-400d-a105-0c585859eb59</tstamps>
-    </comp>
     <comp ref="R101">
-      <value>2mΩ</value>
+      <value>3mΩ</value>
       <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
       <fields>
-        <field name="LCSC">C695813</field>
+        <field name="LCSC">C2688862</field>
       </fields>
       <libsource lib="MotorController" part="TAYLOR_RESISTOR" description=""/>
-      <property name="LCSC" value="C695813"/>
+      <property name="LCSC" value="C2688862"/>
       <property name="Sheetname" value="gate_drive"/>
       <property name="Sheetfile" value="gate_drive.kicad_sch"/>
       <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
       <tstamps>1a34cde4-25e3-4bd5-8ece-97200a733701</tstamps>
     </comp>
-    <comp ref="R102">
-      <value>75k 0.5%</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C2902644</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C2902644"/>
-      <property name="Sheetname" value="gate_drive"/>
-      <property name="Sheetfile" value="gate_drive.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>d0a5ea52-cc19-4fd6-b0b0-ea9652f3cc8e</tstamps>
-    </comp>
-    <comp ref="R103">
-      <value>10k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C25804</field>
-      </fields>
-      <libsource lib="MotorController" part="TAYLOR_RESISTOR" description=""/>
-      <property name="LCSC" value="C25804"/>
-      <property name="Sheetname" value="gate_drive"/>
-      <property name="Sheetfile" value="gate_drive.kicad_sch"/>
-      <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>002aee2e-6a36-4a4d-8edc-010171e67a61</tstamps>
-    </comp>
-    <comp ref="R104">
-      <value>10k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C25804</field>
-      </fields>
-      <libsource lib="MotorController" part="TAYLOR_RESISTOR" description=""/>
-      <property name="LCSC" value="C25804"/>
-      <property name="Sheetname" value="gate_drive"/>
-      <property name="Sheetfile" value="gate_drive.kicad_sch"/>
-      <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>96e9e287-adde-4d17-bee0-4c04e56d694c</tstamps>
-    </comp>
     <comp ref="R105">
-      <value>2mΩ</value>
+      <value>3mΩ</value>
       <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
       <fields>
-        <field name="LCSC">C695813</field>
+        <field name="LCSC">C2688862</field>
       </fields>
       <libsource lib="MotorController" part="TAYLOR_RESISTOR" description=""/>
-      <property name="LCSC" value="C695813"/>
+      <property name="LCSC" value="C2688862"/>
       <property name="Sheetname" value="gate_drive"/>
       <property name="Sheetfile" value="gate_drive.kicad_sch"/>
       <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
       <tstamps>852fb19d-d77e-4889-a457-95e55229ba80</tstamps>
     </comp>
-    <comp ref="R106">
-      <value>75k 0.5%</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C2902644</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C2902644"/>
-      <property name="Sheetname" value="gate_drive"/>
-      <property name="Sheetfile" value="gate_drive.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>b20b846f-2475-4cbb-bddc-fab9fc8e3bd4</tstamps>
-    </comp>
-    <comp ref="R107">
-      <value>10k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C25804</field>
-      </fields>
-      <libsource lib="MotorController" part="TAYLOR_RESISTOR" description=""/>
-      <property name="LCSC" value="C25804"/>
-      <property name="Sheetname" value="gate_drive"/>
-      <property name="Sheetfile" value="gate_drive.kicad_sch"/>
-      <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>b9af7bff-4478-43eb-a9aa-a424d6a59009</tstamps>
-    </comp>
-    <comp ref="R108">
-      <value>10k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C25804</field>
-      </fields>
-      <libsource lib="MotorController" part="TAYLOR_RESISTOR" description=""/>
-      <property name="LCSC" value="C25804"/>
-      <property name="Sheetname" value="gate_drive"/>
-      <property name="Sheetfile" value="gate_drive.kicad_sch"/>
-      <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>4c4f5c32-f133-4879-aa77-f67b6b027968</tstamps>
-    </comp>
     <comp ref="R109">
-      <value>2mΩ</value>
+      <value>3mΩ</value>
       <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
       <fields>
-        <field name="LCSC">C695813</field>
+        <field name="LCSC">C2688862</field>
       </fields>
       <libsource lib="MotorController" part="TAYLOR_RESISTOR" description=""/>
-      <property name="LCSC" value="C695813"/>
+      <property name="LCSC" value="C2688862"/>
       <property name="Sheetname" value="gate_drive"/>
       <property name="Sheetfile" value="gate_drive.kicad_sch"/>
       <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
       <tstamps>eace7230-5306-4c15-adf4-b719c9e5359b</tstamps>
     </comp>
-    <comp ref="R110">
-      <value>75k 0.5%</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C2902644</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C2902644"/>
-      <property name="Sheetname" value="gate_drive"/>
-      <property name="Sheetfile" value="gate_drive.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>5e7df557-e6ec-487f-b1aa-08e930fb95ae</tstamps>
-    </comp>
-    <comp ref="R111">
-      <value>10k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C25804</field>
-      </fields>
-      <libsource lib="MotorController" part="TAYLOR_RESISTOR" description=""/>
-      <property name="LCSC" value="C25804"/>
-      <property name="Sheetname" value="gate_drive"/>
-      <property name="Sheetfile" value="gate_drive.kicad_sch"/>
-      <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>683e5b5e-9c27-4cf5-b1b2-4ce09b990f16</tstamps>
-    </comp>
-    <comp ref="R112">
-      <value>10k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C25804</field>
-      </fields>
-      <libsource lib="MotorController" part="TAYLOR_RESISTOR" description=""/>
-      <property name="LCSC" value="C25804"/>
-      <property name="Sheetname" value="gate_drive"/>
-      <property name="Sheetfile" value="gate_drive.kicad_sch"/>
-      <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>149666b0-26ac-4129-bdda-7947b0bd130f</tstamps>
-    </comp>
     <comp ref="R113">
-      <value>2mΩ</value>
+      <value>3mΩ</value>
       <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
       <fields>
-        <field name="LCSC">C695813</field>
+        <field name="LCSC">C2688862</field>
       </fields>
       <libsource lib="MotorController" part="TAYLOR_RESISTOR" description=""/>
-      <property name="LCSC" value="C695813"/>
+      <property name="LCSC" value="C2688862"/>
       <property name="Sheetname" value="gate_drive"/>
       <property name="Sheetfile" value="gate_drive.kicad_sch"/>
       <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
       <tstamps>45cfea25-2c54-40e4-9314-13166c2967aa</tstamps>
     </comp>
     <comp ref="R114">
-      <value>2mΩ</value>
+      <value>3mΩ</value>
       <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
       <fields>
-        <field name="LCSC">C695813</field>
+        <field name="LCSC">C2688862</field>
       </fields>
       <libsource lib="MotorController" part="TAYLOR_RESISTOR" description=""/>
-      <property name="LCSC" value="C695813"/>
+      <property name="LCSC" value="C2688862"/>
       <property name="Sheetname" value="gate_drive"/>
       <property name="Sheetfile" value="gate_drive.kicad_sch"/>
       <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
       <tstamps>150c983e-f6bc-438a-8d4b-b2c931645595</tstamps>
     </comp>
     <comp ref="R115">
-      <value>2mΩ</value>
+      <value>3mΩ</value>
       <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
       <fields>
-        <field name="LCSC">C695813</field>
+        <field name="LCSC">C2688862</field>
       </fields>
       <libsource lib="MotorController" part="TAYLOR_RESISTOR" description=""/>
-      <property name="LCSC" value="C695813"/>
+      <property name="LCSC" value="C2688862"/>
       <property name="Sheetname" value="gate_drive"/>
       <property name="Sheetfile" value="gate_drive.kicad_sch"/>
       <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
       <tstamps>e7dc8de8-fcb1-4d9b-ba80-3573184ccce3</tstamps>
     </comp>
     <comp ref="R116">
-      <value>2mΩ</value>
+      <value>3mΩ</value>
       <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
       <fields>
-        <field name="LCSC">C695813</field>
+        <field name="LCSC">C2688862</field>
       </fields>
       <libsource lib="MotorController" part="TAYLOR_RESISTOR" description=""/>
-      <property name="LCSC" value="C695813"/>
+      <property name="LCSC" value="C2688862"/>
       <property name="Sheetname" value="gate_drive"/>
       <property name="Sheetfile" value="gate_drive.kicad_sch"/>
       <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
       <tstamps>8a7eba8c-f0d4-41ed-a157-9846f5bd6b6b</tstamps>
-    </comp>
-    <comp ref="R117">
-      <value>31.6k 1%</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C185339</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C185339"/>
-      <property name="Sheetname" value="gate_drive"/>
-      <property name="Sheetfile" value="gate_drive.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>d174a470-418e-488b-8971-12a9696be867</tstamps>
-    </comp>
-    <comp ref="R118">
-      <value>31.6k 1%</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C185339</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C185339"/>
-      <property name="Sheetname" value="gate_drive"/>
-      <property name="Sheetfile" value="gate_drive.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>7900a59e-415f-4344-908b-537698903a55</tstamps>
-    </comp>
-    <comp ref="R119">
-      <value>31.6k 1%</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C185339</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C185339"/>
-      <property name="Sheetname" value="gate_drive"/>
-      <property name="Sheetfile" value="gate_drive.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>6e977b41-d658-49a8-bb45-a7253a6f274e</tstamps>
-    </comp>
-    <comp ref="R120">
-      <value>31.6k 1%</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <fields>
-        <field name="LCSC">C185339</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="LCSC" value="C185339"/>
-      <property name="Sheetname" value="gate_drive"/>
-      <property name="Sheetfile" value="gate_drive.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>0989fda6-ea7a-4686-b9f2-20006acece05</tstamps>
     </comp>
     <comp ref="TP4">
       <value>TestPoint</value>
@@ -2201,205 +1857,79 @@
       <tstamps>29817e43-26de-4b31-a1ef-a419f6cc0fe9</tstamps>
     </comp>
     <comp ref="U14">
-      <value>INA193</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/ina193.pdf</datasheet>
+      <value>INA240A1D</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ina240.pdf</datasheet>
       <fields>
-        <field name="LCSC">C19548</field>
+        <field name="LCSC">C1346458</field>
       </fields>
-      <libsource lib="Amplifier_Current" part="INA193" description="Current Shunt Monitor −16V to +80V Common-Mode Range, 20V/V, SOT-23-5"/>
-      <property name="LCSC" value="C19548"/>
+      <libsource lib="Amplifier_Current" part="INA240A1D" description="High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 20V/V, SOIC-8"/>
+      <property name="LCSC" value="C1346458"/>
       <property name="Sheetname" value="gate_drive"/>
       <property name="Sheetfile" value="gate_drive.kicad_sch"/>
-      <property name="ki_description" value="Current Shunt Monitor −16V to +80V Common-Mode Range, 20V/V, SOT-23-5"/>
-      <property name="ki_keywords" value="current sense shunt monitor"/>
+      <property name="ki_description" value="High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 20V/V, SOIC-8"/>
+      <property name="ki_keywords" value="current monitor shunt sensor bidirectional high low"/>
       <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>ce8cc9c0-3af2-4cf3-b5f3-c05f963778ab</tstamps>
+      <tstamps>c92c5a2e-ce07-41a5-85eb-dacc6ea2b1ae</tstamps>
     </comp>
     <comp ref="U20">
-      <value>INA193</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/ina193.pdf</datasheet>
+      <value>INA240A1D</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ina240.pdf</datasheet>
       <fields>
-        <field name="LCSC">C19548</field>
+        <field name="LCSC">C1346458</field>
       </fields>
-      <libsource lib="Amplifier_Current" part="INA193" description="Current Shunt Monitor −16V to +80V Common-Mode Range, 20V/V, SOT-23-5"/>
-      <property name="LCSC" value="C19548"/>
+      <libsource lib="Amplifier_Current" part="INA240A1D" description="High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 20V/V, SOIC-8"/>
+      <property name="LCSC" value="C1346458"/>
       <property name="Sheetname" value="gate_drive"/>
       <property name="Sheetfile" value="gate_drive.kicad_sch"/>
-      <property name="ki_description" value="Current Shunt Monitor −16V to +80V Common-Mode Range, 20V/V, SOT-23-5"/>
-      <property name="ki_keywords" value="current sense shunt monitor"/>
+      <property name="ki_description" value="High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 20V/V, SOIC-8"/>
+      <property name="ki_keywords" value="current monitor shunt sensor bidirectional high low"/>
       <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>d92b8dad-3d2e-48a5-bc77-0af547f993ca</tstamps>
+      <tstamps>00f97be2-0235-43b2-9a82-0b919af35690</tstamps>
     </comp>
     <comp ref="U21">
-      <value>INA193</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/ina193.pdf</datasheet>
+      <value>INA240A1D</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ina240.pdf</datasheet>
       <fields>
-        <field name="LCSC">C19548</field>
+        <field name="LCSC">C1346458</field>
       </fields>
-      <libsource lib="Amplifier_Current" part="INA193" description="Current Shunt Monitor −16V to +80V Common-Mode Range, 20V/V, SOT-23-5"/>
-      <property name="LCSC" value="C19548"/>
+      <libsource lib="Amplifier_Current" part="INA240A1D" description="High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 20V/V, SOIC-8"/>
+      <property name="LCSC" value="C1346458"/>
       <property name="Sheetname" value="gate_drive"/>
       <property name="Sheetfile" value="gate_drive.kicad_sch"/>
-      <property name="ki_description" value="Current Shunt Monitor −16V to +80V Common-Mode Range, 20V/V, SOT-23-5"/>
-      <property name="ki_keywords" value="current sense shunt monitor"/>
+      <property name="ki_description" value="High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 20V/V, SOIC-8"/>
+      <property name="ki_keywords" value="current monitor shunt sensor bidirectional high low"/>
       <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>7f52d40d-16d9-4762-8b24-ef020fd830c1</tstamps>
+      <tstamps>912bb703-8dde-451d-9667-48151cd82b2e</tstamps>
     </comp>
-    <comp ref="U22">
-      <value>INA193</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/ina193.pdf</datasheet>
+    <comp ref="U44">
+      <value>INA240A1D</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ina240.pdf</datasheet>
       <fields>
-        <field name="LCSC">C19548</field>
+        <field name="LCSC">C1346458</field>
       </fields>
-      <libsource lib="Amplifier_Current" part="INA193" description="Current Shunt Monitor −16V to +80V Common-Mode Range, 20V/V, SOT-23-5"/>
-      <property name="LCSC" value="C19548"/>
+      <libsource lib="Amplifier_Current" part="INA240A1D" description="High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 20V/V, SOIC-8"/>
+      <property name="LCSC" value="C1346458"/>
       <property name="Sheetname" value="gate_drive"/>
       <property name="Sheetfile" value="gate_drive.kicad_sch"/>
-      <property name="ki_description" value="Current Shunt Monitor −16V to +80V Common-Mode Range, 20V/V, SOT-23-5"/>
-      <property name="ki_keywords" value="current sense shunt monitor"/>
+      <property name="ki_description" value="High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 20V/V, SOIC-8"/>
+      <property name="ki_keywords" value="current monitor shunt sensor bidirectional high low"/>
       <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>a8a80469-ca6e-4878-8ea9-e557b507000b</tstamps>
-    </comp>
-    <comp ref="U35">
-      <value>INA193</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/ina193.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C19548</field>
-      </fields>
-      <libsource lib="Amplifier_Current" part="INA193" description="Current Shunt Monitor −16V to +80V Common-Mode Range, 20V/V, SOT-23-5"/>
-      <property name="LCSC" value="C19548"/>
-      <property name="Sheetname" value="gate_drive"/>
-      <property name="Sheetfile" value="gate_drive.kicad_sch"/>
-      <property name="ki_description" value="Current Shunt Monitor −16V to +80V Common-Mode Range, 20V/V, SOT-23-5"/>
-      <property name="ki_keywords" value="current sense shunt monitor"/>
-      <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>79073605-25bc-49e7-8346-4902082d8d79</tstamps>
-    </comp>
-    <comp ref="U36">
-      <value>INA826</value>
-      <footprint>Package_SO:SO-8_3.9x4.9mm_P1.27mm</footprint>
-      <datasheet>https://www.ti.com/lit/ds/symlink/ina826.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C38433</field>
-      </fields>
-      <libsource lib="motor_parts" part="INA826" description="Precision, Low Power Instrumentation Amplifier G = 1 + 50kOhm/Rg, DIP-8/SOIC-8"/>
-      <property name="LCSC" value="C38433"/>
-      <property name="Sheetname" value="gate_drive"/>
-      <property name="Sheetfile" value="gate_drive.kicad_sch"/>
-      <property name="ki_description" value="Precision, Low Power Instrumentation Amplifier G = 1 + 50kOhm/Rg, DIP-8/SOIC-8"/>
-      <property name="ki_keywords" value="instrumentation opamp"/>
-      <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>5b4cd76f-bff9-4030-8387-f69729df0d60</tstamps>
-    </comp>
-    <comp ref="U37">
-      <value>INA193</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/ina193.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C19548</field>
-      </fields>
-      <libsource lib="Amplifier_Current" part="INA193" description="Current Shunt Monitor −16V to +80V Common-Mode Range, 20V/V, SOT-23-5"/>
-      <property name="LCSC" value="C19548"/>
-      <property name="Sheetname" value="gate_drive"/>
-      <property name="Sheetfile" value="gate_drive.kicad_sch"/>
-      <property name="ki_description" value="Current Shunt Monitor −16V to +80V Common-Mode Range, 20V/V, SOT-23-5"/>
-      <property name="ki_keywords" value="current sense shunt monitor"/>
-      <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>7906987d-d316-4043-b455-e5f238b7103e</tstamps>
-    </comp>
-    <comp ref="U38">
-      <value>INA826</value>
-      <footprint>Package_SO:SO-8_3.9x4.9mm_P1.27mm</footprint>
-      <datasheet>https://www.ti.com/lit/ds/symlink/ina826.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C38433</field>
-      </fields>
-      <libsource lib="motor_parts" part="INA826" description="Precision, Low Power Instrumentation Amplifier G = 1 + 50kOhm/Rg, DIP-8/SOIC-8"/>
-      <property name="LCSC" value="C38433"/>
-      <property name="Sheetname" value="gate_drive"/>
-      <property name="Sheetfile" value="gate_drive.kicad_sch"/>
-      <property name="ki_description" value="Precision, Low Power Instrumentation Amplifier G = 1 + 50kOhm/Rg, DIP-8/SOIC-8"/>
-      <property name="ki_keywords" value="instrumentation opamp"/>
-      <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>d2544ba0-b63a-4d1c-8715-7161496d8943</tstamps>
-    </comp>
-    <comp ref="U39">
-      <value>INA193</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/ina193.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C19548</field>
-      </fields>
-      <libsource lib="Amplifier_Current" part="INA193" description="Current Shunt Monitor −16V to +80V Common-Mode Range, 20V/V, SOT-23-5"/>
-      <property name="LCSC" value="C19548"/>
-      <property name="Sheetname" value="gate_drive"/>
-      <property name="Sheetfile" value="gate_drive.kicad_sch"/>
-      <property name="ki_description" value="Current Shunt Monitor −16V to +80V Common-Mode Range, 20V/V, SOT-23-5"/>
-      <property name="ki_keywords" value="current sense shunt monitor"/>
-      <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>539373b3-771e-4514-a89a-3c822737c2b2</tstamps>
-    </comp>
-    <comp ref="U40">
-      <value>INA826</value>
-      <footprint>Package_SO:SO-8_3.9x4.9mm_P1.27mm</footprint>
-      <datasheet>https://www.ti.com/lit/ds/symlink/ina826.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C38433</field>
-      </fields>
-      <libsource lib="motor_parts" part="INA826" description="Precision, Low Power Instrumentation Amplifier G = 1 + 50kOhm/Rg, DIP-8/SOIC-8"/>
-      <property name="LCSC" value="C38433"/>
-      <property name="Sheetname" value="gate_drive"/>
-      <property name="Sheetfile" value="gate_drive.kicad_sch"/>
-      <property name="ki_description" value="Precision, Low Power Instrumentation Amplifier G = 1 + 50kOhm/Rg, DIP-8/SOIC-8"/>
-      <property name="ki_keywords" value="instrumentation opamp"/>
-      <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>6b372db5-7703-4cb8-a99a-aab6f620250b</tstamps>
-    </comp>
-    <comp ref="U41">
-      <value>INA193</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/ina193.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C19548</field>
-      </fields>
-      <libsource lib="Amplifier_Current" part="INA193" description="Current Shunt Monitor −16V to +80V Common-Mode Range, 20V/V, SOT-23-5"/>
-      <property name="LCSC" value="C19548"/>
-      <property name="Sheetname" value="gate_drive"/>
-      <property name="Sheetfile" value="gate_drive.kicad_sch"/>
-      <property name="ki_description" value="Current Shunt Monitor −16V to +80V Common-Mode Range, 20V/V, SOT-23-5"/>
-      <property name="ki_keywords" value="current sense shunt monitor"/>
-      <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>a0531c10-76e2-46b9-9153-c731e5a3ff39</tstamps>
-    </comp>
-    <comp ref="U42">
-      <value>INA826</value>
-      <footprint>Package_SO:SO-8_3.9x4.9mm_P1.27mm</footprint>
-      <datasheet>https://www.ti.com/lit/ds/symlink/ina826.pdf</datasheet>
-      <fields>
-        <field name="LCSC">C38433</field>
-      </fields>
-      <libsource lib="motor_parts" part="INA826" description="Precision, Low Power Instrumentation Amplifier G = 1 + 50kOhm/Rg, DIP-8/SOIC-8"/>
-      <property name="LCSC" value="C38433"/>
-      <property name="Sheetname" value="gate_drive"/>
-      <property name="Sheetfile" value="gate_drive.kicad_sch"/>
-      <property name="ki_description" value="Precision, Low Power Instrumentation Amplifier G = 1 + 50kOhm/Rg, DIP-8/SOIC-8"/>
-      <property name="ki_keywords" value="instrumentation opamp"/>
-      <sheetpath names="/gate_drive/" tstamps="/a091b038-73b8-4e3d-85bf-957d7c13689e/"/>
-      <tstamps>fbf57453-f5cb-466e-8f1a-5561dfa887a6</tstamps>
+      <tstamps>d6cf77ac-8af4-43d5-9521-f157c447de4d</tstamps>
     </comp>
     <comp ref="C1">
-      <value>4.7uF 16V</value>
+      <value>4.7uF 35V</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC">C19666</field>
+        <field name="LCSC">C162274</field>
+        <field name="Voltage">35V</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="LCSC" value="C19666"/>
+      <property name="LCSC" value="C162274"/>
+      <property name="Voltage" value="35V"/>
       <property name="Sheetname" value="power_and_cpu"/>
       <property name="Sheetfile" value="power_and_cpu.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -2408,13 +1938,15 @@
       <tstamps>6a59a73f-c820-4c40-b652-7a2ba5cb9685</tstamps>
     </comp>
     <comp ref="C8">
-      <value>4.7uF 16V</value>
+      <value>4.7uF 35V</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC">C19666</field>
+        <field name="LCSC">C162274</field>
+        <field name="Voltage">35V</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="LCSC" value="C19666"/>
+      <property name="LCSC" value="C162274"/>
+      <property name="Voltage" value="35V"/>
       <property name="Sheetname" value="power_and_cpu"/>
       <property name="Sheetfile" value="power_and_cpu.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -3122,13 +2654,13 @@
       <tstamps>3689e163-07eb-43db-9029-497b67a3311f</tstamps>
     </comp>
     <comp ref="C96">
-      <value>22uF 6.3v</value>
+      <value>22uF 25V</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="LCSC">C59461</field>
+        <field name="LCSC">C602037</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="LCSC" value="C59461"/>
+      <property name="LCSC" value="C602037"/>
       <property name="Sheetname" value="power_and_cpu"/>
       <property name="Sheetfile" value="power_and_cpu.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -3215,10 +2747,10 @@
       <value>47pf</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC">C105622</field>
+        <field name="LCSC">C1671</field>
       </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="LCSC" value="C105622"/>
+      <property name="LCSC" value="C1671"/>
       <property name="Sheetname" value="power_and_cpu"/>
       <property name="Sheetfile" value="power_and_cpu.kicad_sch"/>
       <property name="ki_description" value="Unpolarized capacitor"/>
@@ -3543,21 +3075,20 @@
       <tstamps>e5cbef47-9caa-470d-aa69-0be6f782ecdb</tstamps>
     </comp>
     <comp ref="D36">
-      <value>TVS 3.3V</value>
-      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <value>BAT54S</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds11005.pdf</datasheet>
       <fields>
-        <field name="LCSC">C129213</field>
-        <field name="MPN">ESD5Z3V3</field>
+        <field name="LCSC">C916425</field>
       </fields>
-      <libsource lib="Diode" part="SMF54A" description="200W unidirectional Transil Transient Voltage Suppressor, 54Vrwm, SMF"/>
-      <property name="LCSC" value="C129213"/>
-      <property name="MPN" value="ESD5Z3V3"/>
+      <libsource lib="Diode" part="BAT54S" description="Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"/>
+      <property name="LCSC" value="C916425"/>
       <property name="Sheetname" value="power_and_cpu"/>
       <property name="Sheetfile" value="power_and_cpu.kicad_sch"/>
-      <property name="ki_description" value="200W unidirectional Transil Transient Voltage Suppressor, 54Vrwm, SMF"/>
-      <property name="ki_keywords" value="diode TVS voltage suppressor"/>
+      <property name="ki_description" value="Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"/>
+      <property name="ki_keywords" value="schottky diode"/>
       <sheetpath names="/power_and_cpu/" tstamps="/11bddbd5-e14e-4409-876e-6e46bce03704/"/>
-      <tstamps>bb231080-bea8-4a51-a727-22f945abe694</tstamps>
+      <tstamps>faa16377-8221-474d-be70-c2ecec35add3</tstamps>
     </comp>
     <comp ref="D37">
       <value>B5819W SL</value>
@@ -3611,23 +3142,6 @@
       <sheetpath names="/power_and_cpu/" tstamps="/11bddbd5-e14e-4409-876e-6e46bce03704/"/>
       <tstamps>bb169485-ea91-48f0-84f9-8d0dc38623fa</tstamps>
     </comp>
-    <comp ref="D40">
-      <value>TVS 3.3V</value>
-      <footprint>Diode_SMD:D_SOD-523</footprint>
-      <fields>
-        <field name="LCSC">C129213</field>
-        <field name="MPN">ESD5Z3V3</field>
-      </fields>
-      <libsource lib="Diode" part="SMF54A" description="200W unidirectional Transil Transient Voltage Suppressor, 54Vrwm, SMF"/>
-      <property name="LCSC" value="C129213"/>
-      <property name="MPN" value="ESD5Z3V3"/>
-      <property name="Sheetname" value="power_and_cpu"/>
-      <property name="Sheetfile" value="power_and_cpu.kicad_sch"/>
-      <property name="ki_description" value="200W unidirectional Transil Transient Voltage Suppressor, 54Vrwm, SMF"/>
-      <property name="ki_keywords" value="diode TVS voltage suppressor"/>
-      <sheetpath names="/power_and_cpu/" tstamps="/11bddbd5-e14e-4409-876e-6e46bce03704/"/>
-      <tstamps>b2bddb58-dc5f-43ef-9f07-b84d0e6db54f</tstamps>
-    </comp>
     <comp ref="D41">
       <value>LED_RED</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
@@ -3662,6 +3176,22 @@
       <property name="ki_keywords" value="diode Schottky"/>
       <sheetpath names="/power_and_cpu/" tstamps="/11bddbd5-e14e-4409-876e-6e46bce03704/"/>
       <tstamps>83432d36-1edb-4c02-979a-d18730dbf3ba</tstamps>
+    </comp>
+    <comp ref="D44">
+      <value>BAT54S</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds11005.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C916425</field>
+      </fields>
+      <libsource lib="Diode" part="BAT54S" description="Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"/>
+      <property name="LCSC" value="C916425"/>
+      <property name="Sheetname" value="power_and_cpu"/>
+      <property name="Sheetfile" value="power_and_cpu.kicad_sch"/>
+      <property name="ki_description" value="Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"/>
+      <property name="ki_keywords" value="schottky diode"/>
+      <sheetpath names="/power_and_cpu/" tstamps="/11bddbd5-e14e-4409-876e-6e46bce03704/"/>
+      <tstamps>c4ed7837-1676-4ee5-84dc-83d93937fddd</tstamps>
     </comp>
     <comp ref="FB2">
       <value>1.6Ω ±25% 1kΩ@100MHz</value>
@@ -3699,10 +3229,10 @@
       <value>CAN Input</value>
       <footprint>parts:M12A-08PFFR</footprint>
       <fields>
-        <field name="MPN">M12A-08PFFR-SF7003 </field>
+        <field name="MPN">M12A-08PFFR-SF7003</field>
       </fields>
       <libsource lib="motor_parts" part="M12_X8_CONNECTOR" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="MPN" value="M12A-08PFFR-SF7003 "/>
+      <property name="MPN" value="M12A-08PFFR-SF7003"/>
       <property name="Sheetname" value="power_and_cpu"/>
       <property name="Sheetfile" value="power_and_cpu.kicad_sch"/>
       <property name="ki_description" value="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -3897,10 +3427,10 @@
       <value>CAN Output</value>
       <footprint>parts:M12A-08PFFR</footprint>
       <fields>
-        <field name="MPN">M12A-08PFFR-SF7003 </field>
+        <field name="MPN">M12A-08PFFR-SF7003</field>
       </fields>
       <libsource lib="motor_parts" part="M12_X8_CONNECTOR" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="MPN" value="M12A-08PFFR-SF7003 "/>
+      <property name="MPN" value="M12A-08PFFR-SF7003"/>
       <property name="Sheetname" value="power_and_cpu"/>
       <property name="Sheetfile" value="power_and_cpu.kicad_sch"/>
       <property name="ki_description" value="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
@@ -3924,13 +3454,15 @@
       <tstamps>c7112008-f173-40be-b4f4-716fa83e3047</tstamps>
     </comp>
     <comp ref="L3">
-      <value>47uH 2.5A</value>
+      <value>47uH</value>
       <footprint>Inductor_SMD:L_Chilisin_BMRB00060612</footprint>
       <fields>
+        <field name="Current">2.5A</field>
         <field name="LCSC">C5189962</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
       <property name="LCSC" value="C5189962"/>
+      <property name="Current" value="2.5A"/>
       <property name="Sheetname" value="power_and_cpu"/>
       <property name="Sheetfile" value="power_and_cpu.kicad_sch"/>
       <property name="ki_description" value="Inductor"/>
@@ -3952,6 +3484,19 @@
       <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
       <sheetpath names="/power_and_cpu/" tstamps="/11bddbd5-e14e-4409-876e-6e46bce03704/"/>
       <tstamps>54e007e3-5df5-47ff-aa95-6a6793eeca2b</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>50k 0.1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C304067</field>
+      </fields>
+      <libsource lib="MotorController" part="TAYLOR_RESISTOR" description=""/>
+      <property name="LCSC" value="C304067"/>
+      <property name="Sheetname" value="power_and_cpu"/>
+      <property name="Sheetfile" value="power_and_cpu.kicad_sch"/>
+      <sheetpath names="/power_and_cpu/" tstamps="/11bddbd5-e14e-4409-876e-6e46bce03704/"/>
+      <tstamps>62e6f3d5-e26d-4c36-ae7c-414b38fda5de</tstamps>
     </comp>
     <comp ref="R9">
       <value>120R</value>
@@ -4359,26 +3904,26 @@
       <tstamps>c39f5b83-edb4-4263-8500-87d09dd8f0d3</tstamps>
     </comp>
     <comp ref="R64">
-      <value>100k</value>
+      <value>50k 0.1%</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC">C25803</field>
+        <field name="LCSC">C304067</field>
       </fields>
       <libsource lib="MotorController" part="TAYLOR_RESISTOR" description=""/>
-      <property name="LCSC" value="C25803"/>
+      <property name="LCSC" value="C304067"/>
       <property name="Sheetname" value="power_and_cpu"/>
       <property name="Sheetfile" value="power_and_cpu.kicad_sch"/>
       <sheetpath names="/power_and_cpu/" tstamps="/11bddbd5-e14e-4409-876e-6e46bce03704/"/>
       <tstamps>6d9ae1d0-b71a-40e4-9de1-3c3a75f45a87</tstamps>
     </comp>
     <comp ref="R65">
-      <value>5.1k</value>
+      <value>5.1k 0.1%</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <fields>
-        <field name="LCSC">C23186</field>
+        <field name="LCSC">C122969</field>
       </fields>
       <libsource lib="MotorController" part="TAYLOR_RESISTOR" description=""/>
-      <property name="LCSC" value="C23186"/>
+      <property name="LCSC" value="C122969"/>
       <property name="Sheetname" value="power_and_cpu"/>
       <property name="Sheetfile" value="power_and_cpu.kicad_sch"/>
       <sheetpath names="/power_and_cpu/" tstamps="/11bddbd5-e14e-4409-876e-6e46bce03704/"/>
@@ -4600,6 +4145,19 @@
       <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/power_and_cpu/" tstamps="/11bddbd5-e14e-4409-876e-6e46bce03704/"/>
       <tstamps>8cfdb544-0849-4031-a7d1-ea39ef09f934</tstamps>
+    </comp>
+    <comp ref="R99">
+      <value>10.2R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C22773</field>
+      </fields>
+      <libsource lib="MotorController" part="TAYLOR_RESISTOR" description=""/>
+      <property name="LCSC" value="C22773"/>
+      <property name="Sheetname" value="power_and_cpu"/>
+      <property name="Sheetfile" value="power_and_cpu.kicad_sch"/>
+      <sheetpath names="/power_and_cpu/" tstamps="/11bddbd5-e14e-4409-876e-6e46bce03704/"/>
+      <tstamps>c2d26ae9-61f0-455d-aad6-410b1a4c368d</tstamps>
     </comp>
     <comp ref="SW1">
       <value>SW_MEC_5G</value>
@@ -5354,20 +4912,6 @@
       <sheetpath names="/power_and_cpu/" tstamps="/11bddbd5-e14e-4409-876e-6e46bce03704/"/>
       <tstamps>bc819fa0-a51f-41c7-9b57-465752134af2</tstamps>
     </comp>
-    <comp ref="U16">
-      <value>ADC081S021CISD/NOPB</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
-      <datasheet>https://www.ti.com/cn/lit/gpn/adc081s021</datasheet>
-      <fields>
-        <field name="LCSC">C130227</field>
-      </fields>
-      <libsource lib="2022-06-16_01-48-54" part="ADC081S021CISD{slash}NOPB" description=""/>
-      <property name="LCSC" value="C130227"/>
-      <property name="Sheetname" value="power_and_cpu"/>
-      <property name="Sheetfile" value="power_and_cpu.kicad_sch"/>
-      <sheetpath names="/power_and_cpu/" tstamps="/11bddbd5-e14e-4409-876e-6e46bce03704/"/>
-      <tstamps>b9394fc5-77bb-4810-8ebc-71f8345bc7c5</tstamps>
-    </comp>
     <comp ref="U17">
       <value>isolator</value>
       <footprint>Package_SO:SOIC-8_7.5x5.85mm_P1.27mm</footprint>
@@ -5411,6 +4955,19 @@
       <property name="Sheetfile" value="power_and_cpu.kicad_sch"/>
       <sheetpath names="/power_and_cpu/" tstamps="/11bddbd5-e14e-4409-876e-6e46bce03704/"/>
       <tstamps>e6d99182-9a21-4506-a8ec-fcce3c9d563f</tstamps>
+    </comp>
+    <comp ref="U22">
+      <value>ADS7822U</value>
+      <footprint>parts:SOIC127P599X175-8N</footprint>
+      <fields>
+        <field name="LCSC">C16324</field>
+      </fields>
+      <libsource lib="ADS7822U" part="ADS7822U" description=""/>
+      <property name="LCSC" value="C16324"/>
+      <property name="Sheetname" value="power_and_cpu"/>
+      <property name="Sheetfile" value="power_and_cpu.kicad_sch"/>
+      <sheetpath names="/power_and_cpu/" tstamps="/11bddbd5-e14e-4409-876e-6e46bce03704/"/>
+      <tstamps>5a6e99f9-b20b-4079-b753-91213e6291f3</tstamps>
     </comp>
     <comp ref="U23">
       <value>SN74LVC1G07QDCKTQ1</value>
@@ -5558,7 +5115,11 @@
       <value>TX4139</value>
       <footprint>Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias</footprint>
       <datasheet>https://datasheet.lcsc.com/lcsc/1811141153_XDS-TX4139_C329266.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C329266</field>
+      </fields>
       <libsource lib="MotorBuck" part="TX4139" description="2A, 200kHz SuperSwitcher Buck Regulator, 4-30V Input Voltage, Adjustable Output Voltage, SO-8"/>
+      <property name="LCSC" value="C329266"/>
       <property name="Sheetname" value="power_and_cpu"/>
       <property name="Sheetfile" value="power_and_cpu.kicad_sch"/>
       <property name="ki_description" value="2A, 200kHz SuperSwitcher Buck Regulator, 4-30V Input Voltage, Adjustable Output Voltage, SO-8"/>
@@ -5571,10 +5132,10 @@
       <footprint>parts:SSOP-8_3.91x5.84x3.18mm_P1.27mm</footprint>
       <datasheet>http://www.us.liteon.com/downloads/LTV-817-827-847.PDF</datasheet>
       <fields>
-        <field name="JLCPCB">C133121</field>
+        <field name="LCSC">C133121</field>
       </fields>
       <libsource lib="Isolator" part="LTV-827S" description="DC Optocoupler, Vce 35V, CTR 50%, SMDIP-8"/>
-      <property name="JLCPCB" value="C133121"/>
+      <property name="LCSC" value="C133121"/>
       <property name="Sheetname" value="power_and_cpu"/>
       <property name="Sheetfile" value="power_and_cpu.kicad_sch"/>
       <property name="ki_description" value="DC Optocoupler, Vce 35V, CTR 50%, SMDIP-8"/>
@@ -5663,24 +5224,44 @@
         <pin num="6" name="~{CS}" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Amplifier_Current" part="INA193">
-      <description>Current Shunt Monitor −16V to +80V Common-Mode Range, 20V/V, SOT-23-5</description>
-      <docs>http://www.ti.com/lit/ds/symlink/ina193.pdf</docs>
+    <libpart lib="ADS7822U" part="ADS7822U">
+      <fields>
+        <field name="Reference">U22</field>
+        <field name="Value">ADS7822U</field>
+        <field name="Footprint">SOIC127P599X175-8N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VREF" type="input"/>
+        <pin num="2" name="IN+" type="input"/>
+        <pin num="3" name="IN-" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="~{CS/SHDN}" type="input"/>
+        <pin num="6" name="DOUT" type="output"/>
+        <pin num="7" name="DCLK" type="input"/>
+        <pin num="8" name="+VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amplifier_Current" part="INA240A1D">
+      <description>High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 20V/V, SOIC-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ina240.pdf</docs>
       <footprints>
-        <fp>SOT?23*</fp>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">INA193</field>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
-        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/ina193.pdf</field>
+        <field name="Value">INA240A1D</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/ina240.pdf</field>
       </fields>
       <pins>
-        <pin num="1" name="" type="output"/>
+        <pin num="1" name="-" type="input"/>
         <pin num="2" name="GND" type="power_in"/>
-        <pin num="3" name="+" type="input"/>
-        <pin num="4" name="-" type="input"/>
-        <pin num="5" name="V+" type="power_in"/>
+        <pin num="3" name="REF2" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="" type="output"/>
+        <pin num="6" name="V+" type="power_in"/>
+        <pin num="7" name="REF1" type="passive"/>
+        <pin num="8" name="+" type="input"/>
       </pins>
     </libpart>
     <libpart lib="Connector" part="TestPoint">
@@ -5818,6 +5399,27 @@
         <pin num="4" name="Pin_4" type="passive"/>
         <pin num="5" name="Pin_5" type="passive"/>
         <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x07">
+      <description>Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x07</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Device" part="C">
@@ -6021,6 +5623,24 @@
       <pins>
         <pin num="1" name="" type="passive"/>
         <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="BAT54S">
+      <description>Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323</description>
+      <docs>https://www.diodes.com/assets/Datasheets/ds11005.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAT54S</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/ds11005.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+        <pin num="3" name="COM" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Diode" part="MBR340">
@@ -6509,29 +6129,6 @@
         <pin num="5" name="VCC" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="motor_parts" part="INA826">
-      <description>Precision, Low Power Instrumentation Amplifier G = 1 + 50kOhm/Rg, DIP-8/SOIC-8</description>
-      <docs>https://www.ti.com/lit/ds/symlink/ina826.pdf</docs>
-      <footprints>
-        <fp>DIP*W7.62mm*</fp>
-        <fp>SOIC*P1.27mm*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">INA826</field>
-        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/ina826.pdf</field>
-      </fields>
-      <pins>
-        <pin num="1" name="-" type="input"/>
-        <pin num="2" name="Rg" type="passive"/>
-        <pin num="3" name="Rg" type="passive"/>
-        <pin num="4" name="+" type="input"/>
-        <pin num="5" name="V-" type="power_in"/>
-        <pin num="6" name="Ref" type="input"/>
-        <pin num="7" name="" type="output"/>
-        <pin num="8" name="V+" type="power_in"/>
-      </pins>
-    </libpart>
     <libpart lib="motor_parts" part="M12_X8_CONNECTOR">
       <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
@@ -6559,6 +6156,9 @@
   <libraries>
     <library logical="2022-06-16_01-48-54">
       <uri>/home/taylor/pcb/rp2040-motor-controller/parts/KiCAD/2022-06-16_01-48-54/2022-06-16_01-48-54.kicad_sym</uri>
+    </library>
+    <library logical="ADS7822U">
+      <uri>/home/taylor/pcb/rp2040-motor-controller/parts/ADS7822U.kicad_sym</uri>
     </library>
     <library logical="Amplifier_Current">
       <uri>/usr/share/kicad/symbols//Amplifier_Current.kicad_sym</uri>
@@ -6622,9 +6222,6 @@
       <node ref="U15" pin="50" pinfunction="DVDD" pintype="power_in"/>
     </net>
     <net code="2" name="+3.3VA">
-      <node ref="C116" pin="1" pintype="passive"/>
-      <node ref="C117" pin="1" pintype="passive"/>
-      <node ref="C118" pin="1" pintype="passive"/>
       <node ref="C18" pin="2" pintype="passive"/>
       <node ref="C20" pin="2" pintype="passive"/>
       <node ref="C22" pin="1" pintype="passive"/>
@@ -6634,39 +6231,29 @@
       <node ref="C52" pin="1" pintype="passive"/>
       <node ref="C59" pin="1" pintype="passive"/>
       <node ref="C66" pin="1" pintype="passive"/>
-      <node ref="C67" pin="1" pintype="passive"/>
-      <node ref="C69" pin="1" pintype="passive"/>
-      <node ref="C72" pin="2" pintype="passive"/>
-      <node ref="C73" pin="1" pintype="passive"/>
+      <node ref="C72" pin="1" pintype="passive"/>
       <node ref="C74" pin="1" pintype="passive"/>
-      <node ref="C75" pin="1" pintype="passive"/>
-      <node ref="C83" pin="1" pintype="passive"/>
       <node ref="D31" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D36" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="D44" pin="2" pinfunction="K" pintype="passive"/>
       <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="R103" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="R107" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="R111" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="R2" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="TH1" pin="1" pintype="passive"/>
       <node ref="TH2" pin="1" pintype="passive"/>
       <node ref="U11" pin="2" pinfunction="VO" pintype="power_out"/>
-      <node ref="U14" pin="5" pinfunction="V+" pintype="power_in"/>
+      <node ref="U14" pin="6" pinfunction="V+" pintype="power_in"/>
+      <node ref="U14" pin="7" pinfunction="REF1" pintype="passive"/>
       <node ref="U15" pin="43" pinfunction="ADC_AVDD" pintype="power_in"/>
-      <node ref="U16" pin="1" pinfunction="VA" pintype="passive"/>
       <node ref="U19" pin="43" pinfunction="ADC_AVDD" pintype="power_in"/>
-      <node ref="U20" pin="5" pinfunction="V+" pintype="power_in"/>
-      <node ref="U21" pin="5" pinfunction="V+" pintype="power_in"/>
-      <node ref="U22" pin="5" pinfunction="V+" pintype="power_in"/>
+      <node ref="U20" pin="6" pinfunction="V+" pintype="power_in"/>
+      <node ref="U20" pin="7" pinfunction="REF1" pintype="passive"/>
+      <node ref="U21" pin="6" pinfunction="V+" pintype="power_in"/>
+      <node ref="U21" pin="7" pinfunction="REF1" pintype="passive"/>
+      <node ref="U22" pin="1" pinfunction="VREF" pintype="input"/>
+      <node ref="U22" pin="8" pinfunction="+VCC" pintype="power_in"/>
       <node ref="U26" pin="1" pinfunction="VA" pintype="passive"/>
-      <node ref="U35" pin="5" pinfunction="V+" pintype="power_in"/>
-      <node ref="U36" pin="8" pinfunction="V+" pintype="power_in"/>
-      <node ref="U37" pin="5" pinfunction="V+" pintype="power_in"/>
-      <node ref="U38" pin="8" pinfunction="V+" pintype="power_in"/>
-      <node ref="U39" pin="5" pinfunction="V+" pintype="power_in"/>
-      <node ref="U40" pin="8" pinfunction="V+" pintype="power_in"/>
-      <node ref="U41" pin="5" pinfunction="V+" pintype="power_in"/>
-      <node ref="U42" pin="8" pinfunction="V+" pintype="power_in"/>
+      <node ref="U44" pin="6" pinfunction="V+" pintype="power_in"/>
+      <node ref="U44" pin="7" pinfunction="REF1" pintype="passive"/>
       <node ref="U9" pin="1" pinfunction="VA" pintype="passive"/>
     </net>
     <net code="3" name="+3V3">
@@ -6777,6 +6364,7 @@
       <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J17" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="R99" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="TP44" pin="1" pinfunction="1" pintype="passive"/>
     </net>
     <net code="6" name="+5V_ISO_FILT">
@@ -6784,6 +6372,7 @@
       <node ref="C55" pin="2" pintype="passive"/>
       <node ref="FB2" pin="1" pintype="passive"/>
       <node ref="R48" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R99" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U17" pin="8" pinfunction="VCC2" pintype="power_in"/>
     </net>
     <net code="7" name="+12V">
@@ -6814,25 +6403,89 @@
       <node ref="U7" pin="1" pinfunction="VCC" pintype="power_in"/>
       <node ref="U8" pin="1" pinfunction="VCC" pintype="power_in"/>
     </net>
-    <net code="8" name="/gate_drive/M1A_N">
+    <net code="8" name="/gate_drive/1CGH">
+      <node ref="CH1" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R84" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="9" name="/gate_drive/1CGL">
+      <node ref="CL1" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R83" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R85" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="10" name="/gate_drive/1GAH">
+      <node ref="AH1" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="D24" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R69" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="11" name="/gate_drive/1GAL">
+      <node ref="AL1" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="D20" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R59" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R73" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="12" name="/gate_drive/1GBH">
+      <node ref="BH1" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="D23" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R80" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="13" name="/gate_drive/1GBL">
+      <node ref="BL1" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="D22" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R78" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R81" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="14" name="/gate_drive/2AGH">
+      <node ref="AH2" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="D17" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R33" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="15" name="/gate_drive/2AGL">
+      <node ref="AL2" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R32" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R36" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="16" name="/gate_drive/2BGH">
+      <node ref="BH2" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R24" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="17" name="/gate_drive/2BGL">
+      <node ref="BL2" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R23" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R25" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="18" name="/gate_drive/2CGH">
+      <node ref="CH2" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R28" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="19" name="/gate_drive/2CGL">
+      <node ref="CL2" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R27" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R29" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="20" name="/gate_drive/M1A_N">
       <node ref="D42" pin="1" pinfunction="A1" pintype="passive"/>
       <node ref="R101" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="R116" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U20" pin="4" pinfunction="-" pintype="input"/>
-      <node ref="U37" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U20" pin="8" pinfunction="+" pintype="input"/>
     </net>
-    <net code="9" name="/gate_drive/M1A_P">
+    <net code="21" name="/gate_drive/M1A_P">
       <node ref="AH1" pin="1" pinfunction="S" pintype="passive"/>
       <node ref="AL1" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="C84" pin="1" pintype="passive"/>
       <node ref="R101" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R116" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U20" pin="3" pinfunction="+" pintype="input"/>
-      <node ref="U37" pin="4" pinfunction="-" pintype="input"/>
+      <node ref="U20" pin="1" pinfunction="-" pintype="input"/>
       <node ref="U7" pin="6" pinfunction="VS" pintype="passive"/>
     </net>
-    <net code="10" name="/gate_drive/M1B">
+    <net code="22" name="/gate_drive/M1B">
       <node ref="BH1" pin="1" pinfunction="S" pintype="passive"/>
       <node ref="BL1" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="C71" pin="1" pintype="passive"/>
@@ -6840,43 +6493,39 @@
       <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U4" pin="6" pinfunction="VS" pintype="passive"/>
     </net>
-    <net code="11" name="/gate_drive/M1C_N">
+    <net code="23" name="/gate_drive/M1C_N">
       <node ref="D26" pin="1" pinfunction="A1" pintype="passive"/>
       <node ref="R115" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="R50" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U21" pin="4" pinfunction="-" pintype="input"/>
-      <node ref="U35" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U14" pin="8" pinfunction="+" pintype="input"/>
     </net>
-    <net code="12" name="/gate_drive/M1C_P">
+    <net code="24" name="/gate_drive/M1C_P">
       <node ref="C85" pin="1" pintype="passive"/>
       <node ref="CH1" pin="1" pinfunction="S" pintype="passive"/>
       <node ref="CL1" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="R115" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R50" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="6" pinfunction="VS" pintype="passive"/>
-      <node ref="U21" pin="3" pinfunction="+" pintype="input"/>
-      <node ref="U35" pin="4" pinfunction="-" pintype="input"/>
+      <node ref="U14" pin="1" pinfunction="-" pintype="input"/>
     </net>
-    <net code="13" name="/gate_drive/M2A_N">
+    <net code="25" name="/gate_drive/M2A_N">
       <node ref="D18" pin="1" pinfunction="A1" pintype="passive"/>
       <node ref="R105" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="R113" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U22" pin="4" pinfunction="-" pintype="input"/>
-      <node ref="U39" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U21" pin="8" pinfunction="+" pintype="input"/>
     </net>
-    <net code="14" name="/gate_drive/M2A_P">
+    <net code="26" name="/gate_drive/M2A_P">
       <node ref="AH2" pin="1" pinfunction="S" pintype="passive"/>
       <node ref="AL2" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="C70" pin="1" pintype="passive"/>
       <node ref="R105" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R113" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U22" pin="3" pinfunction="+" pintype="input"/>
-      <node ref="U39" pin="4" pinfunction="-" pintype="input"/>
+      <node ref="U21" pin="1" pinfunction="-" pintype="input"/>
       <node ref="U8" pin="6" pinfunction="VS" pintype="passive"/>
     </net>
-    <net code="15" name="/gate_drive/M2B">
+    <net code="27" name="/gate_drive/M2B">
       <node ref="BH2" pin="1" pinfunction="S" pintype="passive"/>
       <node ref="BL2" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="C13" pin="1" pintype="passive"/>
@@ -6884,25 +6533,23 @@
       <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U5" pin="6" pinfunction="VS" pintype="passive"/>
     </net>
-    <net code="16" name="/gate_drive/M2C_N">
+    <net code="28" name="/gate_drive/M2C_N">
       <node ref="D9" pin="1" pinfunction="A1" pintype="passive"/>
       <node ref="R109" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="R114" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="TP9" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U14" pin="4" pinfunction="-" pintype="input"/>
-      <node ref="U41" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U44" pin="8" pinfunction="+" pintype="input"/>
     </net>
-    <net code="17" name="/gate_drive/M2C_P">
+    <net code="29" name="/gate_drive/M2C_P">
       <node ref="C65" pin="1" pintype="passive"/>
       <node ref="CH2" pin="1" pinfunction="S" pintype="passive"/>
       <node ref="CL2" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="R109" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R114" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U14" pin="3" pinfunction="+" pintype="input"/>
       <node ref="U2" pin="6" pinfunction="VS" pintype="passive"/>
-      <node ref="U41" pin="4" pinfunction="-" pintype="input"/>
+      <node ref="U44" pin="1" pinfunction="-" pintype="input"/>
     </net>
-    <net code="18" name="/power_and_cpu/1V1_2">
+    <net code="30" name="/power_and_cpu/1V1_2">
       <node ref="C44" pin="1" pintype="passive"/>
       <node ref="C45" pin="1" pintype="passive"/>
       <node ref="C53" pin="1" pintype="passive"/>
@@ -6910,77 +6557,71 @@
       <node ref="U19" pin="45" pinfunction="VREG_VOUT" pintype="power_out"/>
       <node ref="U19" pin="50" pinfunction="DVDD" pintype="power_in"/>
     </net>
-    <net code="19" name="/power_and_cpu/ADC_AUX1">
-      <node ref="D36" pin="1" pinfunction="A1" pintype="passive"/>
+    <net code="31" name="/power_and_cpu/ADC_AUX1">
+      <node ref="D44" pin="3" pinfunction="COM" pintype="passive"/>
       <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="TP47" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U19" pin="38" pinfunction="GPIO26_ADC0" pintype="bidirectional"/>
     </net>
-    <net code="20" name="/power_and_cpu/ADC_AUX2">
-      <node ref="D40" pin="1" pinfunction="A1" pintype="passive"/>
+    <net code="32" name="/power_and_cpu/ADC_AUX2">
+      <node ref="D36" pin="3" pinfunction="COM" pintype="passive"/>
       <node ref="J13" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="TP48" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U19" pin="39" pinfunction="GPIO27_ADC1" pintype="bidirectional"/>
     </net>
-    <net code="21" name="/power_and_cpu/ADC_CLK">
-      <node ref="U16" pin="4" pinfunction="SCLK" pintype="passive"/>
+    <net code="33" name="/power_and_cpu/ADC_CLK">
       <node ref="U19" pin="4" pinfunction="GPIO2" pintype="bidirectional"/>
       <node ref="U26" pin="4" pinfunction="SCLK" pintype="passive"/>
       <node ref="U9" pin="4" pinfunction="SCLK" pintype="passive"/>
     </net>
-    <net code="22" name="/power_and_cpu/ADC_CS1">
-      <node ref="U16" pin="6" pinfunction="~{CS}" pintype="passive"/>
-      <node ref="U19" pin="7" pinfunction="GPIO5" pintype="bidirectional"/>
-    </net>
-    <net code="23" name="/power_and_cpu/ADC_CS2">
+    <net code="34" name="/power_and_cpu/ADC_CS2">
       <node ref="U19" pin="3" pinfunction="GPIO1" pintype="bidirectional"/>
       <node ref="U9" pin="6" pinfunction="~{CS}" pintype="passive"/>
     </net>
-    <net code="24" name="/power_and_cpu/ADC_CS3">
+    <net code="35" name="/power_and_cpu/ADC_CS3">
       <node ref="U19" pin="5" pinfunction="GPIO3" pintype="bidirectional"/>
       <node ref="U26" pin="6" pinfunction="~{CS}" pintype="passive"/>
     </net>
-    <net code="25" name="/power_and_cpu/ADC_DATA">
-      <node ref="U16" pin="5" pinfunction="SDATA" pintype="output"/>
+    <net code="36" name="/power_and_cpu/ADC_DATA">
       <node ref="U19" pin="2" pinfunction="GPIO0" pintype="bidirectional"/>
       <node ref="U26" pin="5" pinfunction="SDATA" pintype="output"/>
       <node ref="U9" pin="5" pinfunction="SDATA" pintype="output"/>
     </net>
-    <net code="26" name="/power_and_cpu/AUX1">
+    <net code="37" name="/power_and_cpu/AUX1">
       <node ref="D30" pin="1" pinfunction="A1" pintype="passive"/>
       <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="TP46" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U19" pin="8" pinfunction="GPIO6" pintype="bidirectional"/>
     </net>
-    <net code="27" name="/power_and_cpu/AUX2">
+    <net code="38" name="/power_and_cpu/AUX2">
       <node ref="D29" pin="1" pinfunction="A1" pintype="passive"/>
       <node ref="J14" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="TP45" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U19" pin="9" pinfunction="GPIO7" pintype="bidirectional"/>
     </net>
-    <net code="28" name="/power_and_cpu/AUX3_CSn">
+    <net code="39" name="/power_and_cpu/AUX3_CSn">
       <node ref="J15" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="TP36" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U19" pin="32" pinfunction="GPIO21" pintype="bidirectional"/>
       <node ref="U31" pin="3" pinfunction="I/O2" pintype="passive"/>
     </net>
-    <net code="29" name="/power_and_cpu/AUX3_RX">
+    <net code="40" name="/power_and_cpu/AUX3_RX">
       <node ref="J15" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="TP35" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U19" pin="31" pinfunction="GPIO20" pintype="bidirectional"/>
       <node ref="U31" pin="1" pinfunction="I/O1" pintype="passive"/>
     </net>
-    <net code="30" name="/power_and_cpu/AUX3_SCK">
+    <net code="41" name="/power_and_cpu/AUX3_SCK">
       <node ref="J15" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="TP37" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U19" pin="34" pinfunction="GPIO22" pintype="bidirectional"/>
       <node ref="U31" pin="6" pinfunction="I/O4" pintype="passive"/>
     </net>
-    <net code="31" name="/power_and_cpu/BS">
+    <net code="42" name="/power_and_cpu/BS">
       <node ref="R98" pin="1" pintype="passive"/>
       <node ref="U33" pin="8" pinfunction="BS" pintype="passive"/>
     </net>
-    <net code="32" name="/power_and_cpu/CAN0_N">
+    <net code="43" name="/power_and_cpu/CAN0_N">
       <node ref="D1" pin="3" pinfunction="I/O2" pintype="passive"/>
       <node ref="J17" pin="8" pinfunction="Pin_8" pintype="passive"/>
       <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
@@ -6988,7 +6629,7 @@
       <node ref="TP56" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U17" pin="6" pinfunction="CANL" pintype="bidirectional"/>
     </net>
-    <net code="33" name="/power_and_cpu/CAN0_P">
+    <net code="44" name="/power_and_cpu/CAN0_P">
       <node ref="D1" pin="2" pinfunction="I/O1" pintype="passive"/>
       <node ref="J17" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
@@ -6996,25 +6637,25 @@
       <node ref="TP60" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U17" pin="7" pinfunction="CANH" pintype="bidirectional"/>
     </net>
-    <net code="34" name="/power_and_cpu/CAN1_N">
+    <net code="45" name="/power_and_cpu/CAN1_N">
       <node ref="D3" pin="2" pinfunction="I/O1" pintype="passive"/>
       <node ref="J11" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="J17" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="TP53" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="35" name="/power_and_cpu/CAN1_P">
+    <net code="46" name="/power_and_cpu/CAN1_P">
       <node ref="D3" pin="3" pinfunction="I/O2" pintype="passive"/>
       <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J17" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="TP50" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="36" name="/power_and_cpu/CANH0_P_JP">
+    <net code="47" name="/power_and_cpu/CANH0_P_JP">
       <node ref="R9" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="SW3" pin="8" pintype="passive"/>
     </net>
-    <net code="37" name="/power_and_cpu/ENC1_CS">
+    <net code="48" name="/power_and_cpu/ENC1_CS">
       <node ref="C61" pin="2" pintype="passive"/>
       <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="R56" pin="2" pinfunction="2" pintype="passive"/>
@@ -7022,7 +6663,7 @@
       <node ref="U15" pin="32" pinfunction="GPIO21" pintype="bidirectional"/>
       <node ref="U29" pin="4" pinfunction="I/O3" pintype="passive"/>
     </net>
-    <net code="38" name="/power_and_cpu/ENC1_RX">
+    <net code="49" name="/power_and_cpu/ENC1_RX">
       <node ref="C62" pin="2" pintype="passive"/>
       <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="R58" pin="2" pinfunction="2" pintype="passive"/>
@@ -7030,7 +6671,7 @@
       <node ref="U15" pin="31" pinfunction="GPIO20" pintype="bidirectional"/>
       <node ref="U29" pin="3" pinfunction="I/O2" pintype="passive"/>
     </net>
-    <net code="39" name="/power_and_cpu/ENC1_SCK">
+    <net code="50" name="/power_and_cpu/ENC1_SCK">
       <node ref="C60" pin="2" pintype="passive"/>
       <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="R54" pin="2" pinfunction="2" pintype="passive"/>
@@ -7038,7 +6679,7 @@
       <node ref="U15" pin="34" pinfunction="GPIO22" pintype="bidirectional"/>
       <node ref="U29" pin="6" pinfunction="I/O4" pintype="passive"/>
     </net>
-    <net code="40" name="/power_and_cpu/ENC2_CS">
+    <net code="51" name="/power_and_cpu/ENC2_CS">
       <node ref="C63" pin="2" pintype="passive"/>
       <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="R55" pin="2" pinfunction="2" pintype="passive"/>
@@ -7046,7 +6687,7 @@
       <node ref="U15" pin="28" pinfunction="GPIO17" pintype="bidirectional"/>
       <node ref="U30" pin="4" pinfunction="I/O3" pintype="passive"/>
     </net>
-    <net code="41" name="/power_and_cpu/ENC2_RX">
+    <net code="52" name="/power_and_cpu/ENC2_RX">
       <node ref="C64" pin="2" pintype="passive"/>
       <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="R57" pin="2" pinfunction="2" pintype="passive"/>
@@ -7054,7 +6695,7 @@
       <node ref="U15" pin="27" pinfunction="GPIO16" pintype="bidirectional"/>
       <node ref="U30" pin="3" pinfunction="I/O2" pintype="passive"/>
     </net>
-    <net code="42" name="/power_and_cpu/ENC2_SCK">
+    <net code="53" name="/power_and_cpu/ENC2_SCK">
       <node ref="C23" pin="2" pintype="passive"/>
       <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="R53" pin="2" pinfunction="2" pintype="passive"/>
@@ -7062,276 +6703,289 @@
       <node ref="U15" pin="29" pinfunction="GPIO18" pintype="bidirectional"/>
       <node ref="U30" pin="6" pinfunction="I/O4" pintype="passive"/>
     </net>
-    <net code="43" name="/power_and_cpu/ESTOP">
+    <net code="54" name="/power_and_cpu/ESTOP">
       <node ref="R76" pin="2" pintype="passive"/>
-      <node ref="U15" pin="4" pinfunction="GPIO2" pintype="bidirectional"/>
+      <node ref="TP22" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U15" pin="30" pinfunction="GPIO19" pintype="bidirectional"/>
       <node ref="U19" pin="17" pinfunction="GPIO14" pintype="bidirectional"/>
       <node ref="U34" pin="8" pintype="passive"/>
     </net>
-    <net code="44" name="/power_and_cpu/ESTOP_SQUARE">
+    <net code="55" name="/power_and_cpu/ESTOP_SQUARE">
       <node ref="D28" pin="1" pinfunction="A1" pintype="passive"/>
       <node ref="J17" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="R75" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TP59" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="45" name="/power_and_cpu/ESTOP_SWITCH_IN">
+    <net code="56" name="/power_and_cpu/ESTOP_SWITCH_IN">
       <node ref="D32" pin="1" pinfunction="A1" pintype="passive"/>
       <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="Q7" pin="1" pinfunction="G" pintype="input"/>
       <node ref="TP61" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="46" name="/power_and_cpu/ESTOP_SWITCH_OUT">
+    <net code="57" name="/power_and_cpu/ESTOP_SWITCH_OUT">
       <node ref="J17" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="SW3" pin="9" pintype="passive"/>
       <node ref="TP63" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="47" name="/power_and_cpu/ESTOP_SWITCH_STATUS">
+    <net code="58" name="/power_and_cpu/ESTOP_SWITCH_STATUS">
       <node ref="R49" pin="2" pintype="passive"/>
       <node ref="U19" pin="27" pinfunction="GPIO16" pintype="bidirectional"/>
       <node ref="U34" pin="6" pintype="passive"/>
     </net>
-    <net code="48" name="/power_and_cpu/FB">
+    <net code="59" name="/power_and_cpu/FB">
       <node ref="C113" pin="2" pintype="passive"/>
       <node ref="R96" pin="1" pintype="passive"/>
       <node ref="R97" pin="2" pintype="passive"/>
       <node ref="U33" pin="5" pinfunction="FB" pintype="input"/>
     </net>
-    <net code="49" name="/power_and_cpu/GPIO0">
+    <net code="60" name="/power_and_cpu/GPIO0">
       <node ref="U15" pin="2" pinfunction="GPIO0" pintype="bidirectional"/>
       <node ref="U19" pin="16" pinfunction="GPIO13" pintype="bidirectional"/>
     </net>
-    <net code="50" name="/power_and_cpu/GPIO1">
+    <net code="61" name="/power_and_cpu/GPIO1">
       <node ref="U15" pin="3" pinfunction="GPIO1" pintype="bidirectional"/>
       <node ref="U19" pin="15" pinfunction="GPIO12" pintype="bidirectional"/>
     </net>
-    <net code="51" name="/power_and_cpu/GPIO24">
+    <net code="62" name="/power_and_cpu/GPIO24">
       <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="R62" pin="2" pintype="passive"/>
       <node ref="TP14" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U15" pin="36" pinfunction="GPIO24" pintype="bidirectional"/>
       <node ref="U43" pin="6" pinfunction="I/O4" pintype="passive"/>
     </net>
-    <net code="52" name="/power_and_cpu/GPIO25">
+    <net code="63" name="/power_and_cpu/GPIO25">
       <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="R63" pin="1" pintype="passive"/>
       <node ref="TP13" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U15" pin="37" pinfunction="GPIO25" pintype="bidirectional"/>
       <node ref="U43" pin="4" pinfunction="I/O3" pintype="passive"/>
     </net>
-    <net code="53" name="/power_and_cpu/GPIO28_ADC2_2">
+    <net code="64" name="/power_and_cpu/GPIO28_ADC2_2">
       <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R74" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TP16" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U19" pin="40" pinfunction="GPIO28_ADC2" pintype="bidirectional"/>
       <node ref="U29" pin="1" pinfunction="I/O1" pintype="passive"/>
     </net>
-    <net code="54" name="/power_and_cpu/GPIO29_ADC3_2">
+    <net code="65" name="/power_and_cpu/GPIO29_ADC3_2">
       <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R79" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TP27" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U19" pin="41" pinfunction="GPIO29_ADC3" pintype="bidirectional"/>
       <node ref="U30" pin="1" pinfunction="I/O1" pintype="passive"/>
     </net>
-    <net code="55" name="/power_and_cpu/ID1">
+    <net code="66" name="/power_and_cpu/ID1">
       <node ref="R13" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="SW3" pin="12" pintype="passive"/>
       <node ref="U19" pin="29" pinfunction="GPIO18" pintype="bidirectional"/>
     </net>
-    <net code="56" name="/power_and_cpu/ID2">
+    <net code="67" name="/power_and_cpu/ID2">
       <node ref="R12" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="SW3" pin="11" pintype="passive"/>
       <node ref="U19" pin="30" pinfunction="GPIO19" pintype="bidirectional"/>
     </net>
-    <net code="57" name="/power_and_cpu/ID3">
+    <net code="68" name="/power_and_cpu/ID3">
       <node ref="R11" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="SW3" pin="10" pintype="passive"/>
       <node ref="U19" pin="35" pinfunction="GPIO23" pintype="bidirectional"/>
     </net>
-    <net code="58" name="/power_and_cpu/LED">
+    <net code="69" name="/power_and_cpu/LED">
       <node ref="U10" pin="3" pinfunction="A" pintype="bidirectional"/>
       <node ref="U19" pin="18" pinfunction="GPIO15" pintype="bidirectional"/>
     </net>
-    <net code="59" name="/power_and_cpu/QSPI_SCLK">
+    <net code="70" name="/power_and_cpu/QSPI_SCLK">
       <node ref="U12" pin="6" pinfunction="CLK" pintype="input"/>
       <node ref="U15" pin="52" pinfunction="QSPI_SCLK" pintype="output"/>
     </net>
-    <net code="60" name="/power_and_cpu/QSPI_SCLK_2">
+    <net code="71" name="/power_and_cpu/QSPI_SCLK_2">
       <node ref="U13" pin="6" pinfunction="CLK" pintype="input"/>
       <node ref="U19" pin="52" pinfunction="QSPI_SCLK" pintype="output"/>
     </net>
-    <net code="61" name="/power_and_cpu/QSPI_SD0">
+    <net code="72" name="/power_and_cpu/QSPI_SD0">
       <node ref="U12" pin="5" pinfunction="DI(IO0)" pintype="bidirectional"/>
       <node ref="U15" pin="53" pinfunction="QSPI_SD0" pintype="bidirectional"/>
     </net>
-    <net code="62" name="/power_and_cpu/QSPI_SD0_2">
+    <net code="73" name="/power_and_cpu/QSPI_SD0_2">
       <node ref="U13" pin="5" pinfunction="DI(IO0)" pintype="bidirectional"/>
       <node ref="U19" pin="53" pinfunction="QSPI_SD0" pintype="bidirectional"/>
     </net>
-    <net code="63" name="/power_and_cpu/QSPI_SD1">
+    <net code="74" name="/power_and_cpu/QSPI_SD1">
       <node ref="U12" pin="2" pinfunction="DO(IO1)" pintype="bidirectional"/>
       <node ref="U15" pin="55" pinfunction="QSPI_SD1" pintype="bidirectional"/>
     </net>
-    <net code="64" name="/power_and_cpu/QSPI_SD1_2">
+    <net code="75" name="/power_and_cpu/QSPI_SD1_2">
       <node ref="U13" pin="2" pinfunction="DO(IO1)" pintype="bidirectional"/>
       <node ref="U19" pin="55" pinfunction="QSPI_SD1" pintype="bidirectional"/>
     </net>
-    <net code="65" name="/power_and_cpu/QSPI_SD2">
+    <net code="76" name="/power_and_cpu/QSPI_SD2">
       <node ref="U12" pin="3" pinfunction="IO2" pintype="bidirectional"/>
       <node ref="U15" pin="54" pinfunction="QSPI_SD2" pintype="bidirectional"/>
     </net>
-    <net code="66" name="/power_and_cpu/QSPI_SD2_2">
+    <net code="77" name="/power_and_cpu/QSPI_SD2_2">
       <node ref="U13" pin="3" pinfunction="IO2" pintype="bidirectional"/>
       <node ref="U19" pin="54" pinfunction="QSPI_SD2" pintype="bidirectional"/>
     </net>
-    <net code="67" name="/power_and_cpu/QSPI_SD3">
+    <net code="78" name="/power_and_cpu/QSPI_SD3">
       <node ref="U12" pin="7" pinfunction="IO3" pintype="bidirectional"/>
       <node ref="U15" pin="51" pinfunction="QSPI_SD3" pintype="bidirectional"/>
     </net>
-    <net code="68" name="/power_and_cpu/QSPI_SD3_2">
+    <net code="79" name="/power_and_cpu/QSPI_SD3_2">
       <node ref="U13" pin="7" pinfunction="IO3" pintype="bidirectional"/>
       <node ref="U19" pin="51" pinfunction="QSPI_SD3" pintype="bidirectional"/>
     </net>
-    <net code="69" name="/power_and_cpu/QSPI_SS">
+    <net code="80" name="/power_and_cpu/QSPI_SS">
       <node ref="R41" pin="1" pintype="passive"/>
       <node ref="U12" pin="1" pinfunction="~{CS}" pintype="input"/>
       <node ref="U15" pin="56" pinfunction="QSPI_SS" pintype="bidirectional"/>
     </net>
-    <net code="70" name="/power_and_cpu/QSPI_SS_2">
+    <net code="81" name="/power_and_cpu/QSPI_SS_2">
       <node ref="R66" pin="1" pintype="passive"/>
       <node ref="U13" pin="1" pinfunction="~{CS}" pintype="input"/>
       <node ref="U19" pin="56" pinfunction="QSPI_SS" pintype="bidirectional"/>
     </net>
-    <net code="71" name="/power_and_cpu/RXD">
+    <net code="82" name="/power_and_cpu/RXD">
       <node ref="U17" pin="2" pinfunction="RXD" pintype="output"/>
       <node ref="U18" pin="2" pinfunction="RXCAN" pintype="input"/>
       <node ref="U23" pin="2" pinfunction="A" pintype="input"/>
     </net>
-    <net code="72" name="/power_and_cpu/RXI_2">
+    <net code="83" name="/power_and_cpu/RXI_2">
       <node ref="J12" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="TP31" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U19" pin="37" pinfunction="GPIO25" pintype="bidirectional"/>
       <node ref="U3" pin="4" pinfunction="I/O3" pintype="passive"/>
     </net>
-    <net code="73" name="/power_and_cpu/SPI1_CSn_2">
+    <net code="84" name="/power_and_cpu/SPI1_CSn_2">
       <node ref="U18" pin="16" pinfunction="~{CS}" pintype="input"/>
       <node ref="U19" pin="12" pinfunction="GPIO9" pintype="bidirectional"/>
     </net>
-    <net code="74" name="/power_and_cpu/SPI1_INT">
+    <net code="85" name="/power_and_cpu/SPI1_INT">
       <node ref="U18" pin="12" pinfunction="~{INT}" pintype="output"/>
       <node ref="U19" pin="6" pinfunction="GPIO4" pintype="bidirectional"/>
     </net>
-    <net code="75" name="/power_and_cpu/SPI1_RX_2">
+    <net code="86" name="/power_and_cpu/SPI1_RX_2">
       <node ref="U18" pin="15" pinfunction="SO" pintype="output"/>
       <node ref="U19" pin="11" pinfunction="GPIO8" pintype="bidirectional"/>
     </net>
-    <net code="76" name="/power_and_cpu/SPI1_SCK_2">
+    <net code="87" name="/power_and_cpu/SPI1_SCK_2">
       <node ref="U18" pin="13" pinfunction="SCK" pintype="input"/>
       <node ref="U19" pin="13" pinfunction="GPIO10" pintype="bidirectional"/>
     </net>
-    <net code="77" name="/power_and_cpu/SPI1_TX_2">
+    <net code="88" name="/power_and_cpu/SPI1_TX_2">
       <node ref="U18" pin="14" pinfunction="SI" pintype="input"/>
       <node ref="U19" pin="14" pinfunction="GPIO11" pintype="bidirectional"/>
     </net>
-    <net code="78" name="/power_and_cpu/SW">
+    <net code="89" name="/power_and_cpu/SW">
       <node ref="C114" pin="1" pintype="passive"/>
       <node ref="D27" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="L3" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U33" pin="1" pinfunction="SW" pintype="power_out"/>
     </net>
-    <net code="79" name="/power_and_cpu/SWCLK">
+    <net code="90" name="/power_and_cpu/SWCLK">
       <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="TP10" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U15" pin="24" pinfunction="SWCLK" pintype="output"/>
       <node ref="U43" pin="3" pinfunction="I/O2" pintype="passive"/>
     </net>
-    <net code="80" name="/power_and_cpu/SWCLK_2">
+    <net code="91" name="/power_and_cpu/SWCLK_2">
       <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="TP28" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U19" pin="24" pinfunction="SWCLK" pintype="output"/>
       <node ref="U3" pin="3" pinfunction="I/O2" pintype="passive"/>
     </net>
-    <net code="81" name="/power_and_cpu/SWD">
+    <net code="92" name="/power_and_cpu/SWD">
       <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="TP11" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U15" pin="25" pinfunction="SWD" pintype="bidirectional"/>
       <node ref="U43" pin="1" pinfunction="I/O1" pintype="passive"/>
     </net>
-    <net code="82" name="/power_and_cpu/SWD_2">
+    <net code="93" name="/power_and_cpu/SWD_2">
       <node ref="J12" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="TP29" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U19" pin="25" pinfunction="SWD" pintype="bidirectional"/>
       <node ref="U3" pin="1" pinfunction="I/O1" pintype="passive"/>
     </net>
-    <net code="83" name="/power_and_cpu/TXD">
+    <net code="94" name="/power_and_cpu/TXD">
       <node ref="U17" pin="3" pinfunction="TXD" pintype="input"/>
       <node ref="U18" pin="1" pinfunction="TXCAN" pintype="output"/>
       <node ref="U6" pin="2" pinfunction="A" pintype="input"/>
     </net>
-    <net code="84" name="/power_and_cpu/TXO_2">
+    <net code="95" name="/power_and_cpu/TXO_2">
       <node ref="J12" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="TP32" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U19" pin="36" pinfunction="GPIO24" pintype="bidirectional"/>
       <node ref="U3" pin="6" pinfunction="I/O4" pintype="passive"/>
     </net>
-    <net code="85" name="/power_and_cpu/USB_D+">
+    <net code="96" name="/power_and_cpu/USB_D+">
       <node ref="J1" pin="A6" pinfunction="D+" pintype="bidirectional"/>
       <node ref="J1" pin="B6" pinfunction="D+" pintype="bidirectional"/>
       <node ref="TP41" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U27" pin="6" pinfunction="I/O1" pintype="passive"/>
     </net>
-    <net code="86" name="/power_and_cpu/USB_D-">
+    <net code="97" name="/power_and_cpu/USB_D-">
       <node ref="J1" pin="A7" pinfunction="D-" pintype="bidirectional"/>
       <node ref="J1" pin="B7" pinfunction="D-" pintype="bidirectional"/>
       <node ref="TP42" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U27" pin="4" pinfunction="I/O2" pintype="passive"/>
     </net>
-    <net code="87" name="/power_and_cpu/USB_DN">
+    <net code="98" name="/power_and_cpu/USB_DN">
       <node ref="R61" pin="2" pintype="passive"/>
       <node ref="U15" pin="46" pinfunction="USB_DM" pintype="bidirectional"/>
     </net>
-    <net code="88" name="/power_and_cpu/USB_DN_2">
+    <net code="99" name="/power_and_cpu/USB_DN_2">
       <node ref="R71" pin="2" pintype="passive"/>
       <node ref="U19" pin="46" pinfunction="USB_DM" pintype="bidirectional"/>
     </net>
-    <net code="89" name="/power_and_cpu/USB_DP">
+    <net code="100" name="/power_and_cpu/USB_DP">
       <node ref="R60" pin="2" pintype="passive"/>
       <node ref="U15" pin="47" pinfunction="USB_DP" pintype="bidirectional"/>
     </net>
-    <net code="90" name="/power_and_cpu/USB_DP_2">
+    <net code="101" name="/power_and_cpu/USB_DP_2">
       <node ref="R70" pin="2" pintype="passive"/>
       <node ref="U19" pin="47" pinfunction="USB_DP" pintype="bidirectional"/>
     </net>
-    <net code="91" name="/power_and_cpu/USB_D_2+">
+    <net code="102" name="/power_and_cpu/USB_D_2+">
       <node ref="J6" pin="A6" pinfunction="D+" pintype="bidirectional"/>
       <node ref="J6" pin="B6" pinfunction="D+" pintype="bidirectional"/>
       <node ref="TP43" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U28" pin="6" pinfunction="I/O1" pintype="passive"/>
     </net>
-    <net code="92" name="/power_and_cpu/USB_D_2-">
+    <net code="103" name="/power_and_cpu/USB_D_2-">
       <node ref="J6" pin="A7" pinfunction="D-" pintype="bidirectional"/>
       <node ref="J6" pin="B7" pinfunction="D-" pintype="bidirectional"/>
       <node ref="TP39" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U28" pin="4" pinfunction="I/O2" pintype="passive"/>
     </net>
-    <net code="93" name="/power_and_cpu/{slash}LED_EN">
+    <net code="104" name="/power_and_cpu/VDC_CLK">
+      <node ref="U15" pin="5" pinfunction="GPIO3" pintype="bidirectional"/>
+      <node ref="U22" pin="7" pinfunction="DCLK" pintype="input"/>
+    </net>
+    <net code="105" name="/power_and_cpu/VDC_CS">
+      <node ref="U15" pin="4" pinfunction="GPIO2" pintype="bidirectional"/>
+      <node ref="U22" pin="5" pinfunction="~{CS/SHDN}" pintype="input"/>
+    </net>
+    <net code="106" name="/power_and_cpu/VDC_DATA">
+      <node ref="U15" pin="35" pinfunction="GPIO23" pintype="bidirectional"/>
+      <node ref="U22" pin="6" pinfunction="DOUT" pintype="output"/>
+    </net>
+    <net code="107" name="/power_and_cpu/{slash}LED_EN">
       <node ref="D41" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R17" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="SW3" pin="7" pintype="passive"/>
       <node ref="U23" pin="1" pinfunction="/OE" pintype="input"/>
       <node ref="U6" pin="1" pinfunction="/OE" pintype="input"/>
     </net>
-    <net code="94" name="/power_and_cpu/~{USB_BOOT_2}">
+    <net code="108" name="/power_and_cpu/~{USB_BOOT_2}">
       <node ref="R66" pin="2" pintype="passive"/>
       <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="95" name="/power_and_cpu/~{USB_BOOT}">
+    <net code="109" name="/power_and_cpu/~{USB_BOOT}">
       <node ref="R41" pin="2" pintype="passive"/>
       <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="96" name="GND">
+    <net code="110" name="GND">
       <node ref="AL1" pin="1" pinfunction="S" pintype="passive"/>
       <node ref="AL2" pin="1" pinfunction="S" pintype="passive"/>
       <node ref="BL1" pin="1" pinfunction="S" pintype="passive"/>
@@ -7342,9 +6996,6 @@
       <node ref="C111" pin="2" pintype="passive"/>
       <node ref="C112" pin="2" pintype="passive"/>
       <node ref="C115" pin="2" pintype="passive"/>
-      <node ref="C116" pin="2" pintype="passive"/>
-      <node ref="C117" pin="2" pintype="passive"/>
-      <node ref="C118" pin="2" pintype="passive"/>
       <node ref="C119" pin="2" pintype="passive"/>
       <node ref="C120" pin="2" pintype="passive"/>
       <node ref="C121" pin="2" pintype="passive"/>
@@ -7402,21 +7053,16 @@
       <node ref="C63" pin="1" pintype="passive"/>
       <node ref="C64" pin="1" pintype="passive"/>
       <node ref="C66" pin="2" pintype="passive"/>
-      <node ref="C67" pin="2" pintype="passive"/>
       <node ref="C68" pin="2" pintype="passive"/>
-      <node ref="C69" pin="2" pintype="passive"/>
       <node ref="C7" pin="2" pintype="passive"/>
-      <node ref="C72" pin="1" pintype="passive"/>
-      <node ref="C73" pin="2" pintype="passive"/>
+      <node ref="C72" pin="2" pintype="passive"/>
       <node ref="C74" pin="2" pintype="passive"/>
-      <node ref="C75" pin="2" pintype="passive"/>
       <node ref="C76" pin="2" pintype="passive"/>
       <node ref="C77" pin="2" pintype="passive"/>
       <node ref="C78" pin="2" pintype="passive"/>
       <node ref="C79" pin="2" pintype="passive"/>
       <node ref="C80" pin="2" pintype="passive"/>
       <node ref="C81" pin="1" pintype="passive"/>
-      <node ref="C83" pin="2" pintype="passive"/>
       <node ref="C86" pin="2" pintype="passive"/>
       <node ref="C94" pin="2" pintype="passive"/>
       <node ref="C95" pin="1" pintype="passive"/>
@@ -7432,10 +7078,10 @@
       <node ref="D33" pin="1" pinfunction="GND" pintype="power_in"/>
       <node ref="D34" pin="1" pinfunction="GND" pintype="power_in"/>
       <node ref="D35" pin="1" pinfunction="GND" pintype="power_in"/>
-      <node ref="D36" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="D36" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="D4" pin="2" pinfunction="A2" pintype="passive"/>
-      <node ref="D40" pin="2" pinfunction="A2" pintype="passive"/>
       <node ref="D42" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="D44" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="D8" pin="2" pinfunction="A2" pintype="passive"/>
       <node ref="D9" pin="2" pinfunction="A2" pintype="passive"/>
       <node ref="J1" pin="A1" pinfunction="GND" pintype="passive"/>
@@ -7463,10 +7109,6 @@
       <node ref="Q4" pin="2" pinfunction="E" pintype="passive"/>
       <node ref="Q5" pin="2" pinfunction="E" pintype="passive"/>
       <node ref="Q6" pin="2" pinfunction="E" pintype="passive"/>
-      <node ref="R100" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="R104" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="R108" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="R112" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="R16" pin="2" pintype="passive"/>
       <node ref="R21" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="R40" pin="1" pintype="passive"/>
@@ -7496,17 +7138,23 @@
       <node ref="U12" pin="4" pinfunction="GND" pintype="power_in"/>
       <node ref="U13" pin="4" pinfunction="GND" pintype="power_in"/>
       <node ref="U14" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U14" pin="3" pinfunction="REF2" pintype="passive"/>
+      <node ref="U14" pin="4" pinfunction="GND" pintype="passive"/>
       <node ref="U15" pin="19" pinfunction="TESTEN" pintype="passive"/>
       <node ref="U15" pin="57" pinfunction="GND" pintype="power_in"/>
-      <node ref="U16" pin="2" pinfunction="GND" pintype="passive"/>
       <node ref="U17" pin="4" pinfunction="GND1" pintype="power_in"/>
       <node ref="U18" pin="9" pinfunction="VSS" pintype="power_in"/>
       <node ref="U19" pin="19" pinfunction="TESTEN" pintype="passive"/>
       <node ref="U19" pin="57" pinfunction="GND" pintype="power_in"/>
       <node ref="U2" pin="4" pinfunction="COM" pintype="power_in"/>
       <node ref="U20" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U20" pin="3" pinfunction="REF2" pintype="passive"/>
+      <node ref="U20" pin="4" pinfunction="GND" pintype="passive"/>
       <node ref="U21" pin="2" pinfunction="GND" pintype="power_in"/>
-      <node ref="U22" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U21" pin="3" pinfunction="REF2" pintype="passive"/>
+      <node ref="U21" pin="4" pinfunction="GND" pintype="passive"/>
+      <node ref="U22" pin="3" pinfunction="IN-" pintype="input"/>
+      <node ref="U22" pin="4" pinfunction="GND" pintype="power_in"/>
       <node ref="U23" pin="3" pinfunction="GND" pintype="power_in"/>
       <node ref="U24" pin="2" pinfunction="GND" pintype="power_in"/>
       <node ref="U26" pin="2" pinfunction="GND" pintype="passive"/>
@@ -7520,16 +7168,11 @@
       <node ref="U33" pin="4" pinfunction="GND" pintype="power_in"/>
       <node ref="U34" pin="5" pintype="passive"/>
       <node ref="U34" pin="7" pintype="passive"/>
-      <node ref="U35" pin="2" pinfunction="GND" pintype="power_in"/>
-      <node ref="U36" pin="5" pinfunction="V-" pintype="power_in"/>
-      <node ref="U37" pin="2" pinfunction="GND" pintype="power_in"/>
-      <node ref="U38" pin="5" pinfunction="V-" pintype="power_in"/>
-      <node ref="U39" pin="2" pinfunction="GND" pintype="power_in"/>
       <node ref="U4" pin="4" pinfunction="COM" pintype="power_in"/>
-      <node ref="U40" pin="5" pinfunction="V-" pintype="power_in"/>
-      <node ref="U41" pin="2" pinfunction="GND" pintype="power_in"/>
-      <node ref="U42" pin="5" pinfunction="V-" pintype="power_in"/>
       <node ref="U43" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="U44" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U44" pin="3" pinfunction="REF2" pintype="passive"/>
+      <node ref="U44" pin="4" pinfunction="GND" pintype="passive"/>
       <node ref="U5" pin="4" pinfunction="COM" pintype="power_in"/>
       <node ref="U6" pin="3" pinfunction="GND" pintype="power_in"/>
       <node ref="U7" pin="4" pinfunction="COM" pintype="power_in"/>
@@ -7542,7 +7185,7 @@
       <node ref="Y3" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="Y3" pin="4" pinfunction="4" pintype="passive"/>
     </net>
-    <net code="97" name="GND_ISO">
+    <net code="111" name="GND_ISO">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C123" pin="2" pintype="passive"/>
       <node ref="C124" pin="2" pintype="passive"/>
@@ -7562,603 +7205,437 @@
       <node ref="U17" pin="5" pinfunction="GND2" pintype="power_in"/>
       <node ref="U34" pin="2" pintype="passive"/>
     </net>
-    <net code="98" name="M1A_PWM_H">
+    <net code="112" name="M1A_PWM_H">
       <node ref="U15" pin="11" pinfunction="GPIO8" pintype="bidirectional"/>
       <node ref="U7" pin="2" pinfunction="HIN" pintype="input"/>
     </net>
-    <net code="99" name="M1A_PWM_L\">
+    <net code="113" name="M1A_PWM_L\">
       <node ref="U15" pin="12" pinfunction="GPIO9" pintype="bidirectional"/>
       <node ref="U7" pin="3" pinfunction="~{LIN}" pintype="input"/>
     </net>
-    <net code="100" name="M1A_SENSE">
+    <net code="114" name="M1A_SENSE">
       <node ref="U15" pin="40" pinfunction="GPIO28_ADC2" pintype="bidirectional"/>
-      <node ref="U38" pin="7" pintype="output"/>
+      <node ref="U20" pin="5" pintype="output"/>
     </net>
-    <net code="101" name="M1B_PWM_H">
+    <net code="115" name="M1B_PWM_H">
       <node ref="U15" pin="8" pinfunction="GPIO6" pintype="bidirectional"/>
       <node ref="U4" pin="2" pinfunction="HIN" pintype="input"/>
     </net>
-    <net code="102" name="M1B_PWM_L\">
+    <net code="116" name="M1B_PWM_L\">
       <node ref="U15" pin="9" pinfunction="GPIO7" pintype="bidirectional"/>
       <node ref="U4" pin="3" pinfunction="~{LIN}" pintype="input"/>
     </net>
-    <net code="103" name="M1C_PWM_H">
+    <net code="117" name="M1C_PWM_H">
       <node ref="U1" pin="2" pinfunction="HIN" pintype="input"/>
       <node ref="U15" pin="6" pinfunction="GPIO4" pintype="bidirectional"/>
     </net>
-    <net code="104" name="M1C_PWM_L\">
+    <net code="118" name="M1C_PWM_L\">
       <node ref="U1" pin="3" pinfunction="~{LIN}" pintype="input"/>
       <node ref="U15" pin="7" pinfunction="GPIO5" pintype="bidirectional"/>
     </net>
-    <net code="105" name="M1C_SENSE">
+    <net code="119" name="M1C_SENSE">
+      <node ref="U14" pin="5" pintype="output"/>
       <node ref="U15" pin="41" pinfunction="GPIO29_ADC3" pintype="bidirectional"/>
-      <node ref="U36" pin="7" pintype="output"/>
     </net>
-    <net code="106" name="M2A_PWM_H">
+    <net code="120" name="M2A_PWM_H">
       <node ref="U15" pin="17" pinfunction="GPIO14" pintype="bidirectional"/>
       <node ref="U8" pin="2" pinfunction="HIN" pintype="input"/>
     </net>
-    <net code="107" name="M2A_PWM_L\">
+    <net code="121" name="M2A_PWM_L\">
       <node ref="U15" pin="18" pinfunction="GPIO15" pintype="bidirectional"/>
       <node ref="U8" pin="3" pinfunction="~{LIN}" pintype="input"/>
     </net>
-    <net code="108" name="M2A_SENSE">
+    <net code="122" name="M2A_SENSE">
       <node ref="U15" pin="38" pinfunction="GPIO26_ADC0" pintype="bidirectional"/>
-      <node ref="U40" pin="7" pintype="output"/>
+      <node ref="U21" pin="5" pintype="output"/>
     </net>
-    <net code="109" name="M2B_PWM_H">
+    <net code="123" name="M2B_PWM_H">
       <node ref="U15" pin="15" pinfunction="GPIO12" pintype="bidirectional"/>
       <node ref="U5" pin="2" pinfunction="HIN" pintype="input"/>
     </net>
-    <net code="110" name="M2B_PWM_L\">
+    <net code="124" name="M2B_PWM_L\">
       <node ref="U15" pin="16" pinfunction="GPIO13" pintype="bidirectional"/>
       <node ref="U5" pin="3" pinfunction="~{LIN}" pintype="input"/>
     </net>
-    <net code="111" name="M2C_PWM_H">
+    <net code="125" name="M2C_PWM_H">
       <node ref="U15" pin="13" pinfunction="GPIO10" pintype="bidirectional"/>
       <node ref="U2" pin="2" pinfunction="HIN" pintype="input"/>
     </net>
-    <net code="112" name="M2C_PWM_L\">
+    <net code="126" name="M2C_PWM_L\">
       <node ref="U15" pin="14" pinfunction="GPIO11" pintype="bidirectional"/>
       <node ref="U2" pin="3" pinfunction="~{LIN}" pintype="input"/>
     </net>
-    <net code="113" name="M2C_SENSE">
+    <net code="127" name="M2C_SENSE">
       <node ref="U15" pin="39" pinfunction="GPIO27_ADC1" pintype="bidirectional"/>
-      <node ref="U42" pin="7" pintype="output"/>
+      <node ref="U44" pin="5" pintype="output"/>
     </net>
-    <net code="114" name="Net-(AH1-G)">
-      <node ref="AH1" pin="2" pinfunction="G" pintype="input"/>
-      <node ref="D24" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R69" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="115" name="Net-(AH2-G)">
-      <node ref="AH2" pin="2" pinfunction="G" pintype="input"/>
-      <node ref="D17" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R33" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="116" name="Net-(AL1-G)">
-      <node ref="AL1" pin="2" pinfunction="G" pintype="input"/>
-      <node ref="D20" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R59" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="R73" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="117" name="Net-(AL2-G)">
-      <node ref="AL2" pin="2" pinfunction="G" pintype="input"/>
-      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R32" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="R36" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="118" name="Net-(BH1-G)">
-      <node ref="BH1" pin="2" pinfunction="G" pintype="input"/>
-      <node ref="D23" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R80" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="119" name="Net-(BH2-G)">
-      <node ref="BH2" pin="2" pinfunction="G" pintype="input"/>
-      <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R24" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="120" name="Net-(BL1-G)">
-      <node ref="BL1" pin="2" pinfunction="G" pintype="input"/>
-      <node ref="D22" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R78" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="R81" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="121" name="Net-(BL2-G)">
-      <node ref="BL2" pin="2" pinfunction="G" pintype="input"/>
-      <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R23" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="R25" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="122" name="Net-(C28-Pad1)">
+    <net code="128" name="Net-(C28-Pad1)">
       <node ref="C28" pin="1" pintype="passive"/>
       <node ref="R52" pin="2" pintype="passive"/>
       <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="123" name="Net-(C42-Pad1)">
+    <net code="129" name="Net-(C42-Pad1)">
       <node ref="C42" pin="1" pintype="passive"/>
       <node ref="R47" pin="2" pintype="passive"/>
       <node ref="Y2" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="136" name="Net-(C114-Pad2)">
+    <net code="142" name="Net-(C114-Pad2)">
       <node ref="C114" pin="2" pintype="passive"/>
       <node ref="R98" pin="2" pintype="passive"/>
     </net>
-    <net code="137" name="Net-(CH1-G)">
-      <node ref="CH1" pin="2" pinfunction="G" pintype="input"/>
-      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R84" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="138" name="Net-(CH2-G)">
-      <node ref="CH2" pin="2" pinfunction="G" pintype="input"/>
-      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R28" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="139" name="Net-(CL1-G)">
-      <node ref="CL1" pin="2" pinfunction="G" pintype="input"/>
-      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R83" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="R85" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="140" name="Net-(CL2-G)">
-      <node ref="CL2" pin="2" pinfunction="G" pintype="input"/>
-      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R27" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="R29" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="141" name="Net-(D2-K)">
+    <net code="143" name="Net-(D2-K)">
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R26" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="142" name="Net-(D5-K)">
+    <net code="144" name="Net-(D5-K)">
       <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R7" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="143" name="Net-(D6-K)">
+    <net code="145" name="Net-(D6-K)">
       <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R8" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="144" name="Net-(D7-K)">
+    <net code="146" name="Net-(D7-K)">
       <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R3" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="145" name="Net-(D10-K)">
+    <net code="147" name="Net-(D10-K)">
       <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="146" name="Net-(D11-K)">
+    <net code="148" name="Net-(D11-K)">
       <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R19" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="147" name="Net-(D12-K)">
+    <net code="149" name="Net-(D12-K)">
       <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R20" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="148" name="Net-(D13-K)">
+    <net code="150" name="Net-(D13-K)">
       <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R82" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="149" name="Net-(D14-K)">
+    <net code="151" name="Net-(D14-K)">
       <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R30" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="150" name="Net-(D15-K)">
+    <net code="152" name="Net-(D15-K)">
       <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R22" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="151" name="Net-(D16-K)">
+    <net code="153" name="Net-(D16-K)">
       <node ref="D16" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R18" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="152" name="Net-(D17-K)">
+    <net code="154" name="Net-(D17-K)">
       <node ref="D17" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R31" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="153" name="Net-(D19-K)">
+    <net code="155" name="Net-(D19-K)">
       <node ref="D19" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R37" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="154" name="Net-(D20-K)">
+    <net code="156" name="Net-(D20-K)">
       <node ref="D20" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R38" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="155" name="Net-(D21-K)">
+    <net code="157" name="Net-(D21-K)">
       <node ref="D21" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R6" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="156" name="Net-(D22-K)">
+    <net code="158" name="Net-(D22-K)">
       <node ref="D22" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R34" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="157" name="Net-(D23-K)">
+    <net code="159" name="Net-(D23-K)">
       <node ref="D23" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R35" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="158" name="Net-(D24-K)">
+    <net code="160" name="Net-(D24-K)">
       <node ref="D24" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R39" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="159" name="Net-(D31-A)">
+    <net code="161" name="Net-(D31-A)">
       <node ref="D31" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R64" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="R65" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U16" pin="3" pinfunction="VIN" pintype="input"/>
+      <node ref="U22" pin="2" pinfunction="IN+" pintype="input"/>
     </net>
-    <net code="160" name="Net-(D33-DIN)">
+    <net code="162" name="Net-(D33-DIN)">
       <node ref="D33" pin="2" pinfunction="DIN" pintype="input"/>
       <node ref="U10" pin="4" pinfunction="B" pintype="bidirectional"/>
     </net>
-    <net code="161" name="Net-(D33-DOUT)">
+    <net code="163" name="Net-(D33-DOUT)">
       <node ref="D33" pin="4" pinfunction="DOUT" pintype="output"/>
       <node ref="D34" pin="2" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="162" name="Net-(D34-DOUT)">
+    <net code="164" name="Net-(D34-DOUT)">
       <node ref="D34" pin="4" pinfunction="DOUT" pintype="output"/>
       <node ref="D35" pin="2" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="163" name="Net-(D38-A)">
+    <net code="165" name="Net-(D38-A)">
       <node ref="D38" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R67" pin="2" pintype="passive"/>
     </net>
-    <net code="164" name="Net-(D38-K)">
+    <net code="166" name="Net-(D38-K)">
       <node ref="D38" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="U6" pin="4" pinfunction="Y" pintype="output"/>
     </net>
-    <net code="165" name="Net-(D39-A)">
+    <net code="167" name="Net-(D39-A)">
       <node ref="D39" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R68" pin="2" pintype="passive"/>
     </net>
-    <net code="166" name="Net-(D39-K)">
+    <net code="168" name="Net-(D39-K)">
       <node ref="D39" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="U23" pin="4" pinfunction="Y" pintype="output"/>
     </net>
-    <net code="167" name="Net-(D41-A)">
+    <net code="169" name="Net-(D41-A)">
       <node ref="D41" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R77" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="168" name="Net-(J1-CC1)">
+    <net code="170" name="Net-(J1-CC1)">
       <node ref="J1" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
       <node ref="R43" pin="2" pintype="passive"/>
     </net>
-    <net code="169" name="Net-(J1-CC2)">
+    <net code="171" name="Net-(J1-CC2)">
       <node ref="J1" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
       <node ref="R44" pin="1" pintype="passive"/>
     </net>
-    <net code="170" name="Net-(J6-CC1)">
+    <net code="172" name="Net-(J6-CC1)">
       <node ref="J6" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
       <node ref="R40" pin="2" pintype="passive"/>
     </net>
-    <net code="171" name="Net-(J6-CC2)">
+    <net code="173" name="Net-(J6-CC2)">
       <node ref="J6" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
       <node ref="R46" pin="1" pintype="passive"/>
     </net>
-    <net code="172" name="Net-(JP1-A)">
-      <node ref="R117" pin="2" pintype="passive"/>
-    </net>
-    <net code="173" name="Net-(JP1-B)">
-      <node ref="R99" pin="2" pintype="passive"/>
-      <node ref="U36" pin="3" pinfunction="Rg" pintype="passive"/>
-    </net>
-    <net code="174" name="Net-(JP3-A)">
-      <node ref="R118" pin="2" pintype="passive"/>
-    </net>
-    <net code="175" name="Net-(JP3-B)">
-      <node ref="R102" pin="2" pintype="passive"/>
-      <node ref="U38" pin="3" pinfunction="Rg" pintype="passive"/>
-    </net>
-    <net code="176" name="Net-(JP4-A)">
-      <node ref="R119" pin="2" pintype="passive"/>
-    </net>
-    <net code="177" name="Net-(JP4-B)">
-      <node ref="R106" pin="2" pintype="passive"/>
-      <node ref="U40" pin="3" pinfunction="Rg" pintype="passive"/>
-    </net>
-    <net code="178" name="Net-(JP5-A)">
-      <node ref="R120" pin="2" pintype="passive"/>
-    </net>
-    <net code="179" name="Net-(JP5-B)">
-      <node ref="R110" pin="2" pintype="passive"/>
-      <node ref="U42" pin="3" pinfunction="Rg" pintype="passive"/>
-    </net>
-    <net code="180" name="Net-(JP6-B)">
+    <net code="174" name="Net-(JP6-B)">
       <node ref="C123" pin="1" pintype="passive"/>
       <node ref="J17" pin="9" pinfunction="9" pintype="input"/>
     </net>
-    <net code="181" name="Net-(JP7-B)">
+    <net code="175" name="Net-(JP7-B)">
       <node ref="C124" pin="1" pintype="passive"/>
       <node ref="J2" pin="9" pinfunction="9" pintype="input"/>
     </net>
-    <net code="182" name="Net-(Q1-B)">
+    <net code="176" name="Net-(Q1-B)">
       <node ref="Q1" pin="1" pinfunction="B" pintype="input"/>
       <node ref="R18" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R25" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U5" pin="5" pinfunction="LO" pintype="output"/>
     </net>
-    <net code="183" name="Net-(Q1-C)">
+    <net code="177" name="Net-(Q1-C)">
       <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="R23" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="184" name="Net-(Q2-B)">
+    <net code="178" name="Net-(Q2-B)">
       <node ref="Q2" pin="1" pinfunction="B" pintype="input"/>
       <node ref="R27" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R7" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U2" pin="5" pinfunction="LO" pintype="output"/>
     </net>
-    <net code="185" name="Net-(Q2-C)">
+    <net code="179" name="Net-(Q2-C)">
       <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="R29" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="186" name="Net-(Q3-B)">
+    <net code="180" name="Net-(Q3-B)">
       <node ref="Q3" pin="1" pinfunction="B" pintype="input"/>
       <node ref="R30" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R32" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U8" pin="5" pinfunction="LO" pintype="output"/>
     </net>
-    <net code="187" name="Net-(Q3-C)">
+    <net code="181" name="Net-(Q3-C)">
       <node ref="Q3" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="R36" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="188" name="Net-(Q4-B)">
+    <net code="182" name="Net-(Q4-B)">
       <node ref="Q4" pin="1" pinfunction="B" pintype="input"/>
       <node ref="R38" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R59" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U7" pin="5" pinfunction="LO" pintype="output"/>
     </net>
-    <net code="189" name="Net-(Q4-C)">
+    <net code="183" name="Net-(Q4-C)">
       <node ref="Q4" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="R73" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="190" name="Net-(Q5-B)">
+    <net code="184" name="Net-(Q5-B)">
       <node ref="Q5" pin="1" pinfunction="B" pintype="input"/>
       <node ref="R34" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R78" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U4" pin="5" pinfunction="LO" pintype="output"/>
     </net>
-    <net code="191" name="Net-(Q5-C)">
+    <net code="185" name="Net-(Q5-C)">
       <node ref="Q5" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="R81" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="192" name="Net-(Q6-B)">
+    <net code="186" name="Net-(Q6-B)">
       <node ref="Q6" pin="1" pinfunction="B" pintype="input"/>
       <node ref="R20" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R83" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="LO" pintype="output"/>
     </net>
-    <net code="193" name="Net-(Q6-C)">
+    <net code="187" name="Net-(Q6-C)">
       <node ref="Q6" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="R85" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="194" name="Net-(Q7-D)">
+    <net code="188" name="Net-(Q7-D)">
       <node ref="Q7" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="U34" pin="4" pintype="passive"/>
     </net>
-    <net code="195" name="Net-(R10-Pad1)">
+    <net code="189" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R64" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="190" name="Net-(R10-Pad1)">
       <node ref="R10" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="SW3" pin="4" pintype="passive"/>
     </net>
-    <net code="196" name="Net-(R48-Pad2)">
+    <net code="191" name="Net-(R48-Pad2)">
       <node ref="R48" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U34" pin="3" pintype="passive"/>
     </net>
-    <net code="197" name="Net-(R60-Pad1)">
+    <net code="192" name="Net-(R60-Pad1)">
       <node ref="R60" pin="1" pintype="passive"/>
       <node ref="U27" pin="1" pinfunction="I/O1" pintype="passive"/>
     </net>
-    <net code="198" name="Net-(R61-Pad1)">
+    <net code="193" name="Net-(R61-Pad1)">
       <node ref="R61" pin="1" pintype="passive"/>
       <node ref="U27" pin="3" pinfunction="I/O2" pintype="passive"/>
     </net>
-    <net code="199" name="Net-(R70-Pad1)">
+    <net code="194" name="Net-(R70-Pad1)">
       <node ref="R70" pin="1" pintype="passive"/>
       <node ref="U28" pin="1" pinfunction="I/O1" pintype="passive"/>
     </net>
-    <net code="200" name="Net-(R71-Pad1)">
+    <net code="195" name="Net-(R71-Pad1)">
       <node ref="R71" pin="1" pintype="passive"/>
       <node ref="U28" pin="3" pinfunction="I/O2" pintype="passive"/>
     </net>
-    <net code="201" name="Net-(R75-Pad2)">
+    <net code="196" name="Net-(R75-Pad2)">
       <node ref="R75" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U34" pin="1" pintype="passive"/>
     </net>
-    <net code="202" name="Net-(R95-Pad1)">
+    <net code="197" name="Net-(R95-Pad1)">
       <node ref="R95" pin="1" pintype="passive"/>
       <node ref="U33" pin="2" pinfunction="ILIM" pintype="input"/>
       <node ref="U33" pin="9" pinfunction="ILIM" pintype="input"/>
     </net>
-    <net code="203" name="Net-(R102-Pad1)">
-      <node ref="R102" pin="1" pintype="passive"/>
-      <node ref="R118" pin="1" pintype="passive"/>
-      <node ref="U38" pin="2" pinfunction="Rg" pintype="passive"/>
-    </net>
-    <net code="204" name="Net-(R106-Pad1)">
-      <node ref="R106" pin="1" pintype="passive"/>
-      <node ref="R119" pin="1" pintype="passive"/>
-      <node ref="U40" pin="2" pinfunction="Rg" pintype="passive"/>
-    </net>
-    <net code="205" name="Net-(R110-Pad1)">
-      <node ref="R110" pin="1" pintype="passive"/>
-      <node ref="R120" pin="1" pintype="passive"/>
-      <node ref="U42" pin="2" pinfunction="Rg" pintype="passive"/>
-    </net>
-    <net code="206" name="Net-(R117-Pad1)">
-      <node ref="R117" pin="1" pintype="passive"/>
-      <node ref="R99" pin="1" pintype="passive"/>
-      <node ref="U36" pin="2" pinfunction="Rg" pintype="passive"/>
-    </net>
-    <net code="207" name="Net-(U1-HO)">
+    <net code="198" name="Net-(U1-HO)">
       <node ref="R82" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R84" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="7" pinfunction="HO" pintype="output"/>
     </net>
-    <net code="208" name="Net-(U1-VB)">
+    <net code="199" name="Net-(U1-VB)">
       <node ref="C85" pin="2" pintype="passive"/>
       <node ref="R19" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U1" pin="8" pinfunction="VB" pintype="passive"/>
     </net>
-    <net code="209" name="Net-(U2-HO)">
+    <net code="200" name="Net-(U2-HO)">
       <node ref="R28" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R8" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U2" pin="7" pinfunction="HO" pintype="output"/>
     </net>
-    <net code="210" name="Net-(U2-VB)">
+    <net code="201" name="Net-(U2-VB)">
       <node ref="C65" pin="2" pintype="passive"/>
       <node ref="R1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U2" pin="8" pinfunction="VB" pintype="passive"/>
     </net>
-    <net code="211" name="Net-(U4-HO)">
+    <net code="202" name="Net-(U4-HO)">
       <node ref="R35" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R80" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U4" pin="7" pinfunction="HO" pintype="output"/>
     </net>
-    <net code="212" name="Net-(U4-VB)">
+    <net code="203" name="Net-(U4-VB)">
       <node ref="C71" pin="2" pintype="passive"/>
       <node ref="R6" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U4" pin="8" pinfunction="VB" pintype="passive"/>
     </net>
-    <net code="213" name="Net-(U5-HO)">
+    <net code="204" name="Net-(U5-HO)">
       <node ref="R22" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R24" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U5" pin="7" pinfunction="HO" pintype="output"/>
     </net>
-    <net code="214" name="Net-(U5-VB)">
+    <net code="205" name="Net-(U5-VB)">
       <node ref="C13" pin="2" pintype="passive"/>
       <node ref="R26" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U5" pin="8" pinfunction="VB" pintype="passive"/>
     </net>
-    <net code="215" name="Net-(U7-HO)">
+    <net code="206" name="Net-(U7-HO)">
       <node ref="R39" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R69" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U7" pin="7" pinfunction="HO" pintype="output"/>
     </net>
-    <net code="216" name="Net-(U7-VB)">
+    <net code="207" name="Net-(U7-VB)">
       <node ref="C84" pin="2" pintype="passive"/>
       <node ref="R37" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U7" pin="8" pinfunction="VB" pintype="passive"/>
     </net>
-    <net code="217" name="Net-(U8-HO)">
+    <net code="208" name="Net-(U8-HO)">
       <node ref="R31" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R33" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U8" pin="7" pinfunction="HO" pintype="output"/>
     </net>
-    <net code="218" name="Net-(U8-VB)">
+    <net code="209" name="Net-(U8-VB)">
       <node ref="C70" pin="2" pintype="passive"/>
       <node ref="R3" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U8" pin="8" pinfunction="VB" pintype="passive"/>
     </net>
-    <net code="219" name="Net-(U9-VIN)">
+    <net code="210" name="Net-(U9-VIN)">
       <node ref="R45" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TH1" pin="2" pintype="passive"/>
       <node ref="U9" pin="3" pinfunction="VIN" pintype="input"/>
     </net>
-    <net code="220" name="Net-(U15-GPIO19)">
-      <node ref="TP22" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U15" pin="30" pinfunction="GPIO19" pintype="bidirectional"/>
-    </net>
-    <net code="221" name="Net-(U15-XIN)">
+    <net code="211" name="Net-(U15-XIN)">
       <node ref="C27" pin="1" pintype="passive"/>
       <node ref="U15" pin="20" pinfunction="XIN" pintype="input"/>
       <node ref="Y1" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="222" name="Net-(U15-XOUT)">
+    <net code="212" name="Net-(U15-XOUT)">
       <node ref="R52" pin="1" pintype="passive"/>
       <node ref="U15" pin="21" pinfunction="XOUT" pintype="passive"/>
     </net>
-    <net code="223" name="Net-(U18-OSC1)">
+    <net code="213" name="Net-(U18-OSC1)">
       <node ref="C58" pin="1" pintype="passive"/>
       <node ref="U18" pin="8" pinfunction="OSC1" pintype="input"/>
       <node ref="Y3" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="224" name="Net-(U18-OSC2)">
+    <net code="214" name="Net-(U18-OSC2)">
       <node ref="C57" pin="1" pintype="passive"/>
       <node ref="U18" pin="7" pinfunction="OSC2" pintype="output"/>
       <node ref="Y3" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="225" name="Net-(U18-~{RESET})">
+    <net code="215" name="Net-(U18-~{RESET})">
       <node ref="R72" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U18" pin="17" pinfunction="~{RESET}" pintype="input"/>
     </net>
-    <net code="226" name="Net-(U19-XIN)">
+    <net code="216" name="Net-(U19-XIN)">
       <node ref="C19" pin="1" pintype="passive"/>
       <node ref="U19" pin="20" pinfunction="XIN" pintype="input"/>
       <node ref="Y2" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="227" name="Net-(U19-XOUT)">
+    <net code="217" name="Net-(U19-XOUT)">
       <node ref="R47" pin="1" pintype="passive"/>
       <node ref="U19" pin="21" pinfunction="XOUT" pintype="passive"/>
     </net>
-    <net code="228" name="Net-(U24-BS)">
+    <net code="218" name="Net-(U24-BS)">
       <node ref="C98" pin="1" pintype="passive"/>
       <node ref="U24" pin="1" pinfunction="BS" pintype="passive"/>
     </net>
-    <net code="229" name="Net-(U24-FB)">
+    <net code="219" name="Net-(U24-FB)">
       <node ref="C97" pin="2" pintype="passive"/>
       <node ref="R15" pin="1" pintype="passive"/>
       <node ref="R16" pin="1" pintype="passive"/>
       <node ref="U24" pin="3" pinfunction="FB" pintype="input"/>
     </net>
-    <net code="230" name="Net-(U24-SW)">
+    <net code="220" name="Net-(U24-SW)">
       <node ref="C98" pin="2" pintype="passive"/>
       <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U24" pin="6" pinfunction="SW" pintype="passive"/>
     </net>
-    <net code="231" name="Net-(U26-VIN)">
+    <net code="221" name="Net-(U26-VIN)">
       <node ref="R21" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TH2" pin="2" pintype="passive"/>
       <node ref="U26" pin="3" pinfunction="VIN" pintype="input"/>
     </net>
-    <net code="232" name="Net-(U36-+)">
-      <node ref="U35" pin="1" pintype="output"/>
-      <node ref="U36" pin="4" pinfunction="+" pintype="input"/>
-    </net>
-    <net code="233" name="Net-(U36--)">
-      <node ref="U21" pin="1" pintype="output"/>
-      <node ref="U36" pin="1" pinfunction="-" pintype="input"/>
-    </net>
-    <net code="234" name="Net-(U36-Ref)">
-      <node ref="R100" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="R2" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U36" pin="6" pinfunction="Ref" pintype="input"/>
-    </net>
-    <net code="235" name="Net-(U38-+)">
-      <node ref="U37" pin="1" pintype="output"/>
-      <node ref="U38" pin="4" pinfunction="+" pintype="input"/>
-    </net>
-    <net code="236" name="Net-(U38--)">
-      <node ref="U20" pin="1" pintype="output"/>
-      <node ref="U38" pin="1" pinfunction="-" pintype="input"/>
-    </net>
-    <net code="237" name="Net-(U38-Ref)">
-      <node ref="R103" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="R104" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U38" pin="6" pinfunction="Ref" pintype="input"/>
-    </net>
-    <net code="238" name="Net-(U40-+)">
-      <node ref="U39" pin="1" pintype="output"/>
-      <node ref="U40" pin="4" pinfunction="+" pintype="input"/>
-    </net>
-    <net code="239" name="Net-(U40--)">
-      <node ref="U22" pin="1" pintype="output"/>
-      <node ref="U40" pin="1" pinfunction="-" pintype="input"/>
-    </net>
-    <net code="240" name="Net-(U40-Ref)">
-      <node ref="R107" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="R108" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U40" pin="6" pinfunction="Ref" pintype="input"/>
-    </net>
-    <net code="241" name="Net-(U42-+)">
-      <node ref="U41" pin="1" pintype="output"/>
-      <node ref="U42" pin="4" pinfunction="+" pintype="input"/>
-    </net>
-    <net code="242" name="Net-(U42--)">
-      <node ref="U14" pin="1" pintype="output"/>
-      <node ref="U42" pin="1" pinfunction="-" pintype="input"/>
-    </net>
-    <net code="243" name="Net-(U42-Ref)">
-      <node ref="R111" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="R112" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U42" pin="6" pinfunction="Ref" pintype="input"/>
-    </net>
-    <net code="244" name="VBUS">
+    <net code="222" name="VBUS">
       <node ref="D37" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J6" pin="A4" pinfunction="VBUS" pintype="passive"/>
       <node ref="J6" pin="A9" pinfunction="VBUS" pintype="passive"/>
@@ -8166,7 +7643,7 @@
       <node ref="J6" pin="B9" pinfunction="VBUS" pintype="passive"/>
       <node ref="U28" pin="5" pinfunction="VBUS" pintype="passive"/>
     </net>
-    <net code="245" name="VBUS2">
+    <net code="223" name="VBUS2">
       <node ref="D43" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J1" pin="A4" pinfunction="VBUS" pintype="passive"/>
       <node ref="J1" pin="A9" pinfunction="VBUS" pintype="passive"/>
@@ -8175,7 +7652,7 @@
       <node ref="TP40" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U27" pin="5" pinfunction="VBUS" pintype="passive"/>
     </net>
-    <net code="246" name="VMOT">
+    <net code="224" name="VMOT">
       <node ref="AH1" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="AH2" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="BH1" pin="3" pinfunction="D" pintype="passive"/>
@@ -8198,60 +7675,57 @@
       <node ref="CH1" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="CH2" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="D4" pin="1" pinfunction="A1" pintype="passive"/>
-      <node ref="R64" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R95" pin="2" pintype="passive"/>
       <node ref="TP49" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U33" pin="3" pinfunction="VIN" pintype="power_in"/>
     </net>
-    <net code="247" name="unconnected-(D35-DOUT-Pad4)">
+    <net code="225" name="unconnected-(D35-DOUT-Pad4)">
       <node ref="D35" pin="4" pinfunction="DOUT" pintype="output"/>
     </net>
-    <net code="248" name="unconnected-(J1-SBU1-PadA8)">
+    <net code="226" name="unconnected-(J1-SBU1-PadA8)">
       <node ref="J1" pin="A8" pinfunction="SBU1" pintype="bidirectional"/>
     </net>
-    <net code="249" name="unconnected-(J1-SBU2-PadB8)">
+    <net code="227" name="unconnected-(J1-SBU2-PadB8)">
       <node ref="J1" pin="B8" pinfunction="SBU2" pintype="bidirectional"/>
     </net>
-    <net code="250" name="unconnected-(J6-SBU1-PadA8)">
+    <net code="228" name="unconnected-(J6-SBU1-PadA8)">
       <node ref="J6" pin="A8" pinfunction="SBU1" pintype="bidirectional"/>
     </net>
-    <net code="251" name="unconnected-(J6-SBU2-PadB8)">
+    <net code="229" name="unconnected-(J6-SBU2-PadB8)">
       <node ref="J6" pin="B8" pinfunction="SBU2" pintype="bidirectional"/>
     </net>
-    <net code="252" name="unconnected-(U15-GPIO3-Pad5)">
-      <node ref="U15" pin="5" pinfunction="GPIO3" pintype="bidirectional"/>
-    </net>
-    <net code="253" name="unconnected-(U15-GPIO23-Pad35)">
-      <node ref="U15" pin="35" pinfunction="GPIO23" pintype="bidirectional"/>
-    </net>
-    <net code="254" name="unconnected-(U18-CLKOUT{slash}SOF-Pad3)">
+    <net code="230" name="unconnected-(U18-CLKOUT{slash}SOF-Pad3)">
       <node ref="U18" pin="3" pinfunction="CLKOUT/SOF" pintype="output"/>
     </net>
-    <net code="255" name="unconnected-(U18-~{RX0BF}-Pad11)">
+    <net code="231" name="unconnected-(U18-~{RX0BF}-Pad11)">
       <node ref="U18" pin="11" pinfunction="~{RX0BF}" pintype="output+no_connect"/>
     </net>
-    <net code="256" name="unconnected-(U18-~{RX1BF}-Pad10)">
+    <net code="232" name="unconnected-(U18-~{RX1BF}-Pad10)">
       <node ref="U18" pin="10" pinfunction="~{RX1BF}" pintype="output+no_connect"/>
     </net>
-    <net code="257" name="unconnected-(U18-~{TX0RTS}-Pad4)">
+    <net code="233" name="unconnected-(U18-~{TX0RTS}-Pad4)">
       <node ref="U18" pin="4" pinfunction="~{TX0RTS}" pintype="input+no_connect"/>
     </net>
-    <net code="258" name="unconnected-(U18-~{TX1RTS}-Pad5)">
+    <net code="234" name="unconnected-(U18-~{TX1RTS}-Pad5)">
       <node ref="U18" pin="5" pinfunction="~{TX1RTS}" pintype="input+no_connect"/>
     </net>
-    <net code="259" name="unconnected-(U18-~{TX2RTS}-Pad6)">
+    <net code="235" name="unconnected-(U18-~{TX2RTS}-Pad6)">
       <node ref="U18" pin="6" pinfunction="~{TX2RTS}" pintype="input+no_connect"/>
     </net>
-    <net code="260" name="unconnected-(U19-GPIO17-Pad28)">
+    <net code="236" name="unconnected-(U19-GPIO5-Pad7)">
+      <node ref="U19" pin="7" pinfunction="GPIO5" pintype="bidirectional"/>
+    </net>
+    <net code="237" name="unconnected-(U19-GPIO17-Pad28)">
       <node ref="U19" pin="28" pinfunction="GPIO17" pintype="bidirectional"/>
     </net>
-    <net code="261" name="unconnected-(U31-I{slash}O3-Pad4)">
+    <net code="238" name="unconnected-(U31-I{slash}O3-Pad4)">
       <node ref="U31" pin="4" pinfunction="I/O3" pintype="passive"/>
     </net>
-    <net code="262" name="unconnected-(U33-EN-Pad6)">
+    <net code="239" name="unconnected-(U33-EN-Pad6)">
       <node ref="U33" pin="6" pinfunction="EN" pintype="passive"/>
     </net>
-    <net code="263" name="unconnected-(U33-POK-Pad7)">
+    <net code="240" name="unconnected-(U33-POK-Pad7)">
       <node ref="U33" pin="7" pinfunction="POK" pintype="output"/>
     </net>
   </nets>

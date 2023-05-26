@@ -1,0 +1,10 @@
+(version 1)
+
+(rule "Distance between Vias of Same Nets"
+(constraint physical_hole_clearance (min 0.254mm))
+(condition "A.Type == 'Via' && B.Type == 'Via' && A.Net == B.Net"))
+
+(rule "Distance between Vias of Different Nets"
+(constraint physical_hole_clearance (min 0.5mm))
+(condition "A.Type == 'Via' && B.Type == 'Via' && A.Net != B.Net"))
+
