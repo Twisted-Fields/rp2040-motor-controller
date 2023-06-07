@@ -10948,6 +10948,11 @@
           (reference "J2") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "J2") (unit 1)
+        )
+      )
     )
   )
 
@@ -11000,6 +11005,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "#PWR0155") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "#PWR0155") (unit 1)
         )
       )
@@ -11120,6 +11130,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "TP20") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "TP20") (unit 1)
         )
       )
@@ -11362,6 +11377,11 @@
           (reference "TP41") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "TP41") (unit 1)
+        )
+      )
     )
   )
 
@@ -11384,6 +11404,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "#PWR0204") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "#PWR0204") (unit 1)
         )
       )
@@ -11412,6 +11437,11 @@
           (reference "TP53") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "TP53") (unit 1)
+        )
+      )
     )
   )
 
@@ -11437,6 +11467,11 @@
           (reference "#PWR0289") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "#PWR0289") (unit 1)
+        )
+      )
     )
   )
 
@@ -11459,6 +11494,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "TP51") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "TP51") (unit 1)
         )
       )
@@ -11518,6 +11558,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "TP26") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "TP26") (unit 1)
         )
       )
@@ -11710,6 +11755,11 @@
           (reference "#PWR0280") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "#PWR0280") (unit 1)
+        )
+      )
     )
   )
 
@@ -11875,6 +11925,11 @@
           (reference "U43") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "U43") (unit 1)
+        )
+      )
     )
   )
 
@@ -12036,6 +12091,11 @@
           (reference "#PWR0210") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "#PWR0210") (unit 1)
+        )
+      )
     )
   )
 
@@ -12058,6 +12118,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "#PWR0247") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "#PWR0247") (unit 1)
         )
       )
@@ -12162,6 +12227,11 @@
           (reference "U27") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "U27") (unit 1)
+        )
+      )
     )
   )
 
@@ -12222,6 +12292,11 @@
           (reference "#PWR0214") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "#PWR0214") (unit 1)
+        )
+      )
     )
   )
 
@@ -12244,6 +12319,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "#PWR034") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "#PWR034") (unit 1)
         )
       )
@@ -12344,6 +12424,11 @@
           (reference "R96") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "R96") (unit 1)
+        )
+      )
     )
   )
 
@@ -12398,6 +12483,11 @@
           (reference "#PWR087") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "#PWR087") (unit 1)
+        )
+      )
       (project "cm4-robot"
         (path "/afa18c7a-a315-47d4-9664-2bb0bfd0422f"
           (reference "#PWR0202") (unit 1)
@@ -12428,6 +12518,11 @@
           (reference "#PWR0288") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "#PWR0288") (unit 1)
+        )
+      )
     )
   )
 
@@ -12450,6 +12545,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "TP29") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "TP29") (unit 1)
         )
       )
@@ -12542,6 +12642,11 @@
           (reference "TP60") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "TP60") (unit 1)
+        )
+      )
     )
   )
 
@@ -12564,6 +12669,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "TP24") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "TP24") (unit 1)
         )
       )
@@ -12596,6 +12706,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "D29") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "D29") (unit 1)
         )
       )
@@ -12659,6 +12774,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "U10") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "U10") (unit 1)
         )
       )
@@ -12919,6 +13039,11 @@
           (reference "#PWR0206") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "#PWR0206") (unit 1)
+        )
+      )
     )
   )
 
@@ -12941,6 +13066,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "#PWR0233") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "#PWR0233") (unit 1)
         )
       )
@@ -13111,6 +13241,11 @@
           (reference "TP33") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "TP33") (unit 1)
+        )
+      )
     )
   )
 
@@ -13213,6 +13348,11 @@
           (reference "#PWR0227") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "#PWR0227") (unit 1)
+        )
+      )
     )
   )
 
@@ -13274,6 +13414,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "D40") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "D40") (unit 1)
         )
       )
@@ -13415,6 +13560,11 @@
           (reference "R95") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "R95") (unit 1)
+        )
+      )
     )
   )
 
@@ -13474,6 +13624,11 @@
           (reference "#PWR063") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "#PWR063") (unit 1)
+        )
+      )
     )
   )
 
@@ -13496,6 +13651,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "TP11") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "TP11") (unit 1)
         )
       )
@@ -13622,6 +13782,11 @@
           (reference "FB2") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "FB2") (unit 1)
+        )
+      )
     )
   )
 
@@ -13682,6 +13847,11 @@
         )
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
           (reference "C120") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "C26") (unit 1)
         )
       )
     )
@@ -13838,6 +14008,11 @@
           (reference "TP25") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "TP25") (unit 1)
+        )
+      )
     )
   )
 
@@ -13930,6 +14105,11 @@
           (reference "#PWR0208") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "#PWR0208") (unit 1)
+        )
+      )
     )
   )
 
@@ -13991,6 +14171,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "TP27") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "TP27") (unit 1)
         )
       )
@@ -14115,6 +14300,11 @@
           (reference "TP17") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "TP17") (unit 1)
+        )
+      )
     )
   )
 
@@ -14180,6 +14370,11 @@
           (reference "TP35") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "TP35") (unit 1)
+        )
+      )
     )
   )
 
@@ -14202,6 +14397,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "TP54") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "TP54") (unit 1)
         )
       )
@@ -14230,6 +14430,11 @@
           (reference "TP56") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "TP56") (unit 1)
+        )
+      )
     )
   )
 
@@ -14255,6 +14460,11 @@
           (reference "#PWR050") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "#PWR050") (unit 1)
+        )
+      )
     )
   )
 
@@ -14277,6 +14487,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "#PWR0282") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "#PWR0282") (unit 1)
         )
       )
@@ -14307,6 +14522,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "TP59") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "TP59") (unit 1)
         )
       )
@@ -14629,6 +14849,11 @@
           (reference "TP50") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "TP50") (unit 1)
+        )
+      )
     )
   )
 
@@ -14714,6 +14939,11 @@
           (reference "TP18") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "TP18") (unit 1)
+        )
+      )
     )
   )
 
@@ -14736,6 +14966,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "#PWR0104") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "#PWR0104") (unit 1)
         )
       )
@@ -14771,6 +15006,11 @@
           (reference "D32") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "D32") (unit 1)
+        )
+      )
     )
   )
 
@@ -14793,6 +15033,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "#PWR049") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "#PWR049") (unit 1)
         )
       )
@@ -15217,6 +15462,11 @@
           (reference "#PWR0172") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "#PWR0172") (unit 1)
+        )
+      )
       (project "cm4-robot"
         (path "/afa18c7a-a315-47d4-9664-2bb0bfd0422f"
           (reference "#PWR0204") (unit 1)
@@ -15278,6 +15528,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "TP63") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "TP63") (unit 1)
         )
       )
@@ -15372,6 +15627,11 @@
           (reference "Q7") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "Q7") (unit 1)
+        )
+      )
     )
   )
 
@@ -15404,6 +15664,11 @@
           (reference "D3") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "D3") (unit 1)
+        )
+      )
     )
   )
 
@@ -15426,6 +15691,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "#PWR0231") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "#PWR0231") (unit 1)
         )
       )
@@ -15546,6 +15816,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "#PWR0238") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "#PWR0238") (unit 1)
         )
       )
@@ -15746,6 +16021,11 @@
           (reference "U22") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "U22") (unit 1)
+        )
+      )
     )
   )
 
@@ -15801,6 +16081,11 @@
           (reference "#PWR0173") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "#PWR0173") (unit 1)
+        )
+      )
       (project "cm4-robot"
         (path "/afa18c7a-a315-47d4-9664-2bb0bfd0422f"
           (reference "#PWR0210") (unit 1)
@@ -15831,6 +16116,11 @@
           (reference "TP14") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "TP14") (unit 1)
+        )
+      )
     )
   )
 
@@ -15853,6 +16143,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "#PWR0291") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "#PWR0291") (unit 1)
         )
       )
@@ -15989,6 +16284,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "U30") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "U30") (unit 1)
         )
       )
@@ -16279,6 +16579,11 @@
           (reference "#PWR0281") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "#PWR0281") (unit 1)
+        )
+      )
       (project "cm4-robot"
         (path "/afa18c7a-a315-47d4-9664-2bb0bfd0422f"
           (reference "#PWR0202") (unit 1)
@@ -16381,6 +16686,11 @@
           (reference "D30") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "D30") (unit 1)
+        )
+      )
     )
   )
 
@@ -16433,6 +16743,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "TP32") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "TP32") (unit 1)
         )
       )
@@ -16725,6 +17040,11 @@
           (reference "TP31") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "TP31") (unit 1)
+        )
+      )
     )
   )
 
@@ -16875,6 +17195,11 @@
           (reference "TP49") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "TP49") (unit 1)
+        )
+      )
     )
   )
 
@@ -16897,6 +17222,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "TP30") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "TP30") (unit 1)
         )
       )
@@ -17029,6 +17359,11 @@
           (reference "#PWR055") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "#PWR055") (unit 1)
+        )
+      )
     )
   )
 
@@ -17051,6 +17386,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "TP36") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "TP36") (unit 1)
         )
       )
@@ -17152,6 +17492,11 @@
           (reference "#PWR0240") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "#PWR0240") (unit 1)
+        )
+      )
     )
   )
 
@@ -17239,6 +17584,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "#PWR0237") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "#PWR0237") (unit 1)
         )
       )
@@ -17361,6 +17711,11 @@
           (reference "#PWR026") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "#PWR026") (unit 1)
+        )
+      )
     )
   )
 
@@ -17416,6 +17771,11 @@
           (reference "#PWR0287") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "#PWR0287") (unit 1)
+        )
+      )
     )
   )
 
@@ -17442,6 +17802,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "D4") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "D4") (unit 1)
         )
       )
@@ -17626,6 +17991,11 @@
           (reference "D28") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "D28") (unit 1)
+        )
+      )
     )
   )
 
@@ -17716,6 +18086,11 @@
           (reference "#PWR0225") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "#PWR0225") (unit 1)
+        )
+      )
     )
   )
 
@@ -17738,6 +18113,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "TP16") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "TP16") (unit 1)
         )
       )
@@ -17798,6 +18178,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "TP28") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "TP28") (unit 1)
         )
       )
@@ -17969,6 +18354,11 @@
           (reference "#PWR0234") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "#PWR0234") (unit 1)
+        )
+      )
     )
   )
 
@@ -18106,6 +18496,11 @@
           (reference "SW3") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "SW3") (unit 1)
+        )
+      )
     )
   )
 
@@ -18136,6 +18531,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "U3") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "U3") (unit 1)
         )
       )
@@ -18202,6 +18602,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "U33") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "U33") (unit 1)
         )
       )
@@ -18311,6 +18716,11 @@
           (reference "J17") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "J17") (unit 1)
+        )
+      )
     )
   )
 
@@ -18393,6 +18803,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "#PWR0236") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "#PWR0236") (unit 1)
         )
       )
@@ -18617,6 +19032,11 @@
           (reference "R98") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "R98") (unit 1)
+        )
+      )
     )
   )
 
@@ -18770,6 +19190,11 @@
           (reference "TP47") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "TP47") (unit 1)
+        )
+      )
     )
   )
 
@@ -18892,6 +19317,11 @@
           (reference "#PWR0193") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "#PWR0193") (unit 1)
+        )
+      )
     )
   )
 
@@ -18914,6 +19344,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "#PWR074") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "#PWR074") (unit 1)
         )
       )
@@ -18944,6 +19379,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "#PWR0184") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "#PWR0184") (unit 1)
         )
       )
@@ -19392,6 +19832,11 @@
           (reference "TP46") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "TP46") (unit 1)
+        )
+      )
     )
   )
 
@@ -19414,6 +19859,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "#PWR015") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "#PWR015") (unit 1)
         )
       )
@@ -19570,6 +20020,11 @@
           (reference "TP23") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "TP23") (unit 1)
+        )
+      )
     )
   )
 
@@ -19592,6 +20047,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "#PWR077") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "#PWR077") (unit 1)
         )
       )
@@ -19662,6 +20122,11 @@
           (reference "U28") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "U28") (unit 1)
+        )
+      )
     )
   )
 
@@ -19684,6 +20149,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "TP52") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "TP52") (unit 1)
         )
       )
@@ -19806,6 +20276,11 @@
           (reference "J21") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "J21") (unit 1)
+        )
+      )
     )
   )
 
@@ -19828,6 +20303,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "#PWR0235") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "#PWR0235") (unit 1)
         )
       )
@@ -19917,6 +20397,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "TP61") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "TP61") (unit 1)
         )
       )
@@ -20042,6 +20527,11 @@
           (reference "#PWR0195") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "#PWR0195") (unit 1)
+        )
+      )
     )
   )
 
@@ -20128,6 +20618,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "#PWR0151") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "#PWR0151") (unit 1)
         )
       )
@@ -20326,6 +20821,11 @@
           (reference "#PWR0143") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "#PWR0143") (unit 1)
+        )
+      )
     )
   )
 
@@ -20385,6 +20885,11 @@
           (reference "#PWR0177") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "#PWR0177") (unit 1)
+        )
+      )
     )
   )
 
@@ -20407,6 +20912,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "#PWR0207") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "#PWR0207") (unit 1)
         )
       )
@@ -20564,6 +21074,11 @@
           (reference "TP39") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "TP39") (unit 1)
+        )
+      )
     )
   )
 
@@ -20616,6 +21131,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "#PWR0239") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "#PWR0239") (unit 1)
         )
       )
@@ -20848,6 +21368,11 @@
           (reference "#PWR0209") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "#PWR0209") (unit 1)
+        )
+      )
     )
   )
 
@@ -20870,6 +21395,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "#PWR0205") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "#PWR0205") (unit 1)
         )
       )
@@ -21056,6 +21586,11 @@
           (reference "R97") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "R97") (unit 1)
+        )
+      )
     )
   )
 
@@ -21180,6 +21715,11 @@
           (reference "#PWR081") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "#PWR081") (unit 1)
+        )
+      )
       (project "cm4-robot"
         (path "/afa18c7a-a315-47d4-9664-2bb0bfd0422f"
           (reference "#PWR0202") (unit 1)
@@ -21289,6 +21829,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "U31") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "U31") (unit 1)
         )
       )
@@ -21500,6 +22045,11 @@
           (reference "TP13") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "TP13") (unit 1)
+        )
+      )
     )
   )
 
@@ -21522,6 +22072,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "TP48") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "TP48") (unit 1)
         )
       )
@@ -21620,6 +22175,11 @@
           (reference "TP15") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "TP15") (unit 1)
+        )
+      )
     )
   )
 
@@ -21645,6 +22205,11 @@
           (reference "#PWR0241") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "#PWR0241") (unit 1)
+        )
+      )
     )
   )
 
@@ -21667,6 +22232,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "TP10") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "TP10") (unit 1)
         )
       )
@@ -21870,6 +22440,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "D44") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "D44") (unit 1)
         )
       )
@@ -22316,6 +22891,11 @@
           (reference "U29") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "U29") (unit 1)
+        )
+      )
     )
   )
 
@@ -22373,6 +22953,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "TP42") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "TP42") (unit 1)
         )
       )
@@ -22465,6 +23050,11 @@
           (reference "TP37") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "TP37") (unit 1)
+        )
+      )
     )
   )
 
@@ -22487,6 +23077,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "TP19") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "TP19") (unit 1)
         )
       )
@@ -22645,6 +23240,11 @@
           (reference "TP44") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "TP44") (unit 1)
+        )
+      )
     )
   )
 
@@ -22676,6 +23276,11 @@
           (reference "J16") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "J16") (unit 1)
+        )
+      )
     )
   )
 
@@ -22698,6 +23303,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "TP38") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "TP38") (unit 1)
         )
       )
@@ -22787,6 +23397,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "#PWR0290") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "#PWR0290") (unit 1)
         )
       )
@@ -22954,6 +23569,11 @@
           (reference "TP45") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "TP45") (unit 1)
+        )
+      )
     )
   )
 
@@ -22976,6 +23596,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "TP21") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "TP21") (unit 1)
         )
       )
@@ -23737,6 +24362,11 @@
           (reference "D1") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "D1") (unit 1)
+        )
+      )
     )
   )
 
@@ -23987,6 +24617,11 @@
           (reference "U34") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "U34") (unit 1)
+        )
+      )
     )
   )
 
@@ -24079,6 +24714,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "U34") (unit 2)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "U34") (unit 2)
         )
       )
@@ -24405,6 +25045,11 @@
           (reference "C119") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "C119") (unit 1)
+        )
+      )
       (project "cm4-robot"
         (path "/afa18c7a-a315-47d4-9664-2bb0bfd0422f"
           (reference "C11") (unit 1)
@@ -24552,6 +25197,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "#PWR0203") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "#PWR0203") (unit 1)
         )
       )
@@ -24840,6 +25490,11 @@
           (reference "#PWR0202") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "#PWR0202") (unit 1)
+        )
+      )
     )
   )
 
@@ -24960,6 +25615,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "#PWR051") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "#PWR051") (unit 1)
         )
       )
@@ -25172,6 +25832,11 @@
           (reference "TP40") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "TP40") (unit 1)
+        )
+      )
     )
   )
 
@@ -25194,6 +25859,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "TP34") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "TP34") (unit 1)
         )
       )
@@ -25227,6 +25897,11 @@
           (reference "D36") (unit 1)
         )
       )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
+          (reference "D36") (unit 1)
+        )
+      )
     )
   )
 
@@ -25249,6 +25924,11 @@
     (instances
       (project "RP2040_motor"
         (path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914/11bddbd5-e14e-4409-876e-6e46bce03704"
+          (reference "TP43") (unit 1)
+        )
+      )
+      (project "power_and_cpu"
+        (path "/8d16b105-3293-4d6d-a54b-7359568d7527"
           (reference "TP43") (unit 1)
         )
       )
