@@ -83,7 +83,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "ignore",
+        "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -98,7 +98,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "ignore",
+        "starved_thermal": "error",
         "text_height": "warning",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -524,72 +524,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "VMOT",
-        "pattern": "VMOT"
-      },
-      {
-        "netclass": "USB_DIFF_90",
-        "pattern": "/power_and_cpu/USB_D+"
-      },
-      {
-        "netclass": "USB_DIFF_90",
-        "pattern": "/power_and_cpu/USB_D-"
-      },
-      {
-        "netclass": "USB_DIFF_90",
-        "pattern": "/power_and_cpu/USB_DP"
-      },
-      {
-        "netclass": "USB_DIFF_90",
-        "pattern": "/power_and_cpu/USB_DN"
-      },
-      {
-        "netclass": "USB_DIFF_90",
-        "pattern": "/power_and_cpu/USB_D_2+"
-      },
-      {
-        "netclass": "USB_DIFF_90",
-        "pattern": "/power_and_cpu/USB_D_2-"
-      },
-      {
-        "netclass": "USB_DIFF_90",
-        "pattern": "/power_and_cpu/USB_DP_2"
-      },
-      {
-        "netclass": "USB_DIFF_90",
-        "pattern": "/power_and_cpu/USB_DN_2"
-      },
-      {
-        "netclass": "CAN",
-        "pattern": "/power_and_cpu/CANH1_P"
-      },
-      {
-        "netclass": "CAN",
-        "pattern": "/power_and_cpu/CANL1_N"
-      },
-      {
-        "netclass": "CAN",
-        "pattern": "/power_and_cpu/CANH0_P"
-      },
-      {
-        "netclass": "CAN",
-        "pattern": "/power_and_cpu/CANL0_N"
-      },
-      {
-        "netclass": "low_power",
-        "pattern": "+3.3VA"
-      },
-      {
-        "netclass": "low_power",
-        "pattern": "+5V_ISO"
-      },
-      {
-        "netclass": "low_power",
-        "pattern": "+3V3"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
