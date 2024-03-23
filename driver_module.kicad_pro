@@ -428,7 +428,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "RP2040_motor.kicad_pro",
+    "filename": "driver_module.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -532,7 +532,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "RP2040_motor.step",
+      "step": "driver_module.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

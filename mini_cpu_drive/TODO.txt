@@ -1,0 +1,23 @@
+pins on debugger are wrong
+can be worked around with custom compiled fimware and non straight through cable
+SWDIO and RX swap
+SWCLK and TX swap
+
+
+note that picoprobe firmware has an "LED PIN" notion.
+it is possible to support WS2812 here or could
+put a normal LED on another pin
+
+finally, we should change the pinout to follow the rp2040 debug
+standard
+
+
+
+// PIO config
+#define PROBE_SM 0
+#define PROBE_PIN_OFFSET 6
+#define PROBE_PIN_SWCLK (PROBE_PIN_OFFSET + 0) // 6
+#define PROBE_PIN_SWDIO (PROBE_PIN_OFFSET + 1) // 7
+
+// Target reset config
+#define PROBE_PIN_RESET 8
