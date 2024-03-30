@@ -1,4 +1,4 @@
-23253159116543903
+23271975624828981
 ADC081S021
 ADC081S021CISD&slash_NOPB
 
@@ -95374,6 +95374,13 @@ Zigbee_Module_MRF24J40MD
 0
 12
 12
+driver_module
+driver_module
+
+
+0
+46
+26
 esp
 ESP32-S3-MINI-1-breakout
 ESP32-S3-MINI-1
@@ -95387,6 +95394,20 @@ AMASS female XT60, through hole, vertical, https://www.tme.eu/Document/2d152ced3
 XT60 female vertical
 0
 2
+2
+parts
+AMASS_XT60PW-F_1x02_P7.20mm_Horizontal
+Connector XT60 Horizontal PCB Female, https://www.tme.eu/en/Document/9b8d0c5eb7094295f3d3112c214d3ade/XT60PW%20SPEC.pdf
+RC Connector XT60
+0
+4
+2
+parts
+AMASS_XT60PW-M_1x02_P7.20mm_Horizontal
+Connector XT60 Horizontal PCB Female, https://www.tme.eu/en/Document/9b8d0c5eb7094295f3d3112c214d3ade/XT60PW%20SPEC.pdf
+RC Connector XT60
+0
+4
 2
 parts
 AMASS_XT90-F_1x02_P11.00mm_Vertical
@@ -95424,6 +95445,41 @@ connector Molex KK-254 vertical
 5
 5
 parts
+CONN-TH_3P-P2.54_HCTL_HC-2510-3AW
+
+
+0
+3
+3
+parts
+CONN-TH_5P-P2.54_HCTL_HC-2510-5AW
+
+
+0
+5
+5
+parts
+CONN-TH_LCC40PW-M
+
+
+0
+5
+5
+parts
+CONN-TH_XT60PW-M
+
+
+0
+4
+4
+parts
+CONN-TH_XT60UPB-M
+
+
+0
+2
+2
+parts
 C_2220_5650Metric_expanded_paste
 Capacitor SMD 2220 (5650 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator
 capacitor
@@ -95431,12 +95487,26 @@ capacitor
 2
 2
 parts
+Ckmtw-W-2510S06P_1x06_P2.54mm_Horizontal
+Molex KK-254 Interconnect System, old/engineering part number: AE-6410-06A example for new part number: 22-27-2061, 6 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator
+connector Molex KK-254 vertical
+0
+6
+6
+parts
 Ckmtw-W-2510S06P_1x06_P2.54mm_Vertical
 Molex KK-254 Interconnect System, old/engineering part number: AE-6410-06A example for new part number: 22-27-2061, 6 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator
 connector Molex KK-254 vertical
 0
 6
 6
+parts
+KEY-SMD_1TS002G
+
+
+0
+4
+4
 parts
 M12A-08PFFR
 
@@ -95514,6 +95584,13 @@ SPST button tactile switch
 0
 2
 2
+parts
+TH_2P-XT60PW-F
+
+
+0
+4
+4
 parts
 TO-277_SB10200
 TO-227B https://media.digikey.com/pdf/Data%20Sheets/Littelfuse%20PDFs/DST2050S.pdf

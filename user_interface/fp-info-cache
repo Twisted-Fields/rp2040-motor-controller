@@ -1,0 +1,204 @@
+49113439216603
+parts
+AMASS_XT60-F_1x02_P7.20mm_Vertical
+AMASS female XT60, through hole, vertical, https://www.tme.eu/Document/2d152ced3b7a446066e6c419d84bb460/XT60%20SPEC.pdf
+XT60 female vertical
+0
+2
+2
+parts
+AMASS_XT60PW-F_1x02_P7.20mm_Horizontal
+Connector XT60 Horizontal PCB Female, https://www.tme.eu/en/Document/9b8d0c5eb7094295f3d3112c214d3ade/XT60PW%20SPEC.pdf
+RC Connector XT60
+0
+4
+2
+parts
+AMASS_XT60PW-M_1x02_P7.20mm_Horizontal
+Connector XT60 Horizontal PCB Female, https://www.tme.eu/en/Document/9b8d0c5eb7094295f3d3112c214d3ade/XT60PW%20SPEC.pdf
+RC Connector XT60
+0
+4
+2
+parts
+AMASS_XT90-F_1x02_P11.00mm_Vertical
+AMASS female XT90, through hole, vertical, https://www.tme.eu/Document/d66b125cc4d03b6a25077f0febb346da/XT90H%20SPEC.pdf
+XT90 female vertical
+0
+2
+2
+parts
+AMASS_XT90-M_1x02_P11.00mm_Vertical
+AMASS male XT90, through hole, vertical, https://www.tme.eu/Document/d66b125cc4d03b6a25077f0febb346da/XT90H%20SPEC.pdf
+XT90 male vertical
+0
+2
+2
+parts
+BOOMELE-2510-2A _1x02_P2.54mm_Vertical
+Molex KK-254 Interconnect System, old/engineering part number: AE-6410-02A example for new part number: 22-27-2021, 2 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator
+connector Molex KK-254 vertical
+0
+2
+2
+parts
+BOOMELE-2510-3A_1x03_P2.54mm_Vertical
+Molex KK-254 Interconnect System, old/engineering part number: AE-6410-03A example for new part number: 22-27-2031, 3 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator
+connector Molex KK-254 vertical
+0
+3
+3
+parts
+BOOMELE-2510-5A _1x05_P2.54mm_Vertical
+Molex KK-254 Interconnect System, old/engineering part number: AE-6410-05A example for new part number: 22-27-2051, 5 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator
+connector Molex KK-254 vertical
+0
+5
+5
+parts
+CONN-TH_3P-P2.54_HCTL_HC-2510-3AW
+
+
+0
+3
+3
+parts
+CONN-TH_5P-P2.54_HCTL_HC-2510-5AW
+
+
+0
+5
+5
+parts
+CONN-TH_LCC40PW-M
+
+
+0
+5
+5
+parts
+CONN-TH_XT60PW-M
+
+
+0
+4
+4
+parts
+CONN-TH_XT60UPB-M
+
+
+0
+2
+2
+parts
+C_2220_5650Metric_expanded_paste
+Capacitor SMD 2220 (5650 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+parts
+Ckmtw-W-2510S06P_1x06_P2.54mm_Vertical
+Molex KK-254 Interconnect System, old/engineering part number: AE-6410-06A example for new part number: 22-27-2061, 6 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator
+connector Molex KK-254 vertical
+0
+6
+6
+parts
+KEY-SMD_1TS002G
+
+
+0
+4
+4
+parts
+M12A-08PFFR
+
+
+0
+9
+9
+parts
+MT60-F.G.Y
+
+
+0
+3
+3
+parts
+PINREX-744-81-04TW00 _1x04_P2.54mm_Vertical
+Molex KK-254 Interconnect System, old/engineering part number: AE-6410-04A example for new part number: 22-27-2041, 4 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator
+connector Molex KK-254 vertical
+0
+4
+4
+parts
+PowerPAK_SO-8_123
+PowerPAK SO-8 Single (https://www.vishay.com/docs/71655/powerpak.pdf, https://www.vishay.com/docs/72599/72599.pdf)
+PowerPAK SO-8 Single
+0
+9
+3
+parts
+RJ45_R-RJ45R08P-B000
+Shielded, https://www.amphenolcanada.com/ProductSearch/drawings/AC/RJHSE538X.pdf
+RJ45 8p8c ethernet cat5
+0
+10
+9
+parts
+SOIC127P599X175-8N
+
+
+0
+8
+8
+parts
+SSOP-8_3.91x5.84x3.18mm_P1.27mm
+SSOP-8 3.95x5.21x3.27mm Pitch 1.27mm
+SSOP-8 3.95x5.21x3.27mm 1.27mm
+0
+8
+8
+parts
+SW-SMD_4P_DSHP02TSGET
+
+
+0
+4
+4
+parts
+SW-SMD_DSHP01TSGER
+
+
+0
+2
+2
+parts
+SW-SMD_DSIC01LSGET
+
+
+0
+2
+2
+parts
+SW_TS_1101_C_W
+https://www.mouser.com/ds/2/60/RS-282G05A-SM_RT-1159762.pdf
+SPST button tactile switch
+0
+2
+2
+parts
+TH_2P-XT60PW-F
+
+
+0
+4
+4
+parts
+TO-277_SB10200
+TO-227B https://media.digikey.com/pdf/Data%20Sheets/Littelfuse%20PDFs/DST2050S.pdf
+TO-277B
+0
+9
+3

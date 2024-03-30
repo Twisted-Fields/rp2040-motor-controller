@@ -5,4 +5,5 @@
   (lib (name "PCM1808PWR")(type "KiCad")(uri "${KIPRJMOD}/parts/KiCAD/2022-06-15_22-47-39/footprints.pretty")(options "")(descr ""))
   (lib (name "ADC081S021")(type "KiCad")(uri "${KIPRJMOD}/parts/KiCAD/2022-06-16_01-48-54/footprints.pretty")(options "")(descr ""))
   (lib (name "parts")(type "KiCad")(uri "${KIPRJMOD}/parts")(options "")(descr ""))
+  (lib (name "driver_module")(type "KiCad")(uri "${KIPRJMOD}/parts/driver_module.pretty")(options "")(descr ""))
 )
