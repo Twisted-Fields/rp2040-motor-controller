@@ -679,10 +679,10 @@
       <value>CDBU0130R-HF</value>
       <footprint>Diode_SMD:D_SOD-523</footprint>
       <fields>
-        <field name="LCSC">C3012732</field>
+        <field name="LCSC">C2886025</field>
       </fields>
       <libsource lib="Device" part="D" description="Diode"/>
-      <property name="LCSC" value="C3012732"/>
+      <property name="LCSC" value="C2886025"/>
       <property name="Sheetname" value="gate_drive"/>
       <property name="Sheetfile" value="gate_drive.kicad_sch"/>
       <property name="ki_description" value="Diode"/>
@@ -694,10 +694,10 @@
       <value>CDBU0130R-HF</value>
       <footprint>Diode_SMD:D_SOD-523</footprint>
       <fields>
-        <field name="LCSC">C3012732</field>
+        <field name="LCSC">C2886025</field>
       </fields>
       <libsource lib="Device" part="D" description="Diode"/>
-      <property name="LCSC" value="C3012732"/>
+      <property name="LCSC" value="C2886025"/>
       <property name="Sheetname" value="gate_drive"/>
       <property name="Sheetfile" value="gate_drive.kicad_sch"/>
       <property name="ki_description" value="Diode"/>
@@ -788,10 +788,10 @@
       <value>CDBU0130R-HF</value>
       <footprint>Diode_SMD:D_SOD-523</footprint>
       <fields>
-        <field name="LCSC">C3012732</field>
+        <field name="LCSC">C2886025</field>
       </fields>
       <libsource lib="Device" part="D" description="Diode"/>
-      <property name="LCSC" value="C3012732"/>
+      <property name="LCSC" value="C2886025"/>
       <property name="Sheetname" value="gate_drive"/>
       <property name="Sheetfile" value="gate_drive.kicad_sch"/>
       <property name="ki_description" value="Diode"/>
@@ -803,10 +803,10 @@
       <value>CDBU0130R-HF</value>
       <footprint>Diode_SMD:D_SOD-523</footprint>
       <fields>
-        <field name="LCSC">C3012732</field>
+        <field name="LCSC">C2886025</field>
       </fields>
       <libsource lib="Device" part="D" description="Diode"/>
-      <property name="LCSC" value="C3012732"/>
+      <property name="LCSC" value="C2886025"/>
       <property name="Sheetname" value="gate_drive"/>
       <property name="Sheetfile" value="gate_drive.kicad_sch"/>
       <property name="ki_description" value="Diode"/>
@@ -818,10 +818,10 @@
       <value>CDBU0130R-HF</value>
       <footprint>Diode_SMD:D_SOD-523</footprint>
       <fields>
-        <field name="LCSC">C3012732</field>
+        <field name="LCSC">C2886025</field>
       </fields>
       <libsource lib="Device" part="D" description="Diode"/>
-      <property name="LCSC" value="C3012732"/>
+      <property name="LCSC" value="C2886025"/>
       <property name="Sheetname" value="gate_drive"/>
       <property name="Sheetfile" value="gate_drive.kicad_sch"/>
       <property name="ki_description" value="Diode"/>
@@ -833,10 +833,10 @@
       <value>CDBU0130R-HF</value>
       <footprint>Diode_SMD:D_SOD-523</footprint>
       <fields>
-        <field name="LCSC">C3012732</field>
+        <field name="LCSC">C2886025</field>
       </fields>
       <libsource lib="Device" part="D" description="Diode"/>
-      <property name="LCSC" value="C3012732"/>
+      <property name="LCSC" value="C2886025"/>
       <property name="Sheetname" value="gate_drive"/>
       <property name="Sheetfile" value="gate_drive.kicad_sch"/>
       <property name="ki_description" value="Diode"/>
@@ -848,10 +848,10 @@
       <value>CDBU0130R-HF</value>
       <footprint>Diode_SMD:D_SOD-523</footprint>
       <fields>
-        <field name="LCSC">C3012732</field>
+        <field name="LCSC">C2886025</field>
       </fields>
       <libsource lib="Device" part="D" description="Diode"/>
-      <property name="LCSC" value="C3012732"/>
+      <property name="LCSC" value="C2886025"/>
       <property name="Sheetname" value="gate_drive"/>
       <property name="Sheetfile" value="gate_drive.kicad_sch"/>
       <property name="ki_description" value="Diode"/>
@@ -863,10 +863,10 @@
       <value>CDBU0130R-HF</value>
       <footprint>Diode_SMD:D_SOD-523</footprint>
       <fields>
-        <field name="LCSC">C3012732</field>
+        <field name="LCSC">C2886025</field>
       </fields>
       <libsource lib="Device" part="D" description="Diode"/>
-      <property name="LCSC" value="C3012732"/>
+      <property name="LCSC" value="C2886025"/>
       <property name="Sheetname" value="gate_drive"/>
       <property name="Sheetfile" value="gate_drive.kicad_sch"/>
       <property name="ki_description" value="Diode"/>
@@ -910,10 +910,10 @@
       <value>CDBU0130R-HF</value>
       <footprint>Diode_SMD:D_SOD-523</footprint>
       <fields>
-        <field name="LCSC">C3012732</field>
+        <field name="LCSC">C2886025</field>
       </fields>
       <libsource lib="Device" part="D" description="Diode"/>
-      <property name="LCSC" value="C3012732"/>
+      <property name="LCSC" value="C2886025"/>
       <property name="Sheetname" value="gate_drive"/>
       <property name="Sheetfile" value="gate_drive.kicad_sch"/>
       <property name="ki_description" value="Diode"/>
@@ -940,10 +940,10 @@
       <value>CDBU0130R-HF</value>
       <footprint>Diode_SMD:D_SOD-523</footprint>
       <fields>
-        <field name="LCSC">C3012732</field>
+        <field name="LCSC">C2886025</field>
       </fields>
       <libsource lib="Device" part="D" description="Diode"/>
-      <property name="LCSC" value="C3012732"/>
+      <property name="LCSC" value="C2886025"/>
       <property name="Sheetname" value="gate_drive"/>
       <property name="Sheetfile" value="gate_drive.kicad_sch"/>
       <property name="ki_description" value="Diode"/>
@@ -955,10 +955,10 @@
       <value>CDBU0130R-HF</value>
       <footprint>Diode_SMD:D_SOD-523</footprint>
       <fields>
-        <field name="LCSC">C3012732</field>
+        <field name="LCSC">C2886025</field>
       </fields>
       <libsource lib="Device" part="D" description="Diode"/>
-      <property name="LCSC" value="C3012732"/>
+      <property name="LCSC" value="C2886025"/>
       <property name="Sheetname" value="gate_drive"/>
       <property name="Sheetfile" value="gate_drive.kicad_sch"/>
       <property name="ki_description" value="Diode"/>
@@ -970,10 +970,10 @@
       <value>CDBU0130R-HF</value>
       <footprint>Diode_SMD:D_SOD-523</footprint>
       <fields>
-        <field name="LCSC">C3012732</field>
+        <field name="LCSC">C2886025</field>
       </fields>
       <libsource lib="Device" part="D" description="Diode"/>
-      <property name="LCSC" value="C3012732"/>
+      <property name="LCSC" value="C2886025"/>
       <property name="Sheetname" value="gate_drive"/>
       <property name="Sheetfile" value="gate_drive.kicad_sch"/>
       <property name="ki_description" value="Diode"/>
