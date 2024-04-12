@@ -2,7 +2,7 @@
 
   (uuid 10ff4ace-8dac-45ce-94a5-ae8ae7d42914)
 
-  (paper "A3")
+  (paper "A2")
 
   (title_block
     (title "RP2040 Motor Controller")
@@ -22220,7 +22220,7 @@
   )
 
   (symbol (lib_id "driver_module:Driver") (at 641.985 153.67 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 9f8084dd-66d8-4f68-bf4e-76ba131a4440)
     (property "Reference" "U2" (at 656.2441 139.065 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -27232,7 +27232,7 @@
   )
 
   (symbol (lib_id "driver_module:Driver") (at 641.35 96.52 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid ee9de82f-8baa-411f-8ad7-34fcc9a0785a)
     (property "Reference" "U1" (at 654.3391 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
