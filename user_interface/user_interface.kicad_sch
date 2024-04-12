@@ -1521,10 +1521,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid df00e328-b198-43b4-8bc1-8db38f006603)
   )
-  (label "WS2812_SINK" (at 113.665 137.16 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid e0db049c-5cc9-4f60-8b4e-08359364e31d)
-  )
   (label "SW2" (at 222.885 57.15 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e14358da-f68b-46e0-83a0-5842f93df665)
@@ -2495,6 +2491,31 @@
       (project "user_interface"
         (path "/46ebe377-a663-4685-b60a-ebb47fe90031"
           (reference "#PWR08") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 113.665 137.16 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 94468a4a-9b3e-4b93-961c-89f00fa9eb38)
+    (property "Reference" "#PWR05" (at 113.665 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 113.792 141.5542 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 113.665 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 113.665 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 16d819c1-0ab3-4899-801f-a3006e731da2))
+    (instances
+      (project "user_interface"
+        (path "/46ebe377-a663-4685-b60a-ebb47fe90031"
+          (reference "#PWR05") (unit 1)
         )
       )
     )
