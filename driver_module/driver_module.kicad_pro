@@ -56,7 +56,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_edge_clearance|155390000|82000000|9162ff3d-e969-4684-bedc-93df3828f2ae|2463cae8-be78-4b86-b626-5c84c4b1259f",
+        "silk_edge_clearance|156240000|118000000|bc361a85-227b-4c67-b153-aa8497663220|a94b4144-1209-4ed8-889e-3c65496ea4dd",
+        "silk_edge_clearance|170260000|118000000|bc361a85-227b-4c67-b153-aa8497663220|7e43cc96-9ec6-4aa6-af58-3c995f1edc8a",
+        "silk_edge_clearance|171110000|82000000|9162ff3d-e969-4684-bedc-93df3828f2ae|89e7b816-6add-4cb0-95e6-428ed04247dc",
+        "silk_over_copper|116875002|97920638|9b0565c8-0288-4eb3-a939-e9328b969b2b|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|117229365|100475001|567b7b50-2fdd-44d3-9f54-5626d6385a76|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|117975000|100829364|e4cf1d5c-6b12-4094-95e0-5c01893ab33b|00000000-0000-0000-0000-000000000000",
+        "silk_overlap|164450000|96063000|ff94bdd2-b58a-49a1-8e9f-bd2f7e8aeabc|f7c2805d-9bd0-4850-af1c-2a5761de28b9"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2

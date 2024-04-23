@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "driver_module")(type "KiCad")(uri "/home/taylor/pcb/rp2040-motor-controller/parts/driver_module.pretty")(options "")(descr ""))
   (lib (name "RP2040_minimal")(type "KiCad")(uri "/home/taylor/pcb/rp2040-motor-controller/RP2040_minimal.pretty")(options "")(descr ""))
+  (lib (name "parts")(type "KiCad")(uri "/home/taylor/pcb/rp2040-motor-controller/parts")(options "")(descr ""))
 )

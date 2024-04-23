@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "motor_parts")(type "KiCad")(uri "/home/taylor/pcb/rp2040-motor-controller/motor_parts.kicad_sym")(options "")(descr ""))
+)

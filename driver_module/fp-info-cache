@@ -1,4 +1,4 @@
-23277281963774899
+23278996152162211
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -95509,6 +95509,13 @@ TPS7A1601DGNT
 9
 parts
 KEY-SMD_1TS002G
+
+
+0
+4
+4
+parts
+KEY-SMD_KT11B2SAM34LFS
 
 
 0
