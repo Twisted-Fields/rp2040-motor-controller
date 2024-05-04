@@ -3589,7 +3589,7 @@
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (at 128.905 85.725 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_PINREX-744-81-04TW00_C402777.pdf" (at 128.905 85.725 0)
+    (property "Datasheet" "" (at 128.905 85.725 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "" (at 128.905 85.725 0)

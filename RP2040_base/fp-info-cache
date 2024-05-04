@@ -1,260 +1,841 @@
-62828017964572
-parts
-AMASS_XT60-F_1x02_P7.20mm_Vertical
-AMASS female XT60, through hole, vertical, https://www.tme.eu/Document/2d152ced3b7a446066e6c419d84bb460/XT60%20SPEC.pdf
-XT60 female vertical
-0
-2
-2
-parts
-AMASS_XT60PW-F_1x02_P7.20mm_Horizontal
-Connector XT60 Horizontal PCB Female, https://www.tme.eu/en/Document/9b8d0c5eb7094295f3d3112c214d3ade/XT60PW%20SPEC.pdf
-RC Connector XT60
-0
-4
-2
-parts
-AMASS_XT60PW-M_1x02_P7.20mm_Horizontal
-Connector XT60 Horizontal PCB Female, https://www.tme.eu/en/Document/9b8d0c5eb7094295f3d3112c214d3ade/XT60PW%20SPEC.pdf
-RC Connector XT60
-0
-4
-2
-parts
-AMASS_XT90-F_1x02_P11.00mm_Vertical
-AMASS female XT90, through hole, vertical, https://www.tme.eu/Document/d66b125cc4d03b6a25077f0febb346da/XT90H%20SPEC.pdf
-XT90 female vertical
-0
-2
-2
-parts
-AMASS_XT90-M_1x02_P11.00mm_Vertical
-AMASS male XT90, through hole, vertical, https://www.tme.eu/Document/d66b125cc4d03b6a25077f0febb346da/XT90H%20SPEC.pdf
-XT90 male vertical
-0
-2
-2
-parts
-BOOMELE-2510-2A _1x02_P2.54mm_Vertical
-Molex KK-254 Interconnect System, old/engineering part number: AE-6410-02A example for new part number: 22-27-2021, 2 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator
-connector Molex KK-254 vertical
-0
-2
-2
-parts
-BOOMELE-2510-3A_1x03_P2.54mm_Vertical
-Molex KK-254 Interconnect System, old/engineering part number: AE-6410-03A example for new part number: 22-27-2031, 3 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator
-connector Molex KK-254 vertical
-0
-3
-3
-parts
-BOOMELE-2510-5A _1x05_P2.54mm_Vertical
-Molex KK-254 Interconnect System, old/engineering part number: AE-6410-05A example for new part number: 22-27-2051, 5 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator
-connector Molex KK-254 vertical
-0
-5
-5
-parts
-CONN-TH_3P-P2.54_HCTL_HC-2510-3AW
-
-
-0
-3
-3
-parts
-CONN-TH_5P-P2.54_HCTL_HC-2510-5AW
-
-
-0
-5
-5
-parts
-CONN-TH_LCC40PW-M
-
-
-0
-5
-5
-parts
-CONN-TH_XT60PW-M
-
-
-0
-4
-4
-parts
-CONN-TH_XT60UPB-M
-
-
-0
-2
-2
-parts
-CS12ANW03
-
-
-0
-3
-3
-parts
-C_2220_5650Metric_expanded_paste
-Capacitor SMD 2220 (5650 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator
-capacitor
-0
-2
-2
-parts
-Ckmtw-W-2510S06P_1x06_P2.54mm_Horizontal
-Molex KK-254 Interconnect System, old/engineering part number: AE-6410-06A example for new part number: 22-27-2061, 6 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator
-connector Molex KK-254 vertical
-0
-6
-6
-parts
-Ckmtw-W-2510S06P_1x06_P2.54mm_Vertical
-Molex KK-254 Interconnect System, old/engineering part number: AE-6410-06A example for new part number: 22-27-2061, 6 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator
-connector Molex KK-254 vertical
-0
-6
-6
-parts
-DGN0008C_L
-
-TPS7A1601DGNT 
-0
-15
-10
-parts
-DGN0008C_M
-
-TPS7A1601DGNT 
-0
-15
-10
-parts
-DGN0008C_N
-
-TPS7A1601DGNT 
-0
-15
-9
-parts
-KEY-SMD_1TS002G
-
-
-0
-4
-4
-parts
-KEY-SMD_KT11B2SAM34LFS
-
-
-0
-4
-4
-parts
-M12A-08PFFR
-
-
-0
-9
-9
-parts
-MSOP-8_L3.0-W3.0-P0.65-LS5.0-BL-EP
-
-
-0
-9
-9
-parts
-MT60-F.G.Y
-
-
-0
-3
-3
-parts
-PINREX-744-81-04TW00 _1x04_P2.54mm_Vertical
-Molex KK-254 Interconnect System, old/engineering part number: AE-6410-04A example for new part number: 22-27-2041, 4 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator
-connector Molex KK-254 vertical
-0
-4
-4
-parts
-PowerPAK_SO-8_123
-PowerPAK SO-8 Single (https://www.vishay.com/docs/71655/powerpak.pdf, https://www.vishay.com/docs/72599/72599.pdf)
-PowerPAK SO-8 Single
-0
-9
-3
-parts
-RJ45_R-RJ45R08P-B000
-Shielded, https://www.amphenolcanada.com/ProductSearch/drawings/AC/RJHSE538X.pdf
-RJ45 8p8c ethernet cat5
-0
-10
-9
-parts
-SOIC127P599X175-8N
-
-
+205027658933270
+Fuse
+FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165
+Littelfuse fuse holder for ATO/FKS blade fuses, 80V, vertical, 20 x 6mm, PCB thickness up to 1.5mm, http://www.littelfuse.com/~/media/commercial-vehicle/datasheets/automotive-fuse-holders/ato/littelfuse-fuse-holder-ato-flr-pcb-datasheet.pdf
+ATO FKS blade fuse holder
 0
 8
-8
-parts
-SSOP-8_3.91x5.84x3.18mm_P1.27mm
-SSOP-8 3.95x5.21x3.27mm Pitch 1.27mm
-SSOP-8 3.95x5.21x3.27mm 1.27mm
-0
-8
-8
-parts
-SW-SMD_4P_DSHP02TSGET
-
-
-0
-4
-4
-parts
-SW-SMD_DSHP01TSGER
-
-
+2
+Fuse
+Fuse_0402_1005Metric
+Fuse SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+fuse
 0
 2
 2
-parts
-SW-SMD_DSIC01LSGET
-
-
+Fuse
+Fuse_0402_1005Metric_Pad0.77x0.64mm_HandSolder
+Fuse SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+fuse handsolder
 0
 2
 2
-parts
-SW_TS_1101_C_W
-https://www.mouser.com/ds/2/60/RS-282G05A-SM_RT-1159762.pdf
-SPST button tactile switch
+Fuse
+Fuse_0603_1608Metric
+Fuse SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+fuse
 0
 2
 2
-parts
-TH_2P-XT60PW-F
-
-
+Fuse
+Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+Fuse SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+fuse handsolder
 0
-4
-4
-parts
-TO-277_SB10200
-TO-227B https://media.digikey.com/pdf/Data%20Sheets/Littelfuse%20PDFs/DST2050S.pdf
-TO-277B
+2
+2
+Fuse
+Fuse_0805_2012Metric
+Fuse SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+fuse
 0
-9
+2
+2
+Fuse
+Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+Fuse SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+fuse handsolder
+0
+2
+2
+Fuse
+Fuse_1206_3216Metric
+Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+fuse
+0
+2
+2
+Fuse
+Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+fuse handsolder
+0
+2
+2
+Fuse
+Fuse_1210_3225Metric
+Fuse SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+fuse
+0
+2
+2
+Fuse
+Fuse_1210_3225Metric_Pad1.42x2.65mm_HandSolder
+Fuse SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+fuse handsolder
+0
+2
+2
+Fuse
+Fuse_1812_4532Metric
+Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
+fuse
+0
+2
+2
+Fuse
+Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder
+Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
+fuse handsolder
+0
+2
+2
+Fuse
+Fuse_2010_5025Metric
+Fuse SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+fuse
+0
+2
+2
+Fuse
+Fuse_2010_5025Metric_Pad1.52x2.65mm_HandSolder
+Fuse SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+fuse handsolder
+0
+2
+2
+Fuse
+Fuse_2512_6332Metric
+Fuse SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+fuse
+0
+2
+2
+Fuse
+Fuse_2512_6332Metric_Pad1.52x3.35mm_HandSolder
+Fuse SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+fuse handsolder
+0
+2
+2
+Fuse
+Fuse_2920_7451Metric
+Fuse SMD 2920 (7451 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://www.megastar.com/products/fusetronic/polyswitch/PDF/smd2920.pdf), generated with kicad-footprint-generator
+fuse
+0
+2
+2
+Fuse
+Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder
+Fuse SMD 2920 (7451 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size from: http://www.megastar.com/products/fusetronic/polyswitch/PDF/smd2920.pdf), generated with kicad-footprint-generator
+fuse handsolder
+0
+2
+2
+Fuse
+Fuse_BelFuse_0ZRE0005FF_L8.3mm_W3.8mm
+Fuse 0ZRE0005FF, BelFuse, Radial Leaded PTC, https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zre-series.pdf
+0ZRE BelFuse radial PTC
+0
+2
+2
+Fuse
+Fuse_BelFuse_0ZRE0008FF_L8.3mm_W3.8mm
+Fuse 0ZRE0008FF, BelFuse, Radial Leaded PTC,https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zre-series.pdf
+0ZRE BelFuse radial PTC
+0
+2
+2
+Fuse
+Fuse_BelFuse_0ZRE0012FF_L8.3mm_W3.8mm
+Fuse 0ZRE0012FF, BelFuse, Radial Leaded PTC,https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zre-series.pdf
+0ZRE BelFuse radial PTC
+0
+2
+2
+Fuse
+Fuse_BelFuse_0ZRE0016FF_L9.9mm_W3.8mm
+Fuse 0ZRE0016FF, BelFuse, Radial Leaded PTC,https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zre-series.pdf
+0ZRE BelFuse radial PTC
+0
+2
+2
+Fuse
+Fuse_BelFuse_0ZRE0025FF_L9.6mm_W3.8mm
+Fuse 0ZRE0025FF, BelFuse, Radial Leaded PTC,https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zre-series.pdf
+0ZRE BelFuse radial PTC
+0
+2
+2
+Fuse
+Fuse_BelFuse_0ZRE0033FF_L11.4mm_W3.8mm
+Fuse 0ZRE0033FF, BelFuse, Radial Leaded PTC,https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zre-series.pdf
+0ZRE BelFuse radial PTC
+0
+2
+2
+Fuse
+Fuse_BelFuse_0ZRE0040FF_L11.5mm_W3.8mm
+Fuse 0ZRE0040FF, BelFuse, Radial Leaded PTC,https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zre-series.pdf
+0ZRE BelFuse radial PTC
+0
+2
+2
+Fuse
+Fuse_BelFuse_0ZRE0055FF_L14.0mm_W4.1mm
+Fuse 0ZRE0055FF, BelFuse, Radial Leaded PTC,https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zre-series.pdf
+0ZRE BelFuse radial PTC
+0
+2
+2
+Fuse
+Fuse_BelFuse_0ZRE0075FF_L11.5mm_W4.8mm
+Fuse 0ZRE0075FF, BelFuse, Radial Leaded PTC,https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zre-series.pdf
+0ZRE BelFuse radial PTC
+0
+2
+2
+Fuse
+Fuse_BelFuse_0ZRE0100FF_L18.7mm_W5.1mm
+Fuse 0ZRE0100FF, BelFuse, Radial Leaded PTC,https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zre-series.pdf
+0ZRE BelFuse radial PTC
+0
+2
+2
+Fuse
+Fuse_BelFuse_0ZRE0125FF_L21.2mm_W5.3mm
+Fuse 0ZRE0125FF, BelFuse, Radial Leaded PTC,https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zre-series.pdf
+0ZRE BelFuse radial PTC
+0
+2
+2
+Fuse
+Fuse_BelFuse_0ZRE0150FF_L23.4mm_W5.3mm
+Fuse 0ZRE0150FF, BelFuse, Radial Leaded PTC,https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zre-series.pdf
+0ZRE BelFuse radial PTC
+0
+2
+2
+Fuse
+Fuse_BelFuse_0ZRE0200FF_L24.9mm_W6.1mm
+Fuse 0ZRE0200FF, BelFuse, Radial Leaded PTC,https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zre-series.pdf
+0ZRE BelFuse radial PTC
+0
+2
+2
+Fuse
+Fuse_Blade_ATO_directSolder
+car blade fuse direct solder
+car blade fuse
+0
+2
+2
+Fuse
+Fuse_Blade_Mini_directSolder
+car blade fuse mini, direct solder
+car blade fuse mini
+0
+2
+2
+Fuse
+Fuse_Bourns_MF-RG300
+PTC Resettable Fuse, Ihold = 3.0A, Itrip=5.1A, http://www.bourns.com/docs/Product-Datasheets/mfrg.pdf
+ptc resettable fuse polyfuse THT
+0
+2
+2
+Fuse
+Fuse_Bourns_MF-RG400
+PTC Resettable Fuse, Ihold = 4.0A, Itrip=6.8A, http://www.bourns.com/docs/Product-Datasheets/mfrg.pdf
+ptc resettable fuse polyfuse THT
+0
+2
+2
+Fuse
+Fuse_Bourns_MF-RG500
+PTC Resettable Fuse, Ihold = 5.0A, Itrip=8.5A, http://www.bourns.com/docs/Product-Datasheets/mfrg.pdf
+ptc resettable fuse polyfuse THT
+0
+2
+2
+Fuse
+Fuse_Bourns_MF-RG600
+PTC Resettable Fuse, Ihold = 6.0A, Itrip=10.2A, http://www.bourns.com/docs/Product-Datasheets/mfrg.pdf
+ptc resettable fuse polyfuse THT
+0
+2
+2
+Fuse
+Fuse_Bourns_MF-RG650
+PTC Resettable Fuse, Ihold = 6.5A, Itrip=11.1A, http://www.bourns.com/docs/Product-Datasheets/mfrg.pdf
+ptc resettable fuse polyfuse THT
+0
+2
+2
+Fuse
+Fuse_Bourns_MF-RG700
+PTC Resettable Fuse, Ihold = 7.0A, Itrip=11.9A, http://www.bourns.com/docs/Product-Datasheets/mfrg.pdf
+ptc resettable fuse polyfuse THT
+0
+2
+2
+Fuse
+Fuse_Bourns_MF-RG800
+PTC Resettable Fuse, Ihold = 8.0A, Itrip=13.6A, http://www.bourns.com/docs/Product-Datasheets/mfrg.pdf
+ptc resettable fuse polyfuse THT
+0
+2
+2
+Fuse
+Fuse_Bourns_MF-RG900
+PTC Resettable Fuse, Ihold = 9.0A, Itrip=15.3A, http://www.bourns.com/docs/Product-Datasheets/mfrg.pdf
+ptc resettable fuse polyfuse THT
+0
+2
+2
+Fuse
+Fuse_Bourns_MF-RG1000
+PTC Resettable Fuse, Ihold = 10.0A, Itrip=17.0A, http://www.bourns.com/docs/Product-Datasheets/mfrg.pdf
+ptc resettable fuse polyfuse THT
+0
+2
+2
+Fuse
+Fuse_Bourns_MF-RG1100
+PTC Resettable Fuse, Ihold = 11.0A, Itrip=18.7A, http://www.bourns.com/docs/Product-Datasheets/mfrg.pdf
+ptc resettable fuse polyfuse THT
+0
+2
+2
+Fuse
+Fuse_Bourns_MF-RHT050
+PTC Resettable Fuse, Ihold = 0.5A, Itrip=0.92A, http://www.bourns.com/docs/product-datasheets/mfrht.pdf
+ptc resettable fuse polyfuse THT
+0
+2
+2
+Fuse
+Fuse_Bourns_MF-RHT070
+PTC Resettable Fuse, Ihold = 0.7A, Itrip=1.4A, http://www.bourns.com/docs/product-datasheets/mfrht.pdf
+ptc resettable fuse polyfuse THT
+0
+2
+2
+Fuse
+Fuse_Bourns_MF-RHT100
+PTC Resettable Fuse, Ihold = 1.0A, Itrip=1.8A, http://www.bourns.com/docs/product-datasheets/mfrht.pdf
+ptc resettable fuse polyfuse THT
+0
+2
+2
+Fuse
+Fuse_Bourns_MF-RHT200
+PTC Resettable Fuse, Ihold = 2.0A, Itrip=3.8A, http://www.bourns.com/docs/product-datasheets/mfrht.pdf
+ptc resettable fuse polyfuse THT
+0
+2
+2
+Fuse
+Fuse_Bourns_MF-RHT300
+PTC Resettable Fuse, Ihold = 3.0A, Itrip=6.0A, http://www.bourns.com/docs/product-datasheets/mfrht.pdf
+ptc resettable fuse polyfuse THT
+0
+2
+2
+Fuse
+Fuse_Bourns_MF-RHT400
+PTC Resettable Fuse, Ihold = 4.0A, Itrip=7.5A, http://www.bourns.com/docs/product-datasheets/mfrht.pdf
+ptc resettable fuse polyfuse THT
+0
+2
+2
+Fuse
+Fuse_Bourns_MF-RHT500
+PTC Resettable Fuse, Ihold = 5.0A, Itrip=9.0A, http://www.bourns.com/docs/product-datasheets/mfrht.pdf
+ptc resettable fuse polyfuse THT
+0
+2
+2
+Fuse
+Fuse_Bourns_MF-RHT550
+PTC Resettable Fuse, Ihold = 5.5A, Itrip=10.0A, http://www.bourns.com/docs/product-datasheets/mfrht.pdf
+ptc resettable fuse polyfuse THT
+0
+2
+2
+Fuse
+Fuse_Bourns_MF-RHT600
+PTC Resettable Fuse, Ihold = 6.0A, Itrip=10.8A, http://www.bourns.com/docs/product-datasheets/mfrht.pdf
+ptc resettable fuse polyfuse THT
+0
+2
+2
+Fuse
+Fuse_Bourns_MF-RHT650
+PTC Resettable Fuse, Ihold = 6.5A, Itrip=12.0A, http://www.bourns.com/docs/product-datasheets/mfrht.pdf
+ptc resettable fuse polyfuse THT
+0
+2
+2
+Fuse
+Fuse_Bourns_MF-RHT700
+PTC Resettable Fuse, Ihold = 7.0A, Itrip=13.0A, http://www.bourns.com/docs/product-datasheets/mfrht.pdf
+ptc resettable fuse polyfuse THT
+0
+2
+2
+Fuse
+Fuse_Bourns_MF-RHT750
+PTC Resettable Fuse, Ihold = 7.5A, Itrip=13.1A, http://www.bourns.com/docs/product-datasheets/mfrht.pdf
+ptc resettable fuse polyfuse THT
+0
+2
+2
+Fuse
+Fuse_Bourns_MF-RHT800
+PTC Resettable Fuse, Ihold = 8.0A, Itrip=15.0A, http://www.bourns.com/docs/product-datasheets/mfrht.pdf
+ptc resettable fuse polyfuse THT
+0
+2
+2
+Fuse
+Fuse_Bourns_MF-RHT900
+PTC Resettable Fuse, Ihold = 9.0A, Itrip=16.5A, http://www.bourns.com/docs/product-datasheets/mfrht.pdf
+ptc resettable fuse polyfuse THT
+0
+2
+2
+Fuse
+Fuse_Bourns_MF-RHT1000
+PTC Resettable Fuse, Ihold = 10.0A, Itrip=18.5A, http://www.bourns.com/docs/product-datasheets/mfrht.pdf
+ptc resettable fuse polyfuse THT
+0
+2
+2
+Fuse
+Fuse_Bourns_MF-RHT1100
+PTC Resettable Fuse, Ihold = 11.0A, Itrip=20.0A, http://www.bourns.com/docs/product-datasheets/mfrht.pdf
+ptc resettable fuse polyfuse THT
+0
+2
+2
+Fuse
+Fuse_Bourns_MF-RHT1300
+PTC Resettable Fuse, Ihold = 13.0A, Itrip=24.0A, http://www.bourns.com/docs/product-datasheets/mfrht.pdf
+ptc resettable fuse polyfuse THT
+0
+2
+2
+Fuse
+Fuse_Bourns_MF-SM_7.98x5.44mm
+https://www.bourns.com/docs/Product-Datasheets/mfsm.pdf
+bourns ptc resettable fuse polyfuse MF-SM MF-SMHT
+0
+2
+2
+Fuse
+Fuse_Bourns_MF-SM_9.5x6.71mm
+https://www.bourns.com/docs/Product-Datasheets/mfsm.pdf
+bourns ptc resettable fuse polyfuse MF-SM MF-SMHT
+0
+2
+2
+Fuse
+Fuse_Bourns_TBU-CA
+Bourns TBU-CA Fuse, 2 Pin (https://www.bourns.com/data/global/pdfs/TBU-CA.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+Bourns Fuse NoLead
+0
 3
-parts
-TestPoint_Pad_D1.5mm_no_courtyard
-SMD pad as test Point, diameter 1.5mm
-test point SMD pad
+3
+Fuse
+Fuse_Littelfuse-LVR100
+Littelfuse, resettable fuse, PTC, polyswitch LVR100, Ih 1A http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_lvr_catalog_datasheet.pdf.pdf
+LVR100 PTC resettable polyswitch 
 0
-1
-1
+2
+2
+Fuse
+Fuse_Littelfuse-LVR125
+Littelfuse, resettable fuse, PTC, polyswitch LVR125, Ih 1.25A, http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_lvr_catalog_datasheet.pdf.pdf
+LVR125 PTC resettable polyswitch 
+0
+2
+2
+Fuse
+Fuse_Littelfuse-LVR200
+Littelfuse, resettable fuse, PTC, polyswitch LVR200, Ih 2A, http://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_lvr_catalog_datasheet.pdf.pdf
+LVR200 PTC resettable polyswitch 
+0
+2
+2
+Fuse
+Fuse_Littelfuse-NANO2-451_453
+Littelfuse NANO2 https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_451_453_datasheet.pdf.pdf
+Fuse Nano2
+0
+2
+2
+Fuse
+Fuse_Littelfuse-NANO2-462
+Littelfuse NANO2, 250VAC/VDC, 350VAC/VDC, 10.5 x 4.5 x 4.5mm, https://www.littelfuse.com/media?resourcetype=datasheets&itemid=6201db33-6e55-43f2-b41f-15e38bdd2c99&filename=littelfuse-fuse-462-datasheet
+Fuse Nano2 462
+0
+2
+2
+Fuse
+Fuse_Littelfuse-NANO2-885
+Littelfuse NANO2, 350VAC, 450/500VDC, 10.86 x 4.78 x 4.78mm, https://www.littelfuse.com/media?resourcetype=datasheets&itemid=888f12ed-ed3b-4b45-b910-06af8854ad76&filename=littelfuse-fuse-885-datasheet
+Fuse Nano2 885
+0
+2
+2
+Fuse
+Fuse_Littelfuse_372_D8.50mm
+Fuse, Littelfuse, 372, 8.5x8mm, https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_372_datasheet.pdf.pdf
+fuse tht radial
+0
+2
+2
+Fuse
+Fuse_Littelfuse_395Series
+Fuse, TE5, Littelfuse/Wickmann, No. 460, No560,
+Fuse TE5 Littelfuse/Wickmann No. 460 No560 
+0
+2
+2
+Fuse
+Fuse_Schurter_UMT250
+Surface Mount Fuse, 3 x 10.1 mm, Time-Lag T, 250 VAC, 125 VDC (https://us.schurter.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_UMT_250.pdf)
+Schurter fuse smd
+0
+2
+2
+Fuse
+Fuse_Schurter_UMZ250
+Surface Mount Fuse with Clip, 4.2 x 11.1 mm, Time-Lag T, 250 VAC, 125 VDC (https://us.schurter.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_UMZ_250.pdf)
+fuse smd mount holder
+0
+2
+2
+Fuse
+Fuse_SunFuse-6HP
+SunFuse Ceramic Slow Blow Fuse 6H_6HP.PDF
+UL/CSA 6x32mm Ceramic Slow Blow Fuse
+0
+2
+2
+Fuse
+Fuseholder_Blade_ATO_Littelfuse_Pudenz_2_Pin
+Fuseholder ATO Blade littelfuse Pudenz 2 Pin
+Fuseholder ATO Blade littelfuse Pudenz 2 Pin
+0
+2
+2
+Fuse
+Fuseholder_Blade_Mini_Keystone_3568
+fuse holder, car blade fuse mini, http://www.keyelco.com/product-pdf.cfm?p=306
+car blade fuse mini
+0
+4
+2
+Fuse
+Fuseholder_Clip-5x20mm_Bel_FC-203-22_Lateral_P17.80x5.00mm_D1.17mm_Horizontal
+Fuseholder Clips, 5x20mm Cylinder Fuse, Pins Lateral, Horizontal, Bel FC-203-22, https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0672-fuse-clips-series.pdf
+fuse clip open
+0
+4
+2
+Fuse
+Fuseholder_Clip-5x20mm_Eaton_1A5601-01_Inline_P20.80x6.76mm_D1.70mm_Horizontal
+Fuseholder Clips, 5x20mm Cylinder Fuse, Pins Inline, Horizontal, Eaton 1A5601-01, https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-1axxxx-pcb-fuse-clips-atc-atm-blade-data-sheet.pdf
+fuse clip open
+0
+4
+2
+Fuse
+Fuseholder_Clip-5x20mm_Keystone_3512P_Inline_P23.62x7.27mm_D1.02x2.41x1.02x1.57mm_Horizontal
+Fuseholder Clips, 5x20mm Cylinder Fuse, Pins Inline, Horizontal, Keystone 3512P, http://www.keyelco.com/product-pdf.cfm?p=1386
+fuse clip open
+0
+4
+2
+Fuse
+Fuseholder_Clip-5x20mm_Keystone_3512_Inline_P23.62x7.27mm_D1.02x1.57mm_Horizontal
+Fuseholder Clips, 5x20mm Cylinder Fuse, Pins Inline, Horizontal, Keystone 3512, http://www.keyelco.com/product-pdf.cfm?p=356
+fuse clip open
+0
+4
+2
+Fuse
+Fuseholder_Clip-5x20mm_Keystone_3517_Inline_P23.11x6.76mm_D1.70mm_Horizontal
+Fuseholder Clips, 5x20mm Cylinder Fuse, Pins Inline, Horizontal, Keystone 3517, http://www.keyelco.com/product-pdf.cfm?p=354
+fuse clip open
+0
+4
+2
+Fuse
+Fuseholder_Clip-5x20mm_Keystone_3518P_Inline_P23.11x6.76mm_D2.44x1.70mm_Horizontal
+Fuseholder Clips, 5x20mm Cylinder Fuse, Pins Inline, Horizontal, Keystone 3518P, http://www.keyelco.com/product-pdf.cfm?p=1387
+fuse clip open
+0
+4
+2
+Fuse
+Fuseholder_Clip-5x20mm_Littelfuse_100_Inline_P20.50x4.60mm_D1.30mm_Horizontal
+Fuseholder Clips, 5x20mm Cylinder Fuse, Pins Inline, Horizontal, Littelfuse 100, https://m.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuse_clip_100_445_030_520_datasheet.pdf.pdf
+fuse clip open
+0
+4
+2
+Fuse
+Fuseholder_Clip-5x20mm_Littelfuse_111_Inline_P20.00x5.00mm_D1.05mm_Horizontal
+Fuseholder Clips, 5x20mm Cylinder Fuse, Pins Inline, Horizontal, Littelfuse 111, https://m.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuse_clip_111_519_datasheet.pdf.pdf
+fuse clip open
+0
+4
+2
+Fuse
+Fuseholder_Clip-5x20mm_Littelfuse_111_Lateral_P18.80x5.00mm_D1.17mm_Horizontal
+Fuseholder Clips, 5x20mm Cylinder Fuse, Pins Inline, Horizontal, Littelfuse 111 (501 and 506), https://m.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuse_clip_111_datasheet.pdf.pdf
+fuse clip open
+0
+4
+2
+Fuse
+Fuseholder_Clip-5x20mm_Littelfuse_445-030_Inline_P20.50x5.20mm_D1.30mm_Horizontal
+Fuseholder Clips, 5x20mm Cylinder Fuse, Pins Inline, Horizontal, Littelfuse 445/030, https://m.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuse_clip_100_445_030_520_datasheet.pdf.pdf
+fuse clip open
+0
+4
+2
+Fuse
+Fuseholder_Clip-5x20mm_Littelfuse_519_Inline_P20.60x5.00mm_D1.00mm_Horizontal
+Fuseholder Clips, 5x20mm Cylinder Fuse, Pins Inline, Horizontal, Littelfuse 519, https://m.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuse_clip_111_519_datasheet.pdf.pdf
+fuse clip open
+0
+4
+2
+Fuse
+Fuseholder_Clip-5x20mm_Littelfuse_520_Inline_P20.50x5.80mm_D1.30mm_Horizontal
+Fuseholder Clips, 5x20mm Cylinder Fuse, Pins Inline, Horizontal, Littelfuse 520, https://m.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuse_clip_100_445_030_520_datasheet.pdf.pdf
+fuse clip open
+0
+4
+2
+Fuse
+Fuseholder_Clip-5x20mm_Littelfuse_521_Lateral_P17.00x5.00mm_D1.30mm_Horizontal
+Fuseholder Clips, 5x20mm Cylinder Fuse, Pins Inline, Horizontal, Littelfuse 521, https://www.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuse_clip_520_521_102071_datasheet.pdf.pdf
+fuse clip open
+0
+4
+2
+Fuse
+Fuseholder_Clip-5x20mm_Schurter_CQM_Inline_P20.60x5.00mm_D1.00mm_Horizontal
+Fuseholder Clips, 5x20mm Cylinder Fuse, Pins Inline, Horizontal, Schurter CQM (0752), https://www.schurter.com/en/datasheet/typ_CQM.pdf
+fuse clip open
+0
+4
+2
+Fuse
+Fuseholder_Clip-5x20mm_Schurter_OG_Lateral_P15.00x5.00mm_D1.3mm_Horizontal
+Fuseholder Clips, 5x20mm Cylinder Fuse, Pins Inline, Horizontal, Schurter OG, https://ch.schurter.com/en/datasheet/typ_OG__Clip__5x20.pdf
+fuse clip open
+0
+4
+2
+Fuse
+Fuseholder_Clip-6.3x32mm_Littelfuse_102_122_Inline_P34.21x7.62mm_D1.98mm_Horizontal
+Fuseholder Clips, 6.3x32mm Cylinder Fuse, Pins Inline, Horizontal, Littelfuse 102/122 Straight Leads, https://www.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuse_clip_102_122_datasheet.pdf.pdf
+fuse clip open
+0
+4
+2
+Fuse
+Fuseholder_Clip-6.3x32mm_Littelfuse_102_Inline_P34.21x7.62mm_D2.54mm_Horizontal
+Fuseholder Clips, 6.3x32mm Cylinder Fuse, Pins Inline, Horizontal, Littelfuse 102 Bowed Leads, https://www.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuse_clip_102_122_datasheet.pdf.pdf
+fuse clip open
+0
+4
+2
+Fuse
+Fuseholder_Clip-6.3x32mm_Littelfuse_122_Inline_P34.21x7.62mm_D2.54mm_Horizontal
+Fuseholder Clips, 6.3x32mm Cylinder Fuse, Pins Inline, Horizontal, Littelfuse 122 Bowed Leads, https://www.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuse_clip_102_122_datasheet.pdf.pdf
+fuse clip open
+0
+4
+2
+Fuse
+Fuseholder_Clip-6.3x32mm_Littelfuse_102071_Inline_P34.70x7.60mm_D2.00mm_Horizontal
+Fuseholder Clips, 6.3x32mm Cylinder Fuse, Pins Inline, Horizontal, Littelfuse 102071, https://www.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuse_clip_520_521_102071_datasheet.pdf.pdf
+fuse clip open
+0
+4
+2
+Fuse
+Fuseholder_Cylinder-5x20mm_Bulgin_FX0456_Vertical_Closed
+Fuseholder, 5x20, closed, vertical, Bulgin, FX0456, https://www.bulgin.com/products/pub/media/bulgin/data/Fuseholders.pdf
+Fuseholder 5x20 closed vertical Bulgin FX0456 Sicherungshalter 
+0
+2
+2
+Fuse
+Fuseholder_Cylinder-5x20mm_Bulgin_FX0457_Horizontal_Closed
+Fuseholder, 5x20, closed, horizontal, Bulgin, FX0457, Sicherungshalter,
+Fuseholder 5x20 closed horizontal Bulgin FX0457 Sicherungshalter 
+0
+2
+2
+Fuse
+Fuseholder_Cylinder-5x20mm_EATON_H15-V-1_Vertical_Closed
+PCB fuse holders for 5 mm x 20 mm fuses; 250V; 10A (http://www.cooperindustries.com/content/dam/public/bussmann/Electronics/Resources/product-datasheets/bus-elx-ds-4426-h15.pdf)
+fuse holder vertical 5x20mm
+0
+2
+2
+Fuse
+Fuseholder_Cylinder-5x20mm_EATON_HBV_Vertical_Closed
+5 mm x 20 mm fuse holders; Vertical w/ Stability Pins; 250V; 6.3-16A (http://www.cooperindustries.com/content/dam/public/bussmann/Electronics/Resources/product-datasheets/Bus_Elx_DS_2118_HB_PCB_Series.pdf)
+fuse holder vertical 5x20mm
+0
+2
+2
+Fuse
+Fuseholder_Cylinder-5x20mm_EATON_HBW_Vertical_Closed
+5 mm x 20 mm fuse holders; Vertical w/o Stability Pins; 250V; 6.3-16A (http://www.cooperindustries.com/content/dam/public/bussmann/Electronics/Resources/product-datasheets/Bus_Elx_DS_2118_HB_PCB_Series.pdf)
+fuse holder vertical 5x20mm
+0
+2
+2
+Fuse
+Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open
+Fuseholder horizontal open, 5x20mm, 500V, 16A, Schurter 0031.8201, https://us.schurter.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_OGN.pdf
+Fuseholder horizontal open 5x20 Schurter 0031.8201
+0
+2
+2
+Fuse
+Fuseholder_Cylinder-5x20mm_Schurter_FAB_0031-355x_Horizontal_Closed
+Fuseholder 5x20mm horizontal Shurter model FAB, Suitable for order numbers 0031.3551 and 0031.3558  (https://www.schurter.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_FAB.pdf)
+Fuseholder 5x20mm closed horizontal
+0
+2
+2
+Fuse
+Fuseholder_Cylinder-5x20mm_Schurter_FPG4_Vertical_Closed
+Shock-Safe Fuseholder, 5 x 20 mm, Slotted Cap/Fingergrip, vertical, IEC 60335-1; 250VAC/10A VDE; 500V/16A UL/CSA (https://us.schurter.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_FPG4.pdf)
+fuse holder vertical 5x20mm
+0
+4
+2
+Fuse
+Fuseholder_Cylinder-5x20mm_Schurter_FUP_0031.2510_Horizontal_Closed
+Shock-Safe closed Fuseholder, Schurter FUP Series, 5.0 x 20mm, Slotted Cap, horizontal, 500 VAC 4W/16A (VDE), 600V 30A (UL/CSA), order numbers: 0031.2510 (0031.2500 + 0031.2323), http://www.schurter.ch/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_FUP.pdf
+Fuseholder 5x20mm horizontal closed
+0
+3
+2
+Fuse
+Fuseholder_Cylinder-5x20mm_Schurter_OGN-SMD_Horizontal_Open
+Fuseholder horizontal open, 5x20mm, 500V, 16A (https://us.schurter.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_OGN-SMD.pdf)
+Fuseholder horizontal open 5x20 Schurter 0031.8221
+0
+2
+2
+Fuse
+Fuseholder_Cylinder-5x20mm_Stelvio-Kontek_PTF78_Horizontal_Open
+https://www.tme.eu/en/Document/3b48dbe2b9714a62652c97b08fcd464b/PTF78.pdf
+Fuseholder horizontal open 5x20 Stelvio-Kontek PTF/78
+0
+2
+2
+Fuse
+Fuseholder_Cylinder-5x20mm_Wuerth_696103101002-SMD_Horizontal_Open
+Fuseholder horizontal open 5x20mm 250V 10A Würth 696103101002
+Fuseholder horizontal open 5x20mm 250V 10A
+0
+2
+2
+Fuse
+Fuseholder_Cylinder-6.3x32mm_Schurter_0031-8002_Horizontal_Open
+Fuseholder, horizontal, open, 6.3x32, Schurter, 0031.8002, https://www.schurter.com/en/datasheet/typ_OG__Holder__6.3x32.pdf
+Fuseholder horizontal open 6.3x32 Schurter 0031.8002
+0
+2
+2
+Fuse
+Fuseholder_Cylinder-6.3x32mm_Schurter_FUP_0031.2520_Horizontal_Closed
+Shock-Safe closed Fuseholder, Schurter FUP Series, 6.3 x 32 mm, Slotted Cap, horizontal, 500 VAC 4W/16A (VDE), 600V 30A (UL/CSA), order numbers: 0031.2520 (0031.2500 + 0031.2321), http://www.schurter.ch/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_FUP.pdf
+Fuseholder 6.3x32mm horizontal closed
+0
+3
+2
+Fuse
+Fuseholder_Keystone_3555-2
+Maxi APX ATX Automotive Blade Fuse Clip Holder https://www.keyelco.com/userAssets/file/M65p40.pdf
+Maxi APX ATX Automotive Blade Fuse Clip Holder
+0
+4
+2
+Fuse
+Fuseholder_Littelfuse_100_series_5x20mm
+Littelfuse clips, https://www.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuse_clip_100_445_030_520_datasheet.pdf.pdf
+Fuseholder clips
+0
+4
+2
+Fuse
+Fuseholder_Littelfuse_100_series_5x25mm
+Littelfuse clips, https://www.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuse_clip_100_445_030_520_datasheet.pdf.pdf
+Fuseholder clips
+0
+4
+2
+Fuse
+Fuseholder_Littelfuse_100_series_5x30mm
+Littelfuse clips, https://www.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuse_clip_100_445_030_520_datasheet.pdf.pdf
+Fuseholder clips
+0
+4
+2
+Fuse
+Fuseholder_Littelfuse_445_030_series_5x20mm
+Littelfuse clips, https://www.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuse_clip_100_445_030_520_datasheet.pdf.pdf
+Fuseholder clips
+0
+4
+2
+Fuse
+Fuseholder_Littelfuse_445_030_series_5x25mm
+Littelfuse clips, https://www.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuse_clip_100_445_030_520_datasheet.pdf.pdf
+Fuseholder clips
+0
+4
+2
+Fuse
+Fuseholder_Littelfuse_445_030_series_5x30mm
+Littelfuse clips, https://www.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuse_clip_100_445_030_520_datasheet.pdf.pdf
+Fuseholder clips
+0
+4
+2
+Fuse
+Fuseholder_Littelfuse_Nano2_154x
+Littelfuse NANO2 holder, https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_154_154t_154l_154tl_datasheet.pdf.pdf
+SMD Nano2 holder
+0
+2
+2
+Fuse
+Fuseholder_Littelfuse_Nano2_157x
+Littelfuse NANO2 holder, https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157_datasheet.pdf.pdf
+SMD Nano2 holder
+0
+2
+2
+Fuse
+Fuseholder_TR5_Littelfuse_No560_No460
+Fuse, Fuseholder, TR5, Littelfuse/Wickmann, No. 460, No560, https://www.littelfuse.com/~/media/electronics/datasheets/fuse_holders/littelfuse_fuse_holder_559_560_datasheet.pdf.pdf
+Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560 
+0
+2
+2
