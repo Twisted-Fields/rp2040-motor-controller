@@ -1,2 +1,4 @@
 RP2040_motor-backups
 rp2040_encoder/rp2040_encoder-backups/
+*-backups
+*/*-backups
