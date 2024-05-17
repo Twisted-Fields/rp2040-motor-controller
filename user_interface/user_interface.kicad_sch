@@ -3578,7 +3578,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 128.905 85.725 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid fed4d719-43a6-4d0a-aa52-20b01c4b6fa8)
     (property "Reference" "J2" (at 131.445 91.4401 0)
       (effects (font (size 1.27 1.27)) (justify left))
