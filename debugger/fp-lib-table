@@ -1,7 +1,9 @@
 (fp_lib_table
+  (version 7)
   (lib (name "RP2040_minimal")(type "KiCad")(uri "${KIPRJMOD}/RP2040_minimal.pretty")(options "")(descr ""))
   (lib (name "MotorController")(type "Legacy")(uri "/home/taylor/pcb/convert_motor/MotorController.mod")(options "")(descr ""))
   (lib (name "PCM1808PWR")(type "KiCad")(uri "${KIPRJMOD}/parts/KiCAD/2022-06-15_22-47-39/footprints.pretty")(options "")(descr ""))
   (lib (name "ADC081S021")(type "KiCad")(uri "${KIPRJMOD}/parts/KiCAD/2022-06-16_01-48-54/footprints.pretty")(options "")(descr ""))
   (lib (name "parts")(type "KiCad")(uri "${KIPRJMOD}/parts")(options "")(descr ""))
+  (lib (name "base_parts")(type "KiCad")(uri "/home/taylor/pcb/rp2040-motor-controller/parts")(options "")(descr ""))
 )
