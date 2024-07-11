@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 36,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -16,17 +16,17 @@
     },
     "ratsnest_display_mode": 0,
     "selection_filter": {
-      "dimensions": true,
+      "dimensions": false,
       "footprints": true,
-      "graphics": true,
-      "keepouts": true,
-      "lockedItems": false,
-      "otherItems": true,
-      "pads": true,
+      "graphics": false,
+      "keepouts": false,
+      "lockedItems": true,
+      "otherItems": false,
+      "pads": false,
       "text": true,
-      "tracks": true,
-      "vias": true,
-      "zones": true
+      "tracks": false,
+      "vias": false,
+      "zones": false
     },
     "visible_items": [
       0,
@@ -64,8 +64,14 @@
       35,
       36
     ],
-    "visible_layers": "000d020_00000005",
-    "zone_display_mode": 0
+    "visible_layers": "0001010_80000005",
+    "zone_display_mode": 1
+  },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
   },
   "meta": {
     "filename": "RP2040_base.kicad_prl",

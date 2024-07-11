@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -64,8 +64,14 @@
       35,
       36
     ],
-    "visible_layers": "ffc90a0_7ffffff9",
+    "visible_layers": "ffc90b0_7ffffff9",
     "zone_display_mode": 0
+  },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
   },
   "meta": {
     "filename": "RP2040_debugger.kicad_prl",

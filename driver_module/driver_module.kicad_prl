@@ -1,8 +1,8 @@
 {
   "board": {
-    "active_layer": 47,
+    "active_layer": 0,
     "active_layer_preset": "",
-    "auto_track_width": true,
+    "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -64,8 +64,14 @@
       35,
       36
     ],
-    "visible_layers": "000d010_fffffff9",
+    "visible_layers": "0000000_80000007",
     "zone_display_mode": 0
+  },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
   },
   "meta": {
     "filename": "driver_module.kicad_prl",
