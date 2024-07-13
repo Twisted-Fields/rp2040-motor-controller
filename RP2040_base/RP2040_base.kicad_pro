@@ -67,7 +67,8 @@
         "hole_clearance|146600000|66695000|2a76b045-cc30-429a-95bf-92d11ed82e44|136faea6-a67f-449d-a362-cf36177f0ba8",
         "hole_clearance|146800000|66695000|2a76b045-cc30-429a-95bf-92d11ed82e44|a5b1874e-dc09-4186-8793-a74cdaca538e",
         "hole_clearance|152200000|66695000|44c313ee-186a-49e9-be2c-334824e9e35d|cd5f2145-63ff-4424-8cbf-d1894a311594",
-        "hole_clearance|152400000|66695000|44c313ee-186a-49e9-be2c-334824e9e35d|332195eb-1965-46cf-be50-0a5b3195190d"
+        "hole_clearance|152400000|66695000|44c313ee-186a-49e9-be2c-334824e9e35d|332195eb-1965-46cf-be50-0a5b3195190d",
+        "silk_over_copper|88000000|116813003|afd011f0-6b78-4f3c-b3c7-7a5d3355cd74|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "filename": "board_design_settings.json",
@@ -106,7 +107,7 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -116,7 +117,7 @@
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
-        "track_dangling": "warning",
+        "track_dangling": "error",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",

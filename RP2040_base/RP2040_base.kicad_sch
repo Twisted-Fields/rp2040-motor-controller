@@ -18068,7 +18068,7 @@
 	)
 	(wire
 		(pts
-			(xy 434.34 518.16) (xy 434.34 517.525)
+			(xy 360.68 488.95) (xy 360.68 488.315)
 		)
 		(stroke
 			(width 0)
@@ -18515,6 +18515,16 @@
 			(type default)
 		)
 		(uuid "22c3cad7-a6d1-4c05-9ec3-55174d1d6abc")
+	)
+	(wire
+		(pts
+			(xy 410.21 519.43) (xy 411.48 519.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22d95c91-3cc3-4d7c-a7a2-893c5d60f40c")
 	)
 	(wire
 		(pts
@@ -20728,6 +20738,16 @@
 	)
 	(wire
 		(pts
+			(xy 419.1 519.43) (xy 420.37 519.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e6ad2b-82c3-49e2-bb3f-b2120bc40338")
+	)
+	(wire
+		(pts
 			(xy 144.78 268.605) (xy 144.78 269.875)
 		)
 		(stroke
@@ -21038,7 +21058,7 @@
 	)
 	(wire
 		(pts
-			(xy 436.88 507.365) (xy 436.88 506.095)
+			(xy 363.22 478.155) (xy 363.22 476.885)
 		)
 		(stroke
 			(width 0)
@@ -21108,7 +21128,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 506.095) (xy 431.8 507.365)
+			(xy 358.14 476.885) (xy 358.14 478.155)
 		)
 		(stroke
 			(width 0)
@@ -21818,7 +21838,7 @@
 	)
 	(wire
 		(pts
-			(xy 376.555 507.365) (xy 376.555 506.095)
+			(xy 362.585 503.555) (xy 362.585 502.285)
 		)
 		(stroke
 			(width 0)
@@ -21998,7 +22018,7 @@
 	)
 	(wire
 		(pts
-			(xy 371.475 506.095) (xy 371.475 507.365)
+			(xy 357.505 502.285) (xy 357.505 503.555)
 		)
 		(stroke
 			(width 0)
@@ -22015,6 +22035,16 @@
 			(type default)
 		)
 		(uuid "70f7f05b-ff4c-49d5-80f0-981920431574")
+	)
+	(wire
+		(pts
+			(xy 419.1 513.08) (xy 421.64 513.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71123ff3-1b85-40c4-bf8e-c716591524fe")
 	)
 	(wire
 		(pts
@@ -22618,6 +22648,16 @@
 	)
 	(wire
 		(pts
+			(xy 420.37 519.43) (xy 420.37 521.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7adcf16f-9df1-4b44-a154-3ad8cb47d965")
+	)
+	(wire
+		(pts
 			(xy 448.945 402.59) (xy 448.945 406.4)
 		)
 		(stroke
@@ -23035,6 +23075,16 @@
 			(type default)
 		)
 		(uuid "8442bc55-96e0-4d9d-8f33-793f1b11e0aa")
+	)
+	(wire
+		(pts
+			(xy 408.94 510.54) (xy 408.94 513.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "845dba70-57c5-440e-9ab6-e14ec2a0d5cf")
 	)
 	(wire
 		(pts
@@ -24708,6 +24758,16 @@
 	)
 	(wire
 		(pts
+			(xy 408.94 513.08) (xy 411.48 513.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7768377-b598-4fd3-8cb2-a2fca0668336")
+	)
+	(wire
+		(pts
 			(xy 709.93 132.08) (xy 709.93 134.62)
 		)
 		(stroke
@@ -26338,6 +26398,16 @@
 	)
 	(wire
 		(pts
+			(xy 421.64 510.54) (xy 421.64 513.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc65359b-1ec8-4578-a119-c8ec60bd2991")
+	)
+	(wire
+		(pts
 			(xy 469.265 446.405) (xy 470.535 446.405)
 		)
 		(stroke
@@ -26648,7 +26718,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.015 518.16) (xy 374.015 517.525)
+			(xy 360.045 514.35) (xy 360.045 513.715)
 		)
 		(stroke
 			(width 0)
@@ -28628,6 +28698,16 @@
 	)
 	(wire
 		(pts
+			(xy 410.21 519.43) (xy 410.21 521.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffb25722-8726-412c-ab17-4c37a39626c6")
+	)
+	(wire
+		(pts
 			(xy 164.465 304.8) (xy 156.21 304.8)
 		)
 		(stroke
@@ -29743,6 +29823,16 @@
 			(justify left bottom)
 		)
 		(uuid "a31844e6-f1dd-4763-a440-41e673b8c55f")
+	)
+	(text "isolation bypass"
+		(exclude_from_sim no)
+		(at 428.498 516.128 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a43e1168-666b-4a8f-a562-5e565b486200")
 	)
 	(text "53V input maximum run voltage\n20 Amp max continuous current draw\n50 Amp peak per motor absolute maximum"
 		(exclude_from_sim no)
@@ -31251,7 +31341,7 @@
 		(uuid "636414f5-15c1-47d6-ac9c-65a7d7e846c1")
 	)
 	(label "CAN0_P"
-		(at 431.8 506.095 90)
+		(at 358.14 476.885 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -31438,7 +31528,7 @@
 		(uuid "706a0b52-3438-491e-af32-a727a0bce0be")
 	)
 	(label "CAN1_N"
-		(at 376.555 506.095 90)
+		(at 362.585 502.285 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -31658,7 +31748,7 @@
 		(uuid "810ebb00-22be-40f6-97e2-7d4baf50cd73")
 	)
 	(label "CAN0_N"
-		(at 436.88 506.095 90)
+		(at 363.22 476.885 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -32483,7 +32573,7 @@
 		(uuid "d168295c-a02f-4aa5-aeea-6479a3bb5acc")
 	)
 	(label "CAN1_P"
-		(at 371.475 506.095 90)
+		(at 357.505 502.285 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -34636,6 +34726,74 @@
 			(project "RP2040_base"
 				(path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 415.29 513.08 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "06eec169-1d43-49e7-85df-c26c33e12199")
+		(property "Reference" "JP14"
+			(at 415.29 509.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 410.21 516.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 415.29 513.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 415.29 513.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 415.29 513.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32d8cc30-c014-4e72-8479-7e9b94fe5dc6")
+		)
+		(pin "2"
+			(uuid "7782f24c-fff5-41f6-adb1-591305e3931e")
+		)
+		(instances
+			(project "RP2040_base"
+				(path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914"
+					(reference "JP14")
 					(unit 1)
 				)
 			)
@@ -37744,6 +37902,72 @@
 			(project "power_and_cpu"
 				(path "/8d16b105-3293-4d6d-a54b-7359568d7527"
 					(reference "#PWR0210")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 420.37 521.97 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17f5be4c-47e6-4ccb-bf31-43b282d11c36")
+		(property "Reference" "#PWR039"
+			(at 420.37 528.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 424.18 523.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 420.37 521.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 420.37 521.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 420.37 521.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffd59007-26a4-4197-a2ff-c1b4d5710a54")
+		)
+		(instances
+			(project "RP2040_base"
+				(path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -41066,7 +41290,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:NUP2105L")
-		(at 374.015 512.445 0)
+		(at 360.045 508.635 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41075,7 +41299,7 @@
 		(fields_autoplaced yes)
 		(uuid "2bb803f9-98d9-4cb4-b847-aae6416173e4")
 		(property "Reference" "D40"
-			(at 379.73 511.81 0)
+			(at 365.76 508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41084,7 +41308,7 @@
 			)
 		)
 		(property "Value" "ESDCAN24-2BLY"
-			(at 379.73 514.35 0)
+			(at 365.76 510.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41093,7 +41317,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 379.73 513.715 0)
+			(at 365.76 509.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41103,7 +41327,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2209191430_UMW-Youtai-Semiconductor-Co---Ltd--ESDCAN24-2BLY_C5158050.pdf"
-			(at 377.19 509.27 0)
+			(at 363.22 505.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41112,7 +41336,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 374.015 512.445 0)
+			(at 360.045 508.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41121,7 +41345,7 @@
 			)
 		)
 		(property "LCSC" "C5158050"
-			(at 374.015 512.445 0)
+			(at 360.045 508.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52548,7 +52772,7 @@
 	)
 	(symbol
 		(lib_id "motor_parts:GND_ISO")
-		(at 434.34 518.16 0)
+		(at 360.68 488.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -52556,7 +52780,7 @@
 		(dnp no)
 		(uuid "73ff27d2-0302-4b33-8d81-aa61893e8307")
 		(property "Reference" "#PWR0240"
-			(at 434.34 524.51 0)
+			(at 360.68 495.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52565,7 +52789,7 @@
 			)
 		)
 		(property "Value" "GND_ISO"
-			(at 429.26 518.16 0)
+			(at 355.6 488.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52573,7 +52797,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 434.34 518.16 0)
+			(at 360.68 488.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52582,7 +52806,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 434.34 518.16 0)
+			(at 360.68 488.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52591,7 +52815,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 434.34 518.16 0)
+			(at 360.68 488.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63495,6 +63719,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 421.64 510.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b748cb79-e32a-4d99-8168-d5de5bdb78d0")
+		(property "Reference" "#PWR042"
+			(at 421.64 514.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 421.64 506.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 421.64 510.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 421.64 510.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 421.64 510.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7dac8b87-879c-433e-97a9-0cae9bb120b7")
+		)
+		(instances
+			(project "RP2040_base"
+				(path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 687.07 438.15 0)
 		(unit 1)
@@ -64026,7 +64315,7 @@
 	)
 	(symbol
 		(lib_id "motor_parts:GND_ISO")
-		(at 374.015 518.16 0)
+		(at 360.045 514.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -64034,7 +64323,7 @@
 		(dnp no)
 		(uuid "b8d964e6-240a-4374-a249-533e5313438c")
 		(property "Reference" "#PWR0205"
-			(at 374.015 524.51 0)
+			(at 360.045 520.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64043,7 +64332,7 @@
 			)
 		)
 		(property "Value" "GND_ISO"
-			(at 368.935 518.16 0)
+			(at 354.965 514.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64051,7 +64340,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 374.015 518.16 0)
+			(at 360.045 514.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64060,7 +64349,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 374.015 518.16 0)
+			(at 360.045 514.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64069,7 +64358,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 374.015 518.16 0)
+			(at 360.045 514.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -68586,6 +68875,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 415.29 519.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "d162dc89-4fdf-4a33-aa76-38452375d752")
+		(property "Reference" "JP15"
+			(at 415.29 516.763 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 410.21 522.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 415.29 519.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 415.29 519.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 415.29 519.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "986ad6c1-2a0e-44b3-aa96-1f842fc0ce10")
+		)
+		(pin "2"
+			(uuid "62988c4d-d135-4c06-b7af-47504c4112b9")
+		)
+		(instances
+			(project "RP2040_base"
+				(path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914"
+					(reference "JP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 655.32 340.36 90)
 		(unit 1)
@@ -71801,16 +72158,15 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:NUP2105L")
-		(at 434.34 512.445 0)
+		(at 360.68 483.235 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e508672b-c089-47e1-94fe-15f824e26f3b")
 		(property "Reference" "D1"
-			(at 440.055 511.81 0)
+			(at 366.395 482.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71819,7 +72175,7 @@
 			)
 		)
 		(property "Value" "ESDCAN24-2BLY"
-			(at 440.055 514.35 0)
+			(at 361.823 487.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71828,7 +72184,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 440.055 513.715 0)
+			(at 366.395 484.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71838,7 +72194,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2209191430_UMW-Youtai-Semiconductor-Co---Ltd--ESDCAN24-2BLY_C5158050.pdf"
-			(at 437.515 509.27 0)
+			(at 363.855 480.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71847,7 +72203,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 434.34 512.445 0)
+			(at 360.68 483.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71856,7 +72212,7 @@
 			)
 		)
 		(property "LCSC" "C5158050"
-			(at 434.34 512.445 0)
+			(at 360.68 483.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73148,6 +73504,71 @@
 			(project "power_and_cpu"
 				(path "/8d16b105-3293-4d6d-a54b-7359568d7527"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "motor_parts:+5V_ISO")
+		(at 408.94 510.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eba0fba4-df8a-4c96-8e2e-45a1fbb84d73")
+		(property "Reference" "#PWR038"
+			(at 408.94 514.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_ISO"
+			(at 408.94 506.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 408.94 510.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 408.94 510.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 408.94 510.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4251407e-d0f4-40d8-a4f2-ad7a107467cf")
+		)
+		(instances
+			(project "RP2040_base"
+				(path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -75572,6 +75993,71 @@
 			(project "power_and_cpu"
 				(path "/8d16b105-3293-4d6d-a54b-7359568d7527"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "motor_parts:GND_ISO")
+		(at 410.21 521.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9707981-41a0-44dd-85ad-dde3e21a02a8")
+		(property "Reference" "#PWR040"
+			(at 410.21 528.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_ISO"
+			(at 404.876 522.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 410.21 521.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 410.21 521.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 410.21 521.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "979ee28b-4136-4f1a-83b6-c9a8384717af")
+		)
+		(instances
+			(project "RP2040_base"
+				(path "/10ff4ace-8dac-45ce-94a5-ae8ae7d42914"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
