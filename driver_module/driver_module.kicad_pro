@@ -59,7 +59,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_over_copper|116875002|97920638|373b3c01-29f1-484a-ba4d-5943a2b05a44|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|117975000|100829364|5b9ad38c-d0ce-42ae-a73a-e1316ed0a3a5|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -86,8 +89,8 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_issues": "ignore",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -97,8 +100,8 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "error",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
