@@ -59,7 +59,17 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "lib_footprint_mismatch|143809277|103452513|8942a937-6aba-46b1-9710-b39095d859c1|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|150000000|100000000|b6971695-369a-4693-a146-bdcdb8c1fe42|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|157848293|93005446|f58ebfea-e28e-4b8b-ab7a-2373c5959482|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|135625372|94912637|8768df9c-3861-4434-b910-5ae09ab403fe|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|144459995|85234880|26ec4d87-d07c-47ce-880b-3c06ff5c2e59|00000000-0000-0000-0000-000000000000",
+        "silk_overlap|133552415|92259373|8768df9c-3861-4434-b910-5ae09ab403fe|c54483db-356b-48bd-b5ee-36755c2f94f7",
+        "silk_overlap|143733514|84305026|26ec4d87-d07c-47ce-880b-3c06ff5c2e59|c54483db-356b-48bd-b5ee-36755c2f94f7",
+        "silk_overlap|144282684|85007932|26ec4d87-d07c-47ce-880b-3c06ff5c2e59|4eb8f1dd-f924-4a9c-8e48-4a99ea68579b",
+        "starved_thermal|147425000|99365000|ea655f40-e8e9-47bc-b8cc-f51dbf9606b6|05a13677-ffc9-4b3b-b28e-15d3016ae4d1|F.Cu"
+      ],
       "meta": {
         "version": 2
       },
@@ -96,7 +106,7 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -249,7 +259,10 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "power_pin_not_driven|965200|698500|23a2b8cc-7282-405c-b8ee-1139463980e6|00000000-0000-0000-0000-000000000000|/cf793634-bcf6-4eff-b738-147a0b728ecb|/cf793634-bcf6-4eff-b738-147a0b728ecb|",
+      "power_pin_not_driven|965200|800100|4914e901-0663-45b0-9149-0fe2b180bcb1|00000000-0000-0000-0000-000000000000|/cf793634-bcf6-4eff-b738-147a0b728ecb|/cf793634-bcf6-4eff-b738-147a0b728ecb|"
+    ],
     "meta": {
       "version": 0
     },
@@ -438,7 +451,7 @@
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
-      "lib_symbol_issues": "warning",
+      "lib_symbol_issues": "ignore",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -452,7 +465,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",

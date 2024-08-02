@@ -60,14 +60,14 @@
         }
       ],
       "drc_exclusions": [
-        "hole_clearance|133550000|66695000|4e1d1b71-25a6-4ebc-b2c2-c8255ce29aa2|ac35aa72-9a5b-4635-a158-14e487145268",
-        "hole_clearance|133750000|66695000|4e1d1b71-25a6-4ebc-b2c2-c8255ce29aa2|6dbbda2d-7fa4-4338-8273-853d22892776",
-        "hole_clearance|139150000|66695000|d3ab2bdc-a1d8-4d8d-82b4-bda60407f69e|ca6e6b7c-c12e-4843-9619-45f702e143c9",
-        "hole_clearance|139350000|66695000|d3ab2bdc-a1d8-4d8d-82b4-bda60407f69e|4ddecd9f-12d5-4afd-a527-5ed31dbdbb99",
-        "hole_clearance|146600000|66695000|2a76b045-cc30-429a-95bf-92d11ed82e44|136faea6-a67f-449d-a362-cf36177f0ba8",
-        "hole_clearance|146800000|66695000|2a76b045-cc30-429a-95bf-92d11ed82e44|a5b1874e-dc09-4186-8793-a74cdaca538e",
-        "hole_clearance|152200000|66695000|44c313ee-186a-49e9-be2c-334824e9e35d|cd5f2145-63ff-4424-8cbf-d1894a311594",
-        "hole_clearance|152400000|66695000|44c313ee-186a-49e9-be2c-334824e9e35d|332195eb-1965-46cf-be50-0a5b3195190d",
+        "hole_clearance|133550000|66695000|ac35aa72-9a5b-4635-a158-14e487145268|4e1d1b71-25a6-4ebc-b2c2-c8255ce29aa2",
+        "hole_clearance|133750000|66695000|6dbbda2d-7fa4-4338-8273-853d22892776|4e1d1b71-25a6-4ebc-b2c2-c8255ce29aa2",
+        "hole_clearance|139150000|66695000|ca6e6b7c-c12e-4843-9619-45f702e143c9|d3ab2bdc-a1d8-4d8d-82b4-bda60407f69e",
+        "hole_clearance|139350000|66695000|4ddecd9f-12d5-4afd-a527-5ed31dbdbb99|d3ab2bdc-a1d8-4d8d-82b4-bda60407f69e",
+        "hole_clearance|146600000|66695000|136faea6-a67f-449d-a362-cf36177f0ba8|2a76b045-cc30-429a-95bf-92d11ed82e44",
+        "hole_clearance|146800000|66695000|a5b1874e-dc09-4186-8793-a74cdaca538e|2a76b045-cc30-429a-95bf-92d11ed82e44",
+        "hole_clearance|152200000|66695000|cd5f2145-63ff-4424-8cbf-d1894a311594|44c313ee-186a-49e9-be2c-334824e9e35d",
+        "hole_clearance|152400000|66695000|332195eb-1965-46cf-be50-0a5b3195190d|44c313ee-186a-49e9-be2c-334824e9e35d",
         "silk_over_copper|88000000|116813003|afd011f0-6b78-4f3c-b3c7-7a5d3355cd74|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
@@ -91,6 +91,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -613,6 +614,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",

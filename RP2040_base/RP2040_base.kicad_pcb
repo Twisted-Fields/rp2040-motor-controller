@@ -10,7 +10,7 @@
 	(title_block
 		(title "Dual CPU Base Board")
 		(date "2024-04-20")
-		(rev "REV1")
+		(rev "REV1.1")
 		(company "Twisted Fields, LLC")
 	)
 	(layers
@@ -13719,7 +13719,7 @@
 				)
 			)
 		)
-		(property "Value" "PCA9557PW"
+		(property "Value" "PCA9557PWR"
 			(at 0 3.45 0)
 			(layer "F.Fab")
 			(uuid "a7bf3b74-2fd0-4810-8c07-04e569c53fae")
@@ -13742,7 +13742,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PCA9557.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811030411_Texas-Instruments-PCA9557PWR_C201547.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13766,11 +13766,37 @@
 				)
 			)
 		)
-		(property "LCSC" "C141380"
+		(property "LCSC" "C201547"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8be511d9-6369-4f0c-ae9a-8c2c1c89ae8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate LCSC" "C141380"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41444ed4-32d1-4c67-977f-1eef3b98dea2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Alternate MPN" "PCA9557PW,118"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c1f35a0-94b1-48ad-8c7d-760e5d795b2e")
 			(effects
 				(font
 					(size 1 1)
@@ -16754,7 +16780,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "2a6884b5-941d-403a-bbc7-8d9df4d4f5e0")
-		(at 179.150291 128.959962 90)
+		(at 184.150291 128.959962 90)
 		(descr "Through hole straight socket strip, 2x05, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 2x05 2.54mm double row")
 		(property "Reference" "J16"
@@ -19616,7 +19642,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "38ef3609-42ca-4935-a6f6-fbed57e9853d")
-		(at 179.15 63.2 90)
+		(at 184.15 63.2 90)
 		(descr "Through hole straight socket strip, 2x05, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 2x05 2.54mm double row")
 		(property "Reference" "J20"
@@ -21372,8 +21398,7 @@
 			(pintype "power_out")
 			(uuid "5157c641-e675-4282-9204-ad3987714c17")
 		)
-		(model "${KIPRJMOD}/driver_module.step"
-			(hide yes)
+		(model "/home/taylor/pcb/rp2040-motor-controller/driver_module/driver_module.step"
 			(offset
 				(xyz -150 100 11)
 			)
@@ -23493,7 +23518,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "472f3203-ca93-437e-8c3b-fc9c226bb12b")
-		(at 239.25 72.345)
+		(at 244.25 72.345)
 		(descr "Through hole straight socket strip, 1x06, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x06 2.54mm single row")
 		(property "Reference" "J21"
@@ -30021,7 +30046,7 @@
 				)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "47k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "c937d956-c04a-4a02-aa32-5819999ad2a4")
@@ -30068,7 +30093,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C861451"
+		(property "LCSC" "C328360"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32163,7 +32188,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "751f337d-8264-4e46-bac5-db5e39ab83a0")
-		(at 179.150291 100.499962 90)
+		(at 184.150291 100.499962 90)
 		(descr "Through hole straight socket strip, 2x05, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 2x05 2.54mm double row")
 		(property "Reference" "J7"
@@ -38645,7 +38670,7 @@
 				)
 			)
 		)
-		(property "Value" "68k"
+		(property "Value" "47k"
 			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "a154c458-b260-46f8-8a56-97c948449dd3")
@@ -38692,7 +38717,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23231"
+		(property "LCSC" "C328360"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45254,7 +45279,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "aeeeec4d-6588-4cea-8905-72fcefe43304")
-		(at 179.15 91.66 90)
+		(at 184.15 91.66 90)
 		(descr "Through hole straight socket strip, 2x05, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 2x05 2.54mm double row")
 		(property "Reference" "J19"
@@ -59897,8 +59922,7 @@
 			(pintype "power_out")
 			(uuid "861e39a7-f60e-4a9e-94a0-9d24ff1d8867")
 		)
-		(model "${KIPRJMOD}/driver_module.step"
-			(hide yes)
+		(model "/home/taylor/pcb/rp2040-motor-controller/driver_module/driver_module.step"
 			(offset
 				(xyz -150 100 11)
 			)
@@ -60960,7 +60984,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "e800c92f-24d2-4f5f-9031-3c59ef9baf3c")
-		(at 239.25 109.65)
+		(at 244.25 109.65)
 		(descr "Through hole straight socket strip, 1x06, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x06 2.54mm single row")
 		(property "Reference" "J18"
@@ -77202,7 +77226,7 @@
 	(footprint "taylor_footprints:twisted_2"
 		(layer "B.Cu")
 		(uuid "ea7c2cdb-975a-464d-a2c3-ef7fb79f7b6d")
-		(at 158.246715 84.822147 180)
+		(at 163.246715 74.822147 180)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -78306,7 +78330,7 @@
 	(footprint "taylor_footprints:twisted_icon"
 		(layer "B.Cu")
 		(uuid "f59bff2e-0f4d-4f6a-b29b-37751e2bbc9a")
-		(at 137.790374 82.775 180)
+		(at 142.790374 72.775 180)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -78678,7 +78702,7 @@
 	(footprint "taylor_footprints:twisted"
 		(layer "B.Cu")
 		(uuid "f654da98-8863-440e-a2fa-85f7e4b96701")
-		(at 149.215374 80.75 180)
+		(at 154.215374 70.75 180)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -81153,6 +81177,18 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "Thanks Katie for\nall your help!"
+		(at 147.5 84 -0)
+		(layer "B.SilkS")
+		(uuid "8b8b7119-5acd-46db-9d85-2f4abca01412")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.2)
 			)
 			(justify mirror)
 		)

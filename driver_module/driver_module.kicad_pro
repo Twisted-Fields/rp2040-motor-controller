@@ -257,7 +257,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "pin_to_pin|1892300|749300|84c61190-1762-40d5-8e13-e57749157a08|46dc281f-ee54-4dde-b931-601519da1dbd|/889c04f7-ab14-429c-99d2-ed773c17e58f|/889c04f7-ab14-429c-99d2-ed773c17e58f|/889c04f7-ab14-429c-99d2-ed773c17e58f"
+    ],
     "meta": {
       "version": 0
     },
@@ -446,7 +448,7 @@
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
-      "lib_symbol_issues": "warning",
+      "lib_symbol_issues": "ignore",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -458,9 +460,9 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "error",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "ignore",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
